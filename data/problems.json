@@ -1,8 +1,8 @@
 [
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T1",
     "title": "Stereocamelstry",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -12,54 +12,54 @@
     "theme": [
       "Stereoisomerism",
       "Chirality",
-      "Enantiomers",
       "Symmetry",
-      "Achiral arrangements"
+      "Counting stereoisomers"
     ],
     "target_molecules": [],
     "skills": [
-      "Identifying chirality in multi-component systems",
-      "Counting stereoisomers",
-      "Symmetry analysis"
+      "Identifying chiral and achiral arrangements",
+      "Symmetry analysis",
+      "Stereoisomer counting"
     ],
     "problem_pdf": null,
-    "problem_page": 144,
+    "problem_page": 12,
     "solution_pdf": null,
     "solution_page": 2
   },
   {
-    "id": null,
-    "title": "Mirror, mirror plane on the wall: HCH Isomers",
-    "nation": "International",
+    "id": "IChO-2025-Prep-T2",
+    "title": "Mirror, Mirror Plane on the Wall: HCH Isomers",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Organic",
+      "Analytical",
       "Spectroscopy"
     ],
     "type": "Data analysis",
     "theme": [
       "Hexachlorocyclohexane (HCH)",
-      "Isomer assignment",
+      "Stereoisomers",
       "Mass spectrometry",
-      "Chlorine isotope patterns",
+      "Isotope patterns",
       "Symmetry"
     ],
     "target_molecules": [],
     "skills": [
-      "Interpreting mass spectra isotope patterns",
-      "Assigning structures based on chemical clues",
-      "Identifying planes of symmetry and centers of inversion"
+      "Assigning stereoisomers from chemical clues",
+      "Interpreting MS chlorine isotope patterns",
+      "Identifying planes of symmetry and inversion centers"
     ],
     "problem_pdf": null,
-    "problem_page": 150,
+    "problem_page": 18,
     "solution_pdf": null,
     "solution_page": 8
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T3",
     "title": "Urushiols",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -69,8 +69,8 @@
     "theme": [
       "Natural products",
       "Structure elucidation",
-      "Aromatic substitution",
-      "Ozonolysis"
+      "Ozonolysis",
+      "Aromatic substitution"
     ],
     "target_molecules": [
       "Urushiol I",
@@ -78,19 +78,19 @@
       "Dimethylurushiol II"
     ],
     "skills": [
-      "Predicting reaction products",
-      "Synthesizing aromatic derivatives",
-      "Structure identification"
+      "Predicting reaction outcomes",
+      "Structure determination",
+      "Designing synthetic pathways"
     ],
     "problem_pdf": null,
-    "problem_page": 155,
+    "problem_page": 23,
     "solution_pdf": null,
     "solution_page": 17
   },
   {
-    "id": null,
-    "title": "Cedrene Synthesis",
-    "nation": "International",
+    "id": "IChO-2025-Prep-T4",
+    "title": "Cedrene",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -99,28 +99,28 @@
     "type": "Multi-step synthesis",
     "theme": [
       "Terpenoids",
-      "Sesquiterpenes",
       "Total synthesis",
-      "Carbocation cyclization"
+      "Carbocation cyclization",
+      "Stork synthesis"
     ],
     "target_molecules": [
       "Cedrol",
       "Cedrene"
     ],
     "skills": [
-      "Reaction sequence analysis",
-      "Mechanism prediction",
-      "Isoprene unit identification"
+      "Analyzing multi-step organic synthesis",
+      "Predicting mechanisms of cyclization",
+      "Identifying biosynthetic units"
     ],
     "problem_pdf": null,
-    "problem_page": 157,
+    "problem_page": 25,
     "solution_pdf": null,
     "solution_page": 18
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T5",
     "title": "Stereochemical Models",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -130,25 +130,24 @@
     "theme": [
       "Felkin-Anh model",
       "Zimmerman-Traxler model",
-      "Masamune hydroboration",
-      "Aldol reaction",
-      "Diastereoselectivity"
+      "Diastereoselectivity",
+      "Masamune hydroboration"
     ],
     "target_molecules": [],
     "skills": [
       "Drawing Newman projections",
       "Predicting stereochemical outcomes",
-      "Drawing transition state structures"
+      "Transition state analysis"
     ],
     "problem_pdf": null,
-    "problem_page": 161,
+    "problem_page": 29,
     "solution_pdf": null,
     "solution_page": 19
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T6",
     "title": "Stereocontrol in the Synthesis of FR66979",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -156,28 +155,28 @@
     ],
     "type": "Multi-step synthesis",
     "theme": [
-      "Total synthesis",
+      "Antitumor compounds",
       "Chelation control",
       "Organometallic addition",
-      "Stereoselective synthesis"
+      "Total synthesis"
     ],
     "target_molecules": [
       "FR66979"
     ],
     "skills": [
-      "Predicting diastereoselectivity",
-      "Analyzing total synthesis pathways",
-      "Applying stereochemical models"
+      "Predicting selectivity from complex models",
+      "Elucidating structures in reaction sequences",
+      "Applying chelation models"
     ],
     "problem_pdf": null,
-    "problem_page": 165,
+    "problem_page": 33,
     "solution_pdf": null,
     "solution_page": 23
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T7",
     "title": "Coenzyme A and Anaplerotic Reactions",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -187,26 +186,25 @@
     "type": "Calculation",
     "theme": [
       "Beta-oxidation",
-      "Metabolic pathways",
-      "Enzyme classification",
       "Cofactors",
-      "Anaplerotic reactions"
+      "Metabolic pathways",
+      "Enzyme classification"
     ],
     "target_molecules": [],
     "skills": [
-      "Enzyme reaction classification",
-      "Identifying metabolic intermediates",
-      "Analyzing cofactor mechanisms"
+      "Classifying enzymatic reactions",
+      "Mapping biochemical transformations",
+      "Identifying biosynthetic precursors"
     ],
     "problem_pdf": null,
-    "problem_page": 167,
+    "problem_page": 35,
     "solution_pdf": null,
     "solution_page": 25
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T8",
     "title": "Why Smoking is Deadly",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -215,27 +213,28 @@
     ],
     "type": "Mechanism",
     "theme": [
-      "Benzo[a]pyrene",
-      "Carcinogenesis",
+      "Benzo[a]pyrene metabolism",
       "DNA alkylation",
-      "Nicotine derivatives",
+      "Nicotine",
       "Varenicline synthesis"
     ],
-    "target_molecules": [],
+    "target_molecules": [
+      "Varenicline"
+    ],
     "skills": [
-      "Predicting metabolic activation of procarcinogens",
-      "Aromatic oxidation mechanisms",
-      "Synthesis of pharmaceutical drugs"
+      "Predicting pro-carcinogen activation",
+      "Analyzing resonance in nitrogen cations",
+      "Pharmaceutical synthesis planning"
     ],
     "problem_pdf": null,
-    "problem_page": 173,
+    "problem_page": 41,
     "solution_pdf": null,
     "solution_page": 28
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T9",
     "title": "Determining the Stereochemistry of Enzymatic Reactions",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -246,25 +245,24 @@
     "theme": [
       "Isotopic labeling",
       "Tritium",
-      "Chiral methyl groups",
-      "Malate synthase",
-      "Fumarase"
+      "Chiral methyl group",
+      "Enzyme stereospecificity"
     ],
     "target_molecules": [],
     "skills": [
-      "Analyzing enzymatic stereochemistry",
-      "Isotopic activity calculations",
-      "Mechanism deduction"
+      "Analyzing stereospecificity using isotopes",
+      "Calculating isotopic activity ratios",
+      "Newman projection analysis for elimination"
     ],
     "problem_pdf": null,
-    "problem_page": 176,
+    "problem_page": 44,
     "solution_pdf": null,
     "solution_page": 31
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T10",
     "title": "Synthesis and Derivatisation of Natural Products",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -275,55 +273,54 @@
       "Mitsunobu reaction",
       "Click chemistry",
       "Artemisinin",
-      "Triazoles",
-      "Copper catalysis"
+      "Triazoles"
     ],
     "target_molecules": [
-      "Artemisinin-triazole conjugates"
+      "Artemisinin"
     ],
     "skills": [
-      "Interpreting synthetic schemes",
-      "Predicting regioselectivity in CuAAC",
-      "Stereoselective alcohol conversion"
+      "Predicting stereochemistry in displacement reactions",
+      "Applying click chemistry regioselectivity",
+      "Structure elucidation of complex natural product derivatives"
     ],
     "problem_pdf": null,
-    "problem_page": 179,
+    "problem_page": 47,
     "solution_pdf": null,
     "solution_page": 33
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T11",
     "title": "A Saga About Imines",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Organic",
-      "Spectroscopy"
+      "Spectroscopy",
+      "Acid-Base Chemistry"
     ],
     "type": "Data analysis",
     "theme": [
-      "Imine stability",
+      "Imine basicity",
       "Iminium salts",
-      "Basicity",
-      "IR spectroscopy of C=N bonds",
+      "IR spectroscopy",
       "Staudinger reaction"
     ],
     "target_molecules": [],
     "skills": [
-      "Comparing basicity of nitrogen compounds",
-      "Analyzing imine synthesis conditions",
-      "Resonance analysis"
+      "Comparing nitrogen basicity",
+      "Interpreting C=N IR stretching frequencies",
+      "Predicting imine synthesis conditions"
     ],
     "problem_pdf": null,
-    "problem_page": 184,
+    "problem_page": 52,
     "solution_pdf": null,
     "solution_page": 36
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T12",
     "title": "Imine’s Guide to the Biochemical Galaxy",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -334,55 +331,53 @@
     "theme": [
       "Alkaloid biosynthesis",
       "Pictet-Spengler reaction",
-      "Indole alkaloids",
       "Iminium cyclization",
-      "Retrosynthesis"
+      "Tryptophan metabolism"
     ],
     "target_molecules": [],
     "skills": [
-      "Drawing biosynthetic mechanisms",
-      "Counting stereoisomers in complex alkaloids",
-      "Identifying biosynthetic precursors"
+      "Drawing complex polycyclic mechanisms",
+      "Identifying biosynthetic precursors",
+      "Counting stereoisomers"
     ],
     "problem_pdf": null,
-    "problem_page": 191,
+    "problem_page": 59,
     "solution_pdf": null,
     "solution_page": 42
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T13",
     "title": "Schiff Bases, the Universe, and Biochemistry",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Biochemistry",
       "Organic",
-      "Spectroscopy"
+      "Analytical"
     ],
     "type": "Mechanism",
     "theme": [
       "Pyridoxal phosphate (PLP)",
       "Transamination",
-      "Lysyl oxidase",
-      "Desmosine biosynthesis",
-      "Mass spectrometry"
+      "Desmosine cross-links",
+      "Isotopic labeling"
     ],
     "target_molecules": [],
     "skills": [
-      "Analyzing PLP-dependent mechanisms",
-      "Interpreting MS of isotopically labeled amino acids",
-      "Proposing biosynthetic pathways for crosslinks"
+      "Analyzing PLP catalytic cycles",
+      "Deducing structures from MS ion data",
+      "Mapping atom origins in complex crosslinks"
     ],
     "problem_pdf": null,
-    "problem_page": 195,
+    "problem_page": 63,
     "solution_pdf": null,
     "solution_page": 46
   },
   {
-    "id": null,
-    "title": "UAE's Driving Force: Petroleum and Isotopes",
-    "nation": "International",
+    "id": "IChO-2025-Prep-T14",
+    "title": "UAE's Driving Force",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -392,27 +387,26 @@
     ],
     "type": "Calculation",
     "theme": [
-      "Sulfur isotopes",
       "Petroleum refining",
-      "Hydrocracking",
-      "Octane rating",
-      "Isotopic abundance"
+      "Sulfur isotopes",
+      "Mass spectrometry",
+      "Octane rating"
     ],
     "target_molecules": [],
     "skills": [
-      "Calculating isotopic abundances from MS peaks",
-      "Predicting boiling point trends",
-      "Hydrocarbon isomer identification"
+      "Calculating isotopic abundances from peak intensities",
+      "Predicting hydrocarbon boiling point trends",
+      "Hydrocracking reaction analysis"
     ],
     "problem_pdf": null,
-    "problem_page": 201,
+    "problem_page": 69,
     "solution_pdf": null,
     "solution_page": 55
   },
   {
-    "id": null,
-    "title": "In Search of an Oasis in the Desert: Spectral Analysis",
-    "nation": "International",
+    "id": "IChO-2025-Prep-T15",
+    "title": "In Search of an Oasis in the Desert",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -425,24 +419,23 @@
       "Structure elucidation",
       "MS fragmentation",
       "IR spectroscopy",
-      "Isomer identification",
       "McLafferty rearrangement"
     ],
     "target_molecules": [],
     "skills": [
-      "Interpreting IR and MS data",
-      "Deducing structures of functional isomers",
-      "Analyzing fragmentation mechanisms"
+      "Interpreting IR/MS spectra for isomer differentiation",
+      "Predicting carbocation stability in MS",
+      "Identifying functional groups from spectral data"
     ],
     "problem_pdf": null,
-    "problem_page": 204,
+    "problem_page": 72,
     "solution_pdf": null,
     "solution_page": 57
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T16",
     "title": "Fullerenes and Polyhedra",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -454,24 +447,23 @@
       "C60",
       "Euler relationship",
       "Goldberg polyhedra",
-      "Isotope probability",
-      "Statistical distribution in MS"
+      "Isotopic probability in clusters"
     ],
     "target_molecules": [],
     "skills": [
-      "Geometric proof derivation",
-      "Applying probability to MS peak ratios",
-      "Classifying polyhedral isomers"
+      "Geometric property derivation",
+      "Probability calculations for MS peak distributions",
+      "Classifying allotropes and isomers"
     ],
     "problem_pdf": null,
-    "problem_page": 207,
+    "problem_page": 75,
     "solution_pdf": null,
     "solution_page": 62
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T17",
     "title": "Photocatalysis",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -483,82 +475,80 @@
       "Quantum yield",
       "Water splitting",
       "Semiconductors",
-      "CO2 reduction",
-      "Redox potentials"
+      "Solar energy"
     ],
     "target_molecules": [],
     "skills": [
-      "Apparent quantum yield (AQY) calculation",
-      "Evaluating semiconductor thermodynamic feasibility",
-      "Electrochemical half-reaction balancing"
+      "Calculating apparent quantum yield (AQY)",
+      "Evaluating thermodynamic feasibility from band positions",
+      "Balancing redox half-reactions"
     ],
     "problem_pdf": null,
-    "problem_page": 213,
+    "problem_page": 81,
     "solution_pdf": null,
     "solution_page": 66
   },
   {
-    "id": null,
-    "title": "Semiconductors and Quantum Dots",
-    "nation": "International",
-    "olympiad": "IChO",
-    "year": 2025,
-    "subset": [
-      "Inorganic",
-      "Physical"
-    ],
-    "type": "Calculation",
-    "theme": [
-      "Band gap",
-      "Quantum confinement",
-      "CdTe/CdSe",
-      "Effective mass approximation",
-      "Solar cells"
-    ],
-    "target_molecules": [],
-    "skills": [
-      "Calculating band gap energy",
-      "Applying the effective mass model",
-      "Calculating absorption cutoff wavelength"
-    ],
-    "problem_pdf": null,
-    "problem_page": 217,
-    "solution_pdf": null,
-    "solution_page": 68
-  },
-  {
-    "id": null,
-    "title": "Reverse Combustion",
-    "nation": "International",
+    "id": "IChO-2025-Prep-T18",
+    "title": "Semiconductors",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Physical",
-      "Thermodynamics"
+      "Inorganic"
     ],
     "type": "Calculation",
     "theme": [
-      "Gibbs free energy",
-      "Equilibrium constants",
-      "Methanation",
-      "Hess's Law",
-      "Temperature dependence of G"
+      "Band gap",
+      "Quantum dots",
+      "Quantum confinement",
+      "Effective mass approximation"
     ],
     "target_molecules": [],
     "skills": [
-      "Calculating Kp from ΔG",
-      "Analyzing thermodynamic stability",
-      "Reaction equilibrium conversion calculation"
+      "Calculating band gap energy and cutoff wavelengths",
+      "Applying the effective mass model",
+      "Relating particle size to optical properties"
     ],
     "problem_pdf": null,
-    "problem_page": 221,
+    "problem_page": 85,
+    "solution_pdf": null,
+    "solution_page": 68
+  },
+  {
+    "id": "IChO-2025-Prep-T19",
+    "title": "Reverse Combustion",
+    "nation": "UAE",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gibbs energy",
+      "Equilibrium constant",
+      "CO2 reduction",
+      "Methanation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating Kp from thermodynamic data",
+      "Determining equilibrium conversion at high pressure",
+      "Drawing Gibbs energy diagrams"
+    ],
+    "problem_pdf": null,
+    "problem_page": 89,
     "solution_pdf": null,
     "solution_page": 71
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T20",
     "title": "New Drug Formulation",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -570,54 +560,52 @@
       "Colligative properties",
       "Freezing point depression",
       "Clausius-Clapeyron equation",
-      "Raoult's Law",
-      "Vapour pressure"
+      "Raoult's Law"
     ],
     "target_molecules": [],
     "skills": [
       "Determining molar mass of a solute",
-      "Calculating vapour pressure changes",
-      "Relating thermodynamic properties to environmental stability"
+      "Calculating solvent vapor pressure changes",
+      "Molality calculations"
     ],
     "problem_pdf": null,
-    "problem_page": 223,
+    "problem_page": 91,
     "solution_pdf": null,
     "solution_page": 75
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T21",
     "title": "Cloud Seeding",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Physical",
-      "Kinetics",
-      "Inorganic"
+      "Inorganic",
+      "Kinetics"
     ],
     "type": "Calculation",
     "theme": [
-      "Nucleation theory",
+      "Nucleation",
+      "Lattice energy",
       "Born-Haber cycle",
-      "Silver iodide",
-      "Heterogeneous kinetics",
-      "Isothermal atmosphere model"
+      "Heterogeneous kinetics"
     ],
     "target_molecules": [],
     "skills": [
-      "Lattice energy calculation",
-      "Surface area analysis of nanoparticles",
-      "Determining reaction order from distribution data"
+      "Calculating lattice energy",
+      "Determining reaction order from mass distributions",
+      "Analyzing atmospheric pressure/temperature height profiles"
     ],
     "problem_pdf": null,
-    "problem_page": 224,
+    "problem_page": 92,
     "solution_pdf": null,
     "solution_page": 78
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T22",
     "title": "Kinetics of Oxygen Diffusion",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -627,27 +615,26 @@
     ],
     "type": "Calculation",
     "theme": [
-      "Deal-Grove model",
       "Silicon oxidation",
-      "Crystallography",
-      "Doping in semiconductors",
-      "Henry's Law"
+      "Deal-Grove model",
+      "Semiconductor processing",
+      "Doping"
     ],
     "target_molecules": [],
     "skills": [
-      "Solving differential kinetic equations",
-      "Calculating unit cell properties",
+      "Modeling thickness growth in semiconductors",
+      "Calculating unit cell units",
       "Analyzing dopant concentration profiles"
     ],
     "problem_pdf": null,
-    "problem_page": 228,
+    "problem_page": 96,
     "solution_pdf": null,
     "solution_page": 80
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T23",
     "title": "Molecular Orbitals of Diatomics",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -657,26 +644,25 @@
     "type": "Mechanism",
     "theme": [
       "MO theory",
-      "Heteronuclear diatomics",
-      "Ionization energy",
       "Bond order",
-      "O2 and its ions"
+      "Ionization energy",
+      "Bond length"
     ],
     "target_molecules": [],
     "skills": [
-      "Drawing MO energy diagrams",
-      "Relating bond order to bond length",
-      "Predicting relative ionization energies"
+      "Drawing homonuclear and heteronuclear MO diagrams",
+      "Predicting relative ionization energies",
+      "Correlating bond order with physical properties"
     ],
     "problem_pdf": null,
-    "problem_page": 232,
+    "problem_page": 100,
     "solution_pdf": null,
     "solution_page": 83
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T24",
     "title": "Coordination Chemistry of Dihydrogen",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -686,26 +672,25 @@
     "type": "Mechanism",
     "theme": [
       "Dihydrogen complexes",
-      "Kubas complexes",
       "Back-bonding",
-      "Oxidative addition",
-      "Crystal field effects"
+      "Kubas complex",
+      "Oxidative addition"
     ],
     "target_molecules": [],
     "skills": [
-      "Analyzing orbital overlap",
-      "Predicting H-H bond distances from electronic properties",
-      "Classifying ligand character"
+      "Analyzing metal-ligand orbital interactions",
+      "Predicting bond activation from electron density",
+      "Classifying dihydrogen character"
     ],
     "problem_pdf": null,
-    "problem_page": 233,
+    "problem_page": 101,
     "solution_pdf": null,
     "solution_page": 85
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T25",
     "title": "Adsorption and Heterogeneous Catalysis",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -717,24 +702,23 @@
       "Physisorption",
       "Chemisorption",
       "Surface area",
-      "Catalytic hydrogenation",
-      "Reaction coordinate diagrams"
+      "Catalytic hydrogenation"
     ],
     "target_molecules": [],
     "skills": [
       "Calculating specific surface area",
-      "Identifying adsorption types from temperature data",
-      "Mapping energy profiles for catalyzed reactions"
+      "Distinguishing adsorption types",
+      "Plotting reaction coordinate diagrams"
     ],
     "problem_pdf": null,
-    "problem_page": 234,
+    "problem_page": 102,
     "solution_pdf": null,
     "solution_page": 87
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T26",
     "title": "Nitrogen Chemistry",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -744,55 +728,54 @@
     "type": "Calculation",
     "theme": [
       "Nitrosyl compounds",
-      "Hyponitrous acid",
       "Decomposition kinetics",
       "Activation energy",
-      "Lewis structures"
+      "Stoichiometry"
     ],
     "target_molecules": [],
     "skills": [
-      "Identifying inorganic salts from mass fractions",
-      "Balancing redox equations",
-      "Calculating Arrhenius parameters"
+      "Identifying inorganic salts from mass data",
+      "Calculating Arrhenius parameters",
+      "Determining rate-determining steps"
     ],
     "problem_pdf": null,
-    "problem_page": 238,
+    "problem_page": 106,
     "solution_pdf": null,
     "solution_page": 88
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T27",
     "title": "Hot Desert of Unknown Unknowns",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Inorganic",
-      "Analytical"
+      "Analytical",
+      "Polymer Chemistry"
     ],
     "type": "Data analysis",
     "theme": [
-      "Descriptive inorganic chemistry",
-      "Group 2 metals",
+      "Inorganic polymers",
       "Selenium chemistry",
-      "Pseudohalogens",
-      "Polymeric inorganic structures"
+      "Cyanamide",
+      "Structure elucidation"
     ],
     "target_molecules": [],
     "skills": [
-      "Inorganic structure elucidation",
-      "Applying stoichiometry to identify compounds",
-      "Drawing Lewis structures of anions"
+      "Deducing unknown compound identities from reaction networks",
+      "Drawing Lewis structures of anionic species",
+      "Stoichiometric analysis of inorganic sequences"
     ],
     "problem_pdf": null,
-    "problem_page": 241,
+    "problem_page": 109,
     "solution_pdf": null,
     "solution_page": 91
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T28",
     "title": "Analytical Chemistry of the Chalcogens",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -804,25 +787,24 @@
     "theme": [
       "Sulfur oxoanions",
       "pH-dependent solubility",
-      "Redox titrations",
-      "Gold-selenium compounds",
+      "Redox titration",
       "Speciation"
     ],
     "target_molecules": [],
     "skills": [
-      "Complex equilibrium calculations",
-      "Calculating pH of buffer/salt mixtures",
-      "Analyzing oxidation states and Lewis structures"
+      "Complex equilibrium solving",
+      "Calculating pH of salt/buffer mixtures",
+      "Redox potential analysis"
     ],
     "problem_pdf": null,
-    "problem_page": 243,
+    "problem_page": 111,
     "solution_pdf": null,
     "solution_page": 94
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T29",
     "title": "Vibrational Modes",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -831,27 +813,26 @@
     ],
     "type": "Calculation",
     "theme": [
-      "IR spectroscopy",
+      "Normal modes",
       "Harmonic oscillator",
-      "Degrees of freedom",
-      "Force constants",
-      "Calcium sulfate hydrates"
+      "IR spectroscopy",
+      "Hydrates"
     ],
     "target_molecules": [],
     "skills": [
-      "Calculating reduced mass",
-      "Determining vibrational modes of linear/nonlinear molecules",
-      "Correlating peak shifts with bond strength"
+      "Calculating vibrational degrees of freedom",
+      "Determining force constants",
+      "Differentiating hydrates by IR"
     ],
     "problem_pdf": null,
-    "problem_page": 246,
+    "problem_page": 114,
     "solution_pdf": null,
     "solution_page": 98
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-T30",
     "title": "Applications of IR Spectroscopy to Coordination Chemistry",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -862,25 +843,24 @@
     "theme": [
       "Linkage isomerism",
       "Metal carbonyls",
-      "Dipole moment change",
-      "Magnetic moments",
-      "Crystal field theory"
+      "Crystal field theory",
+      "Magnetic moment"
     ],
     "target_molecules": [],
     "skills": [
       "Interpreting coordination compound IR spectra",
-      "Predicting isomer counts",
-      "Analyzing electronic configurations and spin states"
+      "Assigning isomers from IR bands",
+      "Predicting electronic configurations and spin states"
     ],
     "problem_pdf": null,
-    "problem_page": 248,
+    "problem_page": 116,
     "solution_pdf": null,
     "solution_page": 99
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P1",
     "title": "Qualitative Analysis of Organic Compounds",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -892,52 +872,51 @@
       "Functional group tests",
       "Cu(OH)2 reactions",
       "KMnO4 oxidation",
-      "Fehling's test",
-      "Nitrite tests"
+      "Nitrite reactions"
     ],
     "target_molecules": [],
     "skills": [
-      "Deducing structure from wet chemical tests",
-      "Predicting redox reaction outcomes",
-      "Observation recording"
+      "Identifying organic unknowns",
+      "Performing and interpreting wet chemical tests",
+      "Predicting redox products"
     ],
     "problem_pdf": null,
-    "problem_page": 254,
+    "problem_page": 122,
     "solution_pdf": null,
     "solution_page": 103
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P2",
     "title": "Sørensen Formol Titration",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
       "Analytical",
-      "Biochemistry"
+      "Biochemistry",
+      "Acid-Base Chemistry"
     ],
     "type": "Calculation",
     "theme": [
       "Amino acid quantification",
       "Formaldehyde reaction",
-      "Acid-base titration",
       "Standardization"
     ],
     "target_molecules": [],
     "skills": [
-      "Solving systems of equations for binary mixtures",
-      "Stoichiometry of amine-formaldehyde reactions",
-      "Titrimetric analysis"
+      "Titrimetric analysis",
+      "Solving binary mixture equations",
+      "Calculating mass fractions"
     ],
     "problem_pdf": null,
-    "problem_page": 262,
+    "problem_page": 130,
     "solution_pdf": null,
     "solution_page": 110
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P3",
     "title": "Determination of Cysteine Oxidation Degree",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -948,24 +927,24 @@
     "theme": [
       "Volhard titration",
       "Fajans titration",
-      "Two-phase titration",
-      "Cysteine/Cystine redox"
+      "Cysteine/Cystine redox",
+      "Two-phase titration"
     ],
     "target_molecules": [],
     "skills": [
-      "Comparing titration methods",
-      "Analyzing indicators in precipitation titrations",
+      "Precipitation titration methods",
+      "Handling two-phase titrations",
       "Calculating purity/oxidation state"
     ],
     "problem_pdf": null,
-    "problem_page": 269,
+    "problem_page": 137,
     "solution_pdf": null,
     "solution_page": 111
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P4",
     "title": "Synthesis of a Paramagnetic Cobalt Acetylacetonate Complex",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -978,27 +957,26 @@
       "Coordination complexes",
       "Magnetic susceptibility",
       "Beer-Lambert Law",
-      "Crystal Field Theory",
       "Gouy balance"
     ],
     "target_molecules": [
-      "Tris(acetylacetonato)cobalt(III)",
-      "Bis(acetylacetonato)cobalt(II)"
+      "Bis(acetylacetonato)cobalt(II)",
+      "Tris(acetylacetonato)cobalt(III)"
     ],
     "skills": [
-      "Calculating effective magnetic moments",
-      "Determining spin states and d-orbital splitting",
-      "Applying UV-Vis spectrophotometry"
+      "Inorganic laboratory synthesis",
+      "Measuring and calculating magnetic moments",
+      "Spectrophotometric concentration determination"
     ],
     "problem_pdf": null,
-    "problem_page": 278,
+    "problem_page": 146,
     "solution_pdf": null,
     "solution_page": 113
   },
   {
-    "id": null,
-    "title": "Clock Reactions with Thiosulfate",
-    "nation": "International",
+    "id": "IChO-2025-Prep-P5",
+    "title": "Never Late with Thiosulfate",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -1007,26 +985,25 @@
     ],
     "type": "Calculation",
     "theme": [
-      "Iodine clock",
+      "Iodine clock reaction",
       "Reaction order",
-      "Hydrogen peroxide kinetics",
-      "Chemical minute"
+      "Hydrogen peroxide kinetics"
     ],
     "target_molecules": [],
     "skills": [
-      "Analyzing rate laws",
-      "Determining concentration by clock timing",
-      "Designing kinetic experiments"
+      "Kinetic experiment design",
+      "Determining rate laws",
+      "Analyzing reaction times"
     ],
     "problem_pdf": null,
-    "problem_page": 290,
+    "problem_page": 158,
     "solution_pdf": null,
     "solution_page": 117
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P6",
     "title": "To Condense or Not to Condense?",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -1036,26 +1013,26 @@
     "theme": [
       "Aldol condensation",
       "TLC analysis",
-      "Chalcone synthesis",
-      "Spectral analysis"
+      "Chalcones",
+      "Product analysis"
     ],
     "target_molecules": [
-      "(E)-1,3-diphenylprop-2-en-1-one"
+      "1,3-diphenylprop-2-en-1-one"
     ],
     "skills": [
-      "TLC interpretation (Rf calculation)",
-      "Synthesizing alpha,beta-unsaturated carbonyls",
+      "Synthesizing organic molecules",
+      "Performing TLC and calculating Rf",
       "Interpreting MS of reaction products"
     ],
     "problem_pdf": null,
-    "problem_page": 297,
+    "problem_page": 165,
     "solution_pdf": null,
     "solution_page": 118
   },
   {
-    "id": null,
+    "id": "IChO-2025-Prep-P7",
     "title": "Breakfast of Carbonyls",
-    "nation": "International",
+    "nation": "UAE",
     "olympiad": "IChO",
     "year": 2025,
     "subset": [
@@ -1064,19 +1041,19 @@
     ],
     "type": "Data analysis",
     "theme": [
+      "Carbonyl identification",
       "DNPH test",
       "Tollens test",
-      "TLC of carbonyls",
-      "Spectral identification"
+      "Colorimetric estimation"
     ],
     "target_molecules": [],
     "skills": [
-      "Identifying unknown carbonyl compounds",
-      "Estimating concentration via colorimetry/UV-Vis",
-      "Structure-reactivity correlation"
+      "Identifying unknown organic compounds",
+      "Estimating concentration via colorimetry",
+      "Relating reactivity to structure"
     ],
     "problem_pdf": null,
-    "problem_page": 307,
+    "problem_page": 175,
     "solution_pdf": null,
     "solution_page": 125
   }
