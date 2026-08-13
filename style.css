@@ -1,0 +1,360 @@
+/* ==========================================================================
+   Chemistry Olympiad Catalog — stylesheet
+   Palette: lab-notebook paper + ink, teal interactive accent, amber chips
+   Type: Space Grotesk (headings), IBM Plex Mono (data), system sans (body)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --paper: #FAFAF8;
+  --paper-raised: #FFFFFF;
+  --ink: #1B1F23;
+  --ink-soft: #5B6470;
+  --line: #E1DED4;
+  --line-strong: #C9C4B6;
+  --teal: #0F6B5C;
+  --teal-hover: #0B5347;
+  --teal-tint: #E3F0EC;
+  --amber: #B8702B;
+  --amber-tint: #F5E9DA;
+  --danger: #A23B3B;
+
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
+  --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --radius: 6px;
+  --shadow-modal: 0 20px 60px rgba(27, 31, 35, 0.25);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* ---- Header ---------------------------------------------------------- */
+
+.app-header {
+  padding: 1.5rem 1.5rem 1rem;
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-raised);
+}
+
+.app-header h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0 0 0.15rem;
+  letter-spacing: -0.01em;
+}
+
+.app-header p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+/* ---- Filter bar -------------------------------------------------------- */
+
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  padding: 1rem 1.5rem;
+  background: var(--paper-raised);
+  border-bottom: 1px solid var(--line);
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 140px;
+}
+
+.filter-group label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.filter-group input[type="text"],
+.filter-group select {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.filter-group input[type="text"]:focus,
+.filter-group select:focus,
+button:focus-visible,
+.modal-close:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 1px;
+}
+
+/* multi-select checkbox popover (Subset / Theme / Skills / Target Molecule) */
+.multi-select {
+  position: relative;
+}
+
+.multi-select-toggle {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+  min-width: 140px;
+}
+
+.multi-select-panel {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 20;
+  background: var(--paper-raised);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-modal);
+  padding: 0.5rem;
+  max-height: 240px;
+  overflow-y: auto;
+  min-width: 200px;
+}
+
+.multi-select-panel label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.82rem;
+  padding: 0.25rem 0.3rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.multi-select-panel label:hover {
+  background: var(--teal-tint);
+}
+
+.clear-filters-btn {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--teal);
+  background: none;
+  border: 1px solid var(--teal);
+  border-radius: var(--radius);
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  height: fit-content;
+}
+
+.clear-filters-btn:hover { background: var(--teal-tint); }
+
+.results-count {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin-left: auto;
+  align-self: center;
+  white-space: nowrap;
+}
+
+/* ---- Table --------------------------------------------------------- */
+
+.table-wrapper {
+  padding: 1rem 1.5rem 3rem;
+  overflow-x: auto;
+}
+
+table.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.problems-table thead th {
+  text-align: left;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  font-weight: 600;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--line-strong);
+  background: var(--paper);
+  position: sticky;
+  top: 0;
+}
+
+.problems-table tbody td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  font-size: 0.86rem;
+}
+
+.problems-table tbody tr:hover { background: var(--teal-tint); }
+
+.cell-id { font-family: var(--font-mono); color: var(--ink-soft); white-space: nowrap; }
+.cell-year { font-family: var(--font-mono); }
+
+.chip-row { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+
+.chip {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: var(--amber-tint);
+  color: var(--amber);
+  border: 1px solid rgba(184, 112, 43, 0.3);
+  white-space: nowrap;
+}
+
+.actions-cell { display: flex; gap: 0.4rem; }
+
+.btn {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.35rem 0.65rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--teal);
+  background: var(--teal);
+  color: var(--paper-raised);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn:hover { background: var(--teal-hover); border-color: var(--teal-hover); }
+
+.btn.btn-disabled {
+  background: var(--paper);
+  border-color: var(--line-strong);
+  color: var(--ink-soft);
+  cursor: not-allowed;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+/* ---- Modal ----------------------------------------------------------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(27, 31, 35, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 2rem;
+}
+
+.modal {
+  background: var(--paper-raised);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-modal);
+  width: 100%;
+  max-width: 920px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.modal-header h2 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.modal-close {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: none;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+.modal-close:hover { background: var(--paper); }
+
+.modal iframe {
+  flex: 1;
+  border: none;
+  width: 100%;
+}
+
+/* ---- Responsive -------------------------------------------------------- */
+
+@media (max-width: 720px) {
+  .filter-bar { flex-direction: column; align-items: stretch; }
+  .filter-group { min-width: 0; }
+  .results-count { margin-left: 0; }
+  .modal-overlay { padding: 0; }
+  .modal { max-width: 100%; height: 100%; border-radius: 0; }
+  .problems-table thead { display: none; }
+  .problems-table, .problems-table tbody, .problems-table tr, .problems-table td {
+    display: block; width: 100%;
+  }
+  .problems-table tr {
+    border-bottom: 6px solid var(--paper);
+    padding: 0.5rem 0;
+  }
+  .problems-table td {
+    border-bottom: none;
+    padding: 0.25rem 0.8rem;
+  }
+  .problems-table td::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

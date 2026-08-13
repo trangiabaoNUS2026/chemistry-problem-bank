@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PDF Viewer</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #1B1F23;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+  .viewer-error {
+    color: #FAFAF8;
+    padding: 2rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .viewer-error code {
+    background: rgba(255,255,255,0.1);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+  <!--
+    This page is a thin wrapper: it reads ?file=<path>#page=<n> from its own
+    URL and forwards both straight through to the bundled PDF.js viewer at
+    pdfjs/web/viewer.html, which does the actual rendering + page jump.
+
+    Usage from app.js:
+      viewer.html?file=pdfs/icho/2019/exam-booklet.pdf#page=14
+
+    Requires the PDF.js prebuilt distribution to be present at
+    /pdfjs/web/viewer.html — see pdfjs/README.md.
+  -->
+  <div id="target"></div>
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const file = params.get('file');
+      const hash = window.location.hash; // e.g. "#page=14"
+      const target = document.getElementById('target');
+
+      if (!file) {
+        target.innerHTML =
+          '<div class="viewer-error">No <code>?file=</code> parameter was given to viewer.html.</div>';
+        return;
+      }
+
+      const pdfjsUrl =
+        'pdfjs/web/viewer.html?file=' + encodeURIComponent(file) + hash;
+
+      const iframe = document.createElement('iframe');
+      iframe.src = pdfjsUrl;
+      iframe.title = 'PDF viewer';
+      iframe.onerror = function () {
+        target.innerHTML =
+          '<div class="viewer-error">Could not load the PDF.js viewer. ' +
+          'Make sure the PDF.js distribution has been placed at ' +
+          '<code>pdfjs/web/viewer.html</code>.</div>';
+      };
+      target.innerHTML = '';
+      target.appendChild(iframe);
+    })();
+  </script>
+</body>
+</html>
