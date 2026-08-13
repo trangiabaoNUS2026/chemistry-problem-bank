@@ -1,7 +1,9 @@
 // ---------------------------------------------------------------------
 // Chemistry Olympiad Problem Catalog — app.js
 // Vanilla JS, no build step. Fetches data/problems.json + data/taxonomy.json,
-// renders a filterable table, and drives a reusable PDF-viewer modal.
+// renders a filterable table. "View Problem" / "View Solution" open the
+// PDF in a new tab via viewer.html (no modal — avoids all the nested-
+// iframe sizing issues that come with embedding PDF.js in a popup).
 // ---------------------------------------------------------------------
 
 (function () {
@@ -36,13 +38,7 @@
     filterNation: document.getElementById("filter-nation"),
     filterOlympiad: document.getElementById("filter-olympiad"),
     filterYear: document.getElementById("filter-year"),
-    filterType: document.getElementById("filter-type"),
-
-    modalOverlay: document.getElementById("modal-overlay"),
-    modal: document.querySelector(".modal"),
-    modalTitle: document.getElementById("modal-title"),
-    modalClose: document.getElementById("modal-close"),
-    modalIframe: document.getElementById("modal-iframe")
+    filterType: document.getElementById("filter-type")
   };
 
   var multiSelectConfig = [
@@ -68,7 +64,6 @@
         populateDynamicFilterOptions();
         populateMultiSelects();
         attachFilterListeners();
-        attachModalListeners();
         renderTable(allProblems);
       })
       .catch(function (err) {
@@ -194,7 +189,6 @@
         e.stopPropagation();
         var isOpen = !panel.hidden;
         closeAllMultiSelectPanels();
-        panel.hidden = isOpen; // if it was open, this closes it; if closed, leaves closed then we reopen below
         if (!isOpen) panel.hidden = false;
       });
     });
@@ -351,12 +345,12 @@
     // Wire up action buttons after the batch DOM write.
     el.tbody.querySelectorAll("[data-action='view-problem']").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        openModalForButton(btn, "problem");
+        openPdfInNewTab(btn, "problem");
       });
     });
     el.tbody.querySelectorAll("[data-action='view-solution']").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        openModalForButton(btn, "solution");
+        openPdfInNewTab(btn, "solution");
       });
     });
   }
@@ -408,11 +402,12 @@
   }
 
   // -----------------------------------------------------------------
-  // PDF modal
+  // Open the PDF in a new tab via viewer.html, which resolves the
+  // relative PDF path to an absolute URL and forwards it (plus the
+  // page number) to the bundled PDF.js viewer. No modal, no nested
+  // iframes — the browser's own tab handles all the sizing.
   // -----------------------------------------------------------------
-  var lastFocusedElement = null;
-
-  function openModalForButton(btn, kind) {
+  function openPdfInNewTab(btn, kind) {
     var id = btn.getAttribute("data-id");
     var problem = allProblems.find(function (p) {
       return p.id === id;
@@ -425,39 +420,8 @@
 
     var src = "viewer.html?file=" + encodeURIComponent(file);
     if (page) src += "#page=" + encodeURIComponent(page);
-    
-    el.modalTitle.textContent =
-      problem.id + " — " + problem.title + (kind === "solution" ? " (Solution)" : "");
-    
-    lastFocusedElement = document.activeElement;
-    el.modalOverlay.hidden = false;   // show the modal FIRST, at full real size...
-    el.modalIframe.src = src;          // ...THEN start loading the PDF into it
-    el.modalClose.focus();
-  }
 
-  function closeModal() {
-    el.modalOverlay.hidden = true;
-    el.modalIframe.src = "about:blank";
-    if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
-      lastFocusedElement.focus();
-    }
-  }
-
-  function attachModalListeners() {
-    el.modalClose.addEventListener("click", closeModal);
-
-    // Close on overlay click, but not on clicks inside the modal itself.
-    el.modalOverlay.addEventListener("click", function (e) {
-      if (e.target === el.modalOverlay) {
-        closeModal();
-      }
-    });
-
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape" && !el.modalOverlay.hidden) {
-        closeModal();
-      }
-    });
+    window.open(src, "_blank", "noopener");
   }
 
   // -----------------------------------------------------------------

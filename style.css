@@ -266,81 +266,12 @@ table.problems-table {
   font-size: 0.9rem;
 }
 
-/* ---- Modal ----------------------------------------------------------- */
-
-.modal-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(27, 31, 35, 0.55);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 100;
-  padding: 2rem;
-}
-
-/* The [hidden] attribute alone loses to the .modal-overlay { display: flex }
-   rule above (author CSS beats the browser's built-in [hidden] behavior),
-   so it must be restated explicitly here or the overlay stays visible and
-   blocks clicks even while marked hidden. */
-.modal-overlay[hidden] {
-  display: none;
-}
-
-.modal {
-  background: var(--paper-raised);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-modal);
-  width: 100%;
-  max-width: 920px;
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-
-.modal-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.7rem 1rem;
-  border-bottom: 1px solid var(--line);
-}
-
-.modal-header h2 {
-  font-family: var(--font-display);
-  font-size: 1rem;
-  margin: 0;
-}
-
-.modal-close {
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 600;
-  background: none;
-  border: 1px solid var(--line-strong);
-  border-radius: var(--radius);
-  padding: 0.3rem 0.7rem;
-  cursor: pointer;
-  color: var(--ink);
-}
-
-.modal-close:hover { background: var(--paper); }
-
-.modal iframe {
-  flex: 1;
-  border: none;
-  width: 100%;
-}
-
 /* ---- Responsive -------------------------------------------------------- */
 
 @media (max-width: 720px) {
   .filter-bar { flex-direction: column; align-items: stretch; }
   .filter-group { min-width: 0; }
   .results-count { margin-left: 0; }
-  .modal-overlay { padding: 0; }
-  .modal { max-width: 100%; height: 100%; border-radius: 0; }
   .problems-table thead { display: none; }
   .problems-table, .problems-table tbody, .problems-table tr, .problems-table td {
     display: block; width: 100%;
