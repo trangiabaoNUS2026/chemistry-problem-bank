@@ -1,4 +1,1857 @@
 [
+[
+  {
+    "id": "IChO-2014-T1",
+    "title": "Particles in a box: polyenes",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Quantum Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Particle in a box",
+      "Quantum mechanics",
+      "Electronic transitions",
+      "Conjugated polyenes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying particle in a box energy equations",
+      "Deriving quantum mechanical formulas for wavelength",
+      "Calculating HOMO-LUMO transition energy gaps",
+      "Analyzing degenerate energy levels in 3D cubic boxes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IChO-2014-T2",
+    "title": "Dissociating gas cycle",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Thermodynamics",
+      "Physical",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Chemical equilibria",
+      "Thermodynamic cycles",
+      "Gas dissociation",
+      "Adiabatic expansion",
+      "Work and heat"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating equilibrium constants and Gibbs free energy",
+      "Determining enthalpy and entropy changes using van't Hoff relations",
+      "Analyzing adiabatic expansion work in gas cycles",
+      "Comparing work output between dissociating and inert gases"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 13
+  },
+  {
+    "id": "IChO-2014-T3",
+    "title": "High-valent silver compounds",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Thermodynamics",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Silver oxides",
+      "Crystal lattices",
+      "Born-Haber cycles",
+      "Coordination complexes",
+      "Magnetism"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining oxidation states in complex lattices",
+      "Constructing and calculating Born-Haber / thermodynamic cycles",
+      "Estimating lattice dissociation energies using volume relationships",
+      "Applying spin-only magnetic moment formulas to coordination complexes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IChO-2014-T4",
+    "title": "Zeise's salt",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Organometallic chemistry",
+      "Platination",
+      "Trans effect",
+      "Isotopic mass spectrometry",
+      "NMR environments"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing balanced preparations for coordination compounds",
+      "Calculating molecular mass from natural isotopic abundance",
+      "Analyzing molecular symmetry and NMR environments",
+      "Applying the trans effect to predict substitution products"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 22,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IChO-2014-T5",
+    "title": "Acid-base equilibria in water",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Acid-Base Chemistry",
+      "Equilibrium",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Polyprotic/multi-acid systems",
+      "Buffer solutions",
+      "Fractional dissociation",
+      "Complex formation",
+      "Solubility product"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Solving simultaneous acid-base equilibrium and charge balance equations",
+      "Calculating pH of buffer and salt solutions",
+      "Determining percentage dissociation at infinite dilution",
+      "Calculating solubility of sparingly soluble hydroxides with complexation side reactions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 27,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 28
+  },
+  {
+    "id": "IChO-2014-T6",
+    "title": "Chemical kinetics",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Catalytic amination",
+      "Reaction orders",
+      "Steady-state approximation",
+      "Rate law derivation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining reaction orders from initial rate data",
+      "Applying the steady-state approximation to catalytic reaction mechanisms",
+      "Deriving complex rate laws involving catalyst and intermediates",
+      "Simplifying rate equations under limiting conditions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 32,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 35
+  },
+  {
+    "id": "IChO-2014-T7",
+    "title": "Synthesis of artemisinin",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Natural product total synthesis",
+      "Artemisinin",
+      "Hydroboration",
+      "Iodolactonization",
+      "Radical reactions",
+      "Wittig reaction"
+    ],
+    "target_molecules": [
+      "Artemisinin",
+      "isolimonene",
+      "iodolactone"
+    ],
+    "skills": [
+      "Predicting stereochemical outcomes in organic transformations",
+      "Recognizing regioselective functional group conversions",
+      "Applying radical reactions and thiol protection/deprotection steps",
+      "Executing Wittig olefination and oxidative cleavage steps"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 37,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 40
+  },
+  {
+    "id": "IChO-2014-T8",
+    "title": "Star anise",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Natural product chemistry",
+      "Anethole",
+      "Oxidative cleavage",
+      "Heterocyclic synthesis",
+      "Diazotization"
+    ],
+    "target_molecules": [
+      "anethole",
+      "artemisinin"
+    ],
+    "skills": [
+      "Deducing chemical structures from ozonolysis and glycol cleavage reactions",
+      "Analyzing 1H NMR data to differentiate stereoisomers",
+      "Performing multi-component heterocyclic ring synthesis",
+      "Conducting aromatic substitution, reduction, and diazotization sequences"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 42,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 45
+  },
+  {
+    "id": "IChO-2014-T9",
+    "title": "Heterocycle preparation",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sulfur-nitrogen heterocycles",
+      "TMTD",
+      "Thiocarbamoylation",
+      "Tautomerization",
+      "Reaction mechanisms"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Interpreting complex multi-step synthetic pathways using sulfur reagents",
+      "Drawing curly-arrow mechanisms for nucleophilic additions and cyclizations",
+      "Differentiating between structural isomers, stereoisomers, and tautomers",
+      "Analyzing tautomeric equilibria in heterocyclic systems"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 47,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 50
+  },
+  {
+    "id": "IChO-2014-P1",
+    "title": "The oxidation of iodide by iron(III) ions – a kinetic study based on the thiosulfate clock reaction",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Kinetics",
+      "Physical",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Clock reactions",
+      "Iodide oxidation",
+      "Initial rates method",
+      "Reaction kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing kinetic clock reactions accurately",
+      "Graphical determination of reaction orders and rate constants",
+      "Handling laboratory apparatus and solutions safely",
+      "Calculating initial rates from measured time intervals"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 52,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IChO-2014-P2",
+    "title": "Synthesis of a derivative of artemisinin",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Reduction reactions",
+      "Sodium borohydride",
+      "Thin-layer chromatography",
+      "Artemisinin derivatives"
+    ],
+    "target_molecules": [
+      "artemisinin",
+      "dihydroartemisinin"
+    ],
+    "skills": [
+      "Executing cryogenic chemical reactions with reactive hydrides",
+      "Performing vacuum filtration and product isolation",
+      "Analyzing reaction purity using thin-layer chromatography (TLC)",
+      "Calculating Rf values and identifying stereoisomeric products"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 60,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IChO-2014-P3",
+    "title": "Analysis of a hydrated zinc iron(II) oxalate double salt",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2014,
+    "subset": [
+      "Analytical",
+      "Inorganic",
+      "Acid-Base Chemistry",
+      "Equilibrium"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Redox titrations",
+      "Complexometric titrations",
+      "Permanganate titration",
+      "EDTA titration",
+      "Empirical formula determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing quantitative redox titrations with potassium permanganate",
+      "Conducting complexometric EDTA titrations with metal indicators",
+      "Separating metal ions via selective precipitation",
+      "Calculating empirical formulas from stoichiometric titration data"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 67,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IChO-2015-T1",
+    "title": "New and well-forgotten old refrigerants",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Thermodynamics",
+      "Physical",
+      "Environmental Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Refrigeration cycles",
+      "Coefficient of performance",
+      "Phase transitions",
+      "Ozone depletion",
+      "Greenhouse effect"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating heat absorbed during vaporization and work of compression",
+      "Determining coefficient of performance (COP) for thermodynamic cycles",
+      "Applying phase boundary equations and vapor pressure relations",
+      "Analyzing environmental impacts of refrigerants (CFCs vs. fluoroalkanes)"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 73,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 78
+  },
+  {
+    "id": "IChO-2015-T2",
+    "title": "Coupling of chemical reactions",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Kinetics",
+      "Thermodynamics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Coupled reactions",
+      "Shilov mechanism",
+      "Kinetic coupling",
+      "Steady-state approximation",
+      "Second law of thermodynamics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving rate ratios and limiting values for chemical coupling mechanisms",
+      "Applying steady-state approximations to reaction intermediates",
+      "Calculating rates and equilibrium ratios in chain-like gas-phase reactions",
+      "Applying the Second Law of thermodynamics to coupled metabolic processes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 80,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 83
+  },
+  {
+    "id": "IChO-2015-T3",
+    "title": "Two binding centers – competition or cooperation?",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Equilibrium",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Host-guest chemistry",
+      "Binding constants",
+      "Cooperative binding",
+      "Thermodynamics of complexation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Defining cooperative vs. competitive binding via interaction factors",
+      "Setting up mass balance and equilibrium equations for multi-site binding",
+      "Calculating binding constants and species concentrations in solution",
+      "Relating binding affinity to standard Gibbs energy changes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 86,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 88
+  },
+  {
+    "id": "IChO-2015-T4",
+    "title": "From one yellow powder to another: A simple inorganic riddle",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Inorganic identification",
+      "Phosphorus sulfides",
+      "Precipitation reactions",
+      "Redox reactions in solid state"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing chemical formulas from vapor density and stoichiometric precipitation data",
+      "Balancing complex redox and precipitation equations in inorganic chemistry",
+      "Recognizing molecular cage structures (e.g., P4S3)",
+      "Predicting solid-state reactions with oxygen, acids, and oxidizers"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 90,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 91
+  },
+  {
+    "id": "IChO-2015-T5",
+    "title": "Indispensable glucose",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Biochemistry",
+      "Nuclear Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Carbohydrate analysis",
+      "Fehling's test",
+      "Iodometric titration",
+      "Radiopharmaceuticals",
+      "Positron emission tomography (PET)",
+      "Nuclear decay"
+    ],
+    "target_molecules": [
+      "glucose",
+      "fructose",
+      "2-deoxy-2-fluoro-D-glucose"
+    ],
+    "skills": [
+      "Balancing redox equations for sugar oxidation with copper(II) and iodine",
+      "Calculating mass concentrations of reducing sugars from titration data",
+      "Completing nuclear reaction equations and determining decay modes",
+      "Applying radioactive decay laws and half-life calculations for radiopharmaceuticals"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 93,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 96
+  },
+  {
+    "id": "IChO-2015-T6",
+    "title": "Bread is the stuff of life",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Flavor chemistry",
+      "Tautomerism",
+      "Piperidine derivatives",
+      "Organolithium reagents"
+    ],
+    "target_molecules": [
+      "bread flavor component",
+      "piperidine"
+    ],
+    "skills": [
+      "Deducing organic structures from elemental composition and reaction schemes",
+      "Understanding tautomeric equilibria in flavoring compounds",
+      "Applying organometallic reagents in nitrogen heterocycle synthesis",
+      "Interpreting complex multi-step synthetic pathways"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 99,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 101
+  },
+  {
+    "id": "IChO-2015-T7",
+    "title": "Not by bread alone",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Alkaloid synthesis",
+      "Pelletierine",
+      "Nortropanol",
+      "Stereoselective synthesis"
+    ],
+    "target_molecules": [
+      "pelletierine",
+      "nortropanol"
+    ],
+    "skills": [
+      "Determining stereoisomer counts for bicyclic systems",
+      "Executing functional group manipulations in alkaloid total synthesis",
+      "Using chiral auxiliaries like tert-butanesulfinamide for asymmetric synthesis",
+      "Applying transition-metal catalyzed transformations and reductions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 103,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 105
+  },
+  {
+    "id": "IChO-2015-T8",
+    "title": "Oil for Life and Life after Oil",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Environmental Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Biodegradation of hydrocarbons",
+      "Metabolic pathways",
+      "Geometric progression formulas",
+      "Iodoform test"
+    ],
+    "target_molecules": [
+      "toluene",
+      "ethylene glycol"
+    ],
+    "skills": [
+      "Solving mathematical formulas based on geometric progressions for elemental composition",
+      "Deducing molecular formulas from combustion and mass percentage data",
+      "Interpreting biological oxidation pathways and enzyme-catalyzed steps",
+      "Applying chemical tests (iodoform reaction) to identify degradation products"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 106,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 109
+  },
+  {
+    "id": "IChO-2015-P1",
+    "title": "Tuning bromination selectivity by catalysis",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Regioselective bromination",
+      "Thiophenes",
+      "Refractive index measurement",
+      "Radical vs. ionic halogenation"
+    ],
+    "target_molecules": [
+      "3-methylthiophene",
+      "monobrominated thiophenes"
+    ],
+    "skills": [
+      "Setting up multi-necked flask apparatuses for catalytic bromination",
+      "Operating vacuum distillation systems under reduced pressure",
+      "Measuring refractive indices and boiling points for product identification",
+      "Determining reaction intermediates to explain catalytic selectivity"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 112,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 120
+  },
+  {
+    "id": "IChO-2015-P2",
+    "title": "Analysis of the solution of a chromium – vanadium alloy",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Inorganic",
+      "Equilibrium"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Alloy analysis",
+      "Redox titrations",
+      "Vanadium and chromium determination",
+      "Persulfate oxidation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing selective oxidations of alloy digestion solutions",
+      "Conducting permanganometric and iodometric/Mohr's salt titrations",
+      "Calculating concentrations and mass percentages of metals in alloys",
+      "Identifying chemical interferences in steel digestion procedures"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 121,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 126
+  },
+  {
+    "id": "IChO-2015-P3",
+    "title": "Kinetic determination of diclofenac (DCF)",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Kinetics",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Spectrophotometric kinetics",
+      "Diclofenac assay",
+      "Calibration curves",
+      "Permanganate oxidation"
+    ],
+    "target_molecules": [
+      "diclofenac"
+    ],
+    "skills": [
+      "Operating computer-interfaced spectrophotometers and thermostats",
+      "Plotting calibration curves and determining initial reaction rates",
+      "Calculating reaction orders with respect to drug concentration",
+      "Analyzing pharmaceutical formulations via kinetic spectrophotometry"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 127,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 134
+  },
+  {
+    "id": "IChO-2016-T1",
+    "title": "Nitrogen trifluoride",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Inorganic",
+      "Electrochemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Fluorine compounds",
+      "Electrochemistry of melts",
+      "Bond length electrostatics",
+      "Hydrolysis reactions",
+      "Rocket propellants"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing electrode half-reactions for melt electrolysis",
+      "Relating bond lengths to partial charges and electrostatic models",
+      "Balancing hydrolysis equations for unusual reactive cations (NF4+)",
+      "Determining empirical formulas of reactive salts using mass percentages"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 136,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 138
+  },
+  {
+    "id": "IChO-2016-T2",
+    "title": "Red copper(I) oxide",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry",
+      "Thermodynamics",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Crystal structures",
+      "Cuprous oxide",
+      "Defect chemistry",
+      "Thermodynamic stability",
+      "Electrolytic production"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Analyzing cubic unit cell coordinates, coordination numbers, and interatomic distances",
+      "Calculating crystal density and stoichiometry from defect concentrations",
+      "Evaluating thermodynamic stability of metal oxides using Gibbs energy calculations",
+      "Applying Nernst equation and solubility products to cathodic deposition potentials"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 139,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 142
+  },
+  {
+    "id": "IChO-2016-T3",
+    "title": "Iodine deficiency and potentiometric titration",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Electrochemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Iodized salt analysis",
+      "Potentiometric titration",
+      "Solubility products",
+      "Sandell-Kolthoff reaction",
+      "Catalysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing stoichiometric calculations for iodometric titrations",
+      "Calculating solubility products and complex formation constants from potentiometric data",
+      "Determining reaction orders and rate constants from spectrophotometric kinetic data",
+      "Quantifying trace iodide in salt samples using catalytic reactions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 144,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 149
+  },
+  {
+    "id": "IChO-2016-T4",
+    "title": "Application of kinetic studies in water treatment",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Kinetics",
+      "Physical",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Water contamination",
+      "Dioxane oxidation",
+      "Steady-state approximation",
+      "Drug hydrolysis kinetics",
+      "pH-rate profiles"
+    ],
+    "target_molecules": [
+      "1,4-dioxane",
+      "lysine acetylsalicylate",
+      "aspirin"
+    ],
+    "skills": [
+      "Integrating rate laws to calculate reaction times for pollutant removal",
+      "Deriving complex rate equations using the steady-state approximation",
+      "Analyzing pH-rate profiles for pharmaceutical drug hydrolysis",
+      "Calculating individual rate constants from pH-dependent kinetic data"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 152,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 157
+  },
+  {
+    "id": "IChO-2016-T5",
+    "title": "From one yellow powder to another: Egyptian and Chinese blue",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ancient pigments",
+      "Egyptian blue",
+      "Silicate minerals",
+      "Gas laws",
+      "Mineral stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying ideal gas laws to determine composition of evolved gas mixtures",
+      "Determining mineral formulas and molar masses from mass conservation data",
+      "Deducing stoichiometry of complex inorganic synthetic mixtures",
+      "Relating mineral stability and color to solid-state chemistry"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 159,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 162
+  },
+  {
+    "id": "IChO-2016-T6",
+    "title": "Although there is currently no known cure for Alzheimer's disease...",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Galantamine synthesis",
+      "Alkaloid synthesis",
+      "Enantiomeric excess",
+      "Stereocenters"
+    ],
+    "target_molecules": [
+      "galantamine"
+    ],
+    "skills": [
+      "Deducing intermediate structures in complex multi-step pharmaceutical syntheses",
+      "Calculating enantiomeric excess from specific optical rotation measurements",
+      "Assigning R/S absolute configurations to chiral centers",
+      "Applying selective reducing agents (DIBAL-H, NaBH4, L-selectride)"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 164,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 167
+  },
+  {
+    "id": "IChO-2016-T7",
+    "title": "This question looks at the synthesis of dolasetron mesylate...",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Dolasetron synthesis",
+      "Ozonolysis",
+      "Dihydroxylation",
+      "Esterification",
+      "Pharmaceutical synthesis"
+    ],
+    "target_molecules": [
+      "dolasetron mesylate"
+    ],
+    "skills": [
+      "Determining empirical formulas from percentage mass data",
+      "Predicting products of oxidative cleavage and dihydroxylation reactions",
+      "Executing Robinson annulation and related cyclization sequences",
+      "Formulating complete multi-step reaction routes for complex active pharmaceutical ingredients"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 169,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 172
+  },
+  {
+    "id": "IChO-2016-T8",
+    "title": "An exotic, but biologically relevant sugar analogue...",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Carbohydrate chemistry",
+      "Diacetonides",
+      "Periodate cleavage",
+      "Kiliani-Fischer synthesis",
+      "Heparin building blocks"
+    ],
+    "target_molecules": [
+      "heparin building block",
+      "D-glucose derivatives"
+    ],
+    "skills": [
+      "Analyzing acetonide formation and selective hydrolysis in sugars",
+      "Performing carbon-chain elongation and oxidation sequences (cyanohydrin formation)",
+      "Drawing stereochemical structures of cyclic sugar derivatives and lactones",
+      "Recognizing specific sugar acid configurations (uronic acids)"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 174,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 177
+  },
+  {
+    "id": "IChO-2016-P1",
+    "title": "Identification of compounds",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Inorganic",
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Qualitative analysis",
+      "Precipitation reactions",
+      "Complex formation",
+      "Inorganic unknowns identification"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Systematic qualitative analysis of unknown inorganic salt mixtures",
+      "Observing characteristic color changes, gas evolutions, and precipitate formations",
+      "Writing balanced net ionic equations for precipitation and complexation reactions",
+      "Deducing chemical identities using systematic elimination tests"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 179,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 182
+  },
+  {
+    "id": "IChO-2016-P2",
+    "title": "Determination of fluoride and chloride content in mineral water",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Precipitation"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Colorimetric analysis",
+      "Mohr titration",
+      "Volhard titration",
+      "Halide determination in mineral water"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Preparing serial colorimetric dilutions for visual turbidity/color comparison",
+      "Standardizing silver nitrate solutions using the Mohr method",
+      "Performing back-titrations (Volhard method) for chloride determination",
+      "Accounting for chemical interferences in halide analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 185,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 182
+  },
+  {
+    "id": "IChO-2016-P3",
+    "title": "Identifying flavors and fragrances",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2016,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Functional group tests",
+      "Baeyer test",
+      "Cerium(IV) test",
+      "2,4-DNPH test",
+      "Ferric hydroxamate test"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Executing classic organic qualitative functional group tests",
+      "Interpreting positive and negative results for unsaturation, alcohols, carbonyls, and esters",
+      "Matching unknown fragrance compounds to provided structural libraries",
+      "Writing chemical reaction schemes for characteristic organic tests"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 188,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 182
+  },
+  {
+    "id": "IChO-2017-T1",
+    "title": "Production of propene using heterogeneous catalysts",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Thermodynamics",
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Propane dehydrogenation",
+      "Oxidative dehydrogenation",
+      "Bond enthalpies",
+      "Catalytic mechanisms",
+      "Steady-state approximation"
+    ],
+    "target_molecules": [
+      "propene",
+      "propane"
+    ],
+    "skills": [
+      "Calculating reaction enthalpy changes from average bond enthalpies",
+      "Applying Le Chatelier's principle to equilibrium gas reactions",
+      "Analyzing catalytic rate laws and extracting rate constants",
+      "Relating surface site fractions (beta) to partial pressures of reactants"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 192,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 195
+  },
+  {
+    "id": "IChO-2017-T2",
+    "title": "Kinetic isotope effect (KIE) and zero-point vibrational energy (ZPE)",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Kinetics",
+      "Quantum Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Kinetic isotope effect (KIE)",
+      "Zero-point vibrational energy (ZPE)",
+      "Harmonic oscillator model",
+      "Chromic acid oxidation"
+    ],
+    "target_molecules": [
+      "diphenylmethanol"
+    ],
+    "skills": [
+      "Calculating reduced masses for isotopic bonds (C-H vs. C-D)",
+      "Determining vibrational frequencies and zero-point vibrational energies",
+      "Relating bond dissociation energy differences to KIE rate ratios using Arrhenius equations",
+      "Extracting first-order rate constants and KIE from kinetic plots"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 196,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 200
+  },
+  {
+    "id": "IChO-2017-T3",
+    "title": "Thermodynamics of chemical reactions",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Thermodynamics",
+      "Equilibrium",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Methanol synthesis",
+      "Van 't Hoff isochore",
+      "Ideal gas mixing",
+      "Entropy of mixing"
+    ],
+    "target_molecules": [
+      "methanol"
+    ],
+    "skills": [
+      "Calculating standard reaction enthalpy, entropy, Gibbs energy, and equilibrium constants",
+      "Applying the van 't Hoff equation to find equilibrium constants at elevated temperatures",
+      "Solving gas-phase equilibrium compositions and total pressures",
+      "Calculating entropy and Gibbs energy changes for gas mixing processes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 203,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 205
+  },
+  {
+    "id": "IChO-2017-T4",
+    "title": "Electrochemistry",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Electrochemistry",
+      "Equilibrium",
+      "Analytical",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Galvanic cells",
+      "Nernst equation",
+      "Iodometric titration",
+      "Buffer solutions",
+      "Acid dissociation constant"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying the Nernst equation to determine standard reduction potentials and unknown concentrations",
+      "Balancing redox reactions and calculating analyte concentrations via iodometric titration",
+      "Relating electromotive force measurements to buffer pH and acid dissociation constants",
+      "Using Henderson-Hasselbalch equations for weak acid buffer systems"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 208,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 211
+  },
+  {
+    "id": "IChO-2017-T5",
+    "title": "Phosphate and silicate in soil",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Soil analysis",
+      "Molybdenum blue method",
+      "Spectrophotometry",
+      "Beer-Lambert law",
+      "Solvent extraction"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating mass fractions of phosphate and silicate in soil samples",
+      "Applying the Beer-Lambert law relating absorbance, transmittance, and molar absorptivity",
+      "Resolving multi-component absorbance spectra using selective complexation (tartaric acid)",
+      "Calculating extraction recoveries using partition coefficients (Kow)"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 213,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 216
+  },
+  {
+    "id": "IChO-2017-T6",
+    "title": "Iron",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry",
+      "Nuclear Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Transition metals",
+      "Alloys and solid solutions",
+      "Crystal radii",
+      "Redox reactions in basic media",
+      "Nuclear decay"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing element identity from quantum numbers of ionization electrons",
+      "Calculating atomic radii and evaluating Hume-Rothery rules for substitutional solid solutions",
+      "Balancing redox equations in alkaline environments (iron and permanganate)",
+      "Calculating radioactive half-lives and mole ratios from decay data"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 218,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 221
+  },
+  {
+    "id": "IChO-2017-T7",
+    "title": "Chemical Structure Puzzles",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Inorganic",
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Titanium complexes",
+      "Mannich-type condensation",
+      "Job's method of continuous variations",
+      "Stereochemistry of coordination compounds"
+    ],
+    "target_molecules": [
+      "titanium complexes"
+    ],
+    "skills": [
+      "Deducing constitutional isomers from multi-component phenol-formaldehyde condensations",
+      "Applying Job's method of continuous variations to determine stoichiometry from absorbance data",
+      "Drawing diastereomeric structures of six-coordinate octahedral complexes",
+      "Interpreting NMR splitting patterns to deduce symmetrical structures"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 223,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 227
+  },
+  {
+    "id": "IChO-2017-T8",
+    "title": "Silica Surface",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Sol-gel process",
+      "Silica surface functionalization",
+      "Crystal field theory",
+      "Copper(II) and mercury(II) complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing surface silanol and siloxane bonding environments",
+      "Constructing crystal field d-orbital splitting diagrams for distorted coordination geometries",
+      "Relating electronic transitions to visible absorption spectra and ligand field strength",
+      "Predicting metal-ligand coordination geometries and d-electron configurations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 229,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 232
+  },
+  {
+    "id": "IChO-2017-T9",
+    "title": "Into the Unknown",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Structure elucidation",
+      "Reductive amination",
+      "Friedel-Crafts acylation",
+      "Epoxide opening and aziridine chemistry"
+    ],
+    "target_molecules": [
+      "chiral amines",
+      "aziridines"
+    ],
+    "skills": [
+      "Deducing molecular structures from molecular weight, NMR, and synthetic pathways",
+      "Designing multi-step organic syntheses from diols to chiral amines",
+      "Applying stereoselective ring-opening and cyclization reactions",
+      "Interpreting 1H and 13C NMR spectral data for structural assignment"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 234,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 235
+  },
+  {
+    "id": "IChO-2017-T10",
+    "title": "Total Synthesis of Alkaloids",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Alkaloid synthesis",
+      "Sauristolactam",
+      "Pancratistatin",
+      "Palladium-catalyzed cyclization"
+    ],
+    "target_molecules": [
+      "sauristolactam",
+      "pancratistatin"
+    ],
+    "skills": [
+      "Interpreting complex multi-step total syntheses of natural products",
+      "Correlating NMR spectral signals with specific protons in synthetic intermediates",
+      "Designing palladium-catalyzed cross-coupling and lactam formation steps",
+      "Determining relative and absolute stereochemistry in polycyclic ring systems"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 237,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 240
+  },
+  {
+    "id": "IChO-2017-T11",
+    "title": "Twist & Chirality",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "trans-Cyclooctenes",
+      "Planar chirality",
+      "Photochemical isomerization",
+      "Stereoisomerism"
+    ],
+    "target_molecules": [
+      "trans-cyclooctene derivatives"
+    ],
+    "skills": [
+      "Identifying stereoisomers resulting from non-stereocontrolled reactions",
+      "Recognizing planar chirality in strained trans-cycloalkenes",
+      "Predicting stereoisomer counts and chromatographic separation properties",
+      "Relating photochemical cis-trans isomerization to synthetic utility"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 243,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 244
+  },
+  {
+    "id": "IChO-2017-P1",
+    "title": "Acid-base indicator and its application for pH measurements",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Acid-Base Chemistry",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Acid-base indicators",
+      "Spectrophotometric pH determination",
+      "Molar absorptivity",
+      "Methyl orange and bromothymol blue"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Measuring absorbance values at multiple wavelengths to determine molar absorptivities",
+      "Applying simultaneous equations to find concentrations of acidic and basic indicator forms",
+      "Calculating acid dissociation constants (Ka) from spectrophotometric data",
+      "Determining unknown solution pH using colorimetric and spectrophotometric indicator methods"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 245,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 216
+  },
+  {
+    "id": "IChO-2017-P2",
+    "title": "Calcium iodate",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Iodometric titrations",
+      "Solubility product (Ksp)",
+      "Calcium iodate",
+      "Sodium thiosulfate standardization"
+    ],
+    "target_molecules": [
+      "calcium iodate"
+    ],
+    "skills": [
+      "Standardizing sodium thiosulfate solutions against primary standard potassium iodate",
+      "Performing iodometric titrations with starch indicators",
+      "Calculating solubility products (Ksp) from saturated solution titration data",
+      "Determining unknown iodate concentrations in solubility equilibrium mixtures"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 251,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 216
+  },
+  {
+    "id": "IChO-2017-P3",
+    "title": "Elaborating Carbon Framework",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2017,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Aldol condensation",
+      "Carbon-carbon bond formation",
+      "Recrystallization",
+      "NMR characterization"
+    ],
+    "target_molecules": [
+      "aldol condensation product",
+      "3-pentanone",
+      "p-chlorobenzaldehyde"
+    ],
+    "skills": [
+      "Executing base-catalyzed aldol condensation reactions on a preparative scale",
+      "Purifying organic solids via recrystallization and suction filtration",
+      "Determining reaction yields and verifying product purity via melting point and NMR",
+      "Identifying plausible aromatic regioisomers formed in multi-carbonyl condensations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 255,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 216
+  },
+  {
+    "id": "IChO-2018-T1",
+    "title": "DNA",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Biochemistry",
+      "Thermodynamics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "DNA duplex stability",
+      "Palindromic sequences",
+      "Melting temperature (Tm)",
+      "Van 't Hoff analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating combinations for palindromic DNA sequences",
+      "Evaluating association equilibrium constants at melting temperatures for palindromic and non-palindromic DNA",
+      "Determining oligonucleotide lengths and base pair compositions from Gibbs energy contributions",
+      "Extracting standard enthalpy and entropy of association from linear van 't Hoff / concentration plots"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 260,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 263
+  },
+  {
+    "id": "IChO-2018-T2",
+    "title": "Repatriation of remains in the middle ages",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Kinetics",
+      "Organic",
+      "Thermodynamics",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Amino acid epimerization",
+      "Racemization kinetics",
+      "Archaeological dating",
+      "Diastereomeric excess"
+    ],
+    "target_molecules": [
+      "isoleucine",
+      "arginine"
+    ],
+    "skills": [
+      "Assigning absolute configurations (R/S) to amino acid stereocenters",
+      "Calculating diastereomeric excess and equilibrium compositions in reversible first-order reactions",
+      "Applying Arrhenius equations to determine activation energies and low-temperature rate constants",
+      "Solving kinetic equations to estimate historical boiling and archaeological dating times"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 269,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 272
+  },
+  {
+    "id": "IChO-2018-T3",
+    "title": "Emerging electro-mobility",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Thermodynamics",
+      "Electrochemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Fuel cells",
+      "Heat engines",
+      "Electromotive force (EMF)",
+      "Lithium-ion batteries",
+      "Hydrazine fuel cells",
+      "Latimer diagrams"
+    ],
+    "target_molecules": [
+      "hydrazine",
+      "isooctane"
+    ],
+    "skills": [
+      "Calculating specific combustion enthalpies and thermodynamic efficiencies",
+      "Determining standard EMF and Gibbs energy changes for hydrogen-oxygen fuel cells",
+      "Relating electrical energy produced in electrolysis to theoretical masses of hydrogen",
+      "Constructing and calculating potentials in Latimer diagrams for nitrogen-hydrazine systems",
+      "Calculating specific charge capacity and energy density for lithium-ion batteries"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 276,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 280
+  },
+  {
+    "id": "IChO-2018-T4",
+    "title": "Column chromatography of radioactive copper",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Analytical",
+      "Inorganic",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ion exchange chromatography",
+      "Radioactive copper-64 production",
+      "Chlorido complexes",
+      "Resin capacity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Balancing nuclear bombardment reactions for radioisotope production",
+      "Calculating mole fractions of metal complexes using overall complexation constants (beta)",
+      "Determining chromatographic retention volumes and separation criteria",
+      "Calculating ion exchange mass and volume capacities from titration data"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 284,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 287
+  },
+  {
+    "id": "IChO-2018-T5",
+    "title": "Bohemian garnet",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Garnet crystal structures",
+      "Crystal Field Theory",
+      "Chromophores in minerals",
+      "Rare-earth doped YAG lasers"
+    ],
+    "target_molecules": [
+      "yttrium aluminium garnet (YAG)"
+    ],
+    "skills": [
+      "Calculating theoretical densities of cubic garnet unit cells",
+      "Drawing d-orbital splitting diagrams and filling electrons for octahedral and dodecahedral fields",
+      "Matching mineral absorption spectra to observed colors and complementary wavelengths",
+      "Calculating crystal field splitting parameters (Delta) and pairing energies (P) from spectroscopic transitions",
+      "Balancing solid-state synthesis equations for doped garnets"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 288,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 292
+  },
+  {
+    "id": "IChO-2018-T6",
+    "title": "Let’s go mushrooming",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Biochemistry",
+      "Kinetics"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Mushroom toxins",
+      "Coprine synthesis",
+      "Enzyme inhibition",
+      "Antabuse effect",
+      "Kinetic isotope effect (KIE)"
+    ],
+    "target_molecules": [
+      "coprine",
+      "antabuse",
+      "gyromitrin"
+    ],
+    "skills": [
+      "Deducing structures of synthetic intermediates in amino acid and mushroom toxin preparations",
+      "Illustrating enzyme-inhibitor covalent modifications with active site cysteine residues",
+      "Recognizing reagents for disulfide formation and functional group interconversions",
+      "Calculating maximum theoretical kinetic isotope effects (KIE) from vibrational stretching frequencies and reduced masses"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 295,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 299
+  },
+  {
+    "id": "IChO-2018-T7",
+    "title": "Cidofovir",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Antiviral nucleotide analogues",
+      "Cidofovir synthesis",
+      "Mannitol derivatives",
+      "Protecting groups"
+    ],
+    "target_molecules": [
+      "cidofovir",
+      "L-mannitol"
+    ],
+    "skills": [
+      "Drawing stereochemical structures of acetonide-protected sugar intermediates",
+      "Identifying alternative carbohydrate stereoisomers leading to identical chiral diols",
+      "Applying selective ether protection (MMT-Cl) and phosphonate alkylation steps",
+      "Executing mesylation and nucleophilic displacement reactions in nucleoside analogue syntheses"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 301,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 303
+  },
+  {
+    "id": "IChO-2018-T8",
+    "title": "Caryophyllene",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sesquiterpenes",
+      "Beta-caryophyllene total synthesis",
+      "Trans-cycloalkenes",
+      "Acid-catalyzed cationic cyclization"
+    ],
+    "target_molecules": [
+      "beta-caryophyllene",
+      "trans-cyclooctene"
+    ],
+    "skills": [
+      "Deducing stereochemical intermediates in complex terpene syntheses",
+      "Understanding the stability and synthesis of strained trans-double bonds in rings",
+      "Predicting regioselective hydroboration and ozonolysis reactions of exocyclic vs. endocyclic alkenes",
+      "Tracing carbocation rearrangement cascades and skeletal cleavage pathways in acid-catalyzed cyclizations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 305,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 308
+  },
+  {
+    "id": "IChO-2018-P1",
+    "title": "Haloform reaction with bleach",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Haloform reaction",
+      "Bleach oxidation",
+      "Derivative formation",
+      "Brady's reagent",
+      "Acid-base extraction"
+    ],
+    "target_molecules": [
+      "(2-naphthyl)ethanone",
+      "2-naphthoic acid",
+      "2,4-dinitrophenylhydrazone derivative"
+    ],
+    "skills": [
+      "Executing preparative-scale haloform oxidation using aqueous sodium hypochlorite",
+      "Performing acid-base extractions to separate acids from neutral starting materials",
+      "Synthesizing crystalline hydrazone derivatives using Brady's reagent",
+      "Monitoring reaction progress and product purity via thin-layer chromatography (TLC) and melting points"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 311,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 318
+  },
+  {
+    "id": "IChO-2018-P2",
+    "title": "A glowing clock reaction",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Kinetics",
+      "Physical",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Chemiluminescence clock reaction",
+      "Luminol oxidation",
+      "Copper catalysis",
+      "Cysteine oxidation kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing precise kinetic timing measurements using chemiluminescent flashes",
+      "Applying temperature normalization coefficients to reaction time data",
+      "Calculating initial reaction rates and determining partial reaction orders",
+      "Evaluating complex rate laws involving catalyst and substrate concentrations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 319,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 327
+  },
+  {
+    "id": "IChO-2018-P3",
+    "title": "Mineral water identification",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2018,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Ion exchange chromatography",
+      "Catex resins",
+      "Complexometric EDTA titration",
+      "Mineral water analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Utilizing cation exchange resins in H+ form for total cation determination",
+      "Performing acid-base titrations to determine ion exchange capacities",
+      "Conducting complexometric EDTA titrations for total calcium and magnesium hardness",
+      "Matching experimental ion concentrations with commercial mineral water specifications"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "problem_page": 329,
+    "solution_pdf": "pdfs/icho/icho_2014-2018.pdf",
+    "solution_page": 334
+  },
   {
     "id": "IChO-2019-T1",
     "title": "Infinite well and butadiene",
