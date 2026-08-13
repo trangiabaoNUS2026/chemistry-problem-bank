@@ -425,13 +425,13 @@
 
     var src = "viewer.html?file=" + encodeURIComponent(file);
     if (page) src += "#page=" + encodeURIComponent(page);
-
+    
     el.modalTitle.textContent =
       problem.id + " — " + problem.title + (kind === "solution" ? " (Solution)" : "");
-    el.modalIframe.src = src;
-
+    
     lastFocusedElement = document.activeElement;
-    el.modalOverlay.hidden = false;
+    el.modalOverlay.hidden = false;   // show the modal FIRST, at full real size...
+    el.modalIframe.src = src;          // ...THEN start loading the PDF into it
     el.modalClose.focus();
   }
 
