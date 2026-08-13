@@ -1,5 +1,1517 @@
 [
   {
+    "id": "IChO-2009-T1",
+    "title": "Estimating the Avogadro constant",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Physical",
+      "Nuclear Chemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Avogadro constant",
+      "X-ray diffraction",
+      "radioactive decay",
+      "colloidal particles"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "unit cell geometry",
+      "radioactive decay laws",
+      "Boltzmann distribution"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IChO-2009-T2",
+    "title": "Interstellar production of H2",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "interstellar chemistry",
+      "adsorption",
+      "desorption",
+      "steady-state approximation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "steady-state kinetics",
+      "kinetic models",
+      "rate equations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IChO-2009-T3",
+    "title": "Protein Folding",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Biochemistry",
+      "Physical",
+      "Thermodynamics",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "protein unfolding",
+      "melting temperature",
+      "van't Hoff equation",
+      "Arrhenius equation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "equilibrium constant determination",
+      "thermodynamic parameter extraction",
+      "first-order kinetics"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 19,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IChO-2009-T4",
+    "title": "Synthesis of Amprenavir",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "anti-HIV drugs",
+      "protease inhibitors",
+      "stereoselective synthesis"
+    ],
+    "target_molecules": [
+      "Amprenavir"
+    ],
+    "skills": [
+      "functional group interconversion",
+      "stereochemical representation",
+      "retrosynthetic analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 23,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IChO-2009-T5",
+    "title": "Epoxy resins",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Organic",
+      "Polymer Chemistry",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "epoxy resins",
+      "bisphenol A",
+      "epichlorohydrin",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [
+      "epichlorohydrin",
+      "Bisphenol A"
+    ],
+    "skills": [
+      "NMR interpretation",
+      "electrophilic aromatic substitution",
+      "polymerization mechanisms"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 27,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 30
+  },
+  {
+    "id": "IChO-2009-T6",
+    "title": "Transition metal complexes",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Alfred Werner",
+      "isomer counting",
+      "crystal field theory",
+      "cobalt ammine complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "isomer enumeration",
+      "d-orbital splitting",
+      "coordination chemistry stoichiometry"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 32,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 37
+  },
+  {
+    "id": "IChO-2009-P1",
+    "title": "An Environmentally Friendly Aldol Condensation",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "solvent-free synthesis",
+      "aldol condensation",
+      "TLC analysis",
+      "recrystallization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "solvent-free grinding reaction",
+      "thin-layer chromatography",
+      "recrystallization",
+      "melting point determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 40,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 43
+  },
+  {
+    "id": "IChO-2009-P2",
+    "title": "Analysis of a Copper(II) Complex",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "complexometric titration",
+      "precipitation titration",
+      "EDTA titration",
+      "Fajans method"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "complexometric titration",
+      "precipitation titration",
+      "indicator usage",
+      "stoichiometric calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 46,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 49
+  },
+  {
+    "id": "IChO-2009-P3",
+    "title": "The Critical Micelle Concentration of a Surfactant",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2009,
+    "subset": [
+      "Physical",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "surfactants",
+      "critical micelle concentration",
+      "conductivity measurements"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "conductivity meter calibration",
+      "graphical analysis",
+      "CMC determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 50,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 53
+  },
+  {
+    "id": "IChO-2010-T1",
+    "title": "Discovery of Argon and Noble Gas Properties",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Physical",
+      "Inorganic",
+      "Nuclear Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lord Rayleigh",
+      "argon discovery",
+      "radioactive decay",
+      "speed of sound"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "ideal gas law applications",
+      "heat capacity ratio calculations",
+      "spectroscopic transitions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 57,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 61
+  },
+  {
+    "id": "IChO-2010-T2",
+    "title": "Crystal Structure and Solvay Process",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "crystal lattices",
+      "Born-Haber cycle",
+      "Solvay process"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "lattice enthalpy calculations",
+      "crystal density determination",
+      "industrial chemical processes"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 63,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 65
+  },
+  {
+    "id": "IChO-2010-T3",
+    "title": "Chemical Oxygen Demand (COD)",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Analytical",
+      "Environmental Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "water quality",
+      "permanganate titration",
+      "chemical oxygen demand"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "redox stoichiometry",
+      "back titration calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 66,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 68
+  },
+  {
+    "id": "IChO-2010-T4",
+    "title": "Lithium Ion Battery",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Electrochemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "rechargeable batteries",
+      "Gibbs energy",
+      "energy density"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nernst and cell potential relations",
+      "mass and energy density calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 70,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 71
+  },
+  {
+    "id": "IChO-2010-T5",
+    "title": "Photoelectron Spectroscopy and Hydrogen Ionization",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Quantum Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "photoelectron spectroscopy",
+      "Rydberg formula",
+      "bond energies"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "energy conservation in photoionization",
+      "Rydberg energy level calculations",
+      "translational kinetic energy"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 72,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 75
+  },
+  {
+    "id": "IChO-2010-T6",
+    "title": "Organic Isomer Identification (C8H10O)",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "functional group tests",
+      "oxidation of aromatics",
+      "regioselectivity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "structure elucidation from chemical tests",
+      "aromatic oxidation",
+      "regiochemical analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 77,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 79
+  },
+  {
+    "id": "IChO-2010-T7",
+    "title": "Tetrodotoxin and Guanidine Resonance",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "tetrodotoxin",
+      "guanidinium resonance",
+      "retro-aldol reaction",
+      "biosynthesis"
+    ],
+    "target_molecules": [
+      "tetrodotoxin"
+    ],
+    "skills": [
+      "resonance structure drawing",
+      "retro-aldol mechanism",
+      "biosynthetic pathway analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 80,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 82
+  },
+  {
+    "id": "IChO-2010-T8",
+    "title": "Polycondensation and Carothers Equation",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Polymer Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "nylon-6,6",
+      "Carothers equation",
+      "degree of polymerization",
+      "polyesters"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "polymer stoichiometry",
+      "Carothers equation application"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 84,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 86
+  },
+  {
+    "id": "IChO-2010-T9",
+    "title": "Cyclodextrin Inclusion Complexes and NMR Kinetics",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Organic",
+      "Physical",
+      "Equilibrium",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "cyclodextrin",
+      "host-guest chemistry",
+      "NMR titration",
+      "thermodynamics of complexation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "carbohydrate absolute configuration",
+      "equilibrium constant determination from NMR",
+      "van't Hoff analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 88,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 92
+  },
+  {
+    "id": "IChO-2010-P1",
+    "title": "Reaction of Hantzsch Ester with Urea Hydrogen Peroxide",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "oxidation",
+      "Hantzsch ester",
+      "TLC monitoring",
+      "green oxidants"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "air-free or standard reflux setup",
+      "TLC reaction monitoring",
+      "suction filtration"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 94,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 98
+  },
+  {
+    "id": "IChO-2010-P2",
+    "title": "Determination of Fe(II) and Fe(III) by Visual Colorimetry",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "visual colorimetry",
+      "Beer-Lambert law",
+      "magnetite ore simulation",
+      "bipyridine complex"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nessler tube colorimetric comparison",
+      "masking agents usage",
+      "iron oxidation state separation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 100,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 104
+  },
+  {
+    "id": "IChO-2010-P3",
+    "title": "Polymers in Analysis",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2010,
+    "subset": [
+      "Analytical",
+      "Polymer Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "colloid titration",
+      "polyelectrolytes",
+      "polymer-polymer interaction"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "colloid back-titration",
+      "indicator color change detection",
+      "polymer precipitation identification"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 105,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 109
+  },
+  {
+    "id": "IChO-2011-T1",
+    "title": "Kinetics and Mechanism of Nitrogen Oxide Reduction",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "reaction kinetics",
+      "rate law determination",
+      "steady-state approximation",
+      "potential energy surface"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "initial rates method",
+      "reaction mechanism derivation",
+      "energy profile diagram selection"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 112,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 115
+  },
+  {
+    "id": "IChO-2011-T2",
+    "title": "Ammonia Combustion and Thermodynamics",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "ammonia fuel",
+      "thermochemistry",
+      "acid-base titration",
+      "Carnot efficiency"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "enthalpy of reaction calculations",
+      "buffer and hydrolysis pH calculations",
+      "Carnot heat engine efficiency"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 117,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 118
+  },
+  {
+    "id": "IChO-2011-T3",
+    "title": "Vibrational Energy and Electronic States of Hydrogen Isotopes",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Physical",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "diatomic molecule vibrational energy",
+      "isotope effects",
+      "electronic states of hydrogen"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "reduced mass calculations",
+      "zero-point vibrational energy",
+      "Rydberg formula applications"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 120,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 122
+  },
+  {
+    "id": "IChO-2011-T4",
+    "title": "Hydrogen Generation from Sodium Borohydride and Fuel Cells",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Physical",
+      "Electrochemistry",
+      "Kinetics",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "sodium borohydride hydrolysis",
+      "catalytic hydrogen generation",
+      "fuel cells",
+      "Arrhenius activation energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "catalytic reaction rate scaling",
+      "Arrhenius equation applications",
+      "standard cell potential and thermodynamics"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 125,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 128
+  },
+  {
+    "id": "IChO-2011-T5",
+    "title": "Polynitrogen Chemistry and Fluoro-complexes",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "polynitrogen ions",
+      "Lewis structures",
+      "metathesis reactions",
+      "tin fluoride bridging polymers"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "resonance structure drawing",
+      "hybridization and molecular geometry",
+      "coordination polymer structure analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 130,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 132
+  },
+  {
+    "id": "IChO-2011-T6",
+    "title": "Thiosulfate Leaching of Gold",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Inorganic",
+      "Equilibrium",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "gold extraction",
+      "thiosulfate process",
+      "formation constants",
+      "disproportionation reactions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "redox balancing",
+      "formation constant equilibrium calculations",
+      "coordination geometry determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 135,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 137
+  },
+  {
+    "id": "IChO-2011-T7",
+    "title": "Total Synthesis of a Carbasugar",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "carbasugar",
+      "Birch reduction",
+      "cycloaddition",
+      "singlet oxygen oxidation",
+      "dihydroxylation"
+    ],
+    "target_molecules": [
+      "carbasugar",
+      "pseudosugar"
+    ],
+    "skills": [
+      "stereochemical drawing",
+      "synthetic intermediate identification",
+      "pericyclic reactions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 139,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 142
+  },
+  {
+    "id": "IChO-2011-T8",
+    "title": "Click Chemistry and Bicyclic Azide Derivatives",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "click chemistry",
+      "azide-alkyne cycloaddition",
+      "tosylation",
+      "epoxide formation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "nucleophilic substitution stereochemistry",
+      "regioselective azide opening",
+      "Huisgen cycloaddition"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 145,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 147
+  },
+  {
+    "id": "IChO-2011-P1",
+    "title": "Analysis of Chloride Mixtures",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Fajans method",
+      "precipitation titration",
+      "EDTA titration",
+      "magnesium determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "adsorption indicator usage",
+      "complexometric titration of magnesium",
+      "indirect titration stoichiometry"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 149,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 152
+  },
+  {
+    "id": "IChO-2011-P2",
+    "title": "Hydrogen Generation from Ammonia Borane",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "hydrogen storage",
+      "ammonia borane",
+      "catalytic hydrolysis",
+      "gas volumetric measurement"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Schlenk line / gas burette setup",
+      "catalytic nanoparticle generation",
+      "gas evolution rate calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 153,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 157
+  },
+  {
+    "id": "IChO-2011-P3",
+    "title": "Synthesis, Purification and Separation of a Diastereomeric Mixture",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2011,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "asymmetric synthesis",
+      "chiral ligands",
+      "flash column chromatography",
+      "UV-vis spectrophotometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "flash column chromatography execution",
+      "TLC separation analysis",
+      "Beer-Lambert law spectrophotometric yield determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 158,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 162
+  },
+  {
+    "id": "IChO-2012-T1",
+    "title": "Boron Hydrides and Thermochemistry",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "boron hydrides",
+      "Lipscomb styx rules",
+      "diborane chemistry",
+      "bond dissociation enthalpy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "formula determination from elemental composition",
+      "styx structural topology",
+      "Born-Haber cycle for bond energy"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 164,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 167
+  },
+  {
+    "id": "IChO-2012-T2",
+    "title": "Platinum Complexes, Isomers, and the Trans Effect",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Inorganic",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "trans effect",
+      "cisplatin",
+      "square planar substitution kinetics",
+      "nanoparticle drug delivery"
+    ],
+    "target_molecules": [
+      "cisplatin"
+    ],
+    "skills": [
+      "stereoisomer enumeration",
+      "mechanistic pathway kinetics",
+      "nanoparticle stoichiometry and metal mass calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 169,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1306
+  },
+  {
+    "id": "IChO-2012-T3",
+    "title": "Thiomolybdate Equilibria in Aquatic Systems",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Inorganic",
+      "Equilibrium",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "thiomolybdates",
+      "Black Sea geochemistry",
+      "simultaneous equilibria",
+      "spectrophotometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "equilibrium constant manipulation",
+      "mass balance equations",
+      "Beer-Lambert multi-component analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 175,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1310
+  },
+  {
+    "id": "IChO-2012-T4",
+    "title": "YBCO Superconductor Stoichiometry and Redox Titration",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "superconductors",
+      "YBCO crystal structure",
+      "X-ray diffraction",
+      "iodometric redox titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Bragg's law and unit cell volume",
+      "redox stoichiometry for non-stoichiometric copper oxides",
+      "charge balance equations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 179,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1314
+  },
+  {
+    "id": "IChO-2012-T5",
+    "title": "DNA Alkylation and Duocarmycins",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "DNA alkylation",
+      "nitrogen mustards",
+      "sulfur mustard",
+      "duocarmycins",
+      "antitumor agents"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "nucleophilicity ranking",
+      "intramolecular aziridinium/episulfonium ion formation",
+      "asymmetric total synthesis intermediates"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 184,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 187
+  },
+  {
+    "id": "IChO-2012-T6",
+    "title": "Synthesis of Varenicline",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Varenicline",
+      "smoking cessation drug",
+      "heterocyclic synthesis",
+      "NMR data interpretation"
+    ],
+    "target_molecules": [
+      "Varenicline"
+    ],
+    "skills": [
+      "functional group transformation",
+      "NMR spectral correlation",
+      "retrosynthetic design"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 189,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1324
+  },
+  {
+    "id": "IChO-2012-T7",
+    "title": "Artificial Enzymes and Diels-Alder Catalysis",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Organic",
+      "Biochemistry",
+      "Kinetics"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "artificial enzymes",
+      "Diels-Alder reaction",
+      "regioselectivity",
+      "transition state theory"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "stereoisomer prediction in cycloadditions",
+      "resonance contributions to frontier orbital control",
+      "enzyme catalysis principles"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 193,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1330
+  },
+  {
+    "id": "IChO-2012-T8",
+    "title": "Particle in a Box Model for Polycyclic Aromatic Hydrocarbons and Graphene",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Physical",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "particle in a box",
+      "polycyclic aromatic hydrocarbons",
+      "graphene electronic properties",
+      "Fermi level"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "quantum mechanical energy level calculations",
+      "filling degenerate energy states",
+      "density of states and Fermi energy concepts"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 199,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1337
+  },
+  {
+    "id": "IChO-2012-P1",
+    "title": "Kinetics, Isotope Effect, and Mechanism of Iodination of Acetone",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "iodination of acetone",
+      "reaction kinetics",
+      "kinetic isotope effect",
+      "rate law determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "titrimetric rate monitoring",
+      "initial rates method analysis",
+      "kinetic isotope effect calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 208,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1346
+  },
+  {
+    "id": "IChO-2012-P2",
+    "title": "Synthesis of a Salen Manganese Complex and Determination of Product Formula",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2012,
+    "subset": [
+      "Inorganic",
+      "Analytical",
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "salen ligands",
+      "manganese complexes",
+      "iodometric titration",
+      "TLC characterization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "coordination complex synthesis",
+      "redox back-titration standardization",
+      "TLC purity check"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 214,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1353
+  },
+  {
+    "id": "IChO-2013-T1",
+    "title": "Clathrate Gun and Methane Hydrates",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Environmental Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "clathrate hydrates",
+      "Clausius-Clapeyron equation",
+      "geothermal and oceanic equilibria",
+      "greenhouse effect"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "ideal gas law stoichiometry",
+      "phase boundary calculations",
+      "enthalpy and temperature dependence"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 222,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1357
+  },
+  {
+    "id": "IChO-2013-T2",
+    "title": "Break Down Photosynthesis – The Hill Reaction",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Biochemistry",
+      "Physical",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "photosynthesis",
+      "Hill reaction",
+      "photochemical quantum requirement",
+      "redox thermodynamics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nernst equation applications",
+      "stoichiometric mole ratio estimation from kinetic curves",
+      "quantum yield and photon flux calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 226,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1363
+  },
+  {
+    "id": "IChO-2013-T3",
+    "title": "Meerwein-Schmidt-Ponndorf-Verley Reaction and Chiral Catalysts",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Organic",
+      "Kinetics",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "MSPV reduction",
+      "equilibrium yield optimization",
+      "catalytic kinetics",
+      "BINOL chiral ligands",
+      "enantiomeric excess"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "chemical equilibrium calculations with thermodynamics",
+      "rate law derivation from pre-equilibria",
+      "enantiomeric excess amplification calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 232,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1369
+  },
+  {
+    "id": "IChO-2013-T4",
+    "title": "A Simple Inorganic Experiment with Silver and Sulfur",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "silver chemistry",
+      "thiosulfate complexation",
+      "structure determination from mass loss"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "empirical formula deduction",
+      "gravimetric and mass loss data interpretation",
+      "inorganic reaction balancing"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 241,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1375
+  },
+  {
+    "id": "IChO-2013-T5",
+    "title": "Simple Estimates of Graphene Properties and Adsorption",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Physical",
+      "Environmental Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "graphene",
+      "specific surface area",
+      "adsorption equilibrium",
+      "gas detectors"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "surface area and density calculations",
+      "Van 't Hoff adsorption constant adjustments",
+      "partial pressure and concentration conversions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 244,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1381
+  },
+  {
+    "id": "IChO-2013-T6",
+    "title": "Cyclopropanes and Zwitterionic Reactivity",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "donor-acceptor cyclopropanes",
+      "1,3-zwitterions",
+      "Friedel-Crafts reactions",
+      "dimerization",
+      "polycyclic aromatic derivatives"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "regiochemical and stereochemical structure deduction",
+      "NMR element count and composition analysis",
+      "cyclopropane ring-opening mechanisms"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 250,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1385
+  },
+  {
+    "id": "IChO-2013-T7",
+    "title": "Diverse Permanganatometry",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "alkaline permanganatometry",
+      "barium manganate precipitation",
+      "iodometric back-titration",
+      "tin oxidation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "redox stoichiometry in alkaline medium",
+      "complexometric and silver precipitation equilibria",
+      "equivalent mass calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 256,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1391
+  },
+  {
+    "id": "IChO-2013-T8",
+    "title": "Unique Life of Archaea and Pyrrolysine Biosynthesis",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Biochemistry",
+      "Organic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "archaea metabolism",
+      "methylamine utilization",
+      "pyrrolysine",
+      "genetic code codons"
+    ],
+    "target_molecules": [
+      "pyrrolysine"
+    ],
+    "skills": [
+      "gas density and mole fraction calculations",
+      "molecular formula derivation from isotopic labeling data",
+      "genetic code interpretation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 261,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1398
+  },
+  {
+    "id": "IChO-2013-P1",
+    "title": "Synthesis of 2,4-Dinitrophenylhydrazones",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "2,4-dinitrophenylhydrazones",
+      "aldehyde identification",
+      "acid-base color changes",
+      "derivatization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "hydrazone precipitation and purification",
+      "structural analysis via chemical tests (phenolic ionization)",
+      "yield calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 269,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1407
+  },
+  {
+    "id": "IChO-2013-P2",
+    "title": "Determination of the Langelier Saturation Index of Pool Water",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Analytical",
+      "Inorganic",
+      "Environmental Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Langelier Saturation Index",
+      "pool water corrosivity",
+      "complexometric calcium titration",
+      "alkalinity titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "EDTA titration for calcium hardness",
+      "acid-base titration for total alkalinity",
+      "pH measurement and water balance correction"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 276,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1416
+  },
+  {
+    "id": "IChO-2013-P3",
+    "title": "Determination of Molecular Mass by Viscometry",
+    "nation": "International",
+    "olympiad": "IChO",
+    "year": 2013,
+    "subset": [
+      "Polymer Chemistry",
+      "Physical",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "viscometry",
+      "Mark-Kuhn-Houwink equation",
+      "intrinsic viscosity",
+      "poly(vinyl alcohol)"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Ostwald viscometer flow time measurement",
+      "serial dilution preparation",
+      "extrapolation of reduced viscosity to find intrinsic viscosity",
+      "polymer molecular weight calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "problem_page": 284,
+    "solution_pdf": "pdfs/icho/icho_2009-2013.pdf",
+    "solution_page": 1422
+  },
+  {
     "id": "IChO-2014-T1",
     "title": "Particles in a box: polyenes",
     "nation": "International",
