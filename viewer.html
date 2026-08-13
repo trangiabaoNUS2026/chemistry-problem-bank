@@ -57,8 +57,17 @@
         return;
       }
 
+      // Resolve the file path relative to THIS page's own location (the
+      // repo root, since viewer.html lives there) into a full absolute
+      // URL. PDF.js's own viewer lives two folders deeper (pdfjs/web/),
+      // so if we passed the relative path straight through unresolved,
+      // PDF.js would instead resolve it relative to ITS location and
+      // look in the wrong place (e.g. pdfjs/web/pdfs/... instead of
+      // pdfs/...). Passing an absolute URL sidesteps that entirely.
+      const absoluteFileUrl = new URL(file, window.location.href).href;
+
       const pdfjsUrl =
-        'pdfjs/web/viewer.html?file=' + encodeURIComponent(file) + hash;
+        'pdfjs/web/viewer.html?file=' + encodeURIComponent(absoluteFileUrl) + hash;
 
       const iframe = document.createElement('iframe');
       iframe.src = pdfjsUrl;
