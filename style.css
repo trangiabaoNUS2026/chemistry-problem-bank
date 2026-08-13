@@ -1,24 +1,24 @@
 /* ==========================================================================
    Chemistry Olympiad Catalog — stylesheet
-   Palette: lab-notebook paper + ink, teal interactive accent
-   Signature: subset badges styled as periodic-table tiles, color-coded
-   Type: Space Grotesk (headings), IBM Plex Mono (data), system sans (body)
+   Themes: Professional (crisp corporate/academic) & Neon Lab (cyberpunk terminal)
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
-:root {
-  --paper: #FAFAF8;
+/* ---- Theme Variables ------------------------------------------------ */
+
+:root, [data-theme="professional"] {
+  --paper: #F8FAFC;
   --paper-raised: #FFFFFF;
-  --ink: #1B1F23;
-  --ink-soft: #5B6470;
-  --ink-faint: #8B93A0;
-  --line: #E1DED4;
-  --line-strong: #C9C4B6;
-  --teal: #0F6B5C;
-  --teal-hover: #0B5347;
-  --teal-tint: #E3F0EC;
-  --danger: #A23B3B;
+  --ink: #0F172A;
+  --ink-soft: #475569;
+  --ink-faint: #94A3B8;
+  --line: #E2E8F0;
+  --line-strong: #CBD5E1;
+  --accent: #2563EB;
+  --accent-hover: #1D4ED8;
+  --accent-tint: #EFF6FF;
+  --danger: #DC2626;
 
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
@@ -26,9 +26,33 @@
 
   --radius: 8px;
   --radius-sm: 6px;
-  --shadow-pop: 0 20px 60px rgba(27, 31, 35, 0.18);
-  --shadow-card: 0 1px 2px rgba(27, 31, 35, 0.06);
-  --shadow-card-hover: 0 12px 28px rgba(27, 31, 35, 0.14);
+  --shadow-pop: 0 20px 60px rgba(15, 23, 42, 0.15);
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.08);
+  --shadow-card-hover: 0 12px 30px rgba(15, 23, 42, 0.12);
+
+  --header-bg: rgba(255, 255, 255, 0.85);
+  --filter-bg: rgba(248, 250, 252, 0.92);
+}
+
+[data-theme="cool"] {
+  --paper: #07090E;
+  --paper-raised: #101522;
+  --ink: #F3F4F6;
+  --ink-soft: #9CA3AF;
+  --ink-faint: #6B7280;
+  --line: #1F293D;
+  --line-strong: #334155;
+  --accent: #00F0FF;
+  --accent-hover: #38BDF8;
+  --accent-tint: rgba(0, 240, 255, 0.12);
+  --danger: #F43F5E;
+
+  --shadow-pop: 0 20px 50px rgba(0, 0, 0, 0.6), 0 0 20px rgba(0, 240, 255, 0.15);
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 12px 30px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 240, 255, 0.25);
+
+  --header-bg: rgba(16, 21, 34, 0.85);
+  --filter-bg: rgba(7, 9, 14, 0.92);
 }
 
 * { box-sizing: border-box; }
@@ -41,26 +65,22 @@ html, body {
   font-family: var(--font-body);
   font-size: 15px;
   line-height: 1.5;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* ---- Element-tile color system -----------------------------------------
-   Each subset gets a deterministic accent color from this curated set —
-   muted enough to sit comfortably in the lab-notebook palette, varied
-   enough to tell subsets apart at a glance. app.js hashes the subset
-   name to pick an index (--tile-0 .. --tile-9), applied via inline
-   custom property on each badge/card so the CSS stays static.
-   -------------------------------------------------------------------- */
+/* ---- Subset Tile Color Palette --------------------------------------- */
+
 :root {
-  --tile-0: #B8702B; /* rust amber   */
-  --tile-1: #2E6F8E; /* slate blue   */
-  --tile-2: #6B5B95; /* plum         */
-  --tile-3: #3E7D5A; /* forest green */
-  --tile-4: #A8425A; /* rose         */
-  --tile-5: #0F6B5C; /* teal         */
-  --tile-6: #8A6D1F; /* olive gold   */
-  --tile-7: #5B5FA6; /* indigo       */
-  --tile-8: #C0562E; /* clay orange  */
-  --tile-9: #457A8C; /* steel cyan   */
+  --tile-0: #D97706;
+  --tile-1: #0284C7;
+  --tile-2: #7C3AED;
+  --tile-3: #059669;
+  --tile-4: #E11D48;
+  --tile-5: #0D9488;
+  --tile-6: #CA8A04;
+  --tile-7: #4F46E5;
+  --tile-8: #EA580C;
+  --tile-9: #0891B2;
 }
 
 /* ---- Header --------------------------------------------------------- */
@@ -71,7 +91,7 @@ html, body {
   z-index: 30;
   padding: 1.1rem 1.5rem;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.82);
+  background: var(--header-bg);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -90,7 +110,7 @@ html, body {
   font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--teal);
+  color: var(--accent);
   margin-bottom: 0.2rem;
 }
 
@@ -102,9 +122,16 @@ html, body {
   letter-spacing: -0.01em;
 }
 
-/* ---- View toggle --------------------------------------------------- */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
 
-.view-toggle {
+/* ---- Toggles (Theme & View) ---------------------------------------- */
+
+.theme-toggle, .view-toggle {
   display: inline-flex;
   background: var(--paper);
   border: 1px solid var(--line-strong);
@@ -113,7 +140,7 @@ html, body {
   gap: 2px;
 }
 
-.view-toggle-btn {
+.theme-toggle-btn, .view-toggle-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -131,24 +158,24 @@ html, body {
 
 .view-toggle-btn svg { flex-shrink: 0; }
 
-.view-toggle-btn:hover { color: var(--ink); }
+.theme-toggle-btn:hover, .view-toggle-btn:hover { color: var(--ink); }
 
-.view-toggle-btn.is-active {
+.theme-toggle-btn.is-active, .view-toggle-btn.is-active {
   background: var(--ink);
   color: var(--paper-raised);
 }
 
-/* ---- Filter bar ------------------------------------------------------ */
+/* ---- Filter bar ------------------------------------------------      */
 
 .filter-bar {
   position: sticky;
-  top: 61px; /* sits directly beneath the header */
+  top: 61px;
   z-index: 25;
   display: flex;
   flex-wrap: wrap;
   gap: 0.9rem;
   padding: 0.9rem 1.5rem;
-  background: rgba(250, 250, 248, 0.92);
+  background: var(--filter-bg);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
@@ -190,11 +217,11 @@ html, body {
 .filter-group input[type="text"]:focus,
 .filter-group select:focus,
 button:focus-visible {
-  outline: 2px solid var(--teal);
+  outline: 2px solid var(--accent);
   outline-offset: 1px;
 }
 
-/* multi-select checkbox popover (Subset / Theme / Skills / Target Molecule) */
+/* Multi-select checkbox popover */
 .multi-select {
   position: relative;
 }
@@ -247,16 +274,16 @@ button:focus-visible {
 }
 
 .multi-select-panel label:hover {
-  background: var(--teal-tint);
+  background: var(--accent-tint);
 }
 
 .clear-filters-btn {
   font-family: var(--font-body);
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--teal);
+  color: var(--accent);
   background: none;
-  border: 1px solid var(--teal);
+  border: 1px solid var(--accent);
   border-radius: var(--radius-sm);
   padding: 0.45rem 0.8rem;
   cursor: pointer;
@@ -264,7 +291,7 @@ button:focus-visible {
   transition: background 0.15s ease;
 }
 
-.clear-filters-btn:hover { background: var(--teal-tint); }
+.clear-filters-btn:hover { background: var(--accent-tint); }
 
 .results-count {
   font-family: var(--font-mono);
@@ -273,28 +300,19 @@ button:focus-visible {
   margin: 1rem 1.5rem 0;
 }
 
-/* ---- Element-tile subset badge (signature element) ---------------------
-   Styled after a periodic-table cell: a small colored square with a
-   short symbol, used wherever a subset is shown (table chips and board
-   cards alike). Color and symbol are set inline per-instance from
-   app.js via --tile-color and the text content.
-   -------------------------------------------------------------------- */
+/* ---- Subset Badge (Pill Tag format without 2-letter abstraction) ----- */
 
-.el-tile {
+.subset-tag {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  min-width: 1.6rem;
-  height: 1.6rem;
-  padding: 0 0.35rem;
-  border-radius: 5px;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
   font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  color: var(--tile-color, var(--teal));
-  background: color-mix(in srgb, var(--tile-color, var(--teal)) 12%, white);
-  border: 1px solid color-mix(in srgb, var(--tile-color, var(--teal)) 35%, white);
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--tile-color, var(--accent));
+  background: color-mix(in srgb, var(--tile-color, var(--accent)) 15%, var(--paper-raised));
+  border: 1px solid color-mix(in srgb, var(--tile-color, var(--accent)) 35%, var(--line));
   white-space: nowrap;
 }
 
@@ -314,6 +332,7 @@ table.problems-table {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   overflow: hidden;
+  box-shadow: var(--shadow-card);
 }
 
 .problems-table thead th {
@@ -331,7 +350,7 @@ table.problems-table {
 .problems-table tbody td {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--line);
-  vertical-align: top;
+  vertical-align: middle;
   font-size: 0.86rem;
 }
 
@@ -339,10 +358,11 @@ table.problems-table {
   transition: background 0.1s ease;
 }
 
-.problems-table tbody tr:hover { background: var(--teal-tint); }
+.problems-table tbody tr:hover { background: var(--accent-tint); }
 
 .cell-id { font-family: var(--font-mono); color: var(--ink-soft); white-space: nowrap; }
 .cell-year { font-family: var(--font-mono); }
+.cell-theme { font-family: var(--font-mono); font-size: 0.78rem; color: var(--ink-soft); }
 
 .actions-cell { display: flex; gap: 0.4rem; }
 
@@ -352,15 +372,17 @@ table.problems-table {
   font-weight: 600;
   padding: 0.35rem 0.65rem;
   border-radius: var(--radius-sm);
-  border: 1px solid var(--teal);
-  background: var(--teal);
-  color: var(--paper-raised);
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--paper);
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.15s ease, transform 0.08s ease;
 }
 
-.btn:hover { background: var(--teal-hover); border-color: var(--teal-hover); }
+[data-theme="cool"] .btn { color: #07090E; font-weight: 700; }
+
+.btn:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
 .btn:active { transform: scale(0.97); }
 
 .btn.btn-disabled {
@@ -404,7 +426,6 @@ table.problems-table {
   overflow: hidden;
 }
 
-/* Accent spine along the left edge, keyed to the card's primary subset */
 .problem-card::before {
   content: "";
   position: absolute;
@@ -412,7 +433,7 @@ table.problems-table {
   top: 0;
   bottom: 0;
   width: 4px;
-  background: var(--tile-color, var(--teal));
+  background: var(--tile-color, var(--accent));
 }
 
 .problem-card:hover {
