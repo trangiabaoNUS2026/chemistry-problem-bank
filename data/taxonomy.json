@@ -1,0 +1,13 @@
+{
+  "olympiads": ["IChO", "USNCO"],
+  "subsets": [
+    "Organic", "Inorganic", "Physical", "Analytical", "Biochemistry",
+    "Quantum Chemistry", "Thermodynamics", "Kinetics", "Electrochemistry",
+    "Spectroscopy", "Equilibrium", "Acid-Base Chemistry",
+    "Nuclear Chemistry", "Polymer Chemistry", "Environmental Chemistry"
+  ],
+  "types": [
+    "Multiple choice", "Multi-step synthesis", "Calculation",
+    "Mechanism", "Data analysis"
+  ]
+}
