@@ -10,9 +10,9 @@
     "theme": ["Diterpenoids", "Total synthesis", "Natural products", "Robinson annulation", "Electrocyclization"],
     "target_molecules": ["Abietane diterpenoids", "Salvia multicaulis"],
     "skills": ["Draw organic structures from reaction schemes", "Predict products of multi-step synthesis", "Identify tautomeric forms", "Analyze reaction mechanisms", "Evaluate reagent choices"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 16,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 22
   },
   {
@@ -26,9 +26,9 @@
     "theme": ["Sesquiterpenes", "Diels-Alder", "Danishefsky's diene", "Natural products", "Stereochemistry"],
     "target_molecules": ["Istanbulins", "Vernolepin", "Vernomenin"],
     "skills": ["Draw resonance structures", "Predict Diels-Alder products", "Determine major product in synthesis", "Apply reaction mechanisms", "Draw structures in multi-step sequences"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 24,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 28
   },
   {
@@ -42,9 +42,9 @@
     "theme": ["Bergamotene", "Sesquiterpenes", "Tea aroma", "Synthesis"],
     "target_molecules": ["α-trans-Bergamotene"],
     "skills": ["Draw organic structures from reaction schemes", "Explain role of Me3NO in synthesis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 31,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 33
   },
   {
@@ -58,9 +58,9 @@
     "theme": ["Markovnikov's rule", "Wagner-Meerwein rearrangement", "Zaitsev's rule", "Reaction mechanisms", "Carbocation rearrangements"],
     "target_molecules": [],
     "skills": ["Apply Markovnikov's rule", "Draw major products of addition reactions", "Propose Wagner-Meerwein mechanisms", "Apply Zaitsev's rule for elimination", "Interpret NMR spectra", "Predict base effects in eliminations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 34,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 38
   },
   {
@@ -74,9 +74,9 @@
     "theme": ["Arndt-Eistert homologation", "Wolff rearrangement", "Indolizidine alkaloids", "Total synthesis"],
     "target_molecules": ["Indolizidine 167B", "Coniceine"],
     "skills": ["Draw structures in multi-step synthesis", "Apply Arndt-Eistert homologation", "Identify Wolff rearrangement products", "Draw ketocarbene and ketene intermediates"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 41,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 44
   },
   {
@@ -90,9 +90,9 @@
     "theme": ["Atovaquone", "Drug synthesis", "Friedel-Crafts acylation", "Haloform reaction", "Carbocation rearrangements"],
     "target_molecules": ["Atovaquone"],
     "skills": ["Draw organic structures from reaction schemes", "Interpret spectroscopic data", "Analyze carbocation rearrangements", "Determine chirality of intermediates", "Evaluate stereoisomer relationships"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 46,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 50
   },
   {
@@ -106,9 +106,9 @@
     "theme": ["Trikentrin A", "Indole synthesis", "Bartoli reaction", "Hydrovinylation", "Aryne intermediates"],
     "target_molecules": ["Trikentrin A"],
     "skills": ["Draw structures in multi-step synthesis", "Apply Bartoli indole synthesis", "Draw aryne intermediates", "Analyze stereoselectivity", "Interpret NMR data", "Evaluate ligand effects in catalysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 52,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 56
   },
   {
@@ -122,9 +122,9 @@
     "theme": ["Stereochemistry", "Stereoisomers", "Meso compounds", "Enantiomers", "Chirality"],
     "target_molecules": ["1,2,3-Triphenylpropane-1,3-diol"],
     "skills": ["Draw all stereoisomers", "Identify achiral compounds", "Identify chiral compounds", "Distinguish enantiomers from diastereomers", "Determine which properties distinguish stereoisomers"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 59,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 60
   },
   {
@@ -138,9 +138,9 @@
     "theme": ["NMR spectroscopy", "Symmetry", "Dynamic NMR", "Tautomerism", "Epoxidation stereochemistry"],
     "target_molecules": ["Naphthalene tetrabromides", "Bullvalene", "Tropolone derivatives"],
     "skills": ["Predict NMR signals from symmetry", "Draw structures consistent with NMR data", "Apply dynamic NMR concepts", "Interpret tautomerism effects on spectra", "Draw stereoisomers of epoxidation products"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 62,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 65
   },
   {
@@ -154,9 +154,9 @@
     "theme": ["Woodward-Hoffmann rules", "Pericyclic reactions", "Electrocyclization", "Diels-Alder", "retro-Diels-Alder", "Aryne intermediates"],
     "target_molecules": [],
     "skills": ["Apply Woodward-Hoffmann rules", "Classify pericyclic processes", "Determine thermal vs photochemical pathways", "Predict products of electrocyclization", "Apply retro-Diels-Alder", "Analyze nucleophilic aromatic substitution mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 68,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 72
   },
   {
@@ -170,9 +170,9 @@
     "theme": ["Benzoporphyrin", "Porphyrin synthesis", "Diels-Alder", "Ammonia sensor", "Spectrophotometry", "Calibration curve"],
     "target_molecules": ["Benzoporphyrin"],
     "skills": ["Draw organic structures from reaction schemes", "Determine oxidation states", "Apply retro-Diels-Alder", "Prepare calibration curve", "Calculate concentration from sensor response"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 75,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 79
   },
   {
@@ -186,9 +186,9 @@
     "theme": ["Phosphorus allotropes", "Phosphorus compounds", "VSEPR", "Hybridization", "Crystal field theory", "Organophosphorus compounds", "NMR spectroscopy", "IR spectroscopy"],
     "target_molecules": ["P4", "PCl5", "PF2Cl3", "Triphenylphosphine"],
     "skills": ["Identify phosphorus allotropes", "Draw molecular structures", "Apply VSEPR theory", "Draw hybridization schemes", "Calculate enthalpy from bond energies", "Identify organometallic isomers", "Apply π-acceptor concepts"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 81,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 87
   },
   {
@@ -202,9 +202,9 @@
     "theme": ["Spinel structures", "Crystal field theory", "Coordination chemistry", "Magnetic susceptibility", "Unit cell calculations"],
     "target_molecules": ["Spinel oxides", "ZnO", "Co3O4"],
     "skills": ["Calculate formulas from mass data", "Draw coordination complexes", "Identify normal vs inverse spinels", "Calculate density from unit cell", "Apply crystal field theory", "Calculate magnetic moment", "Draw d-orbital splitting diagrams"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 90,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 94
   },
   {
@@ -218,9 +218,9 @@
     "theme": ["Cisplatin", "Trans effect", "Crystal field theory", "Coordination chemistry", "Anticancer drugs", "Stereoisomers"],
     "target_molecules": ["Cisplatin", "Transplatin", "Carboplatin", "Oxaliplatin", "Satraplatin"],
     "skills": ["Draw molecular structures of complexes", "Apply trans effect", "Apply crystal field theory", "Determine magnetic nature", "Draw d-orbital splitting diagrams", "Calculate density from crystallographic data", "Identify stereoisomers"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 98,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 102
   },
   {
@@ -234,9 +234,9 @@
     "theme": ["Sodium compounds", "Solvay process", "Crystal structure", "Lewis structures", "VSEPR", "Alkali metal oxides", "Charge density"],
     "target_molecules": ["NaCl", "Na2CO3", "NaHCO3"],
     "skills": ["Write formulas of products", "Balance chemical equations", "Draw Lewis structures", "Apply VSEPR theory", "Calculate unit cell parameters", "Calculate charge density", "Draw MO diagrams for peroxide and superoxide"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 105,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 108
   },
   {
@@ -250,9 +250,9 @@
     "theme": ["Sulfur compounds", "Sulfur oxoacids", "VSEPR", "Oxidation states", "Iodometric titration", "Coordination chemistry"],
     "target_molecules": ["S8", "SO2", "SO3", "H2SO4", "H2SO3", "H2S2O7", "S2Cl2", "SCl2", "SOCl2"],
     "skills": ["Draw molecular shapes", "Write balanced equations", "Determine oxidation states", "Apply VSEPR theory", "Draw coordination complexes", "Perform iodometric titration calculations", "Calculate concentrations in ppm"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 112,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 116
   },
   {
@@ -266,9 +266,9 @@
     "theme": ["Cyclic voltammetry", "Rutin", "Electrochemical mechanism", "Calibration curve", "Limit of detection", "Vitamin P"],
     "target_molecules": ["Rutin"],
     "skills": ["Understand three-electrode systems", "Interpret cyclic voltammetry data", "Apply Nernst equation", "Determine electron transfer number", "Propose electrochemical mechanisms", "Draw calibration curves", "Calculate concentration from calibration", "Calculate limit of detection"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 119,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 123
   },
   {
@@ -282,9 +282,9 @@
     "theme": ["Particle in a box", "Free electron model", "Conjugated molecules", "Graphene", "Band gap", "Energy levels", "Degeneracy"],
     "target_molecules": ["1,3,5,7-Octatetraene", "Graphene"],
     "skills": ["Draw energy diagrams", "Fill electrons to energy levels", "Calculate orbital energies", "Calculate total π energy", "Determine wavelength of HOMO-LUMO transition", "Calculate number of electrons in 2D system", "Calculate HOMO and LUMO energies", "Determine band gap"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 127,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 129
   },
   {
@@ -298,9 +298,9 @@
     "theme": ["Harmonic oscillator", "Rigid rotor", "Vibrational frequencies", "Rotational spectroscopy", "Isotope effects", "Zero-point vibrational energy"],
     "target_molecules": ["CO", "H2O"],
     "skills": ["Calculate vibrational frequency from force constant", "Calculate zero-point vibrational energy", "Apply isotope effects to frequencies", "Calculate bond length from rotational spectrum", "Calculate rotational transition frequencies", "Calculate energy levels for polyatomic molecules"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 132,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 134
   },
   {
@@ -314,9 +314,9 @@
     "theme": ["Chemical equilibrium", "Thermodynamics", "Hess's law", "Degree of dissociation", "Le Chatelier's principle", "Phase transitions", "Entropy"],
     "target_molecules": [],
     "skills": ["Calculate enthalpy change using Hess's law", "Calculate Gibbs free energy", "Calculate equilibrium constants", "Apply van't Hoff equation", "Calculate degree of dissociation", "Apply Le Chatelier's principle", "Calculate entropy changes for phase transitions", "Calculate entropy of surroundings"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 137,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 139
   },
   {
@@ -330,9 +330,9 @@
     "theme": ["Transition state theory", "Arrhenius equation", "Kinetic isotope effect", "Activation energy", "Zero-point vibrational energy", "Deuterium labeling"],
     "target_molecules": [],
     "skills": ["Calculate activation energy from rate constants", "Apply transition state theory", "Calculate activation free energy", "Derive relationship between TST and Arrhenius parameters", "Calculate KIE from zero-point energies", "Apply KIE at different temperatures"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 141,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 144
   },
   {
@@ -346,9 +346,9 @@
     "theme": ["Parallel reactions", "Competing reactions", "First-order kinetics", "Effective rate constant", "Activation energy", "Consecutive reactions"],
     "target_molecules": [],
     "skills": ["Derive concentration equations for parallel reactions", "Calculate effective rate constant", "Calculate effective activation energy", "Calculate half-life", "Determine temperature for equimolar products", "Draw concentration-time curves", "Solve parallel-consecutive kinetics problems"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 146,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 148
   },
   {
@@ -362,9 +362,9 @@
     "theme": ["Beer-Lambert law", "Reaction kinetics", "First-order kinetics", "Absorbance", "Second-order kinetics", "Polymerization kinetics"],
     "target_molecules": [],
     "skills": ["Calculate molar absorptivities from absorbance data", "Determine rate constant from absorbance-time data", "Calculate half-life", "Apply Arrhenius equation", "Calculate activation free energy from TST", "Analyze second-order polymerization kinetics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 151,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 153
   },
   {
@@ -378,9 +378,9 @@
     "theme": ["Acridine orange", "DNA binding", "Fluorescence spectroscopy", "Equilibrium constant", "Dimerization", "Relaxation kinetics"],
     "target_molecules": ["Acridine orange", "DNA"],
     "skills": ["Apply mass balance equations", "Derive fluorescence-based equilibrium expressions", "Calculate equilibrium constants from titration data", "Calculate thermodynamic parameters from K", "Analyze dimerization kinetics", "Interpret absorbance spectra for aggregation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 156,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 160
   },
   {
@@ -394,9 +394,9 @@
     "theme": ["Benesi-Hildebrand equation", "Complex formation", "Spectrophotometry", "Equilibrium constant", "Molar absorptivity", "Activation energy", "Transition state theory"],
     "target_molecules": [],
     "skills": ["Apply Benesi-Hildebrand equation", "Calculate equilibrium constant from plot", "Calculate molar absorptivity", "Calculate fraction of complex formed", "Calculate thermodynamic parameters", "Apply Arrhenius equation", "Calculate activation enthalpy and entropy from TST"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 163,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 165
   },
   {
@@ -410,9 +410,9 @@
     "theme": ["Hydrogel", "Drug delivery", "Paracetamol", "Calibration curve", "Cumulative release", "Controlled release"],
     "target_molecules": ["Paracetamol"],
     "skills": ["Prepare standard solutions", "Measure absorbance", "Construct calibration curve", "Perform release experiment", "Calculate cumulative drug release", "Determine release kinetics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 172,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 177
   },
   {
@@ -426,9 +426,9 @@
     "theme": ["Back titration", "Carbon analysis", "Oxidation", "Dichromate titration", "Iron(II) sulfate"],
     "target_molecules": [],
     "skills": ["Perform back titration", "Write balanced equations", "Calculate carbon content from titration data", "Apply stoichiometry", "Calculate mean and standard deviation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 180,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 184
   },
   {
@@ -442,9 +442,9 @@
     "theme": ["Iodine-pyridine complex", "Scatchard plot", "Equilibrium constant", "Spectrophotometry", "Isosbestic point", "Beer-Lambert law"],
     "target_molecules": ["Iodine", "Pyridine"],
     "skills": ["Prepare solutions", "Measure absorbance spectra", "Apply Scatchard equation", "Determine equilibrium constant from plot", "Calculate molar absorptivity differences", "Identify isosbestic point"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 186,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 190
   },
   {
@@ -458,9 +458,9 @@
     "theme": ["Nucleophilic substitution", "SN2 reaction", "1-Bromobutane synthesis", "Extraction", "Distillation"],
     "target_molecules": ["1-Bromobutane"],
     "skills": ["Perform organic synthesis", "Set up reflux apparatus", "Perform extraction", "Use separatory funnel", "Analyze reaction mechanism", "Interpret NMR spectra"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 192,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 196
   },
   {
@@ -474,9 +474,9 @@
     "theme": ["Cannizzaro reaction", "Disproportionation", "p-Chlorobenzaldehyde", "Extraction", "Recrystallization", "TLC"],
     "target_molecules": ["p-Chlorobenzoic acid", "p-Chlorobenzyl alcohol"],
     "skills": ["Perform Cannizzaro reaction", "Perform extraction", "Perform vacuum filtration", "Perform recrystallization", "Analyze by TLC", "Interpret reaction mechanism"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 197,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 202
   },
   {
@@ -490,9 +490,9 @@
     "theme": ["Imine formation", "Schiff base", "Benzil", "Ethylenediamine", "Cyclization", "Aromaticity"],
     "target_molecules": ["2,3-Dihydro-5,6-diphenylpyrazine"],
     "skills": ["Perform organic synthesis", "Set up reflux", "Perform recrystallization", "Analyze by TLC", "Determine melting point", "Predict hybridization", "Evaluate aromaticity"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 206,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 209
   },
   {
@@ -506,9 +506,9 @@
     "theme": ["Alkaline hydrolysis", "Second-order kinetics", "Rate constant", "Titration", "Half-life"],
     "target_molecules": ["n-Butyl acetate", "Sodium hydroxide"],
     "skills": ["Perform kinetic experiment", "Perform titration", "Calculate concentrations from titration data", "Plot 1/[OH-] vs time", "Calculate rate constant", "Calculate reaction rate", "Calculate half-life"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 211,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 214
   },
   {
@@ -522,11 +522,11 @@
     "theme": ["Activation energy", "Arrhenius equation", "Bromide-bromate reaction", "Kinetics", "Temperature dependence"],
     "target_molecules": ["KBr", "KBrO3"],
     "skills": ["Perform kinetic experiment at different temperatures", "Measure reaction time", "Calculate final concentrations", "Apply Arrhenius equation", "Plot ln t vs 1/T", "Calculate activation energy from slope"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "problem_page": 216,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2020/IChO 2020 Preperatory Problems & Solutions.pdf",
     "solution_page": 219
-  }
+  },
   {
     "id": "IChO_Prep-2021-T1",
     "title": "Revision of SI Unit",
