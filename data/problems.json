@@ -1,6 +1,6 @@
 [
   {
-    "id": "IChO-2025-Prep-T1",
+    "id": "IChO_Prep-2025-T1",
     "title": "Stereocamelstry",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -27,7 +27,7 @@
     "solution_page": 2
   },
   {
-    "id": "IChO-2025-Prep-T2",
+    "id": "IChO_Prep-2025-T2",
     "title": "Mirror, Mirror Plane on the Wall: HCH Isomers",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -57,7 +57,7 @@
     "solution_page": 8
   },
   {
-    "id": "IChO-2025-Prep-T3",
+    "id": "IChO_Prep-2025-T3",
     "title": "Urushiols",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -88,7 +88,7 @@
     "solution_page": 17
   },
   {
-    "id": "IChO-2025-Prep-T4",
+    "id": "IChO_Prep-2025-T4",
     "title": "Cedrene",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -118,7 +118,7 @@
     "solution_page": 18
   },
   {
-    "id": "IChO-2025-Prep-T5",
+    "id": "IChO_Prep-2025-T5",
     "title": "Stereochemical Models",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -145,7 +145,7 @@
     "solution_page": 19
   },
   {
-    "id": "IChO-2025-Prep-T6",
+    "id": "IChO_Prep-2025-T6",
     "title": "Stereocontrol in the Synthesis of FR66979",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -174,7 +174,7 @@
     "solution_page": 23
   },
   {
-    "id": "IChO-2025-Prep-T7",
+    "id": "IChO_Prep-2025-T7",
     "title": "Coenzyme A and Anaplerotic Reactions",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -202,7 +202,7 @@
     "solution_page": 25
   },
   {
-    "id": "IChO-2025-Prep-T8",
+    "id": "IChO_Prep-2025-T8",
     "title": "Why Smoking is Deadly",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -232,7 +232,7 @@
     "solution_page": 28
   },
   {
-    "id": "IChO-2025-Prep-T9",
+    "id": "IChO_Prep-2025-T9",
     "title": "Determining the Stereochemistry of Enzymatic Reactions",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -260,7 +260,7 @@
     "solution_page": 31
   },
   {
-    "id": "IChO-2025-Prep-T10",
+    "id": "IChO_Prep-2025-T10",
     "title": "Synthesis and Derivatisation of Natural Products",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -289,7 +289,7 @@
     "solution_page": 33
   },
   {
-    "id": "IChO-2025-Prep-T11",
+    "id": "IChO_Prep-2025-T11",
     "title": "A Saga About Imines",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -318,7 +318,7 @@
     "solution_page": 36
   },
   {
-    "id": "IChO-2025-Prep-T12",
+    "id": "IChO_Prep-2025-T12",
     "title": "Imine’s Guide to the Biochemical Galaxy",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -346,7 +346,7 @@
     "solution_page": 42
   },
   {
-    "id": "IChO-2025-Prep-T13",
+    "id": "IChO_Prep-2025-T13",
     "title": "Schiff Bases, the Universe, and Biochemistry",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -375,7 +375,7 @@
     "solution_page": 46
   },
   {
-    "id": "IChO-2025-Prep-T14",
+    "id": "IChO_Prep-2025-T14",
     "title": "UAE's Driving Force",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -404,7 +404,7 @@
     "solution_page": 55
   },
   {
-    "id": "IChO-2025-Prep-T15",
+    "id": "IChO_Prep-2025-T15",
     "title": "In Search of an Oasis in the Desert",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -433,7 +433,7 @@
     "solution_page": 57
   },
   {
-    "id": "IChO-2025-Prep-T16",
+    "id": "IChO_Prep-2025-T16",
     "title": "Fullerenes and Polyhedra",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -461,7 +461,7 @@
     "solution_page": 62
   },
   {
-    "id": "IChO-2025-Prep-T17",
+    "id": "IChO_Prep-2025-T17",
     "title": "Photocatalysis",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -489,7 +489,7 @@
     "solution_page": 66
   },
   {
-    "id": "IChO-2025-Prep-T18",
+    "id": "IChO_Prep-2025-T18",
     "title": "Semiconductors",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -517,7 +517,7 @@
     "solution_page": 68
   },
   {
-    "id": "IChO-2025-Prep-T19",
+    "id": "IChO_Prep-2025-T19",
     "title": "Reverse Combustion",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -546,7 +546,7 @@
     "solution_page": 71
   },
   {
-    "id": "IChO-2025-Prep-T20",
+    "id": "IChO_Prep-2025-T20",
     "title": "New Drug Formulation",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -574,7 +574,7 @@
     "solution_page": 75
   },
   {
-    "id": "IChO-2025-Prep-T21",
+    "id": "IChO_Prep-2025-T21",
     "title": "Cloud Seeding",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -603,7 +603,7 @@
     "solution_page": 78
   },
   {
-    "id": "IChO-2025-Prep-T22",
+    "id": "IChO_Prep-2025-T22",
     "title": "Kinetics of Oxygen Diffusion",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -632,7 +632,7 @@
     "solution_page": 80
   },
   {
-    "id": "IChO-2025-Prep-T23",
+    "id": "IChO_Prep-2025-T23",
     "title": "Molecular Orbitals of Diatomics",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -660,7 +660,7 @@
     "solution_page": 83
   },
   {
-    "id": "IChO-2025-Prep-T24",
+    "id": "IChO_Prep-2025-T24",
     "title": "Coordination Chemistry of Dihydrogen",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -688,7 +688,7 @@
     "solution_page": 85
   },
   {
-    "id": "IChO-2025-Prep-T25",
+    "id": "IChO_Prep-2025-T25",
     "title": "Adsorption and Heterogeneous Catalysis",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -716,7 +716,7 @@
     "solution_page": 87
   },
   {
-    "id": "IChO-2025-Prep-T26",
+    "id": "IChO_Prep-2025-T26",
     "title": "Nitrogen Chemistry",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -744,7 +744,7 @@
     "solution_page": 88
   },
   {
-    "id": "IChO-2025-Prep-T27",
+    "id": "IChO_Prep-2025-T27",
     "title": "Hot Desert of Unknown Unknowns",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -773,7 +773,7 @@
     "solution_page": 91
   },
   {
-    "id": "IChO-2025-Prep-T28",
+    "id": "IChO_Prep-2025-T28",
     "title": "Analytical Chemistry of the Chalcogens",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -802,7 +802,7 @@
     "solution_page": 94
   },
   {
-    "id": "IChO-2025-Prep-T29",
+    "id": "IChO_Prep-2025-T29",
     "title": "Vibrational Modes",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -830,7 +830,7 @@
     "solution_page": 98
   },
   {
-    "id": "IChO-2025-Prep-T30",
+    "id": "IChO_Prep-2025-T30",
     "title": "Applications of IR Spectroscopy to Coordination Chemistry",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -858,7 +858,7 @@
     "solution_page": 99
   },
   {
-    "id": "IChO-2025-Prep-P1",
+    "id": "IChO_Prep-2025-P1",
     "title": "Qualitative Analysis of Organic Compounds",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -867,7 +867,7 @@
       "Organic",
       "Analytical"
     ],
-    "type": "Data analysis",
+    "type": "Practical",
     "theme": [
       "Functional group tests",
       "Cu(OH)2 reactions",
@@ -886,7 +886,7 @@
     "solution_page": 103
   },
   {
-    "id": "IChO-2025-Prep-P2",
+    "id": "IChO_Prep-2025-P2",
     "title": "Sørensen Formol Titration",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -896,7 +896,7 @@
       "Biochemistry",
       "Acid-Base Chemistry"
     ],
-    "type": "Calculation",
+    "type": "Practical",
     "theme": [
       "Amino acid quantification",
       "Formaldehyde reaction",
@@ -914,7 +914,7 @@
     "solution_page": 110
   },
   {
-    "id": "IChO-2025-Prep-P3",
+    "id": "IChO_Prep-2025-P3",
     "title": "Determination of Cysteine Oxidation Degree",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -923,7 +923,7 @@
       "Analytical",
       "Biochemistry"
     ],
-    "type": "Calculation",
+    "type": "Practical",
     "theme": [
       "Volhard titration",
       "Fajans titration",
@@ -942,7 +942,7 @@
     "solution_page": 111
   },
   {
-    "id": "IChO-2025-Prep-P4",
+    "id": "IChO_Prep-2025-P4",
     "title": "Synthesis of a Paramagnetic Cobalt Acetylacetonate Complex",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -952,7 +952,7 @@
       "Physical",
       "Spectroscopy"
     ],
-    "type": "Multi-step synthesis",
+    "type": "Practical",
     "theme": [
       "Coordination complexes",
       "Magnetic susceptibility",
@@ -974,7 +974,7 @@
     "solution_page": 113
   },
   {
-    "id": "IChO-2025-Prep-P5",
+    "id": "IChO_Prep-2025-P5",
     "title": "Never Late with Thiosulfate",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -983,7 +983,7 @@
       "Physical",
       "Kinetics"
     ],
-    "type": "Calculation",
+    "type": "Practical",
     "theme": [
       "Iodine clock reaction",
       "Reaction order",
@@ -1001,7 +1001,7 @@
     "solution_page": 117
   },
   {
-    "id": "IChO-2025-Prep-P6",
+    "id": "IChO_Prep-2025-P6",
     "title": "To Condense or Not to Condense?",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -1009,7 +1009,7 @@
     "subset": [
       "Organic"
     ],
-    "type": "Multi-step synthesis",
+    "type": "Practical",
     "theme": [
       "Aldol condensation",
       "TLC analysis",
@@ -1030,7 +1030,7 @@
     "solution_page": 118
   },
   {
-    "id": "IChO-2025-Prep-P7",
+    "id": "IChO_Prep-2025-P7",
     "title": "Breakfast of Carbonyls",
     "nation": "UAE",
     "olympiad": "IChO",
@@ -1039,7 +1039,7 @@
       "Organic",
       "Analytical"
     ],
-    "type": "Data analysis",
+    "type": "Practical",
     "theme": [
       "Carbonyl identification",
       "DNPH test",
