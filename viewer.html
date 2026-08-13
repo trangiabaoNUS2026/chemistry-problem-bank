@@ -78,6 +78,33 @@
           'Make sure the PDF.js distribution has been placed at ' +
           '<code>pdfjs/web/viewer.html</code>.</div>';
       };
+
+      // PDF.js computes its "Automatic Zoom" sizing once, early, based on
+      // its container's height at that moment. Nested inside two layers
+      // of iframes, that first computation can land before layout has
+      // fully settled to the modal's real final size — and nothing
+      // automatically tells PDF.js to redo it afterwards. So once this
+      // nested viewer finishes loading, explicitly fire a resize event
+      // into ITS window to force a recalculation against the real size.
+      // A couple of delayed retries cover cases where PDF.js's own async
+      // page-render finishes slightly after the load event fires.
+      function nudgeResize() {
+        try {
+          iframe.contentWindow.dispatchEvent(new Event('resize'));
+        } catch (e) {
+          // Cross-origin or not-yet-ready — safe to ignore, later
+          // retries below will usually catch it.
+        }
+      }
+
+      iframe.addEventListener('load', function () {
+        requestAnimationFrame(function () {
+          requestAnimationFrame(nudgeResize);
+        });
+        setTimeout(nudgeResize, 300);
+        setTimeout(nudgeResize, 800);
+      });
+
       target.innerHTML = '';
       target.appendChild(iframe);
     })();
