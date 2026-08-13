@@ -9622,23 +9622,6 @@
     "solution_page": 70
   },
   {
-    "id": "IChO_Prep-2024-P1",
-    "title": "Two Acids",
-    "nation": "Saudi Arabia",
-    "olympiad": "IChO",
-    "year": 2024,
-    "subset": ["Physical", "Equilibrium", "Acid-Base Chemistry", "Analytical", "Organic"],
-    "type": "Calculation",
-    "theme": ["Diprotic acid", "pH titration", "Acid dissociation constant", "Indicator selection"],
-    "target_molecules": ["Phthalic acid", "Tartaric acid"],
-    "skills": ["Calculate molar mass from titration data", "Determine Ka from pH graph", "Calculate pH at equivalence points", "Select acid-base indicator", "Calculate species distribution", "Draw organic structures"],
-    "problem_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
-    "problem_page": 12,
-    "solution_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
-    "solution_page": 15
-  },
-
-  {
     "id": "IChO_Prep-2022-T1",
     "title": "The Past and Present of Bronze Ware",
     "nation": "China",
@@ -10858,6 +10841,22 @@
     "problem_page": 64,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
     "solution_page": 66
+  },
+  {
+    "id": "IChO_Prep-2024-P1",
+    "title": "Two Acids",
+    "nation": "Saudi Arabia",
+    "olympiad": "IChO",
+    "year": 2024,
+    "subset": ["Physical", "Equilibrium", "Acid-Base Chemistry", "Analytical", "Organic"],
+    "type": "Calculation",
+    "theme": ["Diprotic acid", "pH titration", "Acid dissociation constant", "Indicator selection"],
+    "target_molecules": ["Phthalic acid", "Tartaric acid"],
+    "skills": ["Calculate molar mass from titration data", "Determine Ka from pH graph", "Calculate pH at equivalence points", "Select acid-base indicator", "Calculate species distribution", "Draw organic structures"],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
+    "solution_page": 15
   },
   {
     "id": "IChO_Prep-2024-P13",
