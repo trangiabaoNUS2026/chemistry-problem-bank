@@ -8,7 +8,22 @@
 </head>
 <body>
 <header class="app-header">
-  <h1>Chemistry Olympiad Problem Catalog</h1>
+  <div class="app-header-inner">
+    <div class="app-header-title">
+      <span class="app-eyebrow">Reference catalog</span>
+      <h1>Chemistry Olympiad Problem Catalog</h1>
+    </div>
+    <div class="view-toggle" id="view-toggle" role="group" aria-label="Switch view">
+      <button type="button" class="view-toggle-btn is-active" data-view="table" aria-pressed="true">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 2h14v2H1V2Zm0 4.5h14v2H1v-2ZM1 11h14v2H1v-2Z"/></svg>
+        Table
+      </button>
+      <button type="button" class="view-toggle-btn" data-view="board" aria-pressed="false">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 1h6v6H1V1Zm8 0h6v6H9V1ZM1 9h6v6H1V9Zm8 0h6v6H9V9Z"/></svg>
+        Board
+      </button>
+    </div>
+  </div>
 </header>
 <main>
   <section class="filter-bar" id="filter-bar">
@@ -76,24 +91,33 @@
       <button type="button" class="clear-filters-btn" id="clear-filters-btn">Clear all filters</button>
     </div>
   </section>
+
   <p class="results-count" id="results-count">0 results</p>
-  <div class="table-wrapper">
-    <table class="problems-table">
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Title</th>
-          <th>Nation</th>
-          <th>Olympiad</th>
-          <th>Year</th>
-          <th>Subset</th>
-          <th>Type</th>
-          <th>Actions</th>
-        </tr>
-      </thead>
-      <tbody id="problems-tbody"></tbody>
-    </table>
+
+  <div class="view-table" id="view-table">
+    <div class="table-wrapper">
+      <table class="problems-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Nation</th>
+            <th>Olympiad</th>
+            <th>Year</th>
+            <th>Subset</th>
+            <th>Type</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="problems-tbody"></tbody>
+      </table>
+    </div>
   </div>
+
+  <div class="view-board" id="view-board" hidden>
+    <div class="board-grid" id="board-grid"></div>
+  </div>
+
   <div class="empty-state" id="empty-state" hidden></div>
 </main>
 <script src="app.js"></script>

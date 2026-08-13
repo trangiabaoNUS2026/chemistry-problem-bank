@@ -1,9 +1,8 @@
 // ---------------------------------------------------------------------
 // Chemistry Olympiad Problem Catalog — app.js
 // Vanilla JS, no build step. Fetches data/problems.json + data/taxonomy.json,
-// renders a filterable table. "View Problem" / "View Solution" open the
-// PDF in a new tab via viewer.html (no modal — avoids all the nested-
-// iframe sizing issues that come with embedding PDF.js in a popup).
+// renders a filterable Table or Board (card) view. "View Problem" /
+// "View Solution" open the PDF in a new tab via viewer.html.
 // ---------------------------------------------------------------------
 
 (function () {
@@ -14,6 +13,7 @@
   // -----------------------------------------------------------------
   var allProblems = [];        // full dataset, unfiltered
   var taxonomy = { olympiads: [], subsets: [], types: [] };
+  var currentView = localStorage.getItem("catalog-view") || "table";
 
   // Multi-select field config: key -> Set of currently checked values
   var multiSelectState = {
@@ -28,9 +28,12 @@
   // -----------------------------------------------------------------
   var el = {
     tbody: document.getElementById("problems-tbody"),
+    boardGrid: document.getElementById("board-grid"),
     resultsCount: document.getElementById("results-count"),
     emptyState: document.getElementById("empty-state"),
-    tableWrapper: document.querySelector(".table-wrapper"),
+    viewTable: document.getElementById("view-table"),
+    viewBoard: document.getElementById("view-board"),
+    viewToggle: document.getElementById("view-toggle"),
     clearBtn: document.getElementById("clear-filters-btn"),
 
     filterId: document.getElementById("filter-id"),
@@ -49,6 +52,53 @@
   ];
 
   // -----------------------------------------------------------------
+  // Element-tile color/symbol system for subsets (the "periodic table
+  // tile" signature look). Deterministic: same subset name always
+  // hashes to the same color + symbol, no matter what order data
+  // loads in or how the taxonomy grows.
+  // -----------------------------------------------------------------
+  var TILE_COLOR_COUNT = 10; // matches --tile-0 .. --tile-9 in style.css
+
+  function hashString(str) {
+    var hash = 0;
+    for (var i = 0; i < str.length; i++) {
+      hash = (hash << 5) - hash + str.charCodeAt(i);
+      hash |= 0;
+    }
+    return Math.abs(hash);
+  }
+
+  function tileColorVar(subsetName) {
+    var index = hashString(subsetName) % TILE_COLOR_COUNT;
+    return "var(--tile-" + index + ")";
+  }
+
+  // Two-letter symbol, periodic-table style: first letter of first two
+  // significant words (e.g. "Acid-Base Chemistry" -> "AB", "Quantum
+  // Chemistry" -> "QC", "Organic" -> "Or").
+  function tileSymbol(subsetName) {
+    var words = String(subsetName)
+      .split(/[\s-]+/)
+      .filter(Boolean);
+    if (words.length >= 2) {
+      return (words[0][0] + words[1][0]).toUpperCase();
+    }
+    return (words[0][0] + (words[0][1] || "")).charAt(0).toUpperCase() +
+      (words[0][1] || "").toLowerCase();
+  }
+
+  function buildTileHtml(subsetName) {
+    var color = tileColorVar(subsetName);
+    var symbol = escapeHtml(tileSymbol(subsetName));
+    var title = escapeHtml(subsetName);
+    return (
+      '<span class="el-tile" style="--tile-color:' + color + '" title="' + title + '">' +
+      symbol +
+      "</span>"
+    );
+  }
+
+  // -----------------------------------------------------------------
   // Data loading
   // -----------------------------------------------------------------
   function loadData() {
@@ -64,7 +114,9 @@
         populateDynamicFilterOptions();
         populateMultiSelects();
         attachFilterListeners();
-        renderTable(allProblems);
+        attachViewToggleListeners();
+        applyView(currentView);
+        renderResults(allProblems);
       })
       .catch(function (err) {
         showLoadError(err);
@@ -80,11 +132,44 @@
 
   function showLoadError(err) {
     console.error("Catalog data failed to load:", err);
-    if (el.tableWrapper) el.tableWrapper.hidden = true;
+    if (el.viewTable) el.viewTable.hidden = true;
+    if (el.viewBoard) el.viewBoard.hidden = true;
     el.emptyState.hidden = false;
     el.emptyState.textContent =
       "Could not load the problem catalog data. Please try refreshing the page.";
     el.resultsCount.textContent = "0 results";
+  }
+
+  // -----------------------------------------------------------------
+  // View toggle (Table / Board)
+  // -----------------------------------------------------------------
+  function attachViewToggleListeners() {
+    el.viewToggle.querySelectorAll(".view-toggle-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyView(btn.getAttribute("data-view"));
+      });
+    });
+  }
+
+  function applyView(view) {
+    currentView = view;
+    localStorage.setItem("catalog-view", view);
+
+    el.viewToggle.querySelectorAll(".view-toggle-btn").forEach(function (btn) {
+      var isActive = btn.getAttribute("data-view") === view;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+
+    // Only toggle visibility here — actual content is rendered by
+    // renderResults() so switching views never needs a re-fetch.
+    if (view === "board") {
+      el.viewTable.hidden = true;
+      el.viewBoard.hidden = false;
+    } else {
+      el.viewTable.hidden = false;
+      el.viewBoard.hidden = true;
+    }
   }
 
   // -----------------------------------------------------------------
@@ -317,38 +402,44 @@
     var filtered = allProblems.filter(function (p) {
       return problemMatchesFilters(p, filters);
     });
-    renderTable(filtered);
+    renderResults(filtered);
   }
 
   // -----------------------------------------------------------------
-  // Table rendering
+  // Rendering — builds BOTH the table rows and the board cards for the
+  // current result set (cheap even at a few thousand rows), so
+  // switching views is instant with no re-render needed.
   // -----------------------------------------------------------------
-  function renderTable(problems) {
+  function renderResults(problems) {
     el.resultsCount.textContent = problems.length + " results";
 
     if (problems.length === 0) {
       el.tbody.innerHTML = "";
-      if (el.tableWrapper) el.tableWrapper.hidden = true;
+      el.boardGrid.innerHTML = "";
+      el.viewTable.hidden = true;
+      el.viewBoard.hidden = true;
       el.emptyState.hidden = false;
       el.emptyState.textContent = "No problems match these filters.";
       return;
     }
 
-    if (el.tableWrapper) el.tableWrapper.hidden = false;
     el.emptyState.hidden = true;
+    applyView(currentView); // re-assert correct visibility for this view
 
-    // Build all rows as a single HTML string, then assign once — avoids
-    // repeated DOM mutation for large datasets.
-    var rowsHtml = problems.map(buildRowHtml).join("");
-    el.tbody.innerHTML = rowsHtml;
+    el.tbody.innerHTML = problems.map(buildRowHtml).join("");
+    el.boardGrid.innerHTML = problems.map(buildCardHtml).join("");
 
-    // Wire up action buttons after the batch DOM write.
-    el.tbody.querySelectorAll("[data-action='view-problem']").forEach(function (btn) {
+    wireActionButtons(el.tbody);
+    wireActionButtons(el.boardGrid);
+  }
+
+  function wireActionButtons(container) {
+    container.querySelectorAll("[data-action='view-problem']").forEach(function (btn) {
       btn.addEventListener("click", function () {
         openPdfInNewTab(btn, "problem");
       });
     });
-    el.tbody.querySelectorAll("[data-action='view-solution']").forEach(function (btn) {
+    container.querySelectorAll("[data-action='view-solution']").forEach(function (btn) {
       btn.addEventListener("click", function () {
         openPdfInNewTab(btn, "solution");
       });
@@ -356,11 +447,7 @@
   }
 
   function buildRowHtml(problem) {
-    var subsetChips = (problem.subset || [])
-      .map(function (s) {
-        return '<span class="chip">' + escapeHtml(s) + "</span>";
-      })
-      .join("");
+    var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -384,10 +471,48 @@
       '<td data-label="Nation">' + escapeHtml(problem.nation) + "</td>" +
       '<td data-label="Olympiad">' + escapeHtml(problem.olympiad) + "</td>" +
       '<td class="cell-year" data-label="Year">' + escapeHtml(problem.year) + "</td>" +
-      '<td data-label="Subset"><span class="chip-row">' + subsetChips + "</span></td>" +
+      '<td data-label="Subset"><span class="chip-row">' + subsetTiles + "</span></td>" +
       '<td data-label="Type">' + escapeHtml(problem.type) + "</td>" +
       '<td class="actions-cell" data-label="Actions">' + problemBtn + solutionBtn + "</td>" +
       "</tr>"
+    );
+  }
+
+  function buildCardHtml(problem) {
+    var primarySubset = (problem.subset && problem.subset[0]) || null;
+    var accentColor = primarySubset ? tileColorVar(primarySubset) : "var(--teal)";
+    var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
+
+    var hasProblemPdf = !!problem.problem_pdf;
+    var hasSolutionPdf = !!problem.solution_pdf;
+
+    var problemBtn = hasProblemPdf
+      ? '<button type="button" class="btn" data-action="view-problem" data-id="' +
+        escapeHtml(problem.id) +
+        '">View Problem</button>'
+      : '<button type="button" class="btn btn-disabled" disabled>View Problem</button>';
+
+    var solutionBtn = hasSolutionPdf
+      ? '<button type="button" class="btn" data-action="view-solution" data-id="' +
+        escapeHtml(problem.id) +
+        '">View Solution</button>'
+      : '<button type="button" class="btn btn-disabled" disabled>View Solution</button>';
+
+    return (
+      '<article class="problem-card" style="--tile-color:' + accentColor + '">' +
+      '<div class="card-top">' +
+      '<span class="card-id">' + escapeHtml(problem.id) + "</span>" +
+      '<span class="card-year">' + escapeHtml(problem.year) + "</span>" +
+      "</div>" +
+      '<h3 class="card-title">' + escapeHtml(problem.title) + "</h3>" +
+      '<div class="card-meta">' +
+      '<span>' + escapeHtml(problem.olympiad) + "</span>" +
+      '<span class="dot">' + escapeHtml(problem.nation) + "</span>" +
+      '<span class="dot">' + escapeHtml(problem.type) + "</span>" +
+      "</div>" +
+      '<span class="chip-row">' + subsetTiles + "</span>" +
+      '<div class="card-actions">' + problemBtn + solutionBtn + "</div>" +
+      "</article>"
     );
   }
 
