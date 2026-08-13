@@ -9637,6 +9637,1052 @@
     "solution_pdf": "pdfs/icho_prep/icho_prep_2024/icho2024pp.en.pdf",
     "solution_page": 15
   },
+
+  {
+    "id": "IChO_Prep-2022-T1",
+    "title": "The Past and Present of Bronze Ware",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Bronze smelting",
+      "Copper ores",
+      "Rust and corrosion",
+      "Iodometric titration",
+      "Thermogravimetric analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing chemical equations",
+      "Iodometric titration calculation",
+      "Thermogravimetric analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IChO_Prep-2022-T2",
+    "title": "The Chemical Element in Mysterious Elixir",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Arsenic chemistry",
+      "Realgar and orpiment",
+      "Marsh test",
+      "Neutron activation analysis",
+      "Thioarsenates"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Chemical equation writing",
+      "Structural elucidation",
+      "Stoichiometric calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IChO_Prep-2022-T3",
+    "title": "Cyanotype, Prussian blue and related compounds",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Prussian blue",
+      "Coordination chemistry",
+      "Crystal field theory",
+      "Cyanotype photochemistry",
+      "Sodium-ion battery materials"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Crystal field splitting analysis",
+      "Unit cell defect calculation",
+      "Redox reaction writing"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IChO_Prep-2022-T4",
+    "title": "Tianjin Painted Clay Figure Zhang",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Struvite crystal structure",
+      "Density calculation",
+      "Decomposition thermodynamics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Unit cell density calculation",
+      "Gibbs free energy calculation",
+      "Minimum decomposition temperature calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 21,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IChO_Prep-2022-T5",
+    "title": "Chinese Cloisonné",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Cobalt complexes",
+      "Crystal field theory",
+      "Spinel structure",
+      "Magnetic moment"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Ligand field theory",
+      "Magnetic moment calculation",
+      "Crystal geometry evaluation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 22,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IChO_Prep-2022-T6",
+    "title": "\"Titanium\" is awesome",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Titanium dioxide production",
+      "Sulfate process",
+      "Chloride process",
+      "Thermodynamic spontaneity",
+      "Perovskite"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Thermodynamic calculations",
+      "Reaction equation balancing",
+      "Quantitative titration calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 24,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IChO_Prep-2022-T7",
+    "title": "Kaolinite and Sodalite",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Silicates",
+      "Kaolinite",
+      "Defective spinel phase",
+      "Zeolites",
+      "Sodalite cage"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Chemical formula determination",
+      "Zeolite framework topology counting"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 26,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IChO_Prep-2022-T8",
+    "title": "Mars Chemistry",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Martian atmosphere",
+      "Methane generation",
+      "Iron mineral identification",
+      "Syngas and fuel cells"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Ideal gas law calculation",
+      "Stoichiometric mass calculations",
+      "Hess's law calculation",
+      "Fuel cell half-reactions"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 28,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IChO_Prep-2022-T9",
+    "title": "Greenhouse gas and carbon neutrality",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Electrochemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Hou's soda process",
+      "Electrochemical CO2 reduction",
+      "Na-CO2 battery",
+      "Langmuir adsorption isotherm"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Faraday efficiency calculation",
+      "Langmuir isotherm fitting",
+      "Thermodynamic function calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 29,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IChO_Prep-2022-T10",
+    "title": "Packing of binary crystals",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Binary crystal packing",
+      "Silver iodide polymorphs",
+      "Bragg's law",
+      "Ionic radii"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Bragg's law calculation",
+      "Unit cell dimension analysis",
+      "Ionic radius determination"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 32,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IChO_Prep-2022-T11",
+    "title": "Determination of Calcium Ions by Titration with Ethylene Bis(oxyethylenenitrilo) Tetraacetic Acid (EGTA)",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Complexometric titration",
+      "EGTA",
+      "Side reaction coefficients",
+      "Titration error",
+      "Serum calcium determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Side reaction coefficient calculation",
+      "Titration error calculation",
+      "Quantitative volumetric analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 33,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IChO_Prep-2022-T12",
+    "title": "Fast Determination of Vitamin C by Gold Colloids",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gold nanoparticles",
+      "Extinction coefficient",
+      "Beer-Lambert law",
+      "Vitamin C assay"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nanoparticle atom count calculation",
+      "Beer-Lambert law calculation",
+      "Spectrophotometric concentration determination"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 34,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IChO_Prep-2022-T13",
+    "title": "Allenes",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Allenes",
+      "Axial chirality",
+      "Allenation of alkynes",
+      "Wittig reaction",
+      "Corey-Fuchs reaction"
+    ],
+    "target_molecules": [
+      "(-)-xestospongiene E"
+    ],
+    "skills": [
+      "Stereochemistry assignment",
+      "Asymmetric synthesis",
+      "Multistep organic mechanism"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 35,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 13
+  },
+  {
+    "id": "IChO_Prep-2022-T14",
+    "title": "Cyclopropanes",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Donor-acceptor cyclopropanes",
+      "Sulfur ylides",
+      "Formal cycloadditions",
+      "Platensimycin synthesis"
+    ],
+    "target_molecules": [
+      "platensimycin"
+    ],
+    "skills": [
+      "1H NMR assignment",
+      "Regioselectivity and stereochemistry prediction",
+      "Lewis acid-catalyzed mechanisms"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 40,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 15
+  },
+  {
+    "id": "IChO_Prep-2022-T15",
+    "title": "Lewis base catalysis",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Rauhut-Currier reaction",
+      "Morita-Baylis-Hillman reaction",
+      "Annulation reactions",
+      "Organocatalysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Reaction mechanism step analysis",
+      "Stereochemical transition state reasoning",
+      "Regioselectivity prediction"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 43,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IChO_Prep-2022-T16",
+    "title": "Isosorbitol",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sorbitol dehydration",
+      "Isosorbitol derivatives",
+      "Steric effects"
+    ],
+    "target_molecules": [
+      "isosorbide mononitrate"
+    ],
+    "skills": [
+      "Fischer projections",
+      "Conformational analysis",
+      "Functional group transformation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 48,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IChO_Prep-2022-T17",
+    "title": "Total Synthesis of Hopeanol",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Hopeanol",
+      "Resveratrol oligomers",
+      "Total synthesis"
+    ],
+    "target_molecules": [
+      "hopeanol"
+    ],
+    "skills": [
+      "Retrosynthetic logic",
+      "Reagent selection",
+      "Protecting group strategies"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 49,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IChO_Prep-2022-T18",
+    "title": "Total Synthesis of Lithospermic acid",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Lithospermic acid",
+      "Natural product total synthesis",
+      "Benzofuran heterocycles"
+    ],
+    "target_molecules": [
+      "lithospermic acid"
+    ],
+    "skills": [
+      "NMR structure determination",
+      "Fischer projection of amino acids",
+      "Multi-step organic synthesis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 52,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IChO_Prep-2022-T19",
+    "title": "Reaction of peptides",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Protein self-splicing",
+      "Native chemical ligation",
+      "Staudinger reaction",
+      "Isoindole linkers",
+      "Oxaziridine bioconjugation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Peptide reaction mechanisms",
+      "Bioconjugation chemical logic",
+      "Stereocenters tracking"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 54,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IChO_Prep-2022-T20",
+    "title": "Total Synthesis of Hapalindole-Type Natural Products",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Hapalindole alkaloids",
+      "Indole alkaloids",
+      "Radical coupling"
+    ],
+    "target_molecules": [
+      "fischerindole I",
+      "hapalindole"
+    ],
+    "skills": [
+      "Total synthesis retrosynthesis",
+      "Reagent identification",
+      "Stereochemistry elucidation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 57,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IChO_Prep-2022-T21",
+    "title": "Total Synthesis of Schindilactone A",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Schindilactone A",
+      "Dihalocarbenes",
+      "Grignard diastereoselectivity",
+      "Resonance forms"
+    ],
+    "target_molecules": [
+      "schindilactone A"
+    ],
+    "skills": [
+      "Diastereoselectivity prediction",
+      "Reaction mechanism deduction",
+      "Carbene cyclopropanation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 60,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IChO_Prep-2022-T22",
+    "title": "Recyclable Plastic—Turning Waste into Treasure",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Polymer Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Polyethylene degradation",
+      "Alkene metathesis",
+      "Plastic recycling",
+      "FT-IR spectroscopy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Polymer degradation analysis",
+      "Isomer counting",
+      "FT-IR spectrum interpretation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 62,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 23
+  },
+  {
+    "id": "IChO_Prep-2022-T23",
+    "title": "The combustion of water gas",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Water gas combustion",
+      "Adiabatic flame temperature",
+      "Gibbs free energy change"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Enthalpy and heat capacity integration",
+      "Adiabatic temperature calculation",
+      "Temperature dependence of Gibbs free energy"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 65,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IChO_Prep-2022-T24",
+    "title": "The thermodynamics of decomposition reactions",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Silver carbonate decomposition",
+      "PCl5 dissociation equilibrium",
+      "Partial pressure calculation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Equilibrium constant calculation",
+      "Temperature dependence of equilibrium",
+      "Gas phase dissociation degree calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 66,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IChO_Prep-2022-T25",
+    "title": "The condensation of 1-butanol vapor",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Kelvin equation",
+      "Vapor condensation",
+      "Droplet radius"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Kelvin equation calculation",
+      "Droplet mass and molecule count calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 66,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 26
+  },
+  {
+    "id": "IChO_Prep-2022-T26",
+    "title": "Chemical kinetics",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Second-order reaction kinetics",
+      "Activation energy",
+      "Arrhenius equation",
+      "Reaction mechanisms"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Integrated rate law calculation",
+      "Arrhenius activation energy evaluation",
+      "Parallel mechanism rate ratio derivation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 67,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 27
+  },
+  {
+    "id": "IChO_Prep-2022-T27",
+    "title": "Electrochemistry",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Electrochemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Electrochemical cell EMF",
+      "Temperature coefficient",
+      "Standard reaction thermodynamic functions",
+      "Solubility product Ksp"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Cell EMF thermodynamics calculation",
+      "Standard reduction potential calculations",
+      "Ksp evaluation from EMF data"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 68,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 28
+  },
+  {
+    "id": "IChO_Prep-2022-T28",
+    "title": "-conjugated systems",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Particle in a box model",
+      "Hückel molecular orbital theory",
+      "Conjugated polyenes",
+      "Polyacenes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Particle in a 1D and 2D box energy level calculation",
+      "HOMO-LUMO gap calculation",
+      "HMO secular determinant solutions"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 68,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IChO_Prep-2022-P1",
+    "title": "Extraction of Berberine and Its Structural Characterization",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Natural product extraction",
+      "Soxhlet extraction",
+      "1H NMR spectroscopy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Soxhlet extraction technique",
+      "Rotary evaporation",
+      "1H NMR spectrum interpretation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 72,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 31
+  },
+  {
+    "id": "IChO_Prep-2022-P2",
+    "title": "Synthesis of (2,4-Dichlorophenoxy)acetic Acid and Evaluation of Product Purity",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "2,4-D synthesis",
+      "Acid-base titration",
+      "Standardization and purity analysis"
+    ],
+    "target_molecules": [
+      "(2,4-dichlorophenoxy)acetic acid"
+    ],
+    "skills": [
+      "Reflux and organic synthesis",
+      "Volumetric acid-base titration",
+      "Product purity determination"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 74,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 32
+  },
+  {
+    "id": "IChO_Prep-2022-P3",
+    "title": "Enzymatic Protein Digestion",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Biochemistry",
+      "Kinetics",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Trypsin catalysis",
+      "Casein hydrolysis",
+      "Formaldehyde titration",
+      "Lineweaver-Burk kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Enzymatic assay timing and sampling",
+      "Formaldehyde titration technique",
+      "Lineweaver-Burk plotting and Km/Vmax calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 77,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 33
+  },
+  {
+    "id": "IChO_Prep-2022-P4",
+    "title": "Synthesis of the Thermochromic Spin-crossover Materials",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Spin-crossover complexes",
+      "Iron-triazole complexes",
+      "Thermochromism"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Coordination complex precipitation",
+      "Suction filtration",
+      "Temperature-dependent spin state observation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 82,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 34
+  },
+  {
+    "id": "IChO_Prep-2022-P5",
+    "title": "The Extraction of Indigo from Radix Isatidis and its Synthesis for Application in Tie-dyeing",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Natural dye extraction",
+      "Baeyer-Drewsen indigo synthesis",
+      "TLC analysis",
+      "Tie-dyeing process"
+    ],
+    "target_molecules": [
+      "indigo"
+    ],
+    "skills": [
+      "Plant extraction",
+      "Organic synthesis",
+      "Thin-layer chromatography",
+      "Vat dyeing technique"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 84,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 35
+  },
+  {
+    "id": "IChO_Prep-2022-P6",
+    "title": "Synthesis of Carbon Dots Made from Kitchen Waste",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Environmental Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Carbon quantum dots",
+      "Kitchen waste valorization",
+      "Fluorescence spectroscopy",
+      "Iron(III) ion detection"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Thermal carbonization",
+      "Microfiltration",
+      "Fluorescence emission measurement"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 88,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 36
+  },
+  {
+    "id": "IChO_Prep-2022-P7",
+    "title": "Synthesis and Purity Analysis of N-acetylphenylalanine in Aqueous Phase",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "N-acetylphenylalanine",
+      "Aqueous acetylation",
+      "Thin-layer chromatography",
+      "Acid-base titration purity assay"
+    ],
+    "target_molecules": [
+      "N-acetylphenylalanine"
+    ],
+    "skills": [
+      "Aqueous organic synthesis",
+      "TLC analysis",
+      "Standardized titration calculation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 91,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 36
+  },
+  {
+    "id": "IChO_Prep-2022-P8",
+    "title": "Reaction Types and Chemical Logic (Virtual Experiment)",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Inorganic qualitative analysis",
+      "Precipitation and acid-base logic matrix",
+      "Virtual laboratory"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Systematic qualitative analysis",
+      "Logical deduction from reaction matrix"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 93,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 37
+  },
+  {
+    "id": "IChO_Prep-2022-P9",
+    "title": "Properties and Identification of Heavy Metal Ions (Virtual Experiment)",
+    "nation": "China",
+    "olympiad": "IChO Prep",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Heavy metal ion properties",
+      "Cation identification",
+      "Virtual laboratory"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Heavy metal chemical logic matrix analysis",
+      "Identification of unknown inorganic ions"
+    ],
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2022/problems.pdf",
+    "problem_page": 95,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2022/solutions.pdf",
+    "solution_page": 38
+  },
   {
     "id": "IChO_Prep-2024-P2",
     "title": "Malic Acid",
