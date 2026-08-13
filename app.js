@@ -1,8 +1,5 @@
 // ---------------------------------------------------------------------
 // Chemistry Olympiad Problem Catalog — app.js
-// Vanilla JS, no build step. Fetches data/problems.json + data/taxonomy.json,
-// renders a filterable Table or Board (card) view. "View Problem" /
-// "View Solution" open the PDF in a new tab via viewer.html.
 // ---------------------------------------------------------------------
 
 (function () {
@@ -11,11 +8,11 @@
   // -----------------------------------------------------------------
   // State
   // -----------------------------------------------------------------
-  var allProblems = [];        // full dataset, unfiltered
+  var allProblems = [];
   var taxonomy = { olympiads: [], subsets: [], types: [] };
   var currentView = localStorage.getItem("catalog-view") || "table";
+  var currentTheme = localStorage.getItem("catalog-theme") || "professional";
 
-  // Multi-select field config: key -> Set of currently checked values
   var multiSelectState = {
     subset: new Set(),
     theme: new Set(),
@@ -34,6 +31,7 @@
     viewTable: document.getElementById("view-table"),
     viewBoard: document.getElementById("view-board"),
     viewToggle: document.getElementById("view-toggle"),
+    themeToggle: document.getElementById("theme-toggle"),
     clearBtn: document.getElementById("clear-filters-btn"),
 
     filterId: document.getElementById("filter-id"),
@@ -52,12 +50,9 @@
   ];
 
   // -----------------------------------------------------------------
-  // Element-tile color/symbol system for subsets (the "periodic table
-  // tile" signature look). Deterministic: same subset name always
-  // hashes to the same color + symbol, no matter what order data
-  // loads in or how the taxonomy grows.
+  // Color system & Badge Builder (Full subset name display, no symbols)
   // -----------------------------------------------------------------
-  var TILE_COLOR_COUNT = 10; // matches --tile-0 .. --tile-9 in style.css
+  var TILE_COLOR_COUNT = 10;
 
   function hashString(str) {
     var hash = 0;
@@ -73,27 +68,12 @@
     return "var(--tile-" + index + ")";
   }
 
-  // Two-letter symbol, periodic-table style: first letter of first two
-  // significant words (e.g. "Acid-Base Chemistry" -> "AB", "Quantum
-  // Chemistry" -> "QC", "Organic" -> "Or").
-  function tileSymbol(subsetName) {
-    var words = String(subsetName)
-      .split(/[\s-]+/)
-      .filter(Boolean);
-    if (words.length >= 2) {
-      return (words[0][0] + words[1][0]).toUpperCase();
-    }
-    return (words[0][0] + (words[0][1] || "")).charAt(0).toUpperCase() +
-      (words[0][1] || "").toLowerCase();
-  }
-
   function buildTileHtml(subsetName) {
     var color = tileColorVar(subsetName);
-    var symbol = escapeHtml(tileSymbol(subsetName));
     var title = escapeHtml(subsetName);
     return (
-      '<span class="el-tile" style="--tile-color:' + color + '" title="' + title + '">' +
-      symbol +
+      '<span class="subset-tag" style="--tile-color:' + color + '" title="' + title + '">' +
+      title +
       "</span>"
     );
   }
@@ -110,11 +90,13 @@
         allProblems = Array.isArray(results[0]) ? results[0] : [];
         taxonomy = results[1] || { olympiads: [], subsets: [], types: [] };
 
+        applyTheme(currentTheme);
         populateStaticFilterOptions();
         populateDynamicFilterOptions();
         populateMultiSelects();
         attachFilterListeners();
         attachViewToggleListeners();
+        attachThemeToggleListeners();
         applyView(currentView);
         renderResults(allProblems);
       })
@@ -141,6 +123,29 @@
   }
 
   // -----------------------------------------------------------------
+  // Theme Toggle
+  // -----------------------------------------------------------------
+  function attachThemeToggleListeners() {
+    el.themeToggle.querySelectorAll(".theme-toggle-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        applyTheme(btn.getAttribute("data-theme"));
+      });
+    });
+  }
+
+  function applyTheme(theme) {
+    currentTheme = theme;
+    localStorage.setItem("catalog-theme", theme);
+    document.documentElement.setAttribute("data-theme", theme);
+
+    el.themeToggle.querySelectorAll(".theme-toggle-btn").forEach(function (btn) {
+      var isActive = btn.getAttribute("data-theme") === theme;
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
+
+  // -----------------------------------------------------------------
   // View toggle (Table / Board)
   // -----------------------------------------------------------------
   function attachViewToggleListeners() {
@@ -161,8 +166,6 @@
       btn.setAttribute("aria-pressed", isActive ? "true" : "false");
     });
 
-    // Only toggle visibility here — actual content is rendered by
-    // renderResults() so switching views never needs a re-fetch.
     if (view === "board") {
       el.viewTable.hidden = true;
       el.viewBoard.hidden = false;
@@ -175,14 +178,11 @@
   // -----------------------------------------------------------------
   // Filter option population
   // -----------------------------------------------------------------
-
-  // Olympiad + Type come from taxonomy.json
   function populateStaticFilterOptions() {
     fillSelect(el.filterOlympiad, taxonomy.olympiads || []);
     fillSelect(el.filterType, taxonomy.types || []);
   }
 
-  // Nation + Year are derived dynamically from the actual data
   function populateDynamicFilterOptions() {
     var nations = distinctValues(allProblems, "nation");
     var years = distinctValues(allProblems, "year").sort(function (a, b) {
@@ -201,7 +201,6 @@
     });
   }
 
-  // Returns sorted distinct values of a scalar field across problems
   function distinctValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -212,7 +211,6 @@
     return Array.from(set).sort();
   }
 
-  // Returns sorted distinct values of an array field across problems
   function distinctArrayValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -227,7 +225,7 @@
   }
 
   // -----------------------------------------------------------------
-  // Multi-select popovers (Subset / Theme / Skills / Target Molecule)
+  // Multi-select popovers
   // -----------------------------------------------------------------
   function populateMultiSelects() {
     multiSelectConfig.forEach(function (cfg) {
@@ -269,7 +267,6 @@
         panel.appendChild(wrapper);
       });
 
-      // Toggle popover open/closed
       toggle.addEventListener("click", function (e) {
         e.stopPropagation();
         var isOpen = !panel.hidden;
@@ -278,7 +275,6 @@
       });
     });
 
-    // Close any open popover on outside click
     document.addEventListener("click", function (e) {
       multiSelectConfig.forEach(function (cfg) {
         var container = document.getElementById(cfg.containerId);
@@ -342,21 +338,7 @@
     applyFilters();
   }
 
-  // -----------------------------------------------------------------
-  // Core filter-matching logic
-  // -----------------------------------------------------------------
-  // A problem matches the active filter set if it satisfies EVERY
-  // active field (AND across fields). For a multi-value field (e.g.
-  // Subset), the problem matches that field if it contains AT LEAST
-  // ONE of the selected values (OR within the field).
-  //
-  // To add a new filter field later:
-  //   - scalar dropdown -> add a simple equality check below
-  //   - text field -> add a substring check
-  //   - multi-select -> add an "any value in problem's array field
-  //     is present in the selected Set" check
   function problemMatchesFilters(problem, filters) {
-    // --- text filters (substring, case-insensitive) ---
     if (filters.id && !String(problem.id || "").toLowerCase().includes(filters.id)) {
       return false;
     }
@@ -364,17 +346,15 @@
       return false;
     }
 
-    // --- single-value dropdown filters (exact match) ---
     if (filters.nation && String(problem.nation) !== filters.nation) return false;
     if (filters.olympiad && String(problem.olympiad) !== filters.olympiad) return false;
     if (filters.year && String(problem.year) !== filters.year) return false;
     if (filters.type && String(problem.type) !== filters.type) return false;
 
-    // --- multi-select filters (OR within field, field itself is AND'd in) ---
     for (var i = 0; i < multiSelectConfig.length; i++) {
       var cfg = multiSelectConfig[i];
       var selected = multiSelectState[cfg.key];
-      if (selected.size === 0) continue; // no filter active for this field
+      if (selected.size === 0) continue;
 
       var problemValues = Array.isArray(problem[cfg.key]) ? problem[cfg.key] : [];
       var hasAnyMatch = problemValues.some(function (v) {
@@ -406,9 +386,7 @@
   }
 
   // -----------------------------------------------------------------
-  // Rendering — builds BOTH the table rows and the board cards for the
-  // current result set (cheap even at a few thousand rows), so
-  // switching views is instant with no re-render needed.
+  // Rendering
   // -----------------------------------------------------------------
   function renderResults(problems) {
     el.resultsCount.textContent = problems.length + " results";
@@ -424,7 +402,7 @@
     }
 
     el.emptyState.hidden = true;
-    applyView(currentView); // re-assert correct visibility for this view
+    applyView(currentView);
 
     el.tbody.innerHTML = problems.map(buildRowHtml).join("");
     el.boardGrid.innerHTML = problems.map(buildCardHtml).join("");
@@ -448,6 +426,7 @@
 
   function buildRowHtml(problem) {
     var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
+    var themeText = Array.isArray(problem.theme) ? problem.theme.join(", ") : (problem.theme || "");
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -472,6 +451,7 @@
       '<td data-label="Olympiad">' + escapeHtml(problem.olympiad) + "</td>" +
       '<td class="cell-year" data-label="Year">' + escapeHtml(problem.year) + "</td>" +
       '<td data-label="Subset"><span class="chip-row">' + subsetTiles + "</span></td>" +
+      '<td class="cell-theme" data-label="Theme">' + escapeHtml(themeText) + "</td>" +
       '<td data-label="Type">' + escapeHtml(problem.type) + "</td>" +
       '<td class="actions-cell" data-label="Actions">' + problemBtn + solutionBtn + "</td>" +
       "</tr>"
@@ -480,7 +460,7 @@
 
   function buildCardHtml(problem) {
     var primarySubset = (problem.subset && problem.subset[0]) || null;
-    var accentColor = primarySubset ? tileColorVar(primarySubset) : "var(--teal)";
+    var accentColor = primarySubset ? tileColorVar(primarySubset) : "var(--accent)";
     var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
 
     var hasProblemPdf = !!problem.problem_pdf;
@@ -526,12 +506,6 @@
       .replace(/'/g, "&#39;");
   }
 
-  // -----------------------------------------------------------------
-  // Open the PDF in a new tab via viewer.html, which resolves the
-  // relative PDF path to an absolute URL and forwards it (plus the
-  // page number) to the bundled PDF.js viewer. No modal, no nested
-  // iframes — the browser's own tab handles all the sizing.
-  // -----------------------------------------------------------------
   function openPdfInNewTab(btn, kind) {
     var id = btn.getAttribute("data-id");
     var problem = allProblems.find(function (p) {
@@ -541,7 +515,7 @@
 
     var file = kind === "problem" ? problem.problem_pdf : problem.solution_pdf;
     var page = kind === "problem" ? problem.problem_page : problem.solution_page;
-    if (!file) return; // shouldn't happen since disabled buttons have no handler
+    if (!file) return;
 
     var src = "viewer.html?file=" + encodeURIComponent(file);
     if (page) src += "#page=" + encodeURIComponent(page);
@@ -549,8 +523,5 @@
     window.open(src, "_blank", "noopener");
   }
 
-  // -----------------------------------------------------------------
-  // Init
-  // -----------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", loadData);
 })();
