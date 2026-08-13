@@ -11,9 +11,9 @@
     "target_molecules": [],
     "skills": ["Calculate number of atoms in a unit cell", "Derive density from crystal structure", "Apply new SI definitions", "Calculate mass from photon energy"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 11,
+    "problem_page": 14,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 3
+    "solution_page": 6
   },
   {
     "id": "IChO_Prep-2021-P2",
@@ -27,9 +27,9 @@
     "target_molecules": [],
     "skills": ["Apply entropy change for isothermal expansion", "Calculate boiling point from enthalpy and entropy", "Use Clausius-Clapeyron equation", "Calculate Gibbs free energy change", "Solve gas equilibrium problems"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 13,
+    "problem_page": 16,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 4
+    "solution_page": 7
   },
   {
     "id": "IChO_Prep-2021-P3",
@@ -43,9 +43,9 @@
     "target_molecules": [],
     "skills": ["Apply Henry's law", "Calculate gas dissolution", "Derive Langmuir adsorption isotherm", "Analyze competitive adsorption", "Solve equilibrium problems for complex formation"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 15,
+    "problem_page": 18,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 6
+    "solution_page": 9
   },
   {
     "id": "IChO_Prep-2021-P4",
@@ -59,9 +59,9 @@
     "target_molecules": ["Diamond", "Graphite", "C60"],
     "skills": ["Calculate thermodynamic properties from combustion data", "Write half-reactions for electrochemical cells", "Use Gibbs-Helmholtz equation", "Calculate density from crystal structure", "Apply Arrhenius equation", "Determine activation energy from kinetic data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 18,
+    "problem_page": 21,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 9
+    "solution_page": 12
   },
   {
     "id": "IChO_Prep-2021-P5",
@@ -75,9 +75,9 @@
     "target_molecules": [],
     "skills": ["Calculate number of microstates", "Apply Boltzmann's entropy definition", "Calculate entropy change for gas expansion and mixing", "Determine residual entropy from molecular orientation", "Apply ice rules to calculate residual entropy"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 23,
+    "problem_page": 26,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 12
+    "solution_page": 15
   },
   {
     "id": "IChO_Prep-2021-P6",
@@ -91,9 +91,9 @@
     "target_molecules": [],
     "skills": ["Understand potential energy surfaces", "Interpret reaction paths on energy surfaces", "Draw contour maps", "Sketch reaction paths including vibrations", "Assign bond distances to reaction coordinates"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 27,
+    "problem_page": 30,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 14
+    "solution_page": 17
   },
   {
     "id": "IChO_Prep-2021-P7",
@@ -107,9 +107,9 @@
     "target_molecules": ["Hydrogen fluoride", "Deuterium fluoride"],
     "skills": ["Calculate wavenumber from reduced mass", "Derive vibrational partition function", "Calculate vibrational temperature", "Draw hydrogen-bonded structure", "Predict isotope effect and hydrogen bonding on IR frequency", "Calculate Boltzmann population ratios"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 33,
+    "problem_page": 36,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 17
+    "solution_page": 20
   },
   {
     "id": "IChO_Prep-2021-P8",
@@ -123,9 +123,9 @@
     "target_molecules": ["Benzene", "Naphthalene", "Anthracene", "Pyrrole"],
     "skills": ["Draw resonance structures", "Determine bond order from resonance structures", "Order bond lengths", "Count π electrons in aromatic systems", "Identify HOMO", "Understand frontier orbital theory", "Order molecular orbital energies"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 35,
+    "problem_page": 38,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 18
+    "solution_page": 21
   },
   {
     "id": "IChO_Prep-2021-P9",
@@ -139,9 +139,9 @@
     "target_molecules": [],
     "skills": ["Write autoprotolysis equations", "Calculate autoprotolysis constants", "Use Nernst equation", "Perform Gran plot analysis", "Apply integrated rate laws", "Calculate equilibrium concentrations", "Use Henderson-Hasselbalch equation"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 37,
+    "problem_page": 40,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 19
+    "solution_page": 22
   },
   {
     "id": "IChO_Prep-2021-P10",
@@ -155,9 +155,9 @@
     "target_molecules": ["Thymol blue", "Methyl red", "Bromothymol blue", "Phenolphthalein"],
     "skills": ["Use Beer-Lambert law", "Calculate molar absorption coefficients", "Determine pH from absorbance data", "Analyze mixtures of indicators", "Apply acid-base equilibria", "Calculate concentrations from absorbance"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 42,
+    "problem_page": 45,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 22
+    "solution_page": 25
   },
   {
     "id": "IChO_Prep-2021-P11",
@@ -171,9 +171,9 @@
     "target_molecules": ["Silver", "Silver cyanide complexes"],
     "skills": ["Calculate concentrations of complex species", "Write half-reactions for complex ions", "Apply Nernst equation", "Determine pH limits for plating", "Calculate equilibrium partial pressures of HCN", "Use formation constants"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 44,
+    "problem_page": 47,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 24
+    "solution_page": 27
   },
   {
     "id": "IChO_Prep-2021-P12",
@@ -187,9 +187,9 @@
     "target_molecules": ["Carbonic acid", "Bicarbonate", "Carbonate", "MgCO3"],
     "skills": ["Apply equilibrium constants for carbonic acid", "Use charge balance equations", "Calculate pH from atmospheric CO2", "Analyze buffer systems", "Apply Henderson-Hasselbalch equation", "Calculate pH shift from CO2 doubling"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 46,
+    "problem_page": 49,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 26
+    "solution_page": 29
   },
   {
     "id": "IChO_Prep-2021-P13",
@@ -203,9 +203,9 @@
     "target_molecules": ["Sulfuric acid", "Chalcopyrite", "Sulfur dioxide", "Sulfur trioxide", "Copper"],
     "skills": ["Balance chemical equations", "Perform stoichiometric calculations", "Apply Le Chatelier's principle", "Use ideal gas law", "Calculate heat of dilution", "Solve mass balance problems"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 50,
+    "problem_page": 53,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 29
+    "solution_page": 32
   },
   {
     "id": "IChO_Prep-2021-P14",
@@ -219,9 +219,9 @@
     "target_molecules": ["Carbon tetrachloride", "Silicon tetrachloride", "Monochloroamine"],
     "skills": ["Calculate enthalpy changes from bond energies", "Analyze reaction mechanisms", "Apply Pauling electronegativity", "Apply Allred-Rochow electronegativity", "Use Slater's rules", "Predict reaction products"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 51,
+    "problem_page": 54,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 31
+    "solution_page": 34
   },
   {
     "id": "IChO_Prep-2021-P15",
@@ -235,9 +235,9 @@
     "target_molecules": ["Hydrogen sulfide", "Thiosulfate", "Sulfur dioxide"],
     "skills": ["Balance redox equations", "Perform stoichiometric calculations", "Use acid dissociation constants", "Calculate concentrations from titration data", "Analyze sulfur species in environmental samples"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 56,
+    "problem_page": 59,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 32
+    "solution_page": 35
   },
   {
     "id": "IChO_Prep-2021-P16",
@@ -251,9 +251,9 @@
     "target_molecules": ["Magnesium nitride", "Fullerene C60", "P4", "Ozone"],
     "skills": ["Identify compounds from reactions and composition", "Calculate densities from crystal structures", "Draw molecular structures", "Write balanced chemical equations", "Perform stoichiometric calculations from titration data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 57,
+    "problem_page": 60,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 34
+    "solution_page": 37
   },
   {
     "id": "IChO_Prep-2021-P17",
@@ -267,9 +267,9 @@
     "target_molecules": ["SrTiO3", "CaO"],
     "skills": ["Calculate void percentages", "Determine maximum ion radii in voids", "Write empirical formulas from structure", "Draw unit cells", "Apply Born-Haber cycle", "Calculate lattice enthalpy", "Apply Coulomb's law", "Calculate Madelung constant"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 59,
+    "problem_page": 62,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 35
+    "solution_page": 38
   },
   {
     "id": "IChO_Prep-2021-P18",
@@ -283,9 +283,9 @@
     "target_molecules": ["Mn2(CO)10", "Ir4(CO)12"],
     "skills": ["Classify d-orbitals in crystal fields", "Calculate CFSE", "Apply 18-electron rule", "Draw molecular structures of metal carbonyls", "Calculate surface area and particle size from adsorption data", "Apply Beer-Lambert law to calculate Δo"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 63,
+    "problem_page": 66,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 36
+    "solution_page": 39
   },
   {
     "id": "IChO_Prep-2021-P19",
@@ -299,9 +299,9 @@
     "target_molecules": ["Boric acid", "Phosphoric acid"],
     "skills": ["Order acid strengths", "Draw Born-Haber cycles", "Calculate enthalpy changes", "Apply ligand field theory to aqua acids", "Identify Lewis acids and bases", "Draw Lewis structures of conjugate bases"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 66,
+    "problem_page": 69,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 38
+    "solution_page": 41
   },
   {
     "id": "IChO_Prep-2021-P20",
@@ -315,9 +315,9 @@
     "target_molecules": ["TiO2"],
     "skills": ["Draw band structures", "Identify p-type dopants", "Explain n-type doping of oxides", "Calculate voltage from Gibbs energy", "Write half-reactions", "Calculate quantum efficiency from light intensity", "Interpret solar spectrum data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 68,
+    "problem_page": 71,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 39
+    "solution_page": 42
   },
   {
     "id": "IChO_Prep-2021-P21",
@@ -331,9 +331,9 @@
     "target_molecules": ["Cyclopropane derivative", "Cycloheptatrienyl compound", "Epoxide"],
     "skills": ["Draw organic structures from reactions", "Interpret NMR spectra", "Apply mechanisms of carbene reactions", "Understand aromaticity in non-benzenoid systems", "Predict products of epoxide ring opening", "Determine stereochemistry of products"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 71,
+    "problem_page": 74,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 41
+    "solution_page": 44
   },
   {
     "id": "IChO_Prep-2021-P22",
@@ -347,9 +347,9 @@
     "target_molecules": ["Taiwaniaquinol"],
     "skills": ["Draw structures from reaction schemes", "Apply Nazarov cyclization", "Identify conrotatory vs disrotatory", "Draw frontier molecular orbitals", "Understand Diels-Alder reactions", "Predict products of cyclization"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 74,
+    "problem_page": 77,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 43
+    "solution_page": 46
   },
   {
     "id": "IChO_Prep-2021-P23",
@@ -363,9 +363,9 @@
     "target_molecules": ["(-)-Epicatechin", "(-)-Gallocatechin", "Theanine", "Caffeine"],
     "skills": ["Assign R/S configuration", "Choose appropriate reaction conditions", "Draw organic structures from schemes", "Identify stereochemistry", "Draw structures from NMR data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 77,
+    "problem_page": 80,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 44
+    "solution_page": 47
   },
   {
     "id": "IChO_Prep-2021-P24",
@@ -379,9 +379,9 @@
     "target_molecules": ["Coraxeniolide precursor"],
     "skills": ["Draw structures with stereochemistry", "Apply asymmetric synthesis principles", "Predict stereochemistry of Diels-Alder reactions", "Understand nucleophilic addition to carbonyls", "Identify stereochemical outcome based on steric hindrance"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 81,
+    "problem_page": 84,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 45
+    "solution_page": 48
   },
   {
     "id": "IChO_Prep-2021-P25",
@@ -395,9 +395,9 @@
     "target_molecules": ["Indole", "Aspidophylline A"],
     "skills": ["Draw structures from Fischer indole synthesis", "Apply mechanism of Fischer indole synthesis", "Predict products based on sterics", "Assign stereochemistry", "Draw organic structures from reaction schemes"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 83,
+    "problem_page": 86,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 46
+    "solution_page": 49
   },
   {
     "id": "IChO_Prep-2021-P26",
@@ -411,9 +411,9 @@
     "target_molecules": ["[2.2]Paracyclophane", "Anthracene dimer"],
     "skills": ["Draw stereoisomers", "Assign (Rp)/(Sp) configuration", "Identify enantiomers and diastereomers", "Understand chiral resolution with camphanic chloride", "Draw photodimerization products", "Identify planes of symmetry"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 85,
+    "problem_page": 88,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 47
+    "solution_page": 50
   },
   {
     "id": "IChO_Prep-2021-P27",
@@ -427,9 +427,9 @@
     "target_molecules": ["Asteriscanolide", "Cyclobutadiene iron complex"],
     "skills": ["Draw structures from reactions", "Apply organometallic chemistry of cyclobutadiene", "Draw Diels-Alder products", "Draw Cope rearrangement products", "Understand ring opening metathesis", "Apply [2+2] cycloaddition"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 88,
+    "problem_page": 91,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 49
+    "solution_page": 52
   },
   {
     "id": "IChO_Prep-2021-P28",
@@ -443,9 +443,9 @@
     "target_molecules": ["Cycloparaphenylenes", "C60"],
     "skills": ["Calculate molecular dimensions", "Calculate interspace width", "Apply equilibrium constants", "Calculate free guest concentrations", "Interpret NMR data for host-guest complexes", "Identify formation of precipitates"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 91,
+    "problem_page": 94,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 51
+    "solution_page": 54
   },
   {
     "id": "IChO_Prep-2021-P29",
@@ -459,9 +459,9 @@
     "target_molecules": ["Hydrogen-bonded capsule", "Dimer of D"],
     "skills": ["Draw organic structures from reactions", "Interpret dimerization data", "Apply association constants", "Calculate guest encapsulation ratios", "Predict effect of dilution", "Explain irreversible encapsulation"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 93,
+    "problem_page": 96,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 52
+    "solution_page": 55
   },
   {
     "id": "IChO_Prep-2021-P30",
@@ -475,9 +475,9 @@
     "target_molecules": ["PMMA", "Polypropylene oxide"],
     "skills": ["Assign NMR peaks", "Distinguish tacticities by NMR", "Apply copolymerization equation", "Calculate reactivity ratios", "Determine monomer sequence from reactivity ratios", "Identify polymerization mechanisms"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 96,
+    "problem_page": 99,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 53
+    "solution_page": 56
   },
   {
     "id": "IChO_Prep-2021-P31",
@@ -491,9 +491,9 @@
     "target_molecules": ["Tetrodotoxin"],
     "skills": ["Draw structures from complex reaction schemes", "Assign stereochemistry", "Apply sigmatropic rearrangements", "Predict regio- and stereoselectivity of epoxidation", "Draw complex organic molecules", "Understand multistep synthesis"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 102,
+    "problem_page": 105,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 54
+    "solution_page": 57
   },
   {
     "id": "IChO_Prep-2021-T1",
@@ -507,9 +507,9 @@
     "target_molecules": ["Ethyl acetate", "Sodium hydroxide"],
     "skills": ["Use pH meter", "Perform kinetic experiment", "Monitor reaction by pH", "Determine rate constant from pH data", "Calculate second-order rate constant", "Calculate half-life", "Graph data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 108,
+    "problem_page": 111,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 57
+    "solution_page": 60
   },
   {
     "id": "IChO_Prep-2021-T2",
@@ -523,9 +523,9 @@
     "target_molecules": ["Sodium hydroxide", "Sodium carbonate", "Hydrochloric acid"],
     "skills": ["Perform differential titration", "Use pH indicators", "Identify equivalence points", "Calculate concentrations in mixture", "Draw titration curve", "Interpret titration data"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 113,
+    "problem_page": 116,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 59
+    "solution_page": 62
   },
   {
     "id": "IChO_Prep-2021-T3",
@@ -539,9 +539,9 @@
     "target_molecules": ["Potassium tris(oxalato)cobaltate(III)", "Cobalt oxalate complex"],
     "skills": ["Synthesize coordination complex", "Perform permanganate titration", "Standardize KMnO4 solution", "Determine oxalate content", "Calculate empirical formula from analysis", "Calculate yield"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 116,
+    "problem_page": 119,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 60
+    "solution_page": 63
   },
   {
     "id": "IChO_Prep-2021-T4",
@@ -555,9 +555,9 @@
     "target_molecules": ["Hinokitiol", "Hinokitine"],
     "skills": ["Perform organic synthesis", "Use column chromatography", "Perform vacuum filtration", "Calculate theoretical yield", "Draw complex structures", "Identify isomers"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 120,
+    "problem_page": 123,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 61
+    "solution_page": 64
   },
   {
     "id": "IChO_Prep-2021-T5",
@@ -571,9 +571,9 @@
     "target_molecules": ["Tropolone tosylate", "Hinokitiol tosylate"],
     "skills": ["Perform organic synthesis", "Draw reaction intermediates", "Explain role of DMAP", "Draw tosylation products", "Design recovery procedure for DMAP"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 123,
+    "problem_page": 126,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 63
+    "solution_page": 66
   },
   {
     "id": "IChO_Prep-2021-T6",
@@ -587,9 +587,9 @@
     "target_molecules": ["Polyethylene terephthalate", "Disodium terephthalate", "Ethylene glycol"],
     "skills": ["Perform hydrolysis of polymer", "Draw polymer structures", "Calculate yield", "Draw reaction mechanism", "Explain irreversibility", "Compare hydrolysis of ester vs amide"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 125,
+    "problem_page": 128,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 65
+    "solution_page": 68
   },
   {
     "id": "IChO_Prep-2021-T7",
@@ -603,9 +603,9 @@
     "target_molecules": ["Guaiazulene", "4-(Phenylazo)phenol"],
     "skills": ["Perform recrystallization", "Perform column chromatography", "Calculate recovery", "Identify compounds", "Explain chromatography principles", "Identify interactions with stationary phase"],
     "problem_pdf": "pdfs/icho_prep/icho_prep_2021/Problems_ver_3.pdf",
-    "problem_page": 127,
+    "problem_page": 130,
     "solution_pdf": "pdfs/icho_prep/icho_prep_2021/Solutions_Comments_ver_3.pdf",
-    "solution_page": 67
+    "solution_page": 70
   },
   {
     "id": "IChO_Prep-2024-P1",
