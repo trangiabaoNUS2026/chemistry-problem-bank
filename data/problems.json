@@ -10677,9 +10677,9 @@
     "theme": ["Solar fuels", "Carbon dioxide reduction", "Ceria redox cycle", "Syngas", "Methanol synthesis"],
     "target_molecules": [],
     "skills": ["Stoichiometry", "Thermodynamics", "Gas laws", "Equilibrium calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 19,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 2
     },
     {
@@ -10693,9 +10693,9 @@
     "theme": ["Carbon dioxide activation", "Binary carbon oxides", "Lewis structures", "Carbon fixation"],
     "target_molecules": [],
     "skills": ["Drawing Lewis structures", "Reaction sequences", "Acid-base chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 22,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 5
     },
     {
@@ -10709,9 +10709,9 @@
     "theme": ["CO2 reduction", "Electrocatalysis", "Faradaic efficiency", "Silver foam"],
     "target_molecules": [],
     "skills": ["Data analysis", "Electrochemistry calculations", "Graphing", "Randles-Sevcik equation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 24,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 8
     },
     {
@@ -10725,9 +10725,9 @@
     "theme": ["Hydride complexes", "Hydrogen production", "Water splitting", "Photosynthesis"],
     "target_molecules": [],
     "skills": ["Thermodynamic calculations", "Redox chemistry", "Frost diagrams"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 28,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 10
     },
     {
@@ -10741,9 +10741,9 @@
     "theme": ["Ruthenium complexes", "Latimer/Frost diagrams", "Dihydroxylation", "Permanganate"],
     "target_molecules": [],
     "skills": ["Latimer diagrams", "Frost diagrams", "Reaction mechanisms", "Oxidation states"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 32,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 13
     },
     {
@@ -10757,9 +10757,9 @@
     "theme": ["Radioactive decay", "PET imaging", "Ga-68", "Geochronology", "K-Ar dating"],
     "target_molecules": [],
     "skills": ["Radioactivity calculations", "Half-life", "Decay schemes"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 36,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 17
     },
     {
@@ -10773,9 +10773,9 @@
     "theme": ["Chelation", "DMSA", "Lead poisoning", "Metal complexes", "Acid dissociation"],
     "target_molecules": ["DMSA", "Pb(DMSA)", "Hg(DMSA)"],
     "skills": ["Lewis structures", "Acid-base calculations", "Equilibrium constants", "Stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 39,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 19
     },
     {
@@ -10789,9 +10789,9 @@
     "theme": ["PDMS", "VUV irradiation", "EPR spectroscopy", "Radicals"],
     "target_molecules": [],
     "skills": ["Spectroscopy (EPR, NMR)", "Data interpretation", "Radical chemistry", "Lambert-Beer law"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 41,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 21
     },
     {
@@ -10805,9 +10805,9 @@
     "theme": ["Photocatalysis", "Ru(bpy)3", "Pyridination", "EPR spectroscopy", "Woodward-Hoffmann rules"],
     "target_molecules": [],
     "skills": ["Mechanism drawing", "Spectroscopy", "Photochemistry", "Frontier molecular orbitals"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 44,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 24
     },
     {
@@ -10821,9 +10821,9 @@
     "theme": ["Lewis structures", "VSEPR", "Noble gas compounds", "Fluorinating agents", "SF4", "Fluolead"],
     "target_molecules": [],
     "skills": ["Drawing Lewis structures", "VSEPR geometry", "Reaction stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 49,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 28
     },
     {
@@ -10837,9 +10837,9 @@
     "theme": ["Chiral phosphorus", "Enantiomerization", "Apicophilicity", "Arsonanes", "NMR spectroscopy"],
     "target_molecules": [],
     "skills": ["Stereochemistry", "Eyring equation", "Kinetics", "Equilibrium calculations", "NMR"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 51,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 31
     },
     {
@@ -10853,9 +10853,9 @@
     "theme": ["Linearization", "Ideal gas law", "Equilibrium constant", "Arrhenius equation", "Helix function"],
     "target_molecules": [],
     "skills": ["Mathematical linearization", "Data analysis", "Plotting functions"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 53,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 34
     },
     {
@@ -10869,9 +10869,9 @@
     "theme": ["Enzyme kinetics", "Michaelis-Menten", "Steady-state", "Flows"],
     "target_molecules": [],
     "skills": ["Kinetic derivation", "Michaelis-Menten equation", "Steady-state approximation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 56,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 37
     },
     {
@@ -10885,9 +10885,9 @@
     "theme": ["Ordered sequential reactions", "Michaelis-Menten", "Substrate inhibition", "Enzyme kinetics"],
     "target_molecules": [],
     "skills": ["Kinetic derivation", "Steady-state", "Substrate inhibition", "Data interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 58,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 40
     },
     {
@@ -10901,9 +10901,9 @@
     "theme": ["Isotope exchange", "Oxygen isotopes", "Entropy", "Equilibrium constants", "Ozone"],
     "target_molecules": [],
     "skills": ["Isotopic composition", "Statistical thermodynamics", "Equilibrium calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 60,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 44
     },
     {
@@ -10917,9 +10917,9 @@
     "theme": ["Isotope exchange", "Perovskites", "Diffusion", "Vacancies", "Infrared spectroscopy"],
     "target_molecules": [],
     "skills": ["Diffusion calculations", "Isotope effects", "Vacancy chemistry", "Infrared spectroscopy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 62,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 46
     },
     {
@@ -10933,9 +10933,9 @@
     "theme": ["Mg-ion batteries", "Chevrel phase", "Specific energy density", "Specific capacity"],
     "target_molecules": [],
     "skills": ["Electrochemistry", "Energy density calculations", "Stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 65,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 48
     },
     {
@@ -10949,9 +10949,9 @@
     "theme": ["Nanomagnets", "Flame spray pyrolysis", "Iron carbide", "Core-shell", "Functionalization"],
     "target_molecules": [],
     "skills": ["Stoichiometry", "Combustion chemistry", "Surface chemistry", "Calculations with nanoparticles"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 67,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 51
     },
     {
@@ -10965,9 +10965,9 @@
     "theme": ["Kovats retention index", "Gas chromatography", "Homologous series", "Fatty acid analysis"],
     "target_molecules": [],
     "skills": ["Chromatography", "Retention time calculations", "Data interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 69,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 56
     },
     {
@@ -10981,9 +10981,9 @@
     "theme": ["Radiolysis", "Alkane fragmentation", "Radical recombination", "Probability"],
     "target_molecules": [],
     "skills": ["Probability", "Radical chemistry", "Product distribution"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 71,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 57
     },
     {
@@ -10997,9 +10997,9 @@
     "theme": ["Free radicals", "Radical stability", "Radical reactions", "Cyclization"],
     "target_molecules": [],
     "skills": ["Radical stability", "Reaction mechanisms", "Product prediction"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 72,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 60
     },
     {
@@ -11013,9 +11013,9 @@
     "theme": ["Electrolysis", "Anodic oxidation", "Cathodic reduction", "Radical intermediates"],
     "target_molecules": [],
     "skills": ["Electrochemistry", "Organic reactions", "Mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 75,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 63
     },
     {
@@ -11029,9 +11029,9 @@
     "theme": ["Peptide synthesis", "Aspartame", "Solid-phase peptide synthesis", "Merrifield resin", "Fmoc protection"],
     "target_molecules": ["Aspartame"],
     "skills": ["Peptide coupling", "Protecting groups", "Solid-phase synthesis", "Synthesis design"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 78,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 65
     },
     {
@@ -11045,9 +11045,9 @@
     "theme": ["Peptide chemistry", "Cheese flavor", "Bitter peptides", "Solid-phase peptide synthesis", "Fmoc/Bu strategy"],
     "target_molecules": ["beta-CN f193-209"],
     "skills": ["Peptide synthesis design", "Protecting group strategies", "Resin loading", "Synthesis yield"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 82,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 69
     },
     {
@@ -11061,9 +11061,9 @@
     "theme": ["Loganin synthesis", "Natural products", "Retro-aldol", "Cycloadditions", "Frontier molecular orbitals"],
     "target_molecules": ["Loganin"],
     "skills": ["Synthesis design", "Stereochemistry", "FMO analysis", "Organic mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 89,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 75
     },
     {
@@ -11077,9 +11077,9 @@
     "theme": ["Carvone", "Stereochemistry", "Optical rotation", "Sandalwood odorants", "Synthesis"],
     "target_molecules": ["Carvone"],
     "skills": ["Stereochemistry", "Synthesis", "Optical rotation", "Diastereomer separation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 92,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 77
     },
     {
@@ -11093,9 +11093,9 @@
     "theme": ["Vitamin C", "Reichstein process", "Stereochemistry", "Ascorbic acid", "Antioxidants"],
     "target_molecules": ["L-ascorbic acid"],
     "skills": ["Stereochemistry", "Synthesis", "Protecting groups", "pKa"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 97,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 81
     },
     {
@@ -11109,9 +11109,9 @@
     "theme": ["Tamiflu", "Oseltamivir", "Drug synthesis", "Stereochemistry"],
     "target_molecules": ["Oseltamivir"],
     "skills": ["Synthesis", "Stereochemistry", "Structure elucidation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 99,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 83
     },
     {
@@ -11125,9 +11125,9 @@
     "theme": ["Photoswitches", "Diarylethenes", "Woodward-Hoffmann rules", "Electrocyclic reactions"],
     "target_molecules": [],
     "skills": ["Photochemistry", "Woodward-Hoffmann rules", "Stereochemistry", "Synthesis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 103,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 86
     },
     {
@@ -11141,9 +11141,9 @@
     "theme": ["Vitamin B12", "Eschenmoser sulfide contraction", "Woodward-Hoffmann rules", "Natural product synthesis", "FMO theory"],
     "target_molecules": ["Vitamin B12"],
     "skills": ["Synthesis design", "Organic mechanisms", "Woodward-Hoffmann rules", "FMO analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 108,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 88
     },
     {
@@ -11157,9 +11157,9 @@
     "theme": ["Qualitative analysis", "Pharmaceuticals", "Essential Medicines List", "Ion identification"],
     "target_molecules": [],
     "skills": ["Qualitative analysis", "Solubility tests", "Redox reactions", "Precipitation reactions", "Ionic equations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 113,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 92
     },
     {
@@ -11173,9 +11173,9 @@
     "theme": ["Qualitative analysis", "Cation and anion identification", "Precipitation reactions"],
     "target_molecules": [],
     "skills": ["Qualitative analysis", "Ionic equations", "Solubility rules", "Color tests"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 119,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 96
     },
     {
@@ -11189,9 +11189,9 @@
     "theme": ["Aldol condensation", "Thin layer chromatography", "Recrystallization"],
     "target_molecules": [],
     "skills": ["TLC analysis", "Vacuum filtration", "Recrystallization", "Yield calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 126,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 102
     },
     {
@@ -11205,9 +11205,9 @@
     "theme": ["Dihydroxylation", "Oleic acid", "Thin layer chromatography", "Stereochemistry"],
     "target_molecules": [],
     "skills": ["TLC analysis", "Staining", "Stereochemistry", "Laboratory techniques"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 132,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 103
     },
     {
@@ -11221,9 +11221,9 @@
     "theme": ["Lidocaine", "Nucleophilic substitution", "Reaction monitoring", "Extraction", "TLC"],
     "target_molecules": ["Lidocaine"],
     "skills": ["TLC monitoring", "Extraction", "pH control", "Laboratory techniques"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 137,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 104
     },
     {
@@ -11237,9 +11237,9 @@
     "theme": ["Reduction", "Sodium borohydride", "Vanillin", "Extraction", "TLC"],
     "target_molecules": ["Vanillyl alcohol"],
     "skills": ["Reduction chemistry", "Extraction", "TLC analysis", "Laboratory techniques"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 142,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 106
     },
     {
@@ -11253,9 +11253,9 @@
     "theme": ["Copper complexes", "Complexometric titration", "EDTA titration", "Gravimetric analysis"],
     "target_molecules": [],
     "skills": ["Complex preparation", "Complexometric titration", "Gravimetry", "Metal content determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 148,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 107
     },
     {
@@ -11269,9 +11269,9 @@
     "theme": ["Water hardness", "Complexometric titration", "EDTA titration", "Carbonate hardness"],
     "target_molecules": [],
     "skills": ["Titration", "Complexometry", "pH control", "Water analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho.pdf",
     "problem_page": 153,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho_prep/icho_prep_2023/2023-prep-icho-solutions.pdf",
     "solution_page": 110
     },
   {
