@@ -10,9 +10,9 @@
     "theme": ["solubility product", "iodometric titration", "stoichiometry"],
     "target_molecules": [],
     "skills": ["writing balanced equations", "stoichiometric calculations", "calculating solubility product"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 7,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 7
     },
     {
@@ -26,9 +26,9 @@
     "theme": ["thermodynamics", "work of compression", "ideal gas", "equilibrium constant"],
     "target_molecules": ["methanol"],
     "skills": ["calculating work of compression", "equilibrium calculations", "using ideal gas law"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 9,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 9
     },
     {
@@ -42,9 +42,9 @@
     "theme": ["air pollution", "acid rain", "stoichiometry", "pH calculation"],
     "target_molecules": [],
     "skills": ["writing balanced equations", "stoichiometric calculations", "pH calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 11,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 11
     },
     {
@@ -58,9 +58,9 @@
     "theme": ["radioactive decay", "kinetics", "specific activity", "mechanism", "solubility product"],
     "target_molecules": [],
     "skills": ["radioactive decay calculations", "interpreting specific activity data", "mechanism deduction", "solubility calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 13,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 13
     },
     {
@@ -74,9 +74,9 @@
     "theme": ["stereochemistry", "isomerism", "absolute configuration"],
     "target_molecules": ["cyclobutanedicarboxylic acid"],
     "skills": ["drawing structural formulae", "assigning R/S configuration", "identifying stereoisomers"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 17,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 17
     },
     {
@@ -90,9 +90,9 @@
     "theme": ["lipids", "triglycerides", "hydrolysis", "phospholipids", "biological membranes"],
     "target_molecules": ["oleic acid", "stearic acid", "palmitic acid"],
     "skills": ["drawing structures of fatty acids", "drawing triglycerides", "writing hydrolysis equations", "understanding phospholipid structure", "understanding biological membranes"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 19,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 19
     },
     {
@@ -106,9 +106,9 @@
     "theme": ["synthesis", "acetylation", "esterification", "aspirin", "recrystallization"],
     "target_molecules": ["2-ethanoloxyphenzoic acid", "acetylsalicylic acid", "aspirin"],
     "skills": ["synthesis", "recrystallization", "yield calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 22,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 23
     },
     {
@@ -122,9 +122,9 @@
     "theme": ["titration", "back-titration", "hydrolysis", "standardization"],
     "target_molecules": ["aspirin", "2-ethanoloxyphenzoic acid"],
     "skills": ["standardization", "back-titration", "calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 24,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 25
     },
     {
@@ -138,9 +138,9 @@
     "theme": ["industrial chemistry", "apatite", "phosphoric acid", "stoichiometry", "yield"],
     "target_molecules": ["phosphoric acid", "calcium bis(dihydrogenphosphate)"],
     "skills": ["stoichiometric calculations", "reaction equations", "yield calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 27,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 29
     },
     {
@@ -154,9 +154,9 @@
     "theme": ["acid-base chemistry", "solubility product", "complex formation", "disproportionation", "electrode potentials"],
     "target_molecules": [],
     "skills": ["calculating pKa", "precipitation calculations", "using Nernst equation", "calculating equilibrium constants"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 31,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 32
     },
     {
@@ -170,9 +170,9 @@
     "theme": ["synthesis", "Grignard reaction", "NMR spectroscopy", "mechanism", "carbonyl identification"],
     "target_molecules": ["haloperidol", "methyl 4-chlorobenzoate", "γ-butyrolactone"],
     "skills": ["synthetic planning", "mechanism writing", "NMR interpretation", "functional group identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 35,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 36
     },
     {
@@ -186,9 +186,9 @@
     "theme": ["thermochemistry", "self-sustaining reactions", "heat capacity", "enthalpy"],
     "target_molecules": [],
     "skills": ["thermochemical calculations", "heat balance calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 39,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 40
     },
     {
@@ -202,9 +202,9 @@
     "theme": ["reaction mechanism", "rate law", "catalysis", "kinetic data analysis"],
     "target_molecules": ["nitramide"],
     "skills": ["determining reaction order", "distinguishing mechanisms", "graphical analysis of kinetic data", "calculating rate constants"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 41,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 41
     },
     {
@@ -218,9 +218,9 @@
     "theme": ["enzyme catalysis", "stereochemistry", "Fischer projections", "dehydrogenation", "Krebs cycle"],
     "target_molecules": ["succinate", "fumarate", "malate"],
     "skills": ["drawing Fischer projections", "assigning stereochemistry", "understanding enzyme stereospecificity", "mechanism interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 44,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 47
     },
     {
@@ -234,9 +234,9 @@
     "theme": ["chemical engineering", "reactor design", "yield", "plug flow reactor", "continuous stirred reactor"],
     "target_molecules": ["benzene", "cyclohexane"],
     "skills": ["interpreting yield graphs", "reactor design calculations", "industrial process analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 52,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 54
     },
     {
@@ -250,9 +250,9 @@
     "theme": ["synthesis", "aldol condensation", "chalcone", "recrystallization"],
     "target_molecules": ["chalcone", "1,3-diphenylprop-2-en-1-one"],
     "skills": ["synthesis", "recrystallization", "yield calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 56,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 57
     },
     {
@@ -266,9 +266,9 @@
     "theme": ["qualitative analysis", "cation identification", "precipitation reactions"],
     "target_molecules": [],
     "skills": ["qualitative analysis", "interpreting observations", "writing ionic equations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 59,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 59
     },
     {
@@ -282,9 +282,9 @@
     "theme": ["Winkler method", "dissolved oxygen", "redox titration", "water analysis"],
     "target_molecules": [],
     "skills": ["redox titrations", "stoichiometric calculations", "water quality analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 61,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 62
     },
     {
@@ -298,9 +298,9 @@
     "theme": ["kinetics", "SN1 reaction", "rate constant determination", "titration"],
     "target_molecules": ["tert-butyl chloride", "2-methylpropan-2-ol"],
     "skills": ["kinetics experiment", "rate constant calculation", "graphical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 64,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 65
     },
     {
@@ -314,9 +314,9 @@
     "theme": ["solubility product", "acid-base equilibria", "redox chemistry", "electrode potentials", "equilibrium constants"],
     "target_molecules": [],
     "skills": ["solubility calculations", "equilibrium constant calculations", "using Nernst equation", "acid-base chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 68,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 68
     },
     {
@@ -330,9 +330,9 @@
     "theme": ["polymer structure", "thermal degradation", "Diels-Alder reaction", "ozonolysis", "stereoisomerism"],
     "target_molecules": ["isoprene", "dimer"],
     "skills": ["structure determination", "ozonolysis", "Diels-Alder reactions", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 71,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 72
     },
     {
@@ -346,9 +346,9 @@
     "theme": ["electrode potentials", "solubility product", "Gibbs free energy", "enthalpy", "entropy"],
     "target_molecules": [],
     "skills": ["calculating Gibbs free energy", "using Nernst equation", "calculating equilibrium constants", "thermodynamic relationships"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 74,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 74
     },
     {
@@ -362,9 +362,9 @@
     "theme": ["Bohr atom", "hydrogen atom energy levels", "Lyman series", "photoelectric effect", "de Broglie wavelength"],
     "target_molecules": [],
     "skills": ["calculating energy differences", "interpreting spectral series", "photoelectric effect calculations", "de Broglie wavelength calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 76,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 76
     },
     {
@@ -378,9 +378,9 @@
     "theme": ["aromatic substitution", "stereochemistry", "mass spectrometry", "atropisomerism", "isotopic abundances"],
     "target_molecules": ["polychlorinated biphenyls"],
     "skills": ["structure elucidation", "mass spectrometry interpretation", "stereochemistry", "isomerism"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 78,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 79
     },
     {
@@ -394,9 +394,9 @@
     "theme": ["industrial chemistry", "sulphuric acid", "oleum", "stoichiometry"],
     "target_molecules": ["sulphuric acid"],
     "skills": ["stoichiometric calculations", "mass balance", "industrial process calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 82,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 82
     },
     {
@@ -410,9 +410,9 @@
     "theme": ["qualitative analysis", "cation identification", "anion identification"],
     "target_molecules": [],
     "skills": ["qualitative analysis", "identifying ions"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 84,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 84
     },
     {
@@ -426,9 +426,9 @@
     "theme": ["titration", "acid dissociation constant", "pH measurement", "indicator selection", "Henderson-Hasselbalch equation"],
     "target_molecules": [],
     "skills": ["titration techniques", "pH calculation", "determining pKa"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 85,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 85
     },
     {
@@ -442,9 +442,9 @@
     "theme": ["complex ion formation", "stability constants", "Nernst equation", "EMF measurement"],
     "target_molecules": [],
     "skills": ["EMF measurements", "Nernst equation calculations", "activity coefficients", "determining formation constants"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 86,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 89
     },
     {
@@ -458,9 +458,9 @@
     "theme": ["photosynthesis", "carbon cycle", "stoichiometry", "biomass", "ocean chemistry"],
     "target_molecules": ["carbohydrates", "carbon dioxide"],
     "skills": ["stoichiometric calculations", "unit conversions", "environmental chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 92,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 93
     },
     {
@@ -474,9 +474,9 @@
     "theme": ["pyrite oxidation", "acid mine drainage", "stoichiometry", "pH calculation"],
     "target_molecules": ["pyrite", "goethite"],
     "skills": ["writing redox equations", "stoichiometric calculations", "pH calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 94,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 94
     },
     {
@@ -490,9 +490,9 @@
     "theme": ["natural products", "stereochemistry", "synthesis", "functional group transformations"],
     "target_molecules": ["coniferyl alcohol", "vanillin"],
     "skills": ["structure determination", "stereochemistry", "functional group transformations", "R/S assignment"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 96,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 96
     },
     {
@@ -506,9 +506,9 @@
     "theme": ["terpenes", "natural products", "oxidation", "stereochemistry"],
     "target_molecules": ["geraniol"],
     "skills": ["structure determination", "oxidation reactions", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 98,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 98
     },
     {
@@ -522,9 +522,9 @@
     "theme": ["molecular bonding", "equilibrium constant", "thermodynamics", "rate constants"],
     "target_molecules": ["nitrogen dioxide", "dinitrogen tetroxide"],
     "skills": ["drawing resonance structures", "calculating equilibrium constants", "applying van't Hoff equation", "first-order kinetics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 100,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 100
     },
     {
@@ -538,9 +538,9 @@
     "theme": ["CO2 equilibrium", "pH calculation", "thermodynamic calculations", "carbonate system"],
     "target_molecules": ["carbon dioxide"],
     "skills": ["Henry's law", "pH calculation", "thermodynamic calculations", "acid-base equilibrium"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 103,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 104
     },
     {
@@ -554,9 +554,9 @@
     "theme": ["precipitation titrations", "Mohr method", "Volhard method", "solubility product", "buffer calculations"],
     "target_molecules": ["chloride"],
     "skills": ["stoichiometric calculations", "solubility product calculations", "buffer preparation", "titration endpoint calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 105,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 107
     },
     {
@@ -570,9 +570,9 @@
     "theme": ["Pourbaix diagrams", "redox chemistry", "stability", "Nernst equation"],
     "target_molecules": [],
     "skills": ["interpreting Pourbaix diagrams", "writing redox equations", "using Nernst equation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 109,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 111
     },
     {
@@ -586,9 +586,9 @@
     "theme": ["pheromones", "reaction mechanisms", "stereochemistry", "functional group transformations"],
     "target_molecules": [],
     "skills": ["structure elucidation", "understanding functional group transformations", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 112,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 114
     },
     {
@@ -602,9 +602,9 @@
     "theme": ["complexometric titration", "EDTA titration", "solubility", "hardness determination"],
     "target_molecules": ["calcium carbonate"],
     "skills": ["complexometric titrations", "standardization", "solubility calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 117,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 119
     },
     {
@@ -618,9 +618,9 @@
     "theme": ["radioactive decay", "half-life", "activity", "kinetics"],
     "target_molecules": ["iodine-131"],
     "skills": ["radioactive decay calculations", "half-life calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 121,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 121
     },
     {
@@ -634,9 +634,9 @@
     "theme": ["HPLC", "separation", "resolution", "quantification"],
     "target_molecules": ["cholic acid", "glycocholic acid"],
     "skills": ["chromatographic resolution", "retention time calculations", "quantitative analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 123,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 124
     },
     {
@@ -650,9 +650,9 @@
     "theme": ["thermochemistry", "equilibrium constants", "combustion", "CO poisoning", "air pollution"],
     "target_molecules": ["methane", "carbon monoxide"],
     "skills": ["calculating equilibrium constants", "stoichiometric calculations", "thermodynamic calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 127,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 128
     },
     {
@@ -666,9 +666,9 @@
     "theme": ["natural products", "pheromones", "synthesis", "functional group transformations"],
     "target_molecules": ["frontalin"],
     "skills": ["synthesis design", "functional group transformations", "mechanism interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 130,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 131
     },
     {
@@ -682,9 +682,9 @@
     "theme": ["asymmetric synthesis", "chirality", "hydroboration", "enantioselectivity"],
     "target_molecules": ["1-methylcyclopentene"],
     "skills": ["assigning R/S configuration", "understanding stereoselectivity", "drawing structures"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 132,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 132
     },
     {
@@ -698,9 +698,9 @@
     "theme": ["steroid chemistry", "oxidation", "isomerization", "synthesis"],
     "target_molecules": ["cholesterol", "ketosteroid"],
     "skills": ["organic synthesis", "recrystallization", "melting point determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 133,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 134
     },
     {
@@ -714,9 +714,9 @@
     "theme": ["titration", "standardization", "citric acid analysis"],
     "target_molecules": ["citric acid"],
     "skills": ["titration techniques", "standardization", "acid-base calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 135,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 135
     },
     {
@@ -730,9 +730,9 @@
     "theme": ["acid-base equilibrium", "buffer systems", "blood chemistry", "solubility product"],
     "target_molecules": ["lactic acid", "calcium carbonate", "hydrogen carbonate"],
     "skills": ["pH calculations", "buffer calculations", "solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 138,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 139
     },
     {
@@ -746,9 +746,9 @@
     "theme": ["Kjeldahl method", "nitrogen determination", "titration", "pH calculations"],
     "target_molecules": ["ammonia"],
     "skills": ["nitrogen determination", "titration calculations", "pH calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 141,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 141
     },
     {
@@ -762,9 +762,9 @@
     "theme": ["Lewis structures", "VSEPR", "molecular geometry", "hydrolysis", "qualitative analysis"],
     "target_molecules": [],
     "skills": ["writing Lewis structures", "applying VSEPR theory", "qualitative analysis", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 143,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 145
     },
     {
@@ -778,9 +778,9 @@
     "theme": ["platinum chemistry", "thermodynamics", "coordination chemistry", "catalysis", "isomerism"],
     "target_molecules": [],
     "skills": ["thermodynamic calculations", "writing equations", "coordination chemistry", "catalysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 146,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 148
     },
     {
@@ -794,9 +794,9 @@
     "theme": ["nomenclature", "isomerism", "dipole moment", "stability"],
     "target_molecules": [],
     "skills": ["IUPAC nomenclature", "identifying isomers", "stability predictions"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 151,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 153
     },
     {
@@ -810,9 +810,9 @@
     "theme": ["ozonolysis", "IR spectroscopy", "functional group analysis", "stereochemistry", "Tollens reaction"],
     "target_molecules": [],
     "skills": ["structure elucidation", "functional group identification", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 154,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 155
     },
     {
@@ -826,9 +826,9 @@
     "theme": ["thermodynamics", "ideal gas", "work", "heat", "adiabatic expansion", "isothermal expansion"],
     "target_molecules": [],
     "skills": ["thermodynamic calculations", "ideal gas laws"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 156,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 157
     },
     {
@@ -842,9 +842,9 @@
     "theme": ["radioactive decay", "nuclear reactions", "fission", "half-life"],
     "target_molecules": ["uranium-238", "uranium-235"],
     "skills": ["radioactive decay calculations", "nuclear equations", "activity calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 158,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 158
     },
     {
@@ -858,9 +858,9 @@
     "theme": ["fatty acid analysis", "acid number", "saponification number", "iodine number", "titration"],
     "target_molecules": [],
     "skills": ["acid-base titrations", "iodometric titrations", "calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 160,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 160
     },
     {
@@ -874,9 +874,9 @@
     "theme": ["Volhard method", "precipitation titration", "bromide determination"],
     "target_molecules": ["bromide"],
     "skills": ["precipitation titrations", "standardization", "back-titration", "solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 163,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 163
     },
     {
@@ -890,9 +890,9 @@
     "theme": ["rust formation", "Gibbs free energy", "activation energy", "adsorption kinetics", "crystallography"],
     "target_molecules": [],
     "skills": ["thermodynamic calculations", "kinetic calculations", "galvanic cell analysis", "crystal structure calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 166,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 168
     },
     {
@@ -906,9 +906,9 @@
     "theme": ["ion selective electrode", "interference", "potentiometry", "calibration"],
     "target_molecules": ["nitrate"],
     "skills": ["potentiometric analysis", "selectivity coefficient calculations", "interference calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 169,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 170
     },
     {
@@ -922,9 +922,9 @@
     "theme": ["carbohydrates", "stereochemistry", "Fischer projections", "Haworth projections", "dimerization"],
     "target_molecules": ["glyceraldehyde", "dihydroxyacetone"],
     "skills": ["drawing Fischer projections", "Haworth projections", "R/S assignment"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 172,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 172
     },
     {
@@ -938,9 +938,9 @@
     "theme": ["biodegradable polymers", "PHB", "stereochemistry", "biosynthesis", "polymerization"],
     "target_molecules": ["poly(3-hydroxybutanoic acid)"],
     "skills": ["polymer structure", "stereochemistry", "biosynthesis pathways"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 174,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 175
     },
     {
@@ -954,9 +954,9 @@
     "theme": ["nitric oxide", "molecular orbitals", "coordination chemistry", "bioinorganic chemistry"],
     "target_molecules": ["nitric oxide"],
     "skills": ["molecular orbital theory", "coordination chemistry", "structure determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 177,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 178
     },
     {
@@ -970,9 +970,9 @@
     "theme": ["surfactants", "micelles", "protein separation", "isoelectric point", "extraction"],
     "target_molecules": ["AOT"],
     "skills": ["understanding surfactant properties", "protein extraction", "isoelectric point calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 180,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 181
     },
     {
@@ -986,9 +986,9 @@
     "theme": ["qualitative analysis", "cation identification", "anion identification"],
     "target_molecules": [],
     "skills": ["qualitative analysis", "ion identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 183,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 183
     },
     {
@@ -1002,9 +1002,9 @@
     "theme": ["coordination compounds", "synthesis", "copper complexes", "yield calculation"],
     "target_molecules": ["cis-copper-bis-glycinate hydrate"],
     "skills": ["synthesis", "purification", "yield calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 184,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 185
     },
     {
@@ -1018,9 +1018,9 @@
     "theme": ["iodometry", "copper determination", "standardization", "stoichiometry"],
     "target_molecules": ["copper"],
     "skills": ["iodometric titrations", "standardization", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 186,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 187
     },
     {
@@ -1034,9 +1034,9 @@
     "theme": ["coordination chemistry", "tellurium compounds", "NMR spectroscopy", "molecular structure", "cations"],
     "target_molecules": [],
     "skills": ["stoichiometric calculations", "structure determination", "interpreting spectroscopic data"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 189,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 190
     },
     {
@@ -1050,9 +1050,9 @@
     "theme": ["trace analysis", "bismuth determination", "multiplicative method", "stoichiometry", "precipitation"],
     "target_molecules": ["bismuth"],
     "skills": ["stoichiometric calculations", "analytical sensitivity", "trace analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 193,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 195
     },
     {
@@ -1066,9 +1066,9 @@
     "theme": ["radioactive decay", "radium", "helium", "Avogadro's number", "kinetics"],
     "target_molecules": ["radium", "helium"],
     "skills": ["radioactive decay calculations", "kinetic equations", "approximations", "Avogadro's number"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 197,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 199
     },
     {
@@ -1082,9 +1082,9 @@
     "theme": ["chromate equilibria", "pH calculations", "precipitation", "dichromate", "solubility product"],
     "target_molecules": [],
     "skills": ["equilibrium calculations", "pH calculations", "solubility product calculations"],
-    "problem_pdb": null,
+    "problem_pdb": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 201,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 202
     },
     {
@@ -1098,9 +1098,9 @@
     "theme": ["Nernst equation", "Beer-Lambert law", "stability constants", "potentiometry", "spectrophotometry"],
     "target_molecules": [],
     "skills": ["using Nernst equation", "spectrophotometric analysis", "calculating stability constants"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 206,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 207
     },
     {
@@ -1114,9 +1114,9 @@
     "theme": ["ozonolysis", "stereochemistry", "epoxidation", "bromination", "structure elucidation"],
     "target_molecules": [],
     "skills": ["structure elucidation", "ozonolysis", "stereochemistry", "epoxidation reactions"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 209,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 210
     },
     {
@@ -1130,9 +1130,9 @@
     "theme": ["stereochemistry", "norbornene", "dicarboxylic acids", "dehydration", "rearrangement"],
     "target_molecules": ["5-norbornene-2,3-dicarboxylic acid"],
     "skills": ["stereochemistry", "structure elucidation", "reaction mechanisms", "titration calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 213,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 214
     },
     {
@@ -1146,9 +1146,9 @@
     "theme": ["iodometry", "copper determination", "iron determination", "standardization"],
     "target_molecules": ["copper", "iron"],
     "skills": ["iodometric titrations", "standardization", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 217,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 219
     },
     {
@@ -1162,9 +1162,9 @@
     "theme": ["synthesis", "paracetamol", "thin-layer chromatography", "pharmaceutical analysis"],
     "target_molecules": ["paracetamol", "para-hydroxyacetanilide"],
     "skills": ["synthesis", "recrystallization", "TLC", "Rf calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 220,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 222
     },
     {
@@ -1178,9 +1178,9 @@
     "theme": ["carbohydrates", "trisaccharides", "Fischer projections", "Haworth projections", "methylation"],
     "target_molecules": [],
     "skills": ["carbohydrate chemistry", "Fischer projections", "Haworth projections", "structure elucidation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 225,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 226
     },
     {
@@ -1194,9 +1194,9 @@
     "theme": ["atmospheric chemistry", "acid rain", "reaction kinetics", "Arrhenius equation", "steady state approximation"],
     "target_molecules": ["sulphuric acid", "sulphur trioxide"],
     "skills": ["deriving rate laws", "steady state approximation", "Arrhenius equation", "activation energy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 230,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 231
     },
     {
@@ -1210,9 +1210,9 @@
     "theme": ["synthesis", "SN2 reactions", "mechanism", "dimerization"],
     "target_molecules": ["MK-0476"],
     "skills": ["synthesis design", "mechanism elucidation", "reaction rates", "nucleophilic substitution"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 233,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 235
     },
     {
@@ -1226,9 +1226,9 @@
     "theme": ["acid-base indicator", "Beer-Lambert law", "pH", "spectrophotometry", "molar absorptivity"],
     "target_molecules": [],
     "skills": ["spectrophotometric analysis", "Beer-Lambert law", "pH calculations", "acid-base equilibrium"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 236,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 238
     },
     {
@@ -1242,9 +1242,9 @@
     "theme": ["crystal structure", "unit cell", "density", "atomic radius", "alloys", "martensite"],
     "target_molecules": [],
     "skills": ["crystal structure calculations", "density calculations", "alloy composition", "unit cell analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 240,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 241
     },
     {
@@ -1258,9 +1258,9 @@
     "theme": ["platinum group metals", "coordination chemistry", "isomerism", "redox reactions", "polymerization"],
     "target_molecules": [],
     "skills": ["coordination chemistry", "stereochemistry", "writing equations", "stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 246,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 248
     },
     {
@@ -1274,9 +1274,9 @@
     "theme": ["thermodynamics", "entropy", "enthalpy", "Gibbs free energy", "complexation", "ligand substitution"],
     "target_molecules": ["chlorine"],
     "skills": ["thermodynamic calculations", "MO theory", "equilibrium calculations", "kinetics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 252,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 253
     },
     {
@@ -1290,9 +1290,9 @@
     "theme": ["electrolysis", "Faraday's laws", "crystal structure", "epitaxial growth", "monolayer formation"],
     "target_molecules": ["copper"],
     "skills": ["electrolysis calculations", "crystal structure calculations", "Faraday's laws"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 257,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 258
     },
     {
@@ -1306,9 +1306,9 @@
     "theme": ["complexometric titration", "EDTA titration", "water hardness", "calcium determination", "magnesium determination"],
     "target_molecules": [],
     "skills": ["complexometric titrations", "precipitation", "calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 261,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 262
     },
     {
@@ -1322,9 +1322,9 @@
     "theme": ["qualitative analysis", "functional group tests", "compound identification"],
     "target_molecules": [],
     "skills": ["functional group tests", "qualitative analysis", "compound identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 263,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 263
     },
     {
@@ -1338,9 +1338,9 @@
     "theme": ["synthesis", "heterocyclic chemistry", "reduction", "condensation"],
     "target_molecules": ["dihydro-1,3-benzoxazine"],
     "skills": ["multi-step synthesis", "recrystallization", "yield calculation", "melting point determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 264,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 266
     },
     {
@@ -1354,9 +1354,9 @@
     "theme": ["EDTA titration", "metal analysis", "alloy analysis", "conditional formation constants"],
     "target_molecules": ["tin", "lead"],
     "skills": ["complexometric titration", "stoichiometric calculations", "graph interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 268,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 270
     },
     {
@@ -1370,9 +1370,9 @@
     "theme": ["radioactive dating", "nuclear medicine", "ion exchange", "radionuclide separation", "Pb-210"],
     "target_molecules": ["Pb-210"],
     "skills": ["radioactive decay calculations", "chromatography", "interpreting distribution coefficients"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 272,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 276
     },
     {
@@ -1386,9 +1386,9 @@
     "theme": ["fullerenes", "angle strain", "hybridization", "hydrogenation", "dodecahedrane", "ovalene"],
     "target_molecules": ["dodecahedrane", "ovalene", "C60"],
     "skills": ["VSEPR", "strain analysis", "hybridization", "stability predictions"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 278,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 282
     },
     {
@@ -1402,9 +1402,9 @@
     "theme": ["MO theory", "Walsh diagrams", "ozone", "triatomic molecules", "bonding"],
     "target_molecules": ["ozone"],
     "skills": ["molecular orbital diagrams", "Walsh diagrams", "symmetry analysis", "structure prediction"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 286,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 288
     },
     {
@@ -1418,9 +1418,9 @@
     "theme": ["gold extraction", "cyanide", "redox reactions", "complex formation", "electrode potentials"],
     "target_molecules": ["gold"],
     "skills": ["writing ionic equations", "electrode potential calculations", "complexation calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 290,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 290
     },
     {
@@ -1434,9 +1434,9 @@
     "theme": ["mass spectrometry", "NMR spectroscopy", "tin complexes", "VSEPR", "coordination chemistry"],
     "target_molecules": [],
     "skills": ["mass spectrometry interpretation", "NMR interpretation", "VSEPR", "coordination chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 293,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 296
     },
     {
@@ -1450,9 +1450,9 @@
     "theme": ["aromatic compounds", "lactones", "Diels-Alder reaction", "synthesis", "structure elucidation"],
     "target_molecules": [],
     "skills": ["structure elucidation", "synthesis design", "functional group chemistry", "Diels-Alder reaction"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 298,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 299
     },
     {
@@ -1466,9 +1466,9 @@
     "theme": ["gravimetric analysis", "titration", "oxalate precipitation", "permanganate titration", "calcium determination"],
     "target_molecules": ["calcium"],
     "skills": ["gravimetric analysis", "filtration", "redox titrations", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 300,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 303
     },
     {
@@ -1482,9 +1482,9 @@
     "theme": ["ion exchange", "coordination compounds", "complex analysis", "stoichiometry"],
     "target_molecules": ["[Co(NH3)5NO2]Cl2", "[Co(NH3)6]Cl3"],
     "skills": ["ion exchange chromatography", "titration", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 304,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 306
     },
     {
@@ -1498,9 +1498,9 @@
     "theme": ["calorimetry", "enthalpy of formation", "distribution coefficient", "freezing point depression", "dimerization"],
     "target_molecules": [],
     "skills": ["bomb calorimetry", "thermodynamic calculations", "distribution calculations", "freezing point depression"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 309,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 310
     },
     {
@@ -1514,9 +1514,9 @@
     "theme": ["diprotic acid titration", "pH calculations", "spectrophotometry", "absorbance", "transmittance"],
     "target_molecules": [],
     "skills": ["titration calculations", "pH calculations", "Beer-Lambert law", "indicator chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 312,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 313
     },
     {
@@ -1530,9 +1530,9 @@
     "theme": ["radioactive decay", "alpha decay", "beta decay", "energy calculations", "half-life", "thorium"],
     "target_molecules": ["thorium-232", "lead-208"],
     "skills": ["radioactive decay calculations", "energy calculations", "half-life calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 315,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 315
     },
     {
@@ -1546,9 +1546,9 @@
     "theme": ["coordination chemistry", "ligands", "magnetic moment", "spin states", "elemental analysis"],
     "target_molecules": [],
     "skills": ["empirical formula determination", "magnetic moment calculations", "d-electron configurations", "spectroscopy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 318,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 320
     },
     {
@@ -1562,9 +1562,9 @@
     "theme": ["glycosides", "carbohydrates", "stereochemistry", "hydrolysis", "Haworth projections"],
     "target_molecules": [],
     "skills": ["carbohydrate chemistry", "Fischer projections", "Haworth projections", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 323,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 325
     },
     {
@@ -1578,9 +1578,9 @@
     "theme": ["peptides", "amino acids", "Edman degradation", "hydrazinolysis", "isoelectric point", "sequencing"],
     "target_molecules": [],
     "skills": ["peptide sequencing", "amino acid chemistry", "Edman degradation", "isoelectric point calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 327,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 330
     },
     {
@@ -1594,9 +1594,9 @@
     "theme": ["kinetics", "iodination", "titration", "initial rate method", "determining rate law"],
     "target_molecules": ["acetone", "iodine"],
     "skills": ["kinetics experiment", "rate constant calculation", "graphical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 331,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 334
     },
     {
@@ -1610,9 +1610,9 @@
     "theme": ["steam distillation", "extraction", "functional group analysis", "NMR spectroscopy", "essential oils"],
     "target_molecules": ["eugenol"],
     "skills": ["steam distillation", "extraction", "functional group identification", "NMR interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 335,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 337
     },
     {
@@ -1626,9 +1626,9 @@
     "theme": ["natural products", "synthesis", "shikonin", "stereoisomers", "IUPAC nomenclature"],
     "target_molecules": ["shikonin"],
     "skills": ["synthesis design", "IUPAC nomenclature", "stereochemistry", "structure elucidation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 342,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 343
     },
     {
@@ -1642,9 +1642,9 @@
     "theme": ["thermodynamics", "gypsum", "equilibrium pressure", "corrosion", "electrochemical cells", "Nernst equation"],
     "target_molecules": ["gypsum"],
     "skills": ["thermodynamic calculations", "electrochemistry calculations", "Nernst equation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 345,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 347
     },
     {
@@ -1658,9 +1658,9 @@
     "theme": ["coordination chemistry", "Pt complexes", "crystal field theory", "protein binding", "transferrin"],
     "target_molecules": ["cisplatin"],
     "skills": ["coordination chemistry", "crystal field splitting", "equilibrium calculations", "protein binding constants"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 349,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 350
     },
     {
@@ -1674,9 +1674,9 @@
     "theme": ["structure elucidation", "NMR spectroscopy", "mass spectrometry", "functional group analysis"],
     "target_molecules": [],
     "skills": ["mass spectrometry interpretation", "NMR interpretation", "functional group analysis", "structure determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 352,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 356
     },
     {
@@ -1690,9 +1690,9 @@
     "theme": ["DNA", "PCR", "radioactive labelling", "protein concentration", "molar absorptivity"],
     "target_molecules": [],
     "skills": ["calculating DNA molar mass", "PCR calculations", "radioactive decay calculations", "protein concentration", "Beer-Lambert law"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 358,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 360
     },
     {
@@ -1706,9 +1706,9 @@
     "theme": ["hard water", "carbonate equilibrium", "pH calculations", "solubility product", "calcium carbonate"],
     "target_molecules": ["calcium carbonate", "carbon dioxide"],
     "skills": ["acid-base equilibrium calculations", "pH calculations", "solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 362,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 363
     },
     {
@@ -1722,9 +1722,9 @@
     "theme": ["coordination complex synthesis", "redox titrations", "manganese compounds", "iodometry", "permanganate titration"],
     "target_molecules": ["potassium tris(oxalato)manganate(III) hydrate"],
     "skills": ["inorganic synthesis", "redox titrations", "iodometry", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 366,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 368
     },
     {
@@ -1738,9 +1738,9 @@
     "theme": ["amino acid derivatization", "esterification", "peptide synthesis"],
     "target_molecules": ["serine methyl ester hydrochloride"],
     "skills": ["esterification", "filtration techniques", "microscale synthesis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 369,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 370
     },
     {
@@ -1754,9 +1754,9 @@
     "theme": ["Bohr atom", "spectral lines", "muonic atom", "hydrogen molecule", "dissociation energies"],
     "target_molecules": ["hydrogen"],
     "skills": ["Bohr theory calculations", "spectroscopy", "quantum mechanics", "energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 375,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 377
     },
     {
@@ -1770,9 +1770,9 @@
     "theme": ["phosphoric acid", "pH calculations", "solubility product", "fertilizer", "zinc phosphate"],
     "target_molecules": ["phosphoric acid", "zinc phosphate"],
     "skills": ["acid dissociation constants", "pH calculations", "solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 379,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 380
     },
     {
@@ -1786,9 +1786,9 @@
     "theme": ["entropy", "phase diagram", "Clausius-Clapeyron equation", "equilibrium constant", "Gibbs free energy"],
     "target_molecules": ["CO2"],
     "skills": ["entropy calculations", "phase diagram interpretation", "thermodynamic calculations", "equilibrium constant calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 382,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 384
     },
     {
@@ -1802,9 +1802,9 @@
     "theme": ["radioactive decay", "thorium", "uranium", "dating", "nuclear reactions", "fission products"],
     "target_molecules": ["thorium-232", "uranium-238"],
     "skills": ["radioactive decay calculations", "half-life calculations", "nuclear reactions", "fission product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 386,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 387
     },
     {
@@ -1818,9 +1818,9 @@
     "theme": ["interhalogens", "VSEPR", "mass spectrometry", "redox chemistry", "crystal structure"],
     "target_molecules": [],
     "skills": ["VSEPR theory", "Lewis structures", "mass spectrometry interpretation", "crystal structure calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 389,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 391
     },
     {
@@ -1834,9 +1834,9 @@
     "theme": ["natural products", "ginger", "turmeric", "spectroscopy", "synthesis", "stereochemistry"],
     "target_molecules": ["zingerone", "gingerol", "shogaol", "curcumin"],
     "skills": ["structure elucidation", "NMR spectroscopy", "synthesis", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 395,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 399
     },
     {
@@ -1850,9 +1850,9 @@
     "theme": ["protein folding", "enzyme mechanisms", "beta-lactamase", "antibiotic resistance", "peptide sequencing"],
     "target_molecules": [],
     "skills": ["protein structure", "enzyme kinetics", "peptide sequencing", "thermodynamics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 402,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 407
     },
     {
@@ -1866,9 +1866,9 @@
     "theme": ["diazotization", "substitution", "2-iodobenzoic acid synthesis"],
     "target_molecules": ["2-iodobenzoic acid"],
     "skills": ["diazotization", "purification", "yield calculation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 410,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 411
     },
     {
@@ -1882,9 +1882,9 @@
     "theme": ["complexometric titration", "EDTA", "masking agents", "metal ion determination"],
     "target_molecules": ["manganese", "magnesium"],
     "skills": ["complexometric titrations", "masking", "stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 412,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 413
     },
     {
@@ -1898,9 +1898,9 @@
     "theme": ["kinetics", "chromate oxidation", "redox titrations", "rate constant determination"],
     "target_molecules": ["ethanol"],
     "skills": ["kinetics experiment", "iodometric titrations", "rate constant calculation", "graphical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 414,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 415
     },
     {
@@ -1914,9 +1914,9 @@
     "theme": ["hemoglobin", "oxygen binding", "cooperativity", "thermodynamics", "energy production"],
     "target_molecules": ["hemoglobin", "oxygen"],
     "skills": ["thermodynamic calculations", "graph interpretation", "stoichiometric calculations", "power calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 417,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 419
     },
     {
@@ -1930,9 +1930,9 @@
     "theme": ["nitrogen cycle", "nitrifying bacteria", "oxidation states", "spectrophotometry", "calibration curve"],
     "target_molecules": ["ammonia", "nitrite", "nitrate"],
     "skills": ["oxidation state assignment", "spectrophotometric analysis", "Beer-Lambert law", "calibration curves"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 420,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 422
     },
     {
@@ -1946,9 +1946,9 @@
     "theme": ["carbohydrates", "inulin", "hydrolysis", "hydrogenation", "mannitol", "sorbitol"],
     "target_molecules": ["inulin", "fructose", "mannitol", "sorbitol"],
     "skills": ["carbohydrate chemistry", "stoichiometric calculations", "solubility calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 424,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 426
     },
     {
@@ -1962,9 +1962,9 @@
     "theme": ["methanol synthesis", "flow calculations", "equilibrium constant", "temperature dependence"],
     "target_molecules": ["methanol"],
     "skills": ["stoichiometric calculations", "flow calculations", "equilibrium constant calculations", "graph interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 427,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 428
     },
     {
@@ -1978,9 +1978,9 @@
     "theme": ["polymerization", "aramids", "Kevlar", "degree of conversion", "average chain length", "equilibrium constant"],
     "target_molecules": ["PPTA", "Kevlar"],
     "skills": ["polymer chemistry", "equilibrium calculations", "degree of polymerization"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 430,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 431
     },
     {
@@ -1994,9 +1994,9 @@
     "theme": ["phospholipids", "vesicles", "micelles", "stereochemistry", "catalysis", "decarboxylation"],
     "target_molecules": ["phosphatidylcholine"],
     "skills": ["stereoisomerism", "lipid chemistry", "catalysis principles", "NMR interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 433,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 436
     },
     {
@@ -2010,9 +2010,9 @@
     "theme": ["glutathione", "mercapturic acids", "amino acids", "NMR spectroscopy", "vitamin C", "antioxidants"],
     "target_molecules": ["glutathione"],
     "skills": ["peptide structure", "NMR interpretation", "amino acid chemistry", "detoxification pathways"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 437,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 439
     },
     {
@@ -2026,9 +2026,9 @@
     "theme": ["Born-Haber cycle", "lattice energy", "Born-Landé equation", "sublimation enthalpy"],
     "target_molecules": ["CeBr3", "CsCeBr4"],
     "skills": ["thermochemical cycles", "lattice energy calculations", "Born-Landé equation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 440,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 442
     },
     {
@@ -2042,9 +2042,9 @@
     "theme": ["ruby", "d-orbitals", "crystal field theory", "ligand field splitting", "paramagnetism"],
     "target_molecules": ["Cr3+"],
     "skills": ["crystal field theory", "d-orbital splitting", "Hund's rule", "absorption spectroscopy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 444,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 446
     },
     {
@@ -2058,9 +2058,9 @@
     "theme": ["lead-acid batteries", "lithium-ion batteries", "electrochemical cells", "energy calculations"],
     "target_molecules": [],
     "skills": ["electrochemical reactions", "cell voltage calculations", "energy storage calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 447,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 448
     },
     {
@@ -2074,9 +2074,9 @@
     "theme": ["enzyme kinetics", "titration", "chymotrypsin", "hydrolysis", "pH indicator"],
     "target_molecules": ["methyl N-acetyl-phenylalaninate"],
     "skills": ["enzyme kinetics", "titration techniques", "graphical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 449,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 450
     },
     {
@@ -2090,9 +2090,9 @@
     "theme": ["amino acid derivatization", "hydantoin synthesis", "TLC analysis"],
     "target_molecules": ["benzylhydantoin"],
     "skills": ["organic synthesis", "TLC", "yield calculation", "melting point determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 451,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 453
     },
     {
@@ -2106,9 +2106,9 @@
     "theme": ["spectrophotometry", "iron determination", "complex formation", "Beer-Lambert law", "phenanthroline"],
     "target_molecules": ["iron"],
     "skills": ["spectrophotometry", "Beer-Lambert law", "sample preparation", "concentration calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 454,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 455
     },
     {
@@ -2122,9 +2122,9 @@
     "theme": ["solubility product", "stoichiometry"],
     "target_molecules": ["Th(IO3)4"],
     "skills": ["calculating molar solubility"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 457,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2138,9 +2138,9 @@
     "theme": ["pH calculation", "strong acid"],
     "target_molecules": ["HCl"],
     "skills": ["pH calculations", "mass balance"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 457,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2154,9 +2154,9 @@
     "theme": ["molar mass", "moles", "Avogadro's number", "stoichiometry"],
     "target_molecules": ["glucose"],
     "skills": ["mole calculations", "stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 457,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2170,9 +2170,9 @@
     "theme": ["density", "molar mass", "Avogadro's number"],
     "target_molecules": [],
     "skills": ["mole calculations", "density calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 458,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2186,9 +2186,9 @@
     "theme": ["solubility product", "equilibrium constant"],
     "target_molecules": ["Ag2CrO4", "AgCl"],
     "skills": ["solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 458,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2202,9 +2202,9 @@
     "theme": ["buffer solutions", "pH calculations", "phosphoric acid"],
     "target_molecules": ["H3PO4"],
     "skills": ["buffer calculations", "Henderson-Hasselbalch equation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 458,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2218,9 +2218,9 @@
     "theme": ["titration curves", "polyprotic acids", "phosphoric acid"],
     "target_molecules": ["H3PO4", "NaH2PO4"],
     "skills": ["interpreting titration curves"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 459,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2234,9 +2234,9 @@
     "theme": ["stoichiometry", "combustion", "rocket fuel"],
     "target_molecules": ["N,N-dimethylhydrazine", "N2O4"],
     "skills": ["stoichiometric calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 459,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2250,9 +2250,9 @@
     "theme": ["electrolysis", "Faraday's laws"],
     "target_molecules": ["water"],
     "skills": ["electrolysis calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 460,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2266,9 +2266,9 @@
     "theme": ["nuclear reactions", "decay modes"],
     "target_molecules": [],
     "skills": ["nuclear equations", "decay identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 460,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2282,9 +2282,9 @@
     "theme": ["calorimetry", "neutralization", "enthalpy"],
     "target_molecules": ["HCl", "NaOH"],
     "skills": ["calorimetry calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 460,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2298,9 +2298,9 @@
     "theme": ["mass spectrometry", "isotope peaks"],
     "target_molecules": ["SbHCl+"],
     "skills": ["mass spectrometry interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 461,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2314,9 +2314,9 @@
     "theme": ["X-ray diffraction", "Bragg's law"],
     "target_molecules": [],
     "skills": ["Bragg's law calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 461,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2330,9 +2330,9 @@
     "theme": ["extraction", "distribution coefficient", "pH dependence"],
     "target_molecules": [],
     "skills": ["understanding extraction equilibria"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 461,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2346,9 +2346,9 @@
     "theme": ["Beer-Lambert law", "absorbance", "transmittance"],
     "target_molecules": [],
     "skills": ["understanding spectrophotometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 462,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2362,9 +2362,9 @@
     "theme": ["wavelength", "frequency", "wavenumber"],
     "target_molecules": [],
     "skills": ["unit conversions", "c = λν"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 462,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2378,9 +2378,9 @@
     "theme": ["Beer's law", "weak acid equilibria", "absorbance"],
     "target_molecules": [],
     "skills": ["Beer-Lambert law", "acid-base equilibrium"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 462,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2394,9 +2394,9 @@
     "theme": ["acid strength", "oxoacids"],
     "target_molecules": ["HClO4", "HClO3", "HClO2", "HClO"],
     "skills": ["predicting acid strength"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 463,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2410,9 +2410,9 @@
     "theme": ["crystal structure", "coordination number", "iron"],
     "target_molecules": ["iron"],
     "skills": ["crystal structures", "coordination numbers"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 464,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2426,9 +2426,9 @@
     "theme": ["ionization energy", "periodic trends"],
     "target_molecules": [],
     "skills": ["periodic trends"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 464,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2442,9 +2442,9 @@
     "theme": ["ionization energy", "electron configuration"],
     "target_molecules": [],
     "skills": ["electron configuration", "ionization energy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 464,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2458,9 +2458,9 @@
     "theme": ["fcc structure", "density", "atomic radius"],
     "target_molecules": ["silver"],
     "skills": ["crystal structure calculations", "density calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 465,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2474,9 +2474,9 @@
     "theme": ["boiling points", "acid-base", "electrolysis"],
     "target_molecules": [],
     "skills": ["general chemistry knowledge"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 465,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2490,9 +2490,9 @@
     "theme": ["redox stoichiometry", "nitric acid", "zinc"],
     "target_molecules": ["HNO3", "Zn"],
     "skills": ["redox stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 465,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 466
     },
     {
@@ -2506,9 +2506,9 @@
     "theme": ["muon", "Bohr model", "mass determination", "radioactive decay"],
     "target_molecules": [],
     "skills": ["Bohr model calculations", "energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 467,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 467
     },
     {
@@ -2522,9 +2522,9 @@
     "theme": ["rotational spectroscopy", "bond length", "reduced mass"],
     "target_molecules": ["CO"],
     "skills": ["spectroscopy", "calculating bond lengths"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 469,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 470
     },
     {
@@ -2538,9 +2538,9 @@
     "theme": ["bond energy", "ionization energy", "photoelectron spectroscopy"],
     "target_molecules": ["H2", "H2+"],
     "skills": ["graph interpretation", "energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 471,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 471
     },
     {
@@ -2554,9 +2554,9 @@
     "theme": ["freezing point depression", "phase diagram", "entropy"],
     "target_molecules": ["NaCl"],
     "skills": ["freezing point depression", "entropy", "graph interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 473,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 473
     },
     {
@@ -2570,9 +2570,9 @@
     "theme": ["entropy", "heat transfer", "reversibility"],
     "target_molecules": [],
     "skills": ["entropy calculations", "thermodynamic principles"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 474,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 474
     },
     {
@@ -2586,9 +2586,9 @@
     "theme": ["gas kinetics", "molecular velocity", "momentum transfer"],
     "target_molecules": ["ethanol"],
     "skills": ["kinetic theory of gases", "momentum calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 475,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 475
     },
     {
@@ -2602,9 +2602,9 @@
     "theme": ["saponification", "stereochemistry", "ozonolysis"],
     "target_molecules": [],
     "skills": ["saponification calculations", "stereochemistry", "structure elucidation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 476,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 476
     },
     {
@@ -2618,9 +2618,9 @@
     "theme": ["NMR spectroscopy", "structure elucidation", "reaction sequences"],
     "target_molecules": [],
     "skills": ["NMR interpretation", "structure determination", "reaction mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 479,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 481
     },
     {
@@ -2634,9 +2634,9 @@
     "theme": ["amino acid racemization", "azalactones", "peptide synthesis", "stereochemistry"],
     "target_molecules": [],
     "skills": ["stereochemistry", "peptide synthesis", "reaction mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 483,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 485
     },
     {
@@ -2650,9 +2650,9 @@
     "theme": ["Bayer process", "Hall-Héroult process", "aluminium", "bauxite", "thermochemistry", "crystal structure"],
     "target_molecules": ["aluminium oxide", "aluminium"],
     "skills": ["industrial chemistry", "thermochemical calculations", "crystal structure", "hybridization"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 487,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 489
     },
     {
@@ -2666,9 +2666,9 @@
     "theme": ["reaction kinetics", "rate law", "activation energy"],
     "target_molecules": ["acetone", "iodine"],
     "skills": ["rate law determination", "activation energy calculation", "graphical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 490,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 490
     },
     {
@@ -2682,9 +2682,9 @@
     "theme": ["peptide synthesis", "dipeptide synthesis", "TLC analysis"],
     "target_molecules": ["N-acetyl-L-prolinyl-L-phenylalanine methyl ester"],
     "skills": ["multi-step synthesis", "filtration", "TLC"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 492,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 496
     },
     {
@@ -2698,9 +2698,9 @@
     "theme": ["thermochemistry", "heat transfer", "natural gas combustion"],
     "target_molecules": ["methane", "ethane"],
     "skills": ["thermodynamic calculations", "heat transfer", "energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 498,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 500
     },
     {
@@ -2714,9 +2714,9 @@
     "theme": ["Langmuir isotherm", "surface catalysis", "CO oxidation", "reaction kinetics"],
     "target_molecules": ["CO", "O2", "CO2"],
     "skills": ["Langmuir isotherm", "surface kinetics", "adsorption-desorption"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 504,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 506
     },
     {
@@ -2730,9 +2730,9 @@
     "theme": ["Born-Haber cycle", "crystal structure", "lattice energy", "stability"],
     "target_molecules": ["CaCl"],
     "skills": ["thermochemical cycles", "lattice energy calculations", "structure prediction"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 509,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 511
     },
     {
@@ -2746,9 +2746,9 @@
     "theme": ["stoichiometry", "Hooke's law", "vibrational spectroscopy", "atomic mass determination"],
     "target_molecules": ["methane"],
     "skills": ["stoichiometric calculations", "Hooke's law", "force constant calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 514,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 515
     },
     {
@@ -2762,9 +2762,9 @@
     "theme": ["ATP", "bioenergetics", "equilibrium constants", "membrane transport", "proton pumps"],
     "target_molecules": ["ATP", "ADP", "glucose"],
     "skills": ["thermodynamic calculations", "equilibrium constants", "energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 518,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 520
     },
     {
@@ -2778,9 +2778,9 @@
     "theme": ["Diels-Alder", "stereospecificity", "stereoisomers", "mechanism"],
     "target_molecules": ["benzoquinone", "cyclopentadiene"],
     "skills": ["Diels-Alder reactions", "stereochemistry", "mechanism"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 523,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 525
     },
     {
@@ -2794,9 +2794,9 @@
     "theme": ["stereochemistry", "drugs", "R/S assignment", "reduction", "Newman projections"],
     "target_molecules": ["pseudoephedrine", "methcathinone"],
     "skills": ["stereochemistry", "R/S assignment", "Fischer projections", "Newman projections"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 528,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 529
     },
     {
@@ -2810,9 +2810,9 @@
     "theme": ["colloids", "nanoparticles", "acid-base equilibrium", "polymer chemistry", "crystal density"],
     "target_molecules": ["calcium carbonate"],
     "skills": ["pH calculations", "solubility product calculations", "nanoparticle characterization", "density calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 532,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 533
     },
     {
@@ -2826,9 +2826,9 @@
     "theme": ["synthesis", "polycarbonate hydrolysis", "etherification", "yield calculation"],
     "target_molecules": ["bisphenol A", "bisphenol A bis(carboxymethyl)ether"],
     "skills": ["organic synthesis", "recrystallization", "yield calculation", "by-product identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 538,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 542
     },
     {
@@ -2842,9 +2842,9 @@
     "theme": ["superconductor analysis", "quantitative analysis", "EDTA titration", "iodometry"],
     "target_molecules": ["La2CuO4"],
     "skills": ["qualitative analysis", "complexometric titrations", "iodometry", "stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 544,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 546
     },
     {
@@ -2858,9 +2858,9 @@
     "theme": ["amides", "phenols", "hydrogen bonding", "IR spectroscopy", "UV-Vis spectroscopy", "peptides"],
     "target_molecules": ["phenolphthalein"],
     "skills": ["structural elucidation", "spectroscopy interpretation", "acid-base chemistry", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 550,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 552
     },
     {
@@ -2874,9 +2874,9 @@
     "theme": ["carbohydrate synthesis", "stereochemistry", "R/S notation", "Fischer projections", "disaccharides"],
     "target_molecules": ["L-ribose"],
     "skills": ["synthesis design", "stereochemistry", "R/S assignment", "Fischer projections"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 554,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 556
     },
     {
@@ -2890,9 +2890,9 @@
     "theme": ["fluorescence", "PET quenching", "crown ethers", "photochromism", "stilbene", "synthesis"],
     "target_molecules": ["anthracene", "stilbene"],
     "skills": ["photochemistry", "photophysics", "synthesis", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 558,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 561
     },
     {
@@ -2906,9 +2906,9 @@
     "theme": ["gold extraction", "cyanide", "aqua regia", "redox chemistry", "nanoparticles", "Nernst equation"],
     "target_molecules": ["gold"],
     "skills": ["stoichiometric calculations", "redox reactions", "Nernst equation", "nanoparticle calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 562,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 564
     },
     {
@@ -2922,9 +2922,9 @@
     "theme": ["Lewis structures", "formal charge", "VSEPR", "resonance structures"],
     "target_molecules": ["thiourea-S,S-dioxide"],
     "skills": ["drawing Lewis structures", "VSEPR", "formal charge assignment"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 568,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 570
     },
     {
@@ -2938,9 +2938,9 @@
     "theme": ["alkalinity", "CO2 solubility", "carbonate equilibria", "pH calculations", "CaCO3 solubility"],
     "target_molecules": ["CO2", "CaCO3"],
     "skills": ["equilibrium calculations", "pH calculations", "solubility product calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 572,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 574
     },
     {
@@ -2954,9 +2954,9 @@
     "theme": ["ozone", "catalysis", "steady-state approximation", "activation energy", "kinetics"],
     "target_molecules": ["ozone"],
     "skills": ["deriving rate laws", "steady-state approximation", "activation energy calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 578,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 579
     },
     {
@@ -2970,9 +2970,9 @@
     "theme": ["protein folding", "equilibrium", "denaturation", "Gibbs free energy", "rate constants"],
     "target_molecules": [],
     "skills": ["thermodynamic calculations", "kinetic equations", "equilibrium constants", "free energy"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 581,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 583
     },
     {
@@ -2986,9 +2986,9 @@
     "theme": ["synthesis", "reductive amination", "chiral resolution", "optical purity"],
     "target_molecules": ["D,L-phenylglycine"],
     "skills": ["multi-step synthesis", "chiral resolution", "yield calculation", "optical purity"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 584,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 587
     },
     {
@@ -3002,9 +3002,9 @@
     "theme": ["qualitative analysis", "ion identification", "precipitation reactions"],
     "target_molecules": [],
     "skills": ["qualitative analysis", "ion identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 588,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 589
     },
     {
@@ -3018,9 +3018,9 @@
     "theme": ["Avogadro's number", "kinetic theory", "equipartition theorem", "specific heat"],
     "target_molecules": ["argon"],
     "skills": ["kinetic theory calculations", "Avogadro's number determination"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 591,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 592
     },
     {
@@ -3034,9 +3034,9 @@
     "theme": ["hydrogen atom", "Bohr model", "Wien's law", "cosmic background radiation", "nuclear reactions"],
     "target_molecules": ["hydrogen"],
     "skills": ["Bohr model calculations", "Wien's law", "nuclear equations", "astrochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 593,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 594
     },
     {
@@ -3050,9 +3050,9 @@
     "theme": ["interstellar chemistry", "surface reactions", "Arrhenius equation", "desorption", "migration"],
     "target_molecules": ["CO", "CH"],
     "skills": ["Arrhenius equation", "surface kinetics", "reaction rate calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 595,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 596
     },
     {
@@ -3066,9 +3066,9 @@
     "theme": ["DNA", "base pairing", "hydrogen bonding", "mutation", "prebiotic chemistry"],
     "target_molecules": ["adenine", "guanine", "cytosine", "thymine", "uracil"],
     "skills": ["structural elucidation", "hydrogen bonding", "nucleic acid chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 597,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 599
     },
     {
@@ -3082,9 +3082,9 @@
     "theme": ["pH calculations", "drug absorption", "buffer preparation", "acid dissociation"],
     "target_molecules": ["sulfuric acid", "phosphoric acid", "aspirin"],
     "skills": ["pH calculations", "buffer calculations", "acid dissociation equilibria"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 600,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 600
     },
     {
@@ -3098,9 +3098,9 @@
     "theme": ["water electrolysis", "standard reduction potentials", "lithium batteries", "charge capacity"],
     "target_molecules": ["water", "lithium", "copper"],
     "skills": ["electrochemical equations", "standard potentials", "battery calculations", "charge capacity"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 603,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 604
     },
     {
@@ -3114,9 +3114,9 @@
     "theme": ["hydrogen energy", "fuel cells", "combustion", "thermochemistry", "efficiency"],
     "target_molecules": ["hydrogen", "carbon"],
     "skills": ["thermodynamic calculations", "fuel cell efficiency", "heat engine calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 607,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 607
     },
     {
@@ -3130,9 +3130,9 @@
     "theme": ["iron oxides", "thermochemistry", "crystal field theory", "spinel structure", "equilibrium constants"],
     "target_molecules": ["Fe2O3", "Fe3O4"],
     "skills": ["thermochemical calculations", "crystal structure analysis", "crystal field theory"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 609,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 610
     },
     {
@@ -3146,9 +3146,9 @@
     "theme": ["photolithography", "photoresists", "Lewis structures", "reaction mechanisms", "chemical amplification"],
     "target_molecules": ["diazonaphthaquinone"],
     "skills": ["Lewis structures", "reaction mechanisms", "photochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 612,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 615
     },
     {
@@ -3162,9 +3162,9 @@
     "theme": ["natural products", "saponins", "hydrolysis", "NMR spectroscopy", "structural elucidation"],
     "target_molecules": ["glycyrrhizin"],
     "skills": ["structure elucidation", "hydrolysis reactions", "NMR interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 617,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 619
     },
     {
@@ -3178,9 +3178,9 @@
     "theme": ["enzyme catalysis", "chorismate mutase", "Claisen rearrangement", "transition state analogs", "NMR spectroscopy"],
     "target_molecules": ["chorismic acid", "prephenic acid"],
     "skills": ["structure elucidation", "enzyme kinetics", "transition state theory", "NMR interpretation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 622,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 624
     },
     {
@@ -3194,9 +3194,9 @@
     "theme": ["chromatography", "spectrophotometry", "dye analysis", "Beer-Lambert law"],
     "target_molecules": [],
     "skills": ["chromatography", "spectrophotometry", "Beer-Lambert law", "calibration curves"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 626,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 627
     },
     {
@@ -3210,9 +3210,9 @@
     "theme": ["chromatography", "titration", "organic acid analysis"],
     "target_molecules": ["acetic acid", "salicylic acid"],
     "skills": ["chromatography", "titration", "standardization"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 628,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 629
     },
     {
@@ -3226,9 +3226,9 @@
     "theme": ["qualitative analysis", "functional group tests", "drug identification"],
     "target_molecules": [],
     "skills": ["functional group tests", "qualitative analysis", "compound identification"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 630,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 631
     },
     {
@@ -3242,9 +3242,9 @@
     "theme": ["proton tunneling", "quantum mechanics", "wavefunctions", "uncertainty principle"],
     "target_molecules": ["malonaldehyde", "propanedial"],
     "skills": ["quantum mechanics calculations", "wavefunction analysis", "probability calculations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 634,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 636
     },
     {
@@ -3258,9 +3258,9 @@
     "theme": ["nanoparticles", "surface effects", "Gibbs free energy", "catalysis", "oxidation"],
     "target_molecules": ["cobalt", "cobalt oxide"],
     "skills": ["thermodynamic calculations", "surface energy", "nanoparticle chemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 640,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 642
     },
     {
@@ -3274,9 +3274,9 @@
     "theme": ["oscillatory reactions", "autocatalysis", "steady-state approximation", "reaction mechanisms"],
     "target_molecules": ["ethane"],
     "skills": ["rate law derivation", "steady-state approximation", "oscillatory kinetics"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 646,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 647
     },
     {
@@ -3290,9 +3290,9 @@
     "theme": ["Fischer titration", "water determination", "stoichiometry", "iodometry"],
     "target_molecules": ["water"],
     "skills": ["Karl Fischer titration calculations", "stoichiometric calculations", "hydrate analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 651,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 652
     },
     {
@@ -3306,9 +3306,9 @@
     "theme": ["NMR spectroscopy", "hydrolysis", "hydrogenation", "structure elucidation"],
     "target_molecules": ["triethyl orthoacetate", "ethoxyacetylene", "diethyl malonate"],
     "skills": ["NMR interpretation", "structure determination", "hydrolysis reactions", "reaction mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 655,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 656
     },
     {
@@ -3322,9 +3322,9 @@
     "theme": ["silicates", "sodium metasilicate", "polymerization", "layer structures", "hydrolysis"],
     "target_molecules": ["sodium metasilicate"],
     "skills": ["structural drawing", "acid-base chemistry", "polymerization of silicates"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 659,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 660
     },
     {
@@ -3338,9 +3338,9 @@
     "theme": ["cholesterol biosynthesis", "mevalonic acid", "isoprenoid chemistry", "ozonolysis", "squalene"],
     "target_molecules": ["mevalonic acid", "squalene"],
     "skills": ["biosynthetic pathways", "structure elucidation", "ozonolysis", "stereochemistry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 663,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 664
     },
     {
@@ -3354,9 +3354,9 @@
     "theme": ["ATRP", "polymerization kinetics", "block copolymers", "NMR spectroscopy", "DP calculations"],
     "target_molecules": ["MMA", "styrene", "p-chloromethylstyrene"],
     "skills": ["polymerization kinetics", "degree of polymerization", "NMR interpretation", "block copolymer structure"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 669,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 672
     },
     {
@@ -3370,9 +3370,9 @@
     "theme": ["ion-exchange chromatography", "amino acid analysis", "spectrophotometric detection"],
     "target_molecules": ["histidine", "cysteine", "arginine"],
     "skills": ["chromatography", "spectrophotometry", "qualitative analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 678,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 684
     },
     {
@@ -3386,9 +3386,9 @@
     "theme": ["acid-base titrations", "carbonate determination", "phosphate determination"],
     "target_molecules": ["carbonate", "hydrogen phosphate"],
     "skills": ["titration techniques", "back-titration", "pH indicators"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 686,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 688
     },
     {
@@ -3402,9 +3402,9 @@
     "theme": ["pH calculations", "polyprotic acids", "acid dissociation equilibria"],
     "target_molecules": ["sulfuric acid", "acetic acid", "EDTA"],
     "skills": ["pH calculations", "acid dissociation equilibria", "approximations"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 691,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 691
     },
     {
@@ -3418,9 +3418,9 @@
     "theme": ["ozonolysis", "hydrogenation", "NMR spectroscopy", "dehydration"],
     "target_molecules": [],
     "skills": ["structure elucidation", "ozonolysis", "NMR interpretation", "reaction mechanisms"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 693,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 694
     },
     {
@@ -3434,9 +3434,9 @@
     "theme": ["drug metabolism", "stereochemistry", "synthesis", "elemental analysis", "resonance structures"],
     "target_molecules": ["vinpocetine", "vincamine"],
     "skills": ["structure elucidation", "stereochemistry", "drug metabolism", "elemental analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 695,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 696
     },
     {
@@ -3450,9 +3450,9 @@
     "theme": ["epoxide ring opening", "stereochemistry", "acid catalysis", "base catalysis", "dimerization"],
     "target_molecules": ["2,2-dimethyloxirane", "2-methyloxirane"],
     "skills": ["stereochemistry", "ring opening reactions", "acid-base catalysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 698,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 699
     },
     {
@@ -3466,9 +3466,9 @@
     "theme": ["qualitative analysis", "stoichiometry", "redox reactions", "precipitation"],
     "target_molecules": ["Ba(NO2)2", "(NH4)2SO4", "BaSO4", "BaO", "BaCO3", "BaO2"],
     "skills": ["qualitative analysis", "stoichiometric calculations", "equation writing"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 701,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 701
     },
     {
@@ -3482,9 +3482,9 @@
     "theme": ["clathrates", "crystal structure", "cavities", "density", "thermodynamics"],
     "target_molecules": ["methane hydrate", "chlorine hydrate"],
     "skills": ["crystal structure calculations", "density calculations", "thermodynamic reasoning"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 704,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 706
     },
     {
@@ -3498,9 +3498,9 @@
     "theme": ["dithionate", "rate law determination", "reaction order", "spectrophotometry"],
     "target_molecules": ["dithionate"],
     "skills": ["kinetics analysis", "rate law determination", "spectrophotometry", "mechanism elucidation"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 708,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 711
     },
     {
@@ -3514,9 +3514,9 @@
     "theme": ["photochemistry", "quantum yield", "electrochemistry", "gas collection"],
     "target_molecules": ["CeCl3"],
     "skills": ["photochemical calculations", "quantum yield", "electrochemical analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 713,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 715
     },
     {
@@ -3530,9 +3530,9 @@
     "theme": ["thallium", "redox potentials", "complex formation", "stability", "empirical formulas"],
     "target_molecules": ["thallium iodide"],
     "skills": ["electrode potential calculations", "complex formation constants", "stoichiometry"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 717,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 718
     },
     {
@@ -3546,9 +3546,9 @@
     "theme": ["synthesis", "acetylation", "glucose derivatives", "TLC analysis", "isomerization"],
     "target_molecules": ["α-D-glucopyranose pentaacetate", "β-D-glucopyranose pentaacetate"],
     "skills": ["organic synthesis", "TLC", "crystallization"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 719,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 721
     },
     {
@@ -3562,9 +3562,9 @@
     "theme": ["redox titration", "stoichiometry", "precipitate composition", "cerium titration"],
     "target_molecules": ["K4[Fe(CN)6]", "zinc hexacyanoferrate(II)"],
     "skills": ["redox titrations", "stoichiometric calculations", "precipitate analysis"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 723,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 724
     },
     {
@@ -3578,9 +3578,9 @@
     "theme": ["qualitative analysis", "ion identification", "precipitation reactions"],
     "target_molecules": [],
     "skills": ["qualitative analysis", "ion identification", "solubility rules"],
-    "problem_pdf": null,
+    "problem_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "problem_page": 726,
-    "solution_pdf": null,
+    "solution_pdf": "pdfs/icho/icho_1989-2008.pdf",
     "solution_page": 727
   },
   {
