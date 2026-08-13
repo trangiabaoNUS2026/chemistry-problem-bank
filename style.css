@@ -279,6 +279,14 @@ table.problems-table {
   padding: 2rem;
 }
 
+/* The [hidden] attribute alone loses to the .modal-overlay { display: flex }
+   rule above (author CSS beats the browser's built-in [hidden] behavior),
+   so it must be restated explicitly here or the overlay stays visible and
+   blocks clicks even while marked hidden. */
+.modal-overlay[hidden] {
+  display: none;
+}
+
 .modal {
   background: var(--paper-raised);
   border-radius: var(--radius);
