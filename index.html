@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="professional">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +13,21 @@
       <span class="app-eyebrow">Reference catalog</span>
       <h1>Chemistry Olympiad Problem Catalog</h1>
     </div>
-    <div class="view-toggle" id="view-toggle" role="group" aria-label="Switch view">
-      <button type="button" class="view-toggle-btn is-active" data-view="table" aria-pressed="true">
-        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 2h14v2H1V2Zm0 4.5h14v2H1v-2ZM1 11h14v2H1v-2Z"/></svg>
-        Table
-      </button>
-      <button type="button" class="view-toggle-btn" data-view="board" aria-pressed="false">
-        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 1h6v6H1V1Zm8 0h6v6H9V1ZM1 9h6v6H1V9Zm8 0h6v6H9V9Z"/></svg>
-        Board
-      </button>
+    <div class="header-controls">
+      <div class="theme-toggle" id="theme-toggle" role="group" aria-label="Switch theme">
+        <button type="button" class="theme-toggle-btn is-active" data-theme="professional" aria-pressed="true">Professional</button>
+        <button type="button" class="theme-toggle-btn" data-theme="cool" aria-pressed="false">Neon Lab</button>
+      </div>
+      <div class="view-toggle" id="view-toggle" role="group" aria-label="Switch view">
+        <button type="button" class="view-toggle-btn is-active" data-view="table" aria-pressed="true">
+          <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 2h14v2H1V2Zm0 4.5h14v2H1v-2ZM1 11h14v2H1v-2Z"/></svg>
+          Table
+        </button>
+        <button type="button" class="view-toggle-btn" data-view="board" aria-pressed="false">
+          <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 1h6v6H1V1Zm8 0h6v6H9V1ZM1 9h6v6H1V9Zm8 0h6v6H9V9Z"/></svg>
+          Board
+        </button>
+      </div>
     </div>
   </div>
 </header>
@@ -105,6 +111,7 @@
             <th>Olympiad</th>
             <th>Year</th>
             <th>Subset</th>
+            <th>Theme</th>
             <th>Type</th>
             <th>Actions</th>
           </tr>
