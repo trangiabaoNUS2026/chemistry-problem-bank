@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="professional">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,9 @@
       <h1>Chemistry Olympiad Problem Catalog</h1>
     </div>
     <div class="header-controls">
-      <div class="theme-toggle" id="theme-toggle" role="group" aria-label="Switch theme">
+      <div class="theme-toggle" id="theme-toggle" role="group" aria-label="Switch color theme">
         <button type="button" class="theme-toggle-btn is-active" data-theme="professional" aria-pressed="true">Professional</button>
-        <button type="button" class="theme-toggle-btn" data-theme="cool" aria-pressed="false">Neon Lab</button>
+        <button type="button" class="theme-toggle-btn" data-theme="nebula" aria-pressed="false">Nebula</button>
       </div>
       <div class="view-toggle" id="view-toggle" role="group" aria-label="Switch view">
         <button type="button" class="view-toggle-btn is-active" data-view="table" aria-pressed="true">
@@ -31,6 +31,15 @@
     </div>
   </div>
 </header>
+
+<details class="coverage-section" id="coverage-section" open>
+  <summary class="coverage-summary">
+    <span class="coverage-summary-title">Catalog Coverage</span>
+    <span class="coverage-summary-sub">Click an olympiad to jump straight to its problems</span>
+  </summary>
+  <div class="coverage-grid" id="coverage-grid"></div>
+</details>
+
 <main>
   <section class="filter-bar" id="filter-bar">
     <div class="filter-group">
@@ -73,11 +82,8 @@
       </div>
     </div>
     <div class="filter-group">
-      <label>Theme</label>
-      <div class="multi-select" id="multi-theme">
-        <button type="button" class="multi-select-toggle">All themes</button>
-        <div class="multi-select-panel" hidden></div>
-      </div>
+      <label for="filter-theme">Theme / Keyword</label>
+      <input type="text" id="filter-theme" placeholder="Search keyword…" autocomplete="off">
     </div>
     <div class="filter-group">
       <label>Skills</label>
@@ -111,7 +117,7 @@
             <th>Olympiad</th>
             <th>Year</th>
             <th>Subset</th>
-            <th>Theme</th>
+            <th>Theme / Keywords</th>
             <th>Type</th>
             <th>Actions</th>
           </tr>

@@ -1,5 +1,8 @@
 // ---------------------------------------------------------------------
 // Chemistry Olympiad Problem Catalog — app.js
+// Vanilla JS, no build step. Fetches data/problems.json + data/taxonomy.json,
+// renders a filterable Table or Board (card) view, a coverage overview,
+// and opens PDFs in a new tab via viewer.html.
 // ---------------------------------------------------------------------
 
 (function () {
@@ -8,14 +11,16 @@
   // -----------------------------------------------------------------
   // State
   // -----------------------------------------------------------------
-  var allProblems = [];
+  var allProblems = [];        // full dataset, unfiltered
   var taxonomy = { olympiads: [], subsets: [], types: [] };
   var currentView = localStorage.getItem("catalog-view") || "table";
-  var currentTheme = localStorage.getItem("catalog-theme") || "professional";
+  var currentColorTheme = localStorage.getItem("catalog-color-theme") || "professional";
 
+  // Multi-select field config: key -> Set of currently checked values
+  // (Theme/Keyword is intentionally NOT here — it's free-text search,
+  // since keyword values are open-ended and don't suit a checklist.)
   var multiSelectState = {
     subset: new Set(),
-    theme: new Set(),
     skills: new Set(),
     target_molecules: new Set()
   };
@@ -26,6 +31,7 @@
   var el = {
     tbody: document.getElementById("problems-tbody"),
     boardGrid: document.getElementById("board-grid"),
+    coverageGrid: document.getElementById("coverage-grid"),
     resultsCount: document.getElementById("results-count"),
     emptyState: document.getElementById("empty-state"),
     viewTable: document.getElementById("view-table"),
@@ -39,20 +45,22 @@
     filterNation: document.getElementById("filter-nation"),
     filterOlympiad: document.getElementById("filter-olympiad"),
     filterYear: document.getElementById("filter-year"),
-    filterType: document.getElementById("filter-type")
+    filterType: document.getElementById("filter-type"),
+    filterTheme: document.getElementById("filter-theme")
   };
 
   var multiSelectConfig = [
     { key: "subset", containerId: "multi-subset", label: "subsets" },
-    { key: "theme", containerId: "multi-theme", label: "themes" },
     { key: "skills", containerId: "multi-skills", label: "skills" },
     { key: "target_molecules", containerId: "multi-target_molecules", label: "molecules" }
   ];
 
   // -----------------------------------------------------------------
-  // Color system & Badge Builder (Full subset name display, no symbols)
+  // Subset color system (dot-chip color-coding).
+  // Deterministic: same subset name always hashes to the same color,
+  // no matter what order data loads in or how the taxonomy grows.
   // -----------------------------------------------------------------
-  var TILE_COLOR_COUNT = 10;
+  var TILE_COLOR_COUNT = 10; // matches --tile-0 .. --tile-9 in style.css
 
   function hashString(str) {
     var hash = 0;
@@ -63,17 +71,17 @@
     return Math.abs(hash);
   }
 
-  function tileColorVar(subsetName) {
-    var index = hashString(subsetName) % TILE_COLOR_COUNT;
+  function tileColorVar(name) {
+    var index = hashString(name) % TILE_COLOR_COUNT;
     return "var(--tile-" + index + ")";
   }
 
-  function buildTileHtml(subsetName) {
+  function buildSubsetChipHtml(subsetName) {
     var color = tileColorVar(subsetName);
-    var title = escapeHtml(subsetName);
+    var label = escapeHtml(subsetName);
     return (
-      '<span class="subset-tag" style="--tile-color:' + color + '" title="' + title + '">' +
-      title +
+      '<span class="subset-chip" style="--tile-color:' + color + '">' +
+      '<span class="chip-dot"></span>' + label +
       "</span>"
     );
   }
@@ -90,14 +98,15 @@
         allProblems = Array.isArray(results[0]) ? results[0] : [];
         taxonomy = results[1] || { olympiads: [], subsets: [], types: [] };
 
-        applyTheme(currentTheme);
         populateStaticFilterOptions();
         populateDynamicFilterOptions();
         populateMultiSelects();
         attachFilterListeners();
         attachViewToggleListeners();
-        attachThemeToggleListeners();
+        attachColorThemeToggleListeners();
         applyView(currentView);
+        applyColorTheme(currentColorTheme);
+        renderCoveragePanel();
         renderResults(allProblems);
       })
       .catch(function (err) {
@@ -123,19 +132,19 @@
   }
 
   // -----------------------------------------------------------------
-  // Theme Toggle
+  // Color theme toggle (Professional / Nebula)
   // -----------------------------------------------------------------
-  function attachThemeToggleListeners() {
+  function attachColorThemeToggleListeners() {
     el.themeToggle.querySelectorAll(".theme-toggle-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
-        applyTheme(btn.getAttribute("data-theme"));
+        applyColorTheme(btn.getAttribute("data-theme"));
       });
     });
   }
 
-  function applyTheme(theme) {
-    currentTheme = theme;
-    localStorage.setItem("catalog-theme", theme);
+  function applyColorTheme(theme) {
+    currentColorTheme = theme;
+    localStorage.setItem("catalog-color-theme", theme);
     document.documentElement.setAttribute("data-theme", theme);
 
     el.themeToggle.querySelectorAll(".theme-toggle-btn").forEach(function (btn) {
@@ -176,13 +185,121 @@
   }
 
   // -----------------------------------------------------------------
+  // Coverage panel — one card per olympiad: year range(s), a gap-aware
+  // dot-strip, and a problem count. Clicking a card jumps the Olympiad
+  // filter straight to that value.
+  // -----------------------------------------------------------------
+  function renderCoveragePanel() {
+    var byOlympiad = {}; // name -> { years: Set<number>, count: number }
+
+    allProblems.forEach(function (p) {
+      if (!p.olympiad) return;
+      if (!byOlympiad[p.olympiad]) {
+        byOlympiad[p.olympiad] = { years: new Set(), count: 0 };
+      }
+      if (p.year) byOlympiad[p.olympiad].years.add(Number(p.year));
+      byOlympiad[p.olympiad].count += 1;
+    });
+
+    var names = Object.keys(byOlympiad).sort();
+    if (names.length === 0) {
+      el.coverageGrid.innerHTML =
+        '<p class="keyword-text">No olympiads in the catalog yet.</p>';
+      return;
+    }
+
+    el.coverageGrid.innerHTML = names.map(function (name) {
+      return buildCoverageCardHtml(name, byOlympiad[name]);
+    }).join("");
+
+    el.coverageGrid.querySelectorAll("[data-coverage-olympiad]").forEach(function (card) {
+      card.addEventListener("click", function () {
+        var name = card.getAttribute("data-coverage-olympiad");
+        el.filterOlympiad.value = name;
+        applyFilters();
+        var filterBar = document.getElementById("filter-bar");
+        if (filterBar) filterBar.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
+
+  function buildCoverageCardHtml(name, data) {
+    var years = Array.from(data.years).sort(function (a, b) { return a - b; });
+    var color = tileColorVar(name);
+
+    if (years.length === 0) {
+      return (
+        '<button type="button" class="coverage-card" style="--tile-color:' + color + '" ' +
+        'data-coverage-olympiad="' + escapeHtml(name) + '">' +
+        '<div class="coverage-card-top">' +
+        '<span class="coverage-card-name">' + escapeHtml(name) + "</span>" +
+        '<span class="coverage-card-count">' + data.count + (data.count === 1 ? " problem" : " problems") + "</span>" +
+        "</div>" +
+        '<span class="coverage-card-range">No years recorded</span>' +
+        "</button>"
+      );
+    }
+
+    var min = years[0];
+    var max = years[years.length - 1];
+    var yearSet = new Set(years);
+    var rangeLabel = formatYearRanges(years);
+
+    var dots = [];
+    for (var y = min; y <= max; y++) {
+      var present = yearSet.has(y);
+      dots.push(
+        '<span class="coverage-dot' + (present ? "" : " is-gap") + '" title="' + y + (present ? "" : " — not yet in catalog") + '"></span>'
+      );
+    }
+
+    return (
+      '<button type="button" class="coverage-card" style="--tile-color:' + color + '" ' +
+      'data-coverage-olympiad="' + escapeHtml(name) + '">' +
+      '<div class="coverage-card-top">' +
+      '<span class="coverage-card-name">' + escapeHtml(name) + "</span>" +
+      '<span class="coverage-card-count">' + data.count + (data.count === 1 ? " problem" : " problems") + "</span>" +
+      "</div>" +
+      '<span class="coverage-card-range">' + escapeHtml(rangeLabel) + "</span>" +
+      '<div class="coverage-dots">' + dots.join("") + "</div>" +
+      "</button>"
+    );
+  }
+
+  // Collapses a sorted array of years into contiguous ranges, e.g.
+  // [1968..1975, 1977..2025] -> "1968–1975, 1977–2025"
+  function formatYearRanges(sortedYears) {
+    var ranges = [];
+    var start = sortedYears[0];
+    var prev = sortedYears[0];
+
+    for (var i = 1; i < sortedYears.length; i++) {
+      if (sortedYears[i] === prev + 1) {
+        prev = sortedYears[i];
+        continue;
+      }
+      ranges.push([start, prev]);
+      start = sortedYears[i];
+      prev = sortedYears[i];
+    }
+    ranges.push([start, prev]);
+
+    return ranges
+      .map(function (r) { return r[0] === r[1] ? String(r[0]) : r[0] + "–" + r[1]; })
+      .join(", ");
+  }
+
+  // -----------------------------------------------------------------
   // Filter option population
   // -----------------------------------------------------------------
+
+  // Olympiad + Type come from taxonomy.json
   function populateStaticFilterOptions() {
     fillSelect(el.filterOlympiad, taxonomy.olympiads || []);
     fillSelect(el.filterType, taxonomy.types || []);
   }
 
+  // Nation + Year are derived dynamically from the actual data
   function populateDynamicFilterOptions() {
     var nations = distinctValues(allProblems, "nation");
     var years = distinctValues(allProblems, "year").sort(function (a, b) {
@@ -201,6 +318,7 @@
     });
   }
 
+  // Returns sorted distinct values of a scalar field across problems
   function distinctValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -211,6 +329,7 @@
     return Array.from(set).sort();
   }
 
+  // Returns sorted distinct values of an array field across problems
   function distinctArrayValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -225,7 +344,7 @@
   }
 
   // -----------------------------------------------------------------
-  // Multi-select popovers
+  // Multi-select popovers (Subset / Skills / Target Molecule)
   // -----------------------------------------------------------------
   function populateMultiSelects() {
     multiSelectConfig.forEach(function (cfg) {
@@ -267,6 +386,7 @@
         panel.appendChild(wrapper);
       });
 
+      // Toggle popover open/closed
       toggle.addEventListener("click", function (e) {
         e.stopPropagation();
         var isOpen = !panel.hidden;
@@ -275,6 +395,7 @@
       });
     });
 
+    // Close any open popover on outside click
     document.addEventListener("click", function (e) {
       multiSelectConfig.forEach(function (cfg) {
         var container = document.getElementById(cfg.containerId);
@@ -309,7 +430,7 @@
   // Filter listeners
   // -----------------------------------------------------------------
   function attachFilterListeners() {
-    [el.filterId, el.filterTitle].forEach(function (input) {
+    [el.filterId, el.filterTitle, el.filterTheme].forEach(function (input) {
       input.addEventListener("input", applyFilters);
     });
     [el.filterNation, el.filterOlympiad, el.filterYear, el.filterType].forEach(function (sel) {
@@ -325,6 +446,7 @@
     el.filterOlympiad.value = "";
     el.filterYear.value = "";
     el.filterType.value = "";
+    el.filterTheme.value = "";
 
     multiSelectConfig.forEach(function (cfg) {
       multiSelectState[cfg.key].clear();
@@ -338,23 +460,48 @@
     applyFilters();
   }
 
+  // -----------------------------------------------------------------
+  // Core filter-matching logic
+  // -----------------------------------------------------------------
+  // A problem matches the active filter set if it satisfies EVERY
+  // active field (AND across fields). For a multi-value checklist
+  // field (e.g. Subset), the problem matches that field if it
+  // contains AT LEAST ONE of the selected values (OR within the
+  // field). Theme/Keyword is free-text: matches if ANY of the
+  // problem's theme entries contains the search text.
+  //
+  // To add a new filter field later:
+  //   - scalar dropdown -> add a simple equality check below
+  //   - text field -> add a substring check
+  //   - multi-select -> add an "any value in problem's array field
+  //     is present in the selected Set" check
   function problemMatchesFilters(problem, filters) {
+    // --- text filters (substring, case-insensitive) ---
     if (filters.id && !String(problem.id || "").toLowerCase().includes(filters.id)) {
       return false;
     }
     if (filters.title && !String(problem.title || "").toLowerCase().includes(filters.title)) {
       return false;
     }
+    if (filters.themeKeyword) {
+      var themeValues = Array.isArray(problem.theme) ? problem.theme : [];
+      var themeMatch = themeValues.some(function (t) {
+        return String(t).toLowerCase().includes(filters.themeKeyword);
+      });
+      if (!themeMatch) return false;
+    }
 
+    // --- single-value dropdown filters (exact match) ---
     if (filters.nation && String(problem.nation) !== filters.nation) return false;
     if (filters.olympiad && String(problem.olympiad) !== filters.olympiad) return false;
     if (filters.year && String(problem.year) !== filters.year) return false;
     if (filters.type && String(problem.type) !== filters.type) return false;
 
+    // --- multi-select filters (OR within field, field itself is AND'd in) ---
     for (var i = 0; i < multiSelectConfig.length; i++) {
       var cfg = multiSelectConfig[i];
       var selected = multiSelectState[cfg.key];
-      if (selected.size === 0) continue;
+      if (selected.size === 0) continue; // no filter active for this field
 
       var problemValues = Array.isArray(problem[cfg.key]) ? problem[cfg.key] : [];
       var hasAnyMatch = problemValues.some(function (v) {
@@ -370,6 +517,7 @@
     return {
       id: el.filterId.value.trim().toLowerCase(),
       title: el.filterTitle.value.trim().toLowerCase(),
+      themeKeyword: el.filterTheme.value.trim().toLowerCase(),
       nation: el.filterNation.value,
       olympiad: el.filterOlympiad.value,
       year: el.filterYear.value,
@@ -386,7 +534,9 @@
   }
 
   // -----------------------------------------------------------------
-  // Rendering
+  // Rendering — builds BOTH the table rows and the board cards for the
+  // current result set (cheap even at a few thousand rows), so
+  // switching views is instant with no re-render needed.
   // -----------------------------------------------------------------
   function renderResults(problems) {
     el.resultsCount.textContent = problems.length + " results";
@@ -402,7 +552,7 @@
     }
 
     el.emptyState.hidden = true;
-    applyView(currentView);
+    applyView(currentView); // re-assert correct visibility for this view
 
     el.tbody.innerHTML = problems.map(buildRowHtml).join("");
     el.boardGrid.innerHTML = problems.map(buildCardHtml).join("");
@@ -425,8 +575,8 @@
   }
 
   function buildRowHtml(problem) {
-    var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
-    var themeText = Array.isArray(problem.theme) ? problem.theme.join(", ") : (problem.theme || "");
+    var subsetChips = (problem.subset || []).map(buildSubsetChipHtml).join("");
+    var keywordText = (problem.theme || []).join(", ");
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -450,8 +600,8 @@
       '<td data-label="Nation">' + escapeHtml(problem.nation) + "</td>" +
       '<td data-label="Olympiad">' + escapeHtml(problem.olympiad) + "</td>" +
       '<td class="cell-year" data-label="Year">' + escapeHtml(problem.year) + "</td>" +
-      '<td data-label="Subset"><span class="chip-row">' + subsetTiles + "</span></td>" +
-      '<td class="cell-theme" data-label="Theme">' + escapeHtml(themeText) + "</td>" +
+      '<td data-label="Subset"><span class="chip-row">' + subsetChips + "</span></td>" +
+      '<td data-label="Theme / Keywords"><span class="keyword-text">' + escapeHtml(keywordText) + "</span></td>" +
       '<td data-label="Type">' + escapeHtml(problem.type) + "</td>" +
       '<td class="actions-cell" data-label="Actions">' + problemBtn + solutionBtn + "</td>" +
       "</tr>"
@@ -461,7 +611,8 @@
   function buildCardHtml(problem) {
     var primarySubset = (problem.subset && problem.subset[0]) || null;
     var accentColor = primarySubset ? tileColorVar(primarySubset) : "var(--accent)";
-    var subsetTiles = (problem.subset || []).map(buildTileHtml).join("");
+    var subsetChips = (problem.subset || []).map(buildSubsetChipHtml).join("");
+    var keywordText = (problem.theme || []).join(", ");
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -490,7 +641,8 @@
       '<span class="dot">' + escapeHtml(problem.nation) + "</span>" +
       '<span class="dot">' + escapeHtml(problem.type) + "</span>" +
       "</div>" +
-      '<span class="chip-row">' + subsetTiles + "</span>" +
+      '<span class="chip-row">' + subsetChips + "</span>" +
+      (keywordText ? '<p class="card-keywords">' + escapeHtml(keywordText) + "</p>" : "") +
       '<div class="card-actions">' + problemBtn + solutionBtn + "</div>" +
       "</article>"
     );
@@ -506,6 +658,11 @@
       .replace(/'/g, "&#39;");
   }
 
+  // -----------------------------------------------------------------
+  // Open the PDF in a new tab via viewer.html, which resolves the
+  // relative PDF path to an absolute URL and forwards it (plus the
+  // page number) to the bundled PDF.js viewer.
+  // -----------------------------------------------------------------
   function openPdfInNewTab(btn, kind) {
     var id = btn.getAttribute("data-id");
     var problem = allProblems.find(function (p) {
@@ -515,7 +672,7 @@
 
     var file = kind === "problem" ? problem.problem_pdf : problem.solution_pdf;
     var page = kind === "problem" ? problem.problem_page : problem.solution_page;
-    if (!file) return;
+    if (!file) return; // shouldn't happen since disabled buttons have no handler
 
     var src = "viewer.html?file=" + encodeURIComponent(file);
     if (page) src += "#page=" + encodeURIComponent(page);
@@ -523,5 +680,8 @@
     window.open(src, "_blank", "noopener");
   }
 
+  // -----------------------------------------------------------------
+  // Init
+  // -----------------------------------------------------------------
   document.addEventListener("DOMContentLoaded", loadData);
 })();
