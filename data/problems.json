@@ -11334,6 +11334,1564 @@
     "solution_page": 366
   },
   {
+    "id": "IChO_Prep-2015-T1",
+    "title": "Brayton cycle",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Thermodynamic cycles",
+      "Ideal gas",
+      "Work and heat",
+      "Efficiency"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Thermodynamic calculations",
+      "Adiabatic processes",
+      "Isobaric processes"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IChO_Prep-2015-T2",
+    "title": "Liquefied natural gas",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Phase diagram",
+      "Enthalpy of vaporization",
+      "Clapeyron equation",
+      "Internal energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Reading phase diagrams",
+      "Calculating enthalpy of vaporization",
+      "Thermodynamic energy balance"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IChO_Prep-2015-T3",
+    "title": "Carnot cycle",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Carnot cycle",
+      "Pressure-temperature coordinates",
+      "Efficiency",
+      "Heat capacity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Carnot efficiency",
+      "Adiabatic relationships",
+      "Heat capacity analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IChO_Prep-2015-T4",
+    "title": "Quasi-equilibrium model",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Quasi-equilibrium approximation",
+      "Gasification of platinum",
+      "Heterogeneous kinetics",
+      "Surface reactions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving rate laws",
+      "Quasi-equilibrium approximation",
+      "Gas-surface interaction analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IChO_Prep-2015-T5",
+    "title": "The Second Law of thermodynamics applied to a chemical reaction",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gibbs energy",
+      "Extent of reaction",
+      "Chemical equilibrium",
+      "Reaction rates and thermodynamics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Thermodynamic derivations",
+      "Extent of reaction",
+      "Relating kinetics and thermodynamics"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 23,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IChO_Prep-2015-T6",
+    "title": "Catalytic transformation of a single molecule on a single nanoparticle",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Single-molecule catalysis",
+      "Gold nanoparticles",
+      "Adsorption kinetics",
+      "Fluorescence probability"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nanoparticle stoichiometry",
+      "Adsorption isotherms",
+      "Kinetic rate constants"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 27,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IChO_Prep-2015-T7",
+    "title": "Esterification of a dicarboxylic acid",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Equilibrium",
+      "Organic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Esterification equilibrium",
+      "Yield optimization",
+      "Dicarboxylic acid"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Equilibrium constant expressions",
+      "Mathematical optimization of yield",
+      "Mass balance"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 32,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 32
+  },
+  {
+    "id": "IChO_Prep-2015-T8",
+    "title": "Three elements",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Element identification",
+      "Mass fractions",
+      "Valence and atomic mass"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating atomic mass ratios",
+      "Deducing chemical formulas"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 34,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 34
+  },
+  {
+    "id": "IChO_Prep-2015-T9",
+    "title": "Simple experiments with copper(II) chloride",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Copper complexes",
+      "Solvation and color",
+      "Redox reactions",
+      "Inorganic synthesis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Complexation equilibria",
+      "Drawing coordination complexes",
+      "Writing redox reactions"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 35,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 35
+  },
+  {
+    "id": "IChO_Prep-2015-T10",
+    "title": "An element typical for Azerbaijan mud volcanoes expelled water",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Boron minerals",
+      "Borax structure",
+      "Flame coloration",
+      "Mud volcanoes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining atomic mass",
+      "Structural deduction of polyborates",
+      "Mass loss calculations"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 37,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 37
+  },
+  {
+    "id": "IChO_Prep-2015-T11",
+    "title": "The Prussian blue",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Prussian blue",
+      "Crystal field theory",
+      "d-orbital splitting",
+      "Charge transfer spectra"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Crystal field splitting diagrams",
+      "Determining chemical formulas",
+      "Explaining color mechanisms"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 39,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 39
+  },
+  {
+    "id": "IChO_Prep-2015-T12",
+    "title": "Substitution in square planar complexes",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Trans-effect",
+      "Square planar complexes",
+      "Isomerism in platinum complexes",
+      "Redox vs substitution"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing geometrical isomers",
+      "Applying the trans-effect",
+      "Predicting substitution products"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 41,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 42
+  },
+  {
+    "id": "IChO_Prep-2015-T13",
+    "title": "Redox equilibria in aqueous solutions",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Inorganic",
+      "Electrochemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Latimer diagrams",
+      "Disproportionation",
+      "Nernst equation",
+      "Gold complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Latimer diagram calculations",
+      "Nernst equation pH dependence",
+      "Disproportionation analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 44,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 44
+  },
+  {
+    "id": "IChO_Prep-2015-T14",
+    "title": "Determination of acetylsalicylic acid purity",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Organic",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Redox titration",
+      "Aspirin purity",
+      "Bromination of salicylic acid",
+      "Conditional equilibrium constant"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Back titration calculations",
+      "Redox stoichiometry",
+      "pH-dependent equilibrium constants"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 46,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 47
+  },
+  {
+    "id": "IChO_Prep-2015-T15",
+    "title": "Chemical dosimeter",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Nuclear Chemistry",
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ferrous-ferric dosimeter",
+      "Radioactivity and decay",
+      "Redox titration",
+      "Parallel nuclear decays"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Radioactivity calculation",
+      "Parallel decay rate analysis",
+      "Titration stoichiometry"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 48,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 49
+  },
+  {
+    "id": "IChO_Prep-2015-T16",
+    "title": "Determination of water in oil",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Karl Fischer titration",
+      "Coulometric titration",
+      "Faraday's law",
+      "Interferences in water determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Karl Fischer titration principles",
+      "Faraday's law calculations",
+      "Side-reaction analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 52,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 54
+  },
+  {
+    "id": "IChO_Prep-2015-T17",
+    "title": "Oxidation and inspiration",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Gif reaction",
+      "Adamantane oxidation",
+      "Selective oxidants",
+      "IR spectroscopy"
+    ],
+    "target_molecules": [
+      "adamantan-1-ol",
+      "adamantan-2-ol",
+      "adamantan-2-one"
+    ],
+    "skills": [
+      "IR spectroscopy interpretation",
+      "Oxidating reagent selectivity",
+      "Elucidating organic reaction products"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 57,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 59
+  },
+  {
+    "id": "IChO_Prep-2015-T18",
+    "title": "Essential ozone",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Ozonolysis",
+      "Pentalenene synthesis",
+      "Structure elucidation",
+      "Iodoform test"
+    ],
+    "target_molecules": [
+      "pentalenene"
+    ],
+    "skills": [
+      "Ozonolysis cleavage prediction",
+      "NMR interpretation",
+      "Organic reaction mechanism deduction"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 62,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 63
+  },
+  {
+    "id": "IChO_Prep-2015-T19",
+    "title": "Two in one",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Nigricanin synthesis",
+      "Protecting groups",
+      "Pd-catalyzed cross-coupling",
+      "Ellagic acid congeners"
+    ],
+    "target_molecules": [
+      "nigricanin"
+    ],
+    "skills": [
+      "Retrosynthetic analysis",
+      "Cross-coupling regioselectivity",
+      "Protecting group chemistry"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 68,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 68
+  },
+  {
+    "id": "IChO_Prep-2015-T20",
+    "title": "Antitussive “narcotine”",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Noscapine synthesis",
+      "Alkaloids",
+      "Isoquinoline synthesis",
+      "Reductive amination"
+    ],
+    "target_molecules": [
+      "noscapine"
+    ],
+    "skills": [
+      "Multi-step pathway analysis",
+      "Regioselective reactions",
+      "Pictet-Spengler type cyclization logic"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 71,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 71
+  },
+  {
+    "id": "IChO_Prep-2015-T21",
+    "title": "Pyrrolizidine alkaloids",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Turneforcidine",
+      "Platynecine",
+      "Claisen rearrangement",
+      "[2+2]-cycloaddition",
+      "Baeyer-Villiger oxidation"
+    ],
+    "target_molecules": [
+      "turneforcidine",
+      "platynecine"
+    ],
+    "skills": [
+      "Rearrangement mechanisms",
+      "Cycloaddition stereochemistry",
+      "Polycyclic synthesis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 74,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 75
+  },
+  {
+    "id": "IChO_Prep-2015-T22",
+    "title": "Delightful odor of truffle",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Bis(methylsulfanyl)methane",
+      "Truffle odor",
+      "Structure determination",
+      "Combustion analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Quantitative elemental analysis",
+      "Gravimetric analysis deduction",
+      "Structural identification from stoichiometry"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 78,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 78
+  },
+  {
+    "id": "IChO_Prep-2015-T23",
+    "title": "Synthesis of large rings. The magic or routine work?",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Macrosphelide A",
+      "Macrolactone polyketides",
+      "Yamaguchi macrolactonization",
+      "Weinreb amide"
+    ],
+    "target_molecules": [
+      "Macrosphelide A"
+    ],
+    "skills": [
+      "Macrocyclization strategy",
+      "Stereochemistry assignment",
+      "Protecting group manipulation"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 80,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 80
+  },
+  {
+    "id": "IChO_Prep-2015-T24",
+    "title": "What Time is it in Baku or Cheating the Death",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Azidothymidine (AZT)",
+      "Zalcitabine (ddC)",
+      "Antiviral drugs",
+      "Nucleosides and nucleotides"
+    ],
+    "target_molecules": [
+      "azidothymidine",
+      "zalcitabine"
+    ],
+    "skills": [
+      "Nucleoside structure deduction",
+      "Combustion gas analysis",
+      "Metabolic pathway deduction"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 84,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 86
+  },
+  {
+    "id": "IChO_Prep-2015-T25",
+    "title": "Number One Enzyme",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Oxidoreductases",
+      "Dehydrogenases and monooxygenases",
+      "NAD+/NADH",
+      "Steroid oxidation",
+      "Radical dimerization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Biochemical reaction mechanisms",
+      "NMR interpretation of metabolic products",
+      "Cofactor stoichiometry"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 91,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 93
+  },
+  {
+    "id": "IChO_Prep-2015-T26",
+    "title": "Holy War against Four Horsemen of the Apocalypse",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Halogenated organic compounds",
+      "Monofluoroacetic acid",
+      "Algae metabolites",
+      "Solubility of AgBr in ammonia"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Combustion stoichiometry",
+      "Halide precipitate analysis",
+      "Complexation solubility equilibrium"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 96,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 98
+  },
+  {
+    "id": "IChO_Prep-2015-P27",
+    "title": "Determination of nickel in nickel and copper-nickel alloys by complexometric titration",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Complexometric titration",
+      "EDTA titration",
+      "Back titration",
+      "Precipitation of nickel dimethylglyoximate"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Back titration procedure",
+      "Selective precipitation",
+      "Conditional formation constants"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 104,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 109
+  },
+  {
+    "id": "IChO_Prep-2015-P28",
+    "title": "Titrimetric determination of lead and silver in their mixture",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Redox titration",
+      "Precipitation separation",
+      "Permanganate titration",
+      "Volhard titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Quantitative separation of metal ions",
+      "Permanganate titration of oxalates",
+      "Thiocyanate titration of silver"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 112,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 115
+  },
+  {
+    "id": "IChO_Prep-2015-P29",
+    "title": "Complexometric determination of iron, chromium, and zinc in an alloy",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Sequential complexometric titration",
+      "EDTA",
+      "Galvanized steel analysis",
+      "Back titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Sequential titration without separation",
+      "pH control in EDTA titrations",
+      "Molar fraction calculations"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 116,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 118
+  },
+  {
+    "id": "IChO_Prep-2015-P30",
+    "title": "Synthesis of 3-(4-methylbenzoyl)propionic acid",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Friedel-Crafts acylation",
+      "Organic preparation",
+      "Recrystallization",
+      "Melting point determination"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Reflux techniques",
+      "Extraction and washing",
+      "Melting point determination"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 120,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 124
+  },
+  {
+    "id": "IChO_Prep-2015-P31",
+    "title": "Synthesis of 4-(4-methylphenyl)-4-hydroxybutanoic acid",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Sodium borohydride reduction",
+      "Ketone reduction",
+      "Lactone ring opening",
+      "Organic synthesis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Hydride reduction procedure",
+      "pH adjustment for product isolation",
+      "Recrystallization"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 127,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 130
+  },
+  {
+    "id": "IChO_Prep-2015-P32",
+    "title": "Synthesis of diethyl ester of succinic acid",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Esterification",
+      "Azeotropic distillation",
+      "Vacuum distillation",
+      "Refractive index"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Azeotropic water removal",
+      "Vacuum distillation setup",
+      "Refractive index measurement"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 134,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 138
+  },
+  {
+    "id": "IChO_Prep-2015-P33",
+    "title": "Kinetic studies of Norfloxacin oxidation with permanganate in alkaline medium",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Spectrophotometric kinetics",
+      "Reaction order determination",
+      "Norfloxacin oxidation",
+      "Permanganate kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Spectrophotometry measurements",
+      "Data processing with Excel",
+      "Determining reaction orders"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 140,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 145
+  },
+  {
+    "id": "IChO_Prep-2015-P34",
+    "title": "Temperature dependence of the reaction rate of disproportionation",
+    "nation": "Azerbaijan",
+    "olympiad": "IChO",
+    "year": 2015,
+    "subset": [
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Arrhenius equation",
+      "Activation energy",
+      "Autocatalysis",
+      "Trioxalomanganesate disproportionation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Thermostated spectrophotometry",
+      "Activation energy determination",
+      "Linear regression analysis"
+    ],
+    "problem_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "problem_page": 147,
+    "solution_pdf": "pdfs/icho_prep/preparatory problems icho 2015.pdf",
+    "solution_page": 150
+  },
+{
+"id": "IChO_Prep-2016-T1",
+"title": "The Mystery of 221 Baker Street",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Thermodynamics", "Nuclear Chemistry"],
+"type": "Data analysis",
+"theme": ["Stoichiometry", "Gas laws", "Nuclear fusion", "Isotopes", "Lithium deuteride"],
+"target_molecules": [],
+"skills": ["Gas stoichiometry", "Ideal gas law", "Mass conservation", "Isotopic composition calculations", "Nuclear reaction equations"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 9,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 10
+},
+{
+"id": "IChO_Prep-2016-T2",
+"title": "Vanadium and its Compounds",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Analytical", "Electrochemistry"],
+"type": "Calculation",
+"theme": ["Oxidation states", "Redox reactions", "Isotopic composition", "Vanadium"],
+"target_molecules": [],
+"skills": ["Empirical formula determination", "Redox reaction balancing", "Isotopic abundance calculations", "Transition metal chemistry", "Oxidation state identification"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 12,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 13
+},
+{
+"id": "IChO_Prep-2016-T3",
+"title": "Chromium Chemistry",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Thermodynamics", "Equilibrium", "Solid State Chemistry"],
+"type": "Calculation",
+"theme": ["Crystal lattices", "Latimer diagrams", "Disproportionation", "Solubility product", "Chromium compounds"],
+"target_molecules": ["CrO2Cl2"],
+"skills": ["Unit cell calculations", "Crystal structure determination", "Latimer diagrams", "Disproportionation equilibrium", "Solubility product calculations", "Stability constants"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 15,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 17
+},
+{
+"id": "IChO_Prep-2016-T4",
+"title": "Silica Glass Structure",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Solid State Chemistry"],
+"type": "Calculation",
+"theme": ["Coordination number", "Crystal defects", "Silica", "Bonding"],
+"target_molecules": [],
+"skills": ["Density calculations", "Coordination chemistry", "Crystal defect analysis", "Bond counting"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 20,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 20
+},
+{
+"id": "IChO_Prep-2016-T5",
+"title": "Pyrite Crystal Structure",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Solid State Chemistry"],
+"type": "Calculation",
+"theme": ["Crystal lattice", "Stoichiometry defects", "Density", "Iron disulfide"],
+"target_molecules": [],
+"skills": ["Unit cell calculations", "Density calculations", "Non-stoichiometric compounds", "Crystal defect chemistry", "Vacancies and interstitials"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 22,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 23
+},
+{
+"id": "IChO_Prep-2016-T6",
+"title": "Nitrogen-Only Compounds",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Organic", "Spectroscopy"],
+"type": "Data analysis",
+"theme": ["Lewis structures", "Azides", "Nitrogen compounds", "High energy materials", "Resonance structures"],
+"target_molecules": ["N3-", "N2F+", "SbF6-", "N5+", "P(N3)6-"],
+"skills": ["Elemental composition calculations", "Lewis structure drawing", "Resonance structures", "Molecular geometry", "Hydrolysis reactions", "Oxidation states"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 25,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 27
+},
+{
+"id": "IChO_Prep-2016-T7",
+"title": "pH Calculations for Acid Mixtures",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Analytical", "Equilibrium", "Acid-Base Chemistry"],
+"type": "Calculation",
+"theme": ["pH", "Acid dissociation constants", "Buffer solutions", "Polyprotic acids"],
+"target_molecules": [],
+"skills": ["pH calculations", "Acid-base equilibrium", "Mass balance", "Charge balance", "Polyprotic acid calculations", "Equilibrium constants"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 31,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 31
+},
+{
+"id": "IChO_Prep-2016-T8",
+"title": "Autodissociation of Hydrogen Fluoride",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Equilibrium", "Acid-Base Chemistry"],
+"type": "Calculation",
+"theme": ["Autoprotolysis", "Hydrogen fluoride", "Superacids", "Equilibrium constants", "Acid-base equilibria"],
+"target_molecules": [],
+"skills": ["Autoprotolysis equilibria", "Equilibrium constant calculations", "Acid-base equilibria in HF", "Superacid chemistry", "Solvolysis reactions"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 34,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 36
+},
+{
+"id": "IChO_Prep-2016-T9",
+"title": "Ammonium Sulfide Reagent Analysis",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic", "Equilibrium"],
+"type": "Data analysis",
+"theme": ["Qualitative analysis", "Ammonium sulfide", "Titration", "Gas evolution"],
+"target_molecules": [],
+"skills": ["Distillation", "Titration calculations", "Stoichiometry", "Precipitation reactions", "Redox reactions"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 38,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 39
+},
+{
+"id": "IChO_Prep-2016-T10",
+"title": "Analysis of a Hungarian Coin",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic", "Spectroscopy", "Electrochemistry"],
+"type": "Data analysis",
+"theme": ["Iodometry", "Spectrophotometry", "Complexometry", "Alloy analysis", "Copper", "Nickel"],
+"target_molecules": [],
+"skills": ["Iodometric titrations", "Spectrophotometric analysis", "Complexometric titrations", "Molar absorption coefficients", "UV-Vis spectroscopy", "Nitrate ion interference"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 40,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 42
+},
+{
+"id": "IChO_Prep-2016-T11",
+"title": "Cyanide Chemistry in Environmental Pollution",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Environmental Chemistry", "Inorganic", "Analytical", "Equilibrium", "Electrochemistry"],
+"type": "Data analysis",
+"theme": ["Cyanide", "Toxicity", "Complex formation", "Electrodes", "Copper cyanide complexes", "Hexacyanoferrate"],
+"target_molecules": ["HCN", "Cu(CN)2-", "Cu(CN)32-", "Fe(CN)64-"],
+"skills": ["Nernst equation", "pH dependence of equilibrium", "Stability constants", "Toxicity calculations", "Complexation equilibria", "Acid dissociation constant"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 45,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 47
+},
+{
+"id": "IChO_Prep-2016-T12",
+"title": "Redox Systems of Iron and Arsenic",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Electrochemistry", "Equilibrium"],
+"type": "Calculation",
+"theme": ["Redox potentials", "Stability constants", "pH dependence", "Ferricyanide", "Arsenic acids"],
+"target_molecules": ["FeCl2+"],
+"skills": ["Standard potential calculations", "Stability constant determination", "pH-dependent redox potentials", "Nernst equation", "Equilibrium constant calculations"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 51,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 51
+},
+{
+"id": "IChO_Prep-2016-T13",
+"title": "Silver Chloride and Reductors",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Electrochemistry", "Equilibrium", "Analytical"],
+"type": "Calculation",
+"theme": ["Solubility product", "Complex formation", "Redox titrations", "Jones reductor", "Silver reductor"],
+"target_molecules": [],
+"skills": ["Solubility product calculations", "Complex formation constants", "Redox equilibrium calculations", "Temperature dependence of equilibrium", "Standard electrode potentials", "Equilibrium constants from E°"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 53,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 54
+},
+{
+"id": "IChO_Prep-2016-T14",
+"title": "Pyrrole Chemistry and Alchemy",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Biochemistry"],
+"type": "Mechanism",
+"theme": ["Pyrrole", "Aromaticity", "Glutamic acid", "Aromatic stability", "Biosynthesis"],
+"target_molecules": ["Pyrrole", "Glutamic acid", "Pyroglutamic acid"],
+"skills": ["Aromaticity", "Acid-base stability", "Resonance structures", "Polymerization", "Organic reaction mechanisms"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 58,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 59
+},
+{
+"id": "IChO_Prep-2016-T15",
+"title": "Aromaticity Rules",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Physical"],
+"type": "Data analysis",
+"theme": ["Hückel rule", "Aromaticity", "Fused ring systems", "Tautomerism", "DNA bases"],
+"target_molecules": ["Coronene", "Cyclopentadiene", "Cytosine", "Uracil"],
+"skills": ["Hückel rule application", "Aromaticity criteria", "Tautomerism", "Molecular orbital counting", "Fused ring systems"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 60,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 61
+},
+{
+"id": "IChO_Prep-2016-T16",
+"title": "Porphin and Metalloporphyrins",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Inorganic", "Kinetics", "Equilibrium"],
+"type": "Data analysis",
+"theme": ["Porphyrins", "Aromaticity", "Isomerism", "Metal complexes", "Ligand binding", "Coordination chemistry"],
+"target_molecules": ["Porphin", "Methyl-porphin"],
+"skills": ["Aromatic electron counting", "Constitutional isomer counting", "Tautomerism", "Coordination chemistry", "Ligand binding equilibrium", "Consecutive equilibrium constants"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 63,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 65
+},
+{
+"id": "IChO_Prep-2016-T17",
+"title": "Stereochemistry of Organic Transformations",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic"],
+"type": "Mechanism",
+"theme": ["Stereochemistry", "Diastereoselectivity", "Hydroboration", "Iodolactonization", "Epoxidation", "Dihydroxylation", "Hydrogenation"],
+"target_molecules": [],
+"skills": ["Stereoisomer counting", "Diastereoselective synthesis", "Syn/anti addition", "Steric effects", "Hydroboration-oxidation", "Iodolactonization", "Epoxidation", "OsO4 dihydroxylation", "Catalytic hydrogenation"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 67,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 69
+},
+{
+"id": "IChO_Prep-2016-T18",
+"title": "Ascaridol Structure Elucidation",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Spectroscopy"],
+"type": "Data analysis",
+"theme": ["Peroxides", "Ozonolysis", "NMR spectroscopy", "Dehydration", "Natural products", "Monoterpenes"],
+"target_molecules": ["Ascaridol"],
+"skills": ["Structure elucidation", "Ozonolysis analysis", "Dehydration reactions", "13C NMR interpretation", "Hydroboration-oxidation", "Reduction reactions", "Stereochemistry"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 71,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 72
+},
+{
+"id": "IChO_Prep-2016-T19",
+"title": "Synthesis of Dimethylnaphthalene",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic"],
+"type": "Multi-step synthesis",
+"theme": ["Grignard reactions", "Acetal formation", "Diels-Alder", "Aromatic synthesis", "Radical bromination"],
+"target_molecules": ["2,7-dimethylnaphthalene", "2,7-bis(bromomethyl)naphthalene", "2,7-dicyanonaphthalene"],
+"skills": ["Grignard reagent preparation", "Acetal formation", "Radical bromination", "Diels-Alder reaction", "Mechanism drawing", "Reaction sequence design", "Aromatic compound synthesis"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 75,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 76
+},
+{
+"id": "IChO_Prep-2016-T20",
+"title": "Robinson Annulation and Enzyme Selectivity",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Biochemistry"],
+"type": "Mechanism",
+"theme": ["Robinson annulation", "Epoxides", "Enzyme catalysis", "Stereoselectivity", "Ring closure"],
+"target_molecules": [],
+"skills": ["Robinson annulation mechanism", "Enzyme stereoselectivity", "Halohydrin formation", "Epoxide ring closure", "Stereochemical analysis", "SN2 mechanism"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 77,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 78
+},
+{
+"id": "IChO_Prep-2016-T21",
+"title": "Carbohydrate Chemistry: Ketoses and Acetonides",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Biochemistry"],
+"type": "Data analysis",
+"theme": ["Monosaccharides", "Acetals", "Pyranoses", "Furanoses", "Haworth projections", "Conformational analysis", "Ribulose", "Galactose"],
+"target_molecules": ["D-ribulose", "1-O-methyl-6-O-acetyl-β-D-galactose", "L-galactose"],
+"skills": ["Sugar structure drawing", "Acetal formation", "Haworth projections", "Chair conformations", "Axial/equatorial designation", "Conformational stability", "Anomeric configuration"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 80,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 82
+},
+{
+"id": "IChO_Prep-2016-T22",
+"title": "Energy Density of Hydrogen and Alternative Fuels",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Thermodynamics", "Environmental Chemistry", "Nuclear Chemistry"],
+"type": "Calculation",
+"theme": ["Energy density", "Hydrogen storage", "Electrolysis", "Fuel cells", "Fossil fuels", "Nuclear fusion", "Van der Waals equation", "Methanol"],
+"target_molecules": ["NaBH4"],
+"skills": ["Energy density calculations", "Electrolysis efficiency", "Van der Waals equation", "Ideal gas law", "Fuel cell thermodynamics", "Thermochemical calculations", "Gravimetric and volumetric analysis"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 85,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 88
+},
+{
+"id": "IChO_Prep-2016-T23",
+"title": "Thermochemistry of Alkali Metal Oxides",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Inorganic", "Physical", "Thermodynamics"],
+"type": "Calculation",
+"theme": ["Alkali metals", "Oxides", "Peroxides", "Superoxides", "Lattice energy", "Kapustinskii equation", "Thermochemical cycles"],
+"target_molecules": ["Li2O", "Na2O2", "KO2"],
+"skills": ["Kapustinskii equation", "Born-Haber cycles", "Lattice energy calculations", "Ionic radii", "Thermochemical reasoning", "Periodic trends"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 91,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 93
+},
+{
+"id": "IChO_Prep-2016-T24",
+"title": "Thermodynamics of Galvanic Cells",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Thermodynamics", "Electrochemistry"],
+"type": "Calculation",
+"theme": ["Galvanic cells", "Cell potential", "Thermodynamic efficiency", "Entropy", "Gibbs free energy"],
+"target_molecules": [],
+"skills": ["Cell reaction writing", "Standard potential calculation", "Nernst equation", "Thermochemical calculations", "Efficiency analysis", "Entropy effects"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 95,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 96
+},
+{
+"id": "IChO_Prep-2016-T25",
+"title": "Chemical Kinetics: Rate Laws and Half-Lives",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Kinetics"],
+"type": "Calculation",
+"theme": ["First-order kinetics", "Rate laws", "Arrhenius equation", "Half-life", "Spectrophotometry"],
+"target_molecules": [],
+"skills": ["Rate law determination", "Half-life calculations", "Arrhenius activation energy", "Spectrophotometric kinetics", "Molar absorption coefficients", "Integrated rate laws"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 98,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 100
+},
+{
+"id": "IChO_Prep-2016-T26",
+"title": "Atmospheric Ozone Formation and Depletion",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Environmental Chemistry", "Physical", "Kinetics", "Thermodynamics"],
+"type": "Calculation",
+"theme": ["Ozone", "Photochemistry", "Steady-state approximation", "NOx chemistry", "Atmospheric chemistry"],
+"target_molecules": ["O3", "NO", "NO2"],
+"skills": ["Steady-state approximation", "Rate law derivation", "Photolysis kinetics", "Arrhenius equation", "Temperature dependence of kinetics"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 102,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 103
+},
+{
+"id": "IChO_Prep-2016-T27",
+"title": "Kinetics of Bromination of Acetone",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Organic", "Kinetics"],
+"type": "Data analysis",
+"theme": ["Reaction kinetics", "Rate laws", "Mechanism elucidation", "Halogenation", "Bromoacetone"],
+"target_molecules": ["Bromoacetone"],
+"skills": ["Rate law determination", "Kinetic order analysis", "Half-life determination", "Mechanism proposal", "Spectrophotometric kinetics", "Pseudo-first-order kinetics"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 105,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 107
+},
+{
+"id": "IChO_Prep-2016-T28",
+"title": "Photochemistry of Chlorine Dioxide",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Analytical", "Photochemistry", "Kinetics"],
+"type": "Data analysis",
+"theme": ["Quantum yield", "Actinometry", "Photoreaction", "Chlorine dioxide", "Iodine"],
+"target_molecules": ["ClO2"],
+"skills": ["Quantum yield calculations", "Actinometry", "Light absorption", "Photochemical kinetics", "Stoichiometry determination", "Lewis structures", "UV-Vis spectroscopy"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 113,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 115
+},
+{
+"id": "IChO_Prep-2016-T29",
+"title": "Ionization and Electron Transfer in Diatomic Molecules",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Physical", "Quantum Chemistry", "Thermodynamics"],
+"type": "Calculation",
+"theme": ["Ionization energy", "Electron affinity", "Coulomb interaction", "Ionic bonding", "Charge transfer"],
+"target_molecules": ["NaCl", "Hu2"],
+"skills": ["Coulomb's law", "Ionization energy calculations", "Electron affinity", "Thermochemical cycles", "Energy minimization", "Ionic bonding"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 118,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 119
+},
+{
+"id": "IChO_Prep-2016-P1",
+"title": "Identification of Unknown Solutions",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic", "Acid-Base Chemistry"],
+"type": "Practical",
+"theme": ["Qualitative analysis", "Precipitation", "Acid-base reactions", "Salt identification"],
+"target_molecules": [],
+"skills": ["Qualitative inorganic analysis", "Precipitation reactions", "Acid-base indicators", "Systematic identification"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 120,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 120
+},
+{
+"id": "IChO_Prep-2016-P2",
+"title": "Qualitative Analysis of Inorganic Mixtures",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic"],
+"type": "Practical",
+"theme": ["Qualitative analysis", "Precipitation", "Gas tests", "Dissolution behavior", "Ammonia detection"],
+"target_molecules": [],
+"skills": ["Qualitative inorganic analysis", "Selective dissolution", "Gas evolution tests", "Group separations", "Wet chemistry", "Reaction equations"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 121,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 121
+},
+{
+"id": "IChO_Prep-2016-P3",
+"title": "Systematic Cation Analysis with Anions",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic"],
+"type": "Practical",
+"theme": ["Qualitative analysis", "Cation identification", "Anion reactions", "Precipitation schemes"],
+"target_molecules": [],
+"skills": ["Systematic qualitative analysis", "Precipitation reactions", "Anion reactions", "Cation separation", "Group chemistry"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 123,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 123
+},
+{
+"id": "IChO_Prep-2016-P4",
+"title": "Identification of a Metal by Complexometry",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic", "Equilibrium"],
+"type": "Practical",
+"theme": ["Complexometric titration", "EDTA", "Metal identification", "Bismuth", "Oxide formula"],
+"target_molecules": ["Bi2O3"],
+"skills": ["Complexometric titrations", "EDTA chemistry", "Stoichiometric calculations", "Molar mass determination", "Oxidation state determination", "pH adjustment"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 124,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 125
+},
+{
+"id": "IChO_Prep-2016-P5",
+"title": "Determination of Vitamin C (Ascorbic Acid)",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Organic", "Biochemistry", "Electrochemistry"],
+"type": "Practical",
+"theme": ["Ascorbic acid", "Redox titration", "Bromate titration", "Vitamin C assay"],
+"target_molecules": ["Ascorbic acid", "Dehydroascorbic acid"],
+"skills": ["Redox titrations", "Bromate titrations", "Stoichiometry", "Indicator use", "Sample preparation", "Tablet analysis"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 127,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 128
+},
+{
+"id": "IChO_Prep-2016-P6",
+"title": "Determination of Silver Content by Ascorbic Acid",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Inorganic", "Electrochemistry"],
+"type": "Practical",
+"theme": ["Ascorbic acid", "Silver determination", "Iodometry", "Redox indicator", "Variamine Blue"],
+"target_molecules": [],
+"skills": ["Redox titrations", "Iodometry", "Standardization", "Indicator chemistry", "Stoichiometry", "Titration technique"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 129,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 130
+},
+{
+"id": "IChO_Prep-2016-P7",
+"title": "Synthesis of N-Benzyl-3-nitroaniline",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Organic", "Analytical"],
+"type": "Practical",
+"theme": ["Reductive amination", "NaBH4 reduction", "TLC", "Nitroaniline", "Benzaldehyde"],
+"target_molecules": ["N-benzyl-3-nitroaniline"],
+"skills": ["Organic synthesis", "Reductive amination", "Sodium borohydride reduction", "TLC analysis", "Purification", "Yield calculation", "Reaction monitoring"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 132,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 133
+},
+{
+"id": "IChO_Prep-2016-P8",
+"title": "Rhodanilic Acid in Amino Acid Analysis",
+"nation": "Georgia",
+"olympiad": "IChO_Prep",
+"year": 2016,
+"subset": ["Analytical", "Organic", "Biochemistry"],
+"type": "Practical",
+"theme": ["Rhodanilic acid", "Amino acid precipitation", "Proline", "TLC", "Ninhydrin", "Protein analysis"],
+"target_molecules": ["Rhodanilic acid", "Ammonium rhodanilate"],
+"skills": ["Complex compound synthesis", "Precipitation", "TLC analysis", "Ninhydrin detection", "Amino acid chemistry", "Selective precipitation"],
+"problem_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"problem_page": 134,
+"solution_pdf": "pdfs/icho_prep/preparatory problems icho 2016.pdf",
+"solution_page": 136
+},
+  {
     "id": "IChO_Prep-2017-T1",
     "title": "Dimerization of Acetic Acid",
     "nation": "Thailand",
