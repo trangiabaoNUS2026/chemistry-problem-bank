@@ -11334,6 +11334,341 @@
     "solution_page": 366
   },
   {
+  "id": "IChO-2024-T1",
+  "title": "Ammonia",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Thermodynamics",
+  "Equilibrium",
+  "Kinetics",
+  "Inorganic"
+  ],
+  "type": "Calculation",
+  "theme": [
+  "Haber-Bosch process",
+  "Catalysis",
+  "Chemical equilibrium",
+  "Thermochemistry"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Thermochemical calculations",
+  "Equilibrium constant calculations",
+  "Stoichiometry",
+  "Chemical kinetics"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 5,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 5
+  },
+  {
+  "id": "IChO-2024-T2",
+  "title": "Electronic nose",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Inorganic",
+  "Solid State Chemistry",
+  "Physical"
+  ],
+  "type": "Data analysis",
+  "theme": [
+  "Semiconductors",
+  "Spinel structure",
+  "Gas sensors",
+  "Conductivity"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Stoichiometry",
+  "Crystal structure analysis",
+  "Conductivity-temperature relationships"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 13,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 13
+  },
+  {
+  "id": "IChO-2024-T3",
+  "title": "Tyrosinase",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Biochemistry",
+  "Kinetics"
+  ],
+  "type": "Data analysis",
+  "theme": [
+  "Enzyme kinetics",
+  "Michaelis-Menten",
+  "Inactivation"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Michaelis-Menten kinetics",
+  "Rate law determination",
+  "Enzyme assay interpretation",
+  "Reaction mechanism deduction"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 18,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 18
+  },
+  {
+  "id": "IChO-2024-T4",
+  "title": "Potassium",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Inorganic",
+  "Electrochemistry",
+  "Acid-Base Chemistry"
+  ],
+  "type": "Calculation",
+  "theme": [
+  "Electrolysis",
+  "Oxocarbon anions",
+  "Acid dissociation"
+  ],
+  "target_molecules": [
+  "Gmelin's compound X"
+  ],
+  "skills": [
+  "Balancing redox equations",
+  "pH calculations",
+  "Structure elucidation"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 27,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 27
+  },
+  {
+  "id": "IChO-2024-T5",
+  "title": "Unknown compound A",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Inorganic",
+  "Analytical"
+  ],
+  "type": "Multi-step synthesis",
+  "theme": [
+  "Iodometry",
+  "Thermal decomposition",
+  "Coordination compounds"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Iodometric titration",
+  "Mass balance calculations",
+  "Stoichiometry",
+  "Compound identification"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 32,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 32
+  },
+  {
+  "id": "IChO-2024-T6",
+  "title": "Penicillin",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Organic"
+  ],
+  "type": "Multi-step synthesis",
+  "theme": [
+  "Stereochemistry",
+  "Peptide chemistry",
+  "Antibiotics"
+  ],
+  "target_molecules": [
+  "Penicillin VK",
+  "A",
+  "B",
+  "(+)-C",
+  "D",
+  "E",
+  "F"
+  ],
+  "skills": [
+  "Stereocenter identification",
+  "Stereoisomer counting",
+  "Reagent selection",
+  "Stereochemical drawing"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 37,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 37
+  },
+  {
+  "id": "IChO-2024-T7",
+  "title": "SABIC",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Polymer Chemistry",
+  "Kinetics",
+  "Spectroscopy",
+  "Organic"
+  ],
+  "type": "Data analysis",
+  "theme": [
+  "Schulz-Flory distribution",
+  "Vitrimers",
+  "Grafting",
+  "IR spectroscopy"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Chain reaction kinetics",
+  "Polymer chemistry",
+  "Metathesis reactions",
+  "Beer-Lambert law application"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 42,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 42
+  },
+  {
+  "id": "IChO-2024-T8",
+  "title": "Safflower",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Organic",
+  "Spectroscopy"
+  ],
+  "type": "Multi-step synthesis",
+  "theme": [
+  "Flavonoid synthesis",
+  "Indole alkaloids",
+  "NMR spectroscopy"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Synthesis design",
+  "Structure elucidation",
+  "NMR interpretation"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 50,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 50
+  },
+  {
+  "id": "IChO-2024-T9",
+  "title": "Porphyrin complexes",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Inorganic",
+  "Organic",
+  "Spectroscopy",
+  "Quantum Chemistry"
+  ],
+  "type": "Mechanism",
+  "theme": [
+  "Porphyrins",
+  "Metal coordination",
+  "Molecular orbital theory",
+  "Symmetry",
+  "Sandwich complexes"
+  ],
+  "target_molecules": [
+  "Zr(OEP)2",
+  "Eu2(OEP)3",
+  "Bi2(OEP)2Cl2",
+  "[Ru(OEP)]2"
+  ],
+  "skills": [
+  "Porphyrin chemistry",
+  "Symmetry analysis",
+  "Molecular orbital diagrams",
+  "Oxidation state determination",
+  "Bond order calculation"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical.pdf",
+  "problem_page": 55,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_theoretical_solution.pdf",
+  "solution_page": 55
+  },
+  {
+  "id": "IChO-2024-P1",
+  "title": "Indicators",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Analytical",
+  "Acid-Base Chemistry"
+  ],
+  "type": "Practical",
+  "theme": [
+  "Acid-base indicators",
+  "TLC",
+  "pH determination"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "TLC technique",
+  "Indicator use",
+  "pH estimation",
+  "Qualitative analysis"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_practical.pdf",
+  "problem_page": 6,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_practical_solution.pdf",
+  "solution_page": 6
+  },
+  {
+  "id": "IChO-2024-P2",
+  "title": "Titration on a balance",
+  "nation": "Saudi Arabia",
+  "olympiad": "IChO",
+  "year": 2024,
+  "subset": [
+  "Analytical",
+  "Inorganic",
+  "Electrochemistry"
+  ],
+  "type": "Practical",
+  "theme": [
+  "Permanganate titrations",
+  "Iodometry",
+  "Redox reactions",
+  "Mass-based analysis"
+  ],
+  "target_molecules": [],
+  "skills": [
+  "Gravimetric titration",
+  "Redox stoichiometry",
+  "Mass fraction calculation",
+  "Endpoint determination"
+  ],
+    "problem_pdf": "pdfs/icho/icho_2024/icho_2024_practical.pdf",
+  "problem_page": 17,
+  "solution_pdf": "pdfs/icho/icho_2024/icho_2024_practical_solution.pdf",
+  "solution_page": 26
+  },
+  {
     "id": "IChO_Prep-2001-T1",
     "title": "Water",
     "nation": "India",
