@@ -1,10 +1,11 @@
 /* ==========================================================================
    Chemistry Olympiad Catalog — stylesheet
-   Two switchable themes, set via [data-theme] on <html>:
-     - professional (default): clean, corporate-safe, light
-     - nebula: dark, glassy, neon accents, starfield-grid background
-   Subset color-coding (--tile-0..9) is shared logic, different palettes
-   per theme, applied inline per-badge via --tile-color from app.js.
+   Two switchable themes, set via [data-theme] on <html>: professional / nebula
+   Subset color-coding (--tile-0..9) is hashed per name, shared across
+   chips, cards, coverage accents, and the subset breakdown chart.
+   Category (Official / Prep) uses its own fixed two-color system,
+   independent of the hashed subset palette, so it reads consistently
+   everywhere it appears.
    ========================================================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
@@ -25,6 +26,9 @@
   --accent: #2952CC;
   --accent-hover: #1F3FA8;
   --accent-tint: #EAF0FF;
+
+  --cat-official: #2952CC;
+  --cat-prep: #B54708;
 
   --font-display: 'Inter', system-ui, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -49,12 +53,7 @@
   --tile-9: #3538CD;
 }
 
-/* ---- Theme: Nebula ------------------------------------------------------
-   Dark, glassy, neon. Background is a deep-space gradient with a faint
-   dot grid (graph-paper-meets-starfield). Cards use a translucent
-   surface; hovering a card glows in ITS OWN subset accent color, not
-   just a single global accent — a nice payoff for the color-coding.
-   -------------------------------------------------------------------- */
+/* ---- Theme: Nebula ------------------------------------------------------ */
 :root[data-theme="nebula"] {
   --bg: #0A0E1A;
   --bg-image:
@@ -70,6 +69,9 @@
   --accent: #00E5C7;
   --accent-hover: #00C2A8;
   --accent-tint: rgba(0, 229, 199, 0.14);
+
+  --cat-official: #00E5C7;
+  --cat-prep: #FFB020;
 
   --font-display: 'Space Grotesk', system-ui, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -214,9 +216,52 @@ body {
   box-shadow: 0 0 16px -2px var(--accent);
 }
 
+/* ---- Category badges (Official / Prep) --------------------------------
+   Fixed two-color system, independent of the hashed subset palette,
+   so Official vs Prep reads the same everywhere: table, cards,
+   coverage panel, and the stats chart legend.
+   -------------------------------------------------------------------- */
+
+.category-badge {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.45rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.category-badge--official {
+  color: var(--cat-official);
+  background: color-mix(in srgb, var(--cat-official) 12%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--cat-official) 35%, transparent);
+}
+
+.category-badge--prep {
+  color: var(--cat-prep);
+  background: color-mix(in srgb, var(--cat-prep) 14%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--cat-prep) 40%, transparent);
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 2px;
+  margin: 0 0.25rem 0 0.6rem;
+  vertical-align: middle;
+}
+.legend-swatch:first-child { margin-left: 0; }
+.legend-official { background: var(--cat-official); }
+.legend-prep { background: var(--cat-prep); }
+
 /* ---- Coverage panel ---------------------------------------------------
-   A native <details>/<summary> for free collapsibility with no JS.
-   Cards are clickable — set the Olympiad filter to that value.
+   Grouped by Olympiad + Category (e.g. "IChO — Official" vs
+   "IChO — Prep" are separate cards), since that's the meaningful unit
+   for coverage now. Accent bar uses the category color.
    -------------------------------------------------------------------- */
 
 .coverage-section {
@@ -289,9 +334,15 @@ body {
 
 .coverage-card-top {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
+}
+
+.coverage-card-name-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .coverage-card-name {
@@ -462,11 +513,69 @@ button:focus-visible {
 
 .clear-filters-btn:hover { background: var(--accent-tint); }
 
+/* ---- Results bar (count + sort) --------------------------------------- */
+
+.results-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 1.5rem 0;
+}
+
 .results-count {
   font-family: var(--font-mono);
   font-size: 0.8rem;
   color: var(--ink-soft);
-  margin: 1rem 1.5rem 0;
+}
+
+.sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-bar label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+
+.sort-bar select {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.sort-direction-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.sort-direction-btn:hover { border-color: var(--ink-faint); }
+
+.sort-direction-btn svg { transition: transform 0.2s ease; }
+
+.sort-direction-btn[data-direction="desc"] svg {
+  transform: rotate(180deg);
 }
 
 /* ---- Subset chips (dot + name) ----------------------------------------- */
@@ -533,6 +642,7 @@ table.problems-table {
   padding: 0.6rem 0.8rem;
   border-bottom: 1px solid var(--line-strong);
   background: var(--bg);
+  white-space: nowrap;
 }
 
 .problems-table tbody td {
@@ -620,7 +730,6 @@ table.problems-table {
   overflow: hidden;
 }
 
-/* Accent spine along the left edge, keyed to the card's primary subset */
 .problem-card::before {
   content: "";
   position: absolute;
@@ -641,6 +750,12 @@ table.problems-table {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card-top-left {
+  display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -692,12 +807,150 @@ table.problems-table {
 
 .card-actions .btn { flex: 1; text-align: center; }
 
+/* ---- Stats view -------------------------------------------------------- */
+
+.view-stats {
+  padding: 1rem 1.5rem 3rem;
+}
+
+.stats-note {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin: 0 0 1rem;
+}
+
+.stats-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.stat-tile {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.stat-tile-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.stat-tile-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-soft);
+}
+
+.stats-block {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.2rem 1.3rem;
+  margin-bottom: 1.25rem;
+}
+
+.stats-block-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0 0 0.3rem;
+}
+
+.stats-block-sub {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
+.stats-chart-wrapper {
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.stats-chart-svg {
+  display: block;
+  height: 230px;
+}
+
+.bar-segment {
+  transform-origin: bottom;
+  animation: grow-bar 0.5s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+}
+
+@keyframes grow-bar {
+  from { transform: scaleY(0); }
+  to   { transform: scaleY(1); }
+}
+
+.bar-official { fill: var(--cat-official); }
+.bar-prep { fill: var(--cat-prep); }
+
+.bar-segment:hover { opacity: 0.8; }
+
+.bar-year-label {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  fill: var(--ink-faint);
+}
+
+.subset-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.subset-bar-row {
+  display: grid;
+  grid-template-columns: 150px 1fr 2.5rem;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.subset-bar-label {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.subset-bar-track {
+  background: var(--bg);
+  border-radius: 999px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.subset-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+}
+
+.subset-bar-count {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  text-align: right;
+}
+
 /* ---- Responsive -------------------------------------------------------- */
 
 @media (max-width: 720px) {
   .filter-bar { position: static; flex-direction: column; align-items: stretch; }
   .app-header { position: static; }
-  .results-count { margin-left: 1.5rem; }
+  .results-bar { margin-left: 1.5rem; margin-right: 1.5rem; flex-direction: column; align-items: flex-start; }
   .problems-table thead { display: none; }
   .problems-table, .problems-table tbody, .problems-table tr, .problems-table td {
     display: block; width: 100%; max-width: none;
@@ -720,6 +973,7 @@ table.problems-table {
   }
   .board-grid { grid-template-columns: 1fr; }
   .coverage-grid { grid-template-columns: 1fr; }
+  .subset-bar-row { grid-template-columns: 110px 1fr 2rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

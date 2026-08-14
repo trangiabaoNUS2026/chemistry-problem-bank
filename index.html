@@ -27,6 +27,10 @@
           <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 1h6v6H1V1Zm8 0h6v6H9V1ZM1 9h6v6H1V9Zm8 0h6v6H9V9Z"/></svg>
           Board
         </button>
+        <button type="button" class="view-toggle-btn" data-view="stats" aria-pressed="false">
+          <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M1 14h14v1.2H1V14Zm1-5h2.5v4.5H2V9Zm4.5-4H9v8.5H6.5V5Zm4.5 2.5h2.5V13.5H11V7.5Z"/></svg>
+          Stats
+        </button>
       </div>
     </div>
   </div>
@@ -35,7 +39,7 @@
 <details class="coverage-section" id="coverage-section" open>
   <summary class="coverage-summary">
     <span class="coverage-summary-title">Catalog Coverage</span>
-    <span class="coverage-summary-sub">Click an olympiad to jump straight to its problems</span>
+    <span class="coverage-summary-sub">Official and Prep tracked separately — click a card to jump to its problems</span>
   </summary>
   <div class="coverage-grid" id="coverage-grid"></div>
 </details>
@@ -60,6 +64,14 @@
       <label for="filter-olympiad">Olympiad</label>
       <select id="filter-olympiad">
         <option value="">All olympiads</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="filter-category">Category</label>
+      <select id="filter-category">
+        <option value="">Official + Prep</option>
+        <option value="Official">Official only</option>
+        <option value="Prep">Prep only</option>
       </select>
     </div>
     <div class="filter-group">
@@ -104,7 +116,24 @@
     </div>
   </section>
 
-  <p class="results-count" id="results-count">0 results</p>
+  <div class="results-bar">
+    <p class="results-count" id="results-count">0 results</p>
+    <div class="sort-bar">
+      <label for="sort-field">Sort by</label>
+      <select id="sort-field">
+        <option value="id">ID</option>
+        <option value="title">Title</option>
+        <option value="year">Year</option>
+        <option value="nation">Nation</option>
+        <option value="olympiad">Olympiad</option>
+        <option value="type">Type</option>
+      </select>
+      <button type="button" class="sort-direction-btn" id="sort-direction-btn" data-direction="asc" aria-label="Toggle ascending or descending">
+        <svg viewBox="0 0 12 12" width="11" height="11" aria-hidden="true"><path fill="currentColor" d="M6 1l4 5H2l4-5Z" class="sort-arrow-up"/></svg>
+        <span id="sort-direction-label">Ascending</span>
+      </button>
+    </div>
+  </div>
 
   <div class="view-table" id="view-table">
     <div class="table-wrapper">
@@ -115,6 +144,7 @@
             <th>Title</th>
             <th>Nation</th>
             <th>Olympiad</th>
+            <th>Category</th>
             <th>Year</th>
             <th>Subset</th>
             <th>Theme / Keywords</th>
@@ -129,6 +159,27 @@
 
   <div class="view-board" id="view-board" hidden>
     <div class="board-grid" id="board-grid"></div>
+  </div>
+
+  <div class="view-stats" id="view-stats" hidden>
+    <p class="stats-note">Reflects the current filters above.</p>
+
+    <div class="stats-summary" id="stats-summary"></div>
+
+    <section class="stats-block">
+      <h2 class="stats-block-title">Problems per year</h2>
+      <p class="stats-block-sub">
+        <span class="legend-swatch legend-official"></span> Official
+        <span class="legend-swatch legend-prep"></span> Prep
+        — hover a bar for exact counts
+      </p>
+      <div class="stats-chart-wrapper" id="stats-chart"></div>
+    </section>
+
+    <section class="stats-block">
+      <h2 class="stats-block-title">Problems per subset</h2>
+      <div class="subset-breakdown" id="stats-subset-breakdown"></div>
+    </section>
   </div>
 
   <div class="empty-state" id="empty-state" hidden></div>

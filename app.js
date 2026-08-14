@@ -1,8 +1,8 @@
 // ---------------------------------------------------------------------
 // Chemistry Olympiad Problem Catalog — app.js
 // Vanilla JS, no build step. Fetches data/problems.json + data/taxonomy.json,
-// renders a filterable Table or Board (card) view, a coverage overview,
-// and opens PDFs in a new tab via viewer.html.
+// renders a filterable/sortable Table, Board (card), or Stats view, a
+// coverage overview, and opens PDFs in a new tab via viewer.html.
 // ---------------------------------------------------------------------
 
 (function () {
@@ -15,10 +15,14 @@
   var taxonomy = { olympiads: [], subsets: [], types: [] };
   var currentView = localStorage.getItem("catalog-view") || "table";
   var currentColorTheme = localStorage.getItem("catalog-color-theme") || "professional";
+  var currentSort = {
+    field: localStorage.getItem("catalog-sort-field") || "id",
+    direction: localStorage.getItem("catalog-sort-direction") || "asc"
+  };
+  var lastFilteredProblems = []; // kept in sync so Stats can re-render on view switch
 
   // Multi-select field config: key -> Set of currently checked values
-  // (Theme/Keyword is intentionally NOT here — it's free-text search,
-  // since keyword values are open-ended and don't suit a checklist.)
+  // (Theme/Keyword is free-text search, not a checklist — see filter bar.)
   var multiSelectState = {
     subset: new Set(),
     skills: new Set(),
@@ -36,6 +40,7 @@
     emptyState: document.getElementById("empty-state"),
     viewTable: document.getElementById("view-table"),
     viewBoard: document.getElementById("view-board"),
+    viewStats: document.getElementById("view-stats"),
     viewToggle: document.getElementById("view-toggle"),
     themeToggle: document.getElementById("theme-toggle"),
     clearBtn: document.getElementById("clear-filters-btn"),
@@ -44,9 +49,18 @@
     filterTitle: document.getElementById("filter-title"),
     filterNation: document.getElementById("filter-nation"),
     filterOlympiad: document.getElementById("filter-olympiad"),
+    filterCategory: document.getElementById("filter-category"),
     filterYear: document.getElementById("filter-year"),
     filterType: document.getElementById("filter-type"),
-    filterTheme: document.getElementById("filter-theme")
+    filterTheme: document.getElementById("filter-theme"),
+
+    sortField: document.getElementById("sort-field"),
+    sortDirectionBtn: document.getElementById("sort-direction-btn"),
+    sortDirectionLabel: document.getElementById("sort-direction-label"),
+
+    statsSummary: document.getElementById("stats-summary"),
+    statsChart: document.getElementById("stats-chart"),
+    statsSubsetBreakdown: document.getElementById("stats-subset-breakdown")
   };
 
   var multiSelectConfig = [
@@ -56,9 +70,28 @@
   ];
 
   // -----------------------------------------------------------------
-  // Subset color system (dot-chip color-coding).
-  // Deterministic: same subset name always hashes to the same color,
-  // no matter what order data loads in or how the taxonomy grows.
+  // Category detection (Official vs Prep).
+  // Uses an explicit "category" field if present; otherwise infers
+  // from the problem's id (looks for "prep", case-insensitive). This
+  // means it works immediately on existing data with no migration —
+  // add an explicit category field later for anything string-matching
+  // gets wrong.
+  // -----------------------------------------------------------------
+  function getCategory(problem) {
+    if (problem.category) return problem.category;
+    var haystack = (String(problem.id || "") + " " + String(problem.olympiad || "")).toLowerCase();
+    return haystack.indexOf("prep") !== -1 ? "Prep" : "Official";
+  }
+
+  function buildCategoryBadgeHtml(problem) {
+    var cat = getCategory(problem);
+    var cls = cat === "Prep" ? "category-badge category-badge--prep" : "category-badge category-badge--official";
+    return '<span class="' + cls + '">' + escapeHtml(cat) + "</span>";
+  }
+
+  // -----------------------------------------------------------------
+  // Subset color system (dot-chip color-coding). Deterministic: same
+  // name always hashes to the same color.
   // -----------------------------------------------------------------
   var TILE_COLOR_COUNT = 10; // matches --tile-0 .. --tile-9 in style.css
 
@@ -102,12 +135,14 @@
         populateDynamicFilterOptions();
         populateMultiSelects();
         attachFilterListeners();
+        attachSortListeners();
         attachViewToggleListeners();
         attachColorThemeToggleListeners();
         applyView(currentView);
         applyColorTheme(currentColorTheme);
+        updateSortDirectionUI();
         renderCoveragePanel();
-        renderResults(allProblems);
+        applyFilters();
       })
       .catch(function (err) {
         showLoadError(err);
@@ -125,6 +160,7 @@
     console.error("Catalog data failed to load:", err);
     if (el.viewTable) el.viewTable.hidden = true;
     if (el.viewBoard) el.viewBoard.hidden = true;
+    if (el.viewStats) el.viewStats.hidden = true;
     el.emptyState.hidden = false;
     el.emptyState.textContent =
       "Could not load the problem catalog data. Please try refreshing the page.";
@@ -155,7 +191,7 @@
   }
 
   // -----------------------------------------------------------------
-  // View toggle (Table / Board)
+  // View toggle (Table / Board / Stats)
   // -----------------------------------------------------------------
   function attachViewToggleListeners() {
     el.viewToggle.querySelectorAll(".view-toggle-btn").forEach(function (btn) {
@@ -175,47 +211,100 @@
       btn.setAttribute("aria-pressed", isActive ? "true" : "false");
     });
 
-    if (view === "board") {
-      el.viewTable.hidden = true;
-      el.viewBoard.hidden = false;
-    } else {
-      el.viewTable.hidden = false;
-      el.viewBoard.hidden = true;
+    el.viewTable.hidden = view !== "table";
+    el.viewBoard.hidden = view !== "board";
+    el.viewStats.hidden = view !== "stats";
+
+    // Stats is built from the last filtered set; re-render fresh each
+    // time it's switched into, in case filters changed while on
+    // another view (cheap enough to just always redo it here).
+    if (view === "stats") {
+      renderStats(lastFilteredProblems);
     }
   }
 
   // -----------------------------------------------------------------
-  // Coverage panel — one card per olympiad: year range(s), a gap-aware
-  // dot-strip, and a problem count. Clicking a card jumps the Olympiad
-  // filter straight to that value.
+  // Sorting
+  // -----------------------------------------------------------------
+  function attachSortListeners() {
+    el.sortField.value = currentSort.field;
+    el.sortField.addEventListener("change", function () {
+      currentSort.field = el.sortField.value;
+      localStorage.setItem("catalog-sort-field", currentSort.field);
+      applyFilters();
+    });
+
+    el.sortDirectionBtn.addEventListener("click", function () {
+      currentSort.direction = currentSort.direction === "asc" ? "desc" : "asc";
+      localStorage.setItem("catalog-sort-direction", currentSort.direction);
+      updateSortDirectionUI();
+      applyFilters();
+    });
+  }
+
+  function updateSortDirectionUI() {
+    el.sortDirectionBtn.setAttribute("data-direction", currentSort.direction);
+    el.sortDirectionLabel.textContent = currentSort.direction === "asc" ? "Ascending" : "Descending";
+  }
+
+  function applySort(problems) {
+    var field = currentSort.field;
+    var dir = currentSort.direction === "desc" ? -1 : 1;
+
+    return problems.slice().sort(function (a, b) {
+      var av = a[field];
+      var bv = b[field];
+
+      if (field === "year") {
+        av = Number(av) || 0;
+        bv = Number(bv) || 0;
+        return (av - bv) * dir;
+      }
+
+      av = String(av || "").toLowerCase();
+      bv = String(bv || "").toLowerCase();
+      if (av < bv) return -1 * dir;
+      if (av > bv) return 1 * dir;
+      return 0;
+    });
+  }
+
+  // -----------------------------------------------------------------
+  // Coverage panel — one card per (Olympiad, Category) pair — e.g.
+  // "IChO" Official and "IChO" Prep are tracked as separate series,
+  // since that's the meaningful unit now. Each card shows its year
+  // range(s), a gap-aware dot-strip, and a problem count. Clicking a
+  // card jumps the Olympiad + Category filters straight to it.
   // -----------------------------------------------------------------
   function renderCoveragePanel() {
-    var byOlympiad = {}; // name -> { years: Set<number>, count: number }
+    var groups = {}; // "olympiad||category" -> { olympiad, category, years: Set, count }
 
     allProblems.forEach(function (p) {
       if (!p.olympiad) return;
-      if (!byOlympiad[p.olympiad]) {
-        byOlympiad[p.olympiad] = { years: new Set(), count: 0 };
+      var cat = getCategory(p);
+      var key = p.olympiad + "||" + cat;
+      if (!groups[key]) {
+        groups[key] = { olympiad: p.olympiad, category: cat, years: new Set(), count: 0 };
       }
-      if (p.year) byOlympiad[p.olympiad].years.add(Number(p.year));
-      byOlympiad[p.olympiad].count += 1;
+      if (p.year) groups[key].years.add(Number(p.year));
+      groups[key].count += 1;
     });
 
-    var names = Object.keys(byOlympiad).sort();
-    if (names.length === 0) {
+    var keys = Object.keys(groups).sort();
+    if (keys.length === 0) {
       el.coverageGrid.innerHTML =
         '<p class="keyword-text">No olympiads in the catalog yet.</p>';
       return;
     }
 
-    el.coverageGrid.innerHTML = names.map(function (name) {
-      return buildCoverageCardHtml(name, byOlympiad[name]);
+    el.coverageGrid.innerHTML = keys.map(function (key) {
+      return buildCoverageCardHtml(groups[key]);
     }).join("");
 
     el.coverageGrid.querySelectorAll("[data-coverage-olympiad]").forEach(function (card) {
       card.addEventListener("click", function () {
-        var name = card.getAttribute("data-coverage-olympiad");
-        el.filterOlympiad.value = name;
+        el.filterOlympiad.value = card.getAttribute("data-coverage-olympiad");
+        el.filterCategory.value = card.getAttribute("data-coverage-category");
         applyFilters();
         var filterBar = document.getElementById("filter-bar");
         if (filterBar) filterBar.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -223,45 +312,45 @@
     });
   }
 
-  function buildCoverageCardHtml(name, data) {
-    var years = Array.from(data.years).sort(function (a, b) { return a - b; });
-    var color = tileColorVar(name);
+  function buildCoverageCardHtml(group) {
+    var years = Array.from(group.years).sort(function (a, b) { return a - b; });
+    var accentColor = group.category === "Prep" ? "var(--cat-prep)" : "var(--cat-official)";
+    var badge = group.category === "Prep"
+      ? '<span class="category-badge category-badge--prep">Prep</span>'
+      : '<span class="category-badge category-badge--official">Official</span>';
 
+    var rangeAndDots;
     if (years.length === 0) {
-      return (
-        '<button type="button" class="coverage-card" style="--tile-color:' + color + '" ' +
-        'data-coverage-olympiad="' + escapeHtml(name) + '">' +
-        '<div class="coverage-card-top">' +
-        '<span class="coverage-card-name">' + escapeHtml(name) + "</span>" +
-        '<span class="coverage-card-count">' + data.count + (data.count === 1 ? " problem" : " problems") + "</span>" +
-        "</div>" +
-        '<span class="coverage-card-range">No years recorded</span>' +
-        "</button>"
-      );
-    }
+      rangeAndDots = '<span class="coverage-card-range">No years recorded</span>';
+    } else {
+      var min = years[0];
+      var max = years[years.length - 1];
+      var yearSet = new Set(years);
+      var rangeLabel = formatYearRanges(years);
 
-    var min = years[0];
-    var max = years[years.length - 1];
-    var yearSet = new Set(years);
-    var rangeLabel = formatYearRanges(years);
-
-    var dots = [];
-    for (var y = min; y <= max; y++) {
-      var present = yearSet.has(y);
-      dots.push(
-        '<span class="coverage-dot' + (present ? "" : " is-gap") + '" title="' + y + (present ? "" : " — not yet in catalog") + '"></span>'
-      );
+      var dots = [];
+      for (var y = min; y <= max; y++) {
+        var present = yearSet.has(y);
+        dots.push(
+          '<span class="coverage-dot' + (present ? "" : " is-gap") + '" title="' + y + (present ? "" : " — not yet in catalog") + '"></span>'
+        );
+      }
+      rangeAndDots =
+        '<span class="coverage-card-range">' + escapeHtml(rangeLabel) + "</span>" +
+        '<div class="coverage-dots">' + dots.join("") + "</div>";
     }
 
     return (
-      '<button type="button" class="coverage-card" style="--tile-color:' + color + '" ' +
-      'data-coverage-olympiad="' + escapeHtml(name) + '">' +
+      '<button type="button" class="coverage-card" style="--tile-color:' + accentColor + '" ' +
+      'data-coverage-olympiad="' + escapeHtml(group.olympiad) + '" ' +
+      'data-coverage-category="' + escapeHtml(group.category) + '">' +
       '<div class="coverage-card-top">' +
-      '<span class="coverage-card-name">' + escapeHtml(name) + "</span>" +
-      '<span class="coverage-card-count">' + data.count + (data.count === 1 ? " problem" : " problems") + "</span>" +
+      '<span class="coverage-card-name-group">' +
+      '<span class="coverage-card-name">' + escapeHtml(group.olympiad) + "</span>" + badge +
+      "</span>" +
+      '<span class="coverage-card-count">' + group.count + (group.count === 1 ? " problem" : " problems") + "</span>" +
       "</div>" +
-      '<span class="coverage-card-range">' + escapeHtml(rangeLabel) + "</span>" +
-      '<div class="coverage-dots">' + dots.join("") + "</div>" +
+      rangeAndDots +
       "</button>"
     );
   }
@@ -292,14 +381,11 @@
   // -----------------------------------------------------------------
   // Filter option population
   // -----------------------------------------------------------------
-
-  // Olympiad + Type come from taxonomy.json
   function populateStaticFilterOptions() {
     fillSelect(el.filterOlympiad, taxonomy.olympiads || []);
     fillSelect(el.filterType, taxonomy.types || []);
   }
 
-  // Nation + Year are derived dynamically from the actual data
   function populateDynamicFilterOptions() {
     var nations = distinctValues(allProblems, "nation");
     var years = distinctValues(allProblems, "year").sort(function (a, b) {
@@ -318,7 +404,6 @@
     });
   }
 
-  // Returns sorted distinct values of a scalar field across problems
   function distinctValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -329,7 +414,6 @@
     return Array.from(set).sort();
   }
 
-  // Returns sorted distinct values of an array field across problems
   function distinctArrayValues(problems, field) {
     var set = new Set();
     problems.forEach(function (p) {
@@ -386,7 +470,6 @@
         panel.appendChild(wrapper);
       });
 
-      // Toggle popover open/closed
       toggle.addEventListener("click", function (e) {
         e.stopPropagation();
         var isOpen = !panel.hidden;
@@ -395,7 +478,6 @@
       });
     });
 
-    // Close any open popover on outside click
     document.addEventListener("click", function (e) {
       multiSelectConfig.forEach(function (cfg) {
         var container = document.getElementById(cfg.containerId);
@@ -433,7 +515,7 @@
     [el.filterId, el.filterTitle, el.filterTheme].forEach(function (input) {
       input.addEventListener("input", applyFilters);
     });
-    [el.filterNation, el.filterOlympiad, el.filterYear, el.filterType].forEach(function (sel) {
+    [el.filterNation, el.filterOlympiad, el.filterCategory, el.filterYear, el.filterType].forEach(function (sel) {
       sel.addEventListener("change", applyFilters);
     });
     el.clearBtn.addEventListener("click", clearAllFilters);
@@ -444,6 +526,7 @@
     el.filterTitle.value = "";
     el.filterNation.value = "";
     el.filterOlympiad.value = "";
+    el.filterCategory.value = "";
     el.filterYear.value = "";
     el.filterType.value = "";
     el.filterTheme.value = "";
@@ -463,20 +546,7 @@
   // -----------------------------------------------------------------
   // Core filter-matching logic
   // -----------------------------------------------------------------
-  // A problem matches the active filter set if it satisfies EVERY
-  // active field (AND across fields). For a multi-value checklist
-  // field (e.g. Subset), the problem matches that field if it
-  // contains AT LEAST ONE of the selected values (OR within the
-  // field). Theme/Keyword is free-text: matches if ANY of the
-  // problem's theme entries contains the search text.
-  //
-  // To add a new filter field later:
-  //   - scalar dropdown -> add a simple equality check below
-  //   - text field -> add a substring check
-  //   - multi-select -> add an "any value in problem's array field
-  //     is present in the selected Set" check
   function problemMatchesFilters(problem, filters) {
-    // --- text filters (substring, case-insensitive) ---
     if (filters.id && !String(problem.id || "").toLowerCase().includes(filters.id)) {
       return false;
     }
@@ -491,17 +561,16 @@
       if (!themeMatch) return false;
     }
 
-    // --- single-value dropdown filters (exact match) ---
     if (filters.nation && String(problem.nation) !== filters.nation) return false;
     if (filters.olympiad && String(problem.olympiad) !== filters.olympiad) return false;
+    if (filters.category && getCategory(problem) !== filters.category) return false;
     if (filters.year && String(problem.year) !== filters.year) return false;
     if (filters.type && String(problem.type) !== filters.type) return false;
 
-    // --- multi-select filters (OR within field, field itself is AND'd in) ---
     for (var i = 0; i < multiSelectConfig.length; i++) {
       var cfg = multiSelectConfig[i];
       var selected = multiSelectState[cfg.key];
-      if (selected.size === 0) continue; // no filter active for this field
+      if (selected.size === 0) continue;
 
       var problemValues = Array.isArray(problem[cfg.key]) ? problem[cfg.key] : [];
       var hasAnyMatch = problemValues.some(function (v) {
@@ -520,6 +589,7 @@
       themeKeyword: el.filterTheme.value.trim().toLowerCase(),
       nation: el.filterNation.value,
       olympiad: el.filterOlympiad.value,
+      category: el.filterCategory.value,
       year: el.filterYear.value,
       type: el.filterType.value
     };
@@ -530,13 +600,15 @@
     var filtered = allProblems.filter(function (p) {
       return problemMatchesFilters(p, filters);
     });
+    filtered = applySort(filtered);
+    lastFilteredProblems = filtered;
     renderResults(filtered);
   }
 
   // -----------------------------------------------------------------
-  // Rendering — builds BOTH the table rows and the board cards for the
-  // current result set (cheap even at a few thousand rows), so
-  // switching views is instant with no re-render needed.
+  // Rendering — Table + Board are both built every time (cheap even
+  // at a few thousand rows), so switching views is instant. Stats is
+  // rendered separately, only when active, from the same filtered set.
   // -----------------------------------------------------------------
   function renderResults(problems) {
     el.resultsCount.textContent = problems.length + " results";
@@ -546,13 +618,15 @@
       el.boardGrid.innerHTML = "";
       el.viewTable.hidden = true;
       el.viewBoard.hidden = true;
+      el.viewStats.hidden = true;
       el.emptyState.hidden = false;
       el.emptyState.textContent = "No problems match these filters.";
+      if (currentView === "stats") renderStats(problems);
       return;
     }
 
     el.emptyState.hidden = true;
-    applyView(currentView); // re-assert correct visibility for this view
+    applyView(currentView);
 
     el.tbody.innerHTML = problems.map(buildRowHtml).join("");
     el.boardGrid.innerHTML = problems.map(buildCardHtml).join("");
@@ -577,6 +651,7 @@
   function buildRowHtml(problem) {
     var subsetChips = (problem.subset || []).map(buildSubsetChipHtml).join("");
     var keywordText = (problem.theme || []).join(", ");
+    var categoryBadge = buildCategoryBadgeHtml(problem);
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -599,6 +674,7 @@
       '<td data-label="Title">' + escapeHtml(problem.title) + "</td>" +
       '<td data-label="Nation">' + escapeHtml(problem.nation) + "</td>" +
       '<td data-label="Olympiad">' + escapeHtml(problem.olympiad) + "</td>" +
+      '<td data-label="Category">' + categoryBadge + "</td>" +
       '<td class="cell-year" data-label="Year">' + escapeHtml(problem.year) + "</td>" +
       '<td data-label="Subset"><span class="chip-row">' + subsetChips + "</span></td>" +
       '<td data-label="Theme / Keywords"><span class="keyword-text">' + escapeHtml(keywordText) + "</span></td>" +
@@ -613,6 +689,7 @@
     var accentColor = primarySubset ? tileColorVar(primarySubset) : "var(--accent)";
     var subsetChips = (problem.subset || []).map(buildSubsetChipHtml).join("");
     var keywordText = (problem.theme || []).join(", ");
+    var categoryBadge = buildCategoryBadgeHtml(problem);
 
     var hasProblemPdf = !!problem.problem_pdf;
     var hasSolutionPdf = !!problem.solution_pdf;
@@ -632,7 +709,7 @@
     return (
       '<article class="problem-card" style="--tile-color:' + accentColor + '">' +
       '<div class="card-top">' +
-      '<span class="card-id">' + escapeHtml(problem.id) + "</span>" +
+      '<span class="card-top-left"><span class="card-id">' + escapeHtml(problem.id) + "</span>" + categoryBadge + "</span>" +
       '<span class="card-year">' + escapeHtml(problem.year) + "</span>" +
       "</div>" +
       '<h3 class="card-title">' + escapeHtml(problem.title) + "</h3>" +
@@ -648,6 +725,158 @@
     );
   }
 
+  // -----------------------------------------------------------------
+  // Stats view — summary tiles, an animated stacked bar chart of
+  // problems per year (Official vs Prep), and a subset breakdown.
+  // Computed from whatever is currently filtered, so it doubles as a
+  // live breakdown tool, not just a fixed overview.
+  // -----------------------------------------------------------------
+  function computeStats(problems) {
+    var totals = { total: problems.length, official: 0, prep: 0 };
+    var byYearCategory = {};
+    var bySubset = {};
+    var yearsSet = new Set();
+    var subsetsSet = new Set();
+
+    problems.forEach(function (p) {
+      var cat = getCategory(p);
+      if (cat === "Prep") totals.prep += 1; else totals.official += 1;
+
+      if (p.year) {
+        var y = Number(p.year);
+        yearsSet.add(y);
+        if (!byYearCategory[y]) byYearCategory[y] = { Official: 0, Prep: 0 };
+        byYearCategory[y][cat] = (byYearCategory[y][cat] || 0) + 1;
+      }
+
+      (p.subset || []).forEach(function (s) {
+        subsetsSet.add(s);
+        bySubset[s] = (bySubset[s] || 0) + 1;
+      });
+    });
+
+    return {
+      totals: totals,
+      byYearCategory: byYearCategory,
+      bySubset: bySubset,
+      yearsCovered: yearsSet.size,
+      subsetsCovered: subsetsSet.size
+    };
+  }
+
+  function renderStats(problems) {
+    var stats = computeStats(problems);
+    el.statsSummary.innerHTML = buildStatsSummaryHtml(stats);
+    el.statsChart.innerHTML = buildBarChartSvg(stats.byYearCategory);
+    el.statsSubsetBreakdown.innerHTML = buildSubsetBreakdownHtml(stats.bySubset);
+  }
+
+  function buildStatsSummaryHtml(stats) {
+    var tiles = [
+      { label: "Total Problems", value: stats.totals.total },
+      { label: "Official", value: stats.totals.official },
+      { label: "Prep", value: stats.totals.prep },
+      { label: "Years Covered", value: stats.yearsCovered },
+      { label: "Subsets Touched", value: stats.subsetsCovered }
+    ];
+    return tiles.map(function (t) {
+      return (
+        '<div class="stat-tile"><span class="stat-tile-value">' + t.value +
+        '</span><span class="stat-tile-label">' + escapeHtml(t.label) + "</span></div>"
+      );
+    }).join("");
+  }
+
+  function buildBarChartSvg(byYearCategory) {
+    var years = Object.keys(byYearCategory).map(Number).sort(function (a, b) { return a - b; });
+    if (years.length === 0) {
+      return '<p class="keyword-text">No year data for the current filters.</p>';
+    }
+
+    var barWidth = 14;
+    var gap = 6;
+    var chartHeight = 190;
+    var labelSpace = 20;
+
+    var maxTotal = 1;
+    years.forEach(function (y) {
+      var d = byYearCategory[y];
+      var t = (d.Official || 0) + (d.Prep || 0);
+      if (t > maxTotal) maxTotal = t;
+    });
+
+    var chartWidth = years.length * (barWidth + gap);
+    var parts = [];
+
+    years.forEach(function (y, idx) {
+      var d = byYearCategory[y];
+      var off = d.Official || 0;
+      var prep = d.Prep || 0;
+      var offH = Math.round((off / maxTotal) * chartHeight);
+      var prepH = Math.round((prep / maxTotal) * chartHeight);
+      var x = idx * (barWidth + gap);
+      var officialTopY = chartHeight - offH;
+      var prepTopY = officialTopY - prepH;
+      var delay = Math.min(idx * 4, 300);
+
+      parts.push('<g>');
+      if (off > 0) {
+        parts.push(
+          '<rect class="bar-segment bar-official" x="' + x + '" y="' + officialTopY +
+          '" width="' + barWidth + '" height="' + offH + '" rx="2" ' +
+          'style="animation-delay:' + delay + 'ms">' +
+          "<title>" + y + " — Official: " + off + "</title></rect>"
+        );
+      }
+      if (prep > 0) {
+        parts.push(
+          '<rect class="bar-segment bar-prep" x="' + x + '" y="' + prepTopY +
+          '" width="' + barWidth + '" height="' + prepH + '" rx="2" ' +
+          'style="animation-delay:' + delay + 'ms">' +
+          "<title>" + y + " — Prep: " + prep + "</title></rect>"
+        );
+      }
+      if (y % 5 === 0) {
+        parts.push(
+          '<text class="bar-year-label" x="' + (x + barWidth / 2) + '" y="' + (chartHeight + 14) +
+          '" text-anchor="middle">' + y + "</text>"
+        );
+      }
+      parts.push("</g>");
+    });
+
+    return (
+      '<svg class="stats-chart-svg" width="' + chartWidth + '" height="' + (chartHeight + labelSpace) +
+      '" viewBox="0 0 ' + chartWidth + " " + (chartHeight + labelSpace) + '">' +
+      parts.join("") +
+      "</svg>"
+    );
+  }
+
+  function buildSubsetBreakdownHtml(bySubset) {
+    var entries = Object.keys(bySubset).map(function (k) { return [k, bySubset[k]]; });
+    if (entries.length === 0) {
+      return '<p class="keyword-text">No subset data for the current filters.</p>';
+    }
+    entries.sort(function (a, b) { return b[1] - a[1]; });
+    var max = entries[0][1];
+
+    return entries.map(function (e) {
+      var name = e[0];
+      var count = e[1];
+      var pct = Math.round((count / max) * 100);
+      var color = tileColorVar(name);
+      return (
+        '<div class="subset-bar-row">' +
+        '<span class="subset-bar-label"><span class="chip-dot" style="--tile-color:' + color + '"></span>' +
+        escapeHtml(name) + "</span>" +
+        '<div class="subset-bar-track"><div class="subset-bar-fill" style="width:' + pct + "%; background:" + color + ';"></div></div>' +
+        '<span class="subset-bar-count">' + count + "</span>" +
+        "</div>"
+      );
+    }).join("");
+  }
+
   function escapeHtml(value) {
     if (value === undefined || value === null) return "";
     return String(value)
@@ -659,9 +888,7 @@
   }
 
   // -----------------------------------------------------------------
-  // Open the PDF in a new tab via viewer.html, which resolves the
-  // relative PDF path to an absolute URL and forwards it (plus the
-  // page number) to the bundled PDF.js viewer.
+  // Open the PDF in a new tab via viewer.html.
   // -----------------------------------------------------------------
   function openPdfInNewTab(btn, kind) {
     var id = btn.getAttribute("data-id");
@@ -672,7 +899,7 @@
 
     var file = kind === "problem" ? problem.problem_pdf : problem.solution_pdf;
     var page = kind === "problem" ? problem.problem_page : problem.solution_page;
-    if (!file) return; // shouldn't happen since disabled buttons have no handler
+    if (!file) return;
 
     var src = "viewer.html?file=" + encodeURIComponent(file);
     if (page) src += "#page=" + encodeURIComponent(page);
