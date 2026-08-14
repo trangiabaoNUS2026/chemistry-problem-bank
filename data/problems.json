@@ -11669,6 +11669,388 @@
   "solution_page": 26
   },
   {
+    "id": "IChO-2026-T1",
+    "title": "A journey through time: The secrets of Avicenna",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Organic",
+      "Inorganic",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Natural products",
+      "Isomerization",
+      "Mass spectrometry",
+      "Thermogravimetric analysis",
+      "Coordination compounds"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure elucidation from spectroscopic data",
+      "Isomerism",
+      "Mass spectrometry interpretation",
+      "Stoichiometry",
+      "Thermogravimetric analysis",
+      "Acid-base chemistry",
+      "Coordination chemistry"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IChO-2026-T2",
+    "title": "Kinetics of the Belousov-Zhabotinsky reaction",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Oscillating reactions",
+      "Steady-state approximation",
+      "Reaction mechanisms",
+      "Phase portraits"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Steady-state approximation",
+      "Kinetic equations",
+      "Reaction mechanism analysis",
+      "Phase portrait interpretation",
+      "Period calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IChO-2026-T3",
+    "title": "Covalent Organic Frameworks (COFs)",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Organic",
+      "Polymer Chemistry",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "COFs",
+      "Topology",
+      "Stacking interactions",
+      "Adsorption"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure drawing",
+      "Topology analysis",
+      "Energy calculations",
+      "Adsorption capacity calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IChO-2026-T4",
+    "title": "The nuclear past of Uzbekistan",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Nuclear Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Nuclear fission",
+      "Neutron moderation",
+      "Combustion",
+      "Energy release"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Isotopic abundance calculations",
+      "Nuclear reaction equations",
+      "Binding energy calculations",
+      "Neutron moderation",
+      "Thermochemical calculations",
+      "Energy calculations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 21,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 27
+  },
+  {
+    "id": "IChO-2026-T5",
+    "title": "Cardiolipins",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Phospholipids",
+      "Stereochemistry",
+      "Lipid phases",
+      "Ozonolysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Fragment assembly",
+      "Stereochemistry",
+      "Hydrogen bonding",
+      "Ozonolysis",
+      "Phase behavior",
+      "Hydrolysis reactions"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 24,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 33
+  },
+  {
+    "id": "IChO-2026-T6",
+    "title": "Carbon Nanorings",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Organic",
+      "Quantum Chemistry",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Cyclocarbons",
+      "Aromaticity",
+      "Hückel's rule",
+      "Retro-Bergman reaction",
+      "Catenanes",
+      "CPP synthesis",
+      "Global aromaticity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Hückel's rule application",
+      "Structure drawing",
+      "Mass spectrometry interpretation",
+      "Synthesis design",
+      "Electron counting",
+      "Global aromaticity"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 27,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 43
+  },
+  {
+    "id": "IChO-2026-T7",
+    "title": "Nitrogen Fixation",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Haber-Bosch process",
+      "Ammonia synthesis",
+      "Nitrogen fixation",
+      "Nitrides"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Process stoichiometry",
+      "Recycle calculations",
+      "Geometric series",
+      "Thermodynamic analysis",
+      "Structure elucidation",
+      "Empirical formula determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 32,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 54
+  },
+  {
+    "id": "IChO-2026-T8",
+    "title": "Recycling of Carbon Dioxide",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Physical",
+      "Inorganic",
+      "Spectroscopy",
+      "Quantum Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Photocatalysis",
+      "CO2 reduction",
+      "Photosensitizers",
+      "Quantum yield",
+      "Reaction mechanisms"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Half-reaction writing",
+      "Structure drawing",
+      "Coordination chemistry",
+      "Quantum yield calculation",
+      "Kinetic analysis",
+      "Jablonski diagram interpretation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 36,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 63
+  },
+  {
+    "id": "IChO-2026-T9",
+    "title": "Cyclodextrin Chemistry",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Cyclodextrins",
+      "Stereochemistry",
+      "Glycosidic bonds",
+      "Macrocycles",
+      "Derivatization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure drawing",
+      "Stereochemistry",
+      "Ring size determination",
+      "Stereocenter counting",
+      "Isomer counting",
+      "Mass calculation",
+      "Functional group modification"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical.pdf",
+    "problem_page": 42,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-theoretical_solution_compressed.pdf",
+    "solution_page": 75
+  },
+  {
+    "id": "IChO-2026-P1",
+    "title": "Synthesise and analyse",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Coordination complexes",
+      "Complexometric titration",
+      "Qualitative analysis",
+      "18-electron rule"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Synthesis",
+      "Vacuum filtration",
+      "Complexometric titration",
+      "Qualitative tests",
+      "Stoichiometric calculations",
+      "18-electron rule application"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-practical.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-practical_solution.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IChO-2026-P2",
+    "title": "Atlas of Enzymes",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Biochemistry",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Enzyme assays",
+      "Colorimetric analysis",
+      "Substrate specificity",
+      "Interference studies"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Micropipetting",
+      "Colorimetric detection",
+      "Enzyme kinetics",
+      "Data interpretation",
+      "Reaction balancing"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-practical.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-practical_solution.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IChO-2026-P3",
+    "title": "The Adventures of Hodja Nasreddin",
+    "nation": "Uzbekistan",
+    "olympiad": "IChO",
+    "year": 2026,
+    "subset": [
+      "Acid-Base Chemistry",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Acid-base titration",
+      "pH measurement",
+      "Universal indicators",
+      "Plant extracts"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "pH measurement",
+      "Titration techniques",
+      "Indicator preparation",
+      "Color transition analysis",
+      "Data interpretation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2026/icho_2026-practical.pdf",
+    "problem_page": 22,
+    "solution_pdf": "pdfs/icho/icho_2026/icho_2026-practical_solution.pdf",
+    "solution_page": 23
+  },
+  {
     "id": "IChO_Prep-2001-T1",
     "title": "Water",
     "nation": "India",
