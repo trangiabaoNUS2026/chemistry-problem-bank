@@ -10063,6 +10063,94 @@
     "solution_page": 68
   },
   {
+    "id": "IChO-2019-P1",
+    "title": "Greening the oxidation of nitrobenzaldehyde",
+    "nation": "France",
+    "olympiad": "IChO",
+    "year": 2019,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "green chemistry",
+      "oxidation",
+      "nitrobenzaldehyde",
+      "recrystallization",
+      "thin-layer chromatography"
+    ],
+    "target_molecules": [
+      "4-nitrobenzoic acid"
+    ],
+    "skills": [
+      "Performing green oxidation under reflux conditions",
+      "Executing vacuum filtration and product recrystallization",
+      "Analyzing reaction progress and purity using thin-layer chromatography (TLC)"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "problem_page": 72,
+    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "solution_page": 72
+  },
+  {
+    "id": "IChO-2019-P2",
+    "title": "The iron age of wine",
+    "nation": "France",
+    "olympiad": "IChO",
+    "year": 2019,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "iron in wine",
+      "spectrophotometry",
+      "colorimetry",
+      "thiocyanate complex",
+      "stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Preparing calibration curves using colorimetry / spectrophotometry",
+      "Determining trace iron concentrations in real food/beverage samples",
+      "Establishing complex stoichiometry using Job's method of continuous variations"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "problem_page": 79,
+    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "solution_page": 79
+  },
+  {
+    "id": "IChO-2019-P3",
+    "title": "Wine for keeping",
+    "nation": "France",
+    "olympiad": "IChO",
+    "year": 2019,
+    "subset": [
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Practical",
+    "theme": [
+      "sulfur dioxide in wine",
+      "iodometric titration",
+      "standardization",
+      "preservatives"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Standardizing sodium thiosulfate and iodine titrant solutions",
+      "Performing redox iodometric titrations",
+      "Quantifying total sulfur dioxide content in wine samples"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "problem_page": 87,
+    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
+    "solution_page": 87
+  },
+  {
     "id": "IChO-2020-T1",
     "title": "Two Beauties of Turkey: the Van Cat and the Ankara Cat",
     "nation": "Turkey",
@@ -11157,94 +11245,6 @@
     "problem_page": 342,
     "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
     "solution_page": 347
-  },
-  {
-    "id": "IChO-2019-P1",
-    "title": "Greening the oxidation of nitrobenzaldehyde",
-    "nation": "France",
-    "olympiad": "IChO",
-    "year": 2019,
-    "subset": [
-      "Organic",
-      "Analytical"
-    ],
-    "type": "Practical",
-    "theme": [
-      "green chemistry",
-      "oxidation",
-      "nitrobenzaldehyde",
-      "recrystallization",
-      "thin-layer chromatography"
-    ],
-    "target_molecules": [
-      "4-nitrobenzoic acid"
-    ],
-    "skills": [
-      "Performing green oxidation under reflux conditions",
-      "Executing vacuum filtration and product recrystallization",
-      "Analyzing reaction progress and purity using thin-layer chromatography (TLC)"
-    ],
-    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "problem_page": 72,
-    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "solution_page": 72
-  },
-  {
-    "id": "IChO-2019-P2",
-    "title": "The iron age of wine",
-    "nation": "France",
-    "olympiad": "IChO",
-    "year": 2019,
-    "subset": [
-      "Analytical",
-      "Inorganic"
-    ],
-    "type": "Practical",
-    "theme": [
-      "iron in wine",
-      "spectrophotometry",
-      "colorimetry",
-      "thiocyanate complex",
-      "stoichiometry"
-    ],
-    "target_molecules": [],
-    "skills": [
-      "Preparing calibration curves using colorimetry / spectrophotometry",
-      "Determining trace iron concentrations in real food/beverage samples",
-      "Establishing complex stoichiometry using Job's method of continuous variations"
-    ],
-    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "problem_page": 79,
-    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "solution_page": 79
-  },
-  {
-    "id": "IChO-2019-P3",
-    "title": "Wine for keeping",
-    "nation": "France",
-    "olympiad": "IChO",
-    "year": 2019,
-    "subset": [
-      "Analytical",
-      "Equilibrium"
-    ],
-    "type": "Practical",
-    "theme": [
-      "sulfur dioxide in wine",
-      "iodometric titration",
-      "standardization",
-      "preservatives"
-    ],
-    "target_molecules": [],
-    "skills": [
-      "Standardizing sodium thiosulfate and iodine titrant solutions",
-      "Performing redox iodometric titrations",
-      "Quantifying total sulfur dioxide content in wine samples"
-    ],
-    "problem_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "problem_page": 87,
-    "solution_pdf": "pdfs/icho/icho_2019-2023.pdf",
-    "solution_page": 87
   },
   {
     "id": "IChO-2023-P1",
@@ -13503,7 +13503,7 @@
     "id": "IChO_Prep-2018-T1",
     "title": "Synthesis of hydrogen cyanide",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -13533,7 +13533,7 @@
     "id": "IChO_Prep-2018-T2",
     "title": "Thermochemistry of rocket fuels",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -13562,7 +13562,7 @@
     "id": "IChO_Prep-2018-T3",
     "title": "HIV protease",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Biochemistry",
@@ -13591,7 +13591,7 @@
     "id": "IChO_Prep-2018-T4",
     "title": "Enantioselective hydrogenation",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -13619,7 +13619,7 @@
     "id": "IChO_Prep-2018-T5",
     "title": "Ultrafast reactions",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -13648,7 +13648,7 @@
     "id": "IChO_Prep-2018-T6",
     "title": "Kinetic isotope effects",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -13676,7 +13676,7 @@
     "id": "IChO_Prep-2018-T7",
     "title": "Designing a photoelectrochemical cell",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -13704,7 +13704,7 @@
     "id": "IChO_Prep-2018-T8",
     "title": "Fuel cells",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -13735,7 +13735,7 @@
     "id": "IChO_Prep-2018-T9",
     "title": "Acid-base equilibria in blood",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Analytical",
@@ -13764,7 +13764,7 @@
     "id": "IChO_Prep-2018-T10",
     "title": "Ion exchange capacity of a cation exchange resin",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Analytical",
@@ -13792,7 +13792,7 @@
     "id": "IChO_Prep-2018-T11",
     "title": "Weak and strong cation exchange resin",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Analytical",
@@ -13820,7 +13820,7 @@
     "id": "IChO_Prep-2018-T12",
     "title": "Uranyl extraction",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Analytical",
@@ -13849,7 +13849,7 @@
     "id": "IChO_Prep-2018-T13",
     "title": "Determination of active chlorine in commercial products",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Analytical"
@@ -13875,7 +13875,7 @@
     "id": "IChO_Prep-2018-T14",
     "title": "Chemical elements in fireworks",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -13904,7 +13904,7 @@
     "id": "IChO_Prep-2018-T15",
     "title": "Colours of complexes",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -13933,7 +13933,7 @@
     "id": "IChO_Prep-2018-T16",
     "title": "Iron chemistry",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -13963,7 +13963,7 @@
     "id": "IChO_Prep-2018-T17",
     "title": "Cyanido- and fluorido-complexes of manganese",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic"
@@ -13991,7 +13991,7 @@
     "id": "IChO_Prep-2018-T18",
     "title": "The fox and the stork",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -14019,7 +14019,7 @@
     "id": "IChO_Prep-2018-T19",
     "title": "Structures in the solid state",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -14048,7 +14048,7 @@
     "id": "IChO_Prep-2018-T20",
     "title": "Cyclobutanes",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -14076,7 +14076,7 @@
     "id": "IChO_Prep-2018-T21",
     "title": "Fluorinated radiotracers",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14105,7 +14105,7 @@
     "id": "IChO_Prep-2018-T22",
     "title": "Where is lithium?",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -14132,7 +14132,7 @@
     "id": "IChO_Prep-2018-T23",
     "title": "Synthesis of eremophilone",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -14161,7 +14161,7 @@
     "id": "IChO_Prep-2018-T24",
     "title": "Cinnamon all around",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -14192,7 +14192,7 @@
     "id": "IChO_Prep-2018-T25",
     "title": "All roads lead to caprolactam",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14220,7 +14220,7 @@
     "id": "IChO_Prep-2018-T26",
     "title": "Ring opening polymerization (ROP)",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14249,7 +14249,7 @@
     "id": "IChO_Prep-2018-T27",
     "title": "Zoniporide",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14281,7 +14281,7 @@
     "id": "IChO_Prep-2018-T28",
     "title": "Nucleic acids",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14312,7 +14312,7 @@
     "id": "IChO_Prep-2018-P1",
     "title": "Determination of a metallic ore composition",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -14341,7 +14341,7 @@
     "id": "IChO_Prep-2018-P2",
     "title": "Determination of a carbonate rock composition",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Inorganic",
@@ -14369,7 +14369,7 @@
     "id": "IChO_Prep-2018-P3",
     "title": "Determination and identification of organic acids",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14397,7 +14397,7 @@
     "id": "IChO_Prep-2018-P4",
     "title": "A chemical oscillator and its activation energies",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -14425,7 +14425,7 @@
     "id": "IChO_Prep-2018-P5",
     "title": "Kinetics of a chemical wave front propagation",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Physical",
@@ -14453,7 +14453,7 @@
     "id": "IChO_Prep-2018-P6",
     "title": "Separation of acidic, basic and neutral organic compounds",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic",
@@ -14481,7 +14481,7 @@
     "id": "IChO_Prep-2018-P7",
     "title": "The Meerwein–Pondorf–Verley reduction",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -14511,7 +14511,7 @@
     "id": "IChO_Prep-2018-P8",
     "title": "Transformation of a drug to a sweetener",
     "nation": "Slovakia, Czech Republic",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2018,
     "subset": [
       "Organic"
@@ -16222,7 +16222,7 @@
     "id": "IChO_Prep-2022-T1",
     "title": "The Past and Present of Bronze Ware",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16251,7 +16251,7 @@
     "id": "IChO_Prep-2022-T2",
     "title": "The Chemical Element in Mysterious Elixir",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic"
@@ -16279,7 +16279,7 @@
     "id": "IChO_Prep-2022-T3",
     "title": "Cyanotype, Prussian blue and related compounds",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16308,7 +16308,7 @@
     "id": "IChO_Prep-2022-T4",
     "title": "Tianjin Painted Clay Figure Zhang",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16336,7 +16336,7 @@
     "id": "IChO_Prep-2022-T5",
     "title": "Chinese Cloisonné",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16364,7 +16364,7 @@
     "id": "IChO_Prep-2022-T6",
     "title": "\"Titanium\" is awesome",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16393,7 +16393,7 @@
     "id": "IChO_Prep-2022-T7",
     "title": "Kaolinite and Sodalite",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic"
@@ -16420,7 +16420,7 @@
     "id": "IChO_Prep-2022-T8",
     "title": "Mars Chemistry",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16450,7 +16450,7 @@
     "id": "IChO_Prep-2022-T9",
     "title": "Greenhouse gas and carbon neutrality",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16479,7 +16479,7 @@
     "id": "IChO_Prep-2022-T10",
     "title": "Packing of binary crystals",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -16507,7 +16507,7 @@
     "id": "IChO_Prep-2022-T11",
     "title": "Determination of Calcium Ions by Titration with Ethylene Bis(oxyethylenenitrilo) Tetraacetic Acid (EGTA)",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Analytical",
@@ -16536,7 +16536,7 @@
     "id": "IChO_Prep-2022-T12",
     "title": "Fast Determination of Vitamin C by Gold Colloids",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Analytical",
@@ -16564,7 +16564,7 @@
     "id": "IChO_Prep-2022-T13",
     "title": "Allenes",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16594,7 +16594,7 @@
     "id": "IChO_Prep-2022-T14",
     "title": "Cyclopropanes",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16623,7 +16623,7 @@
     "id": "IChO_Prep-2022-T15",
     "title": "Lewis base catalysis",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16650,7 +16650,7 @@
     "id": "IChO_Prep-2022-T16",
     "title": "Isosorbitol",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16678,7 +16678,7 @@
     "id": "IChO_Prep-2022-T17",
     "title": "Total Synthesis of Hopeanol",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16706,7 +16706,7 @@
     "id": "IChO_Prep-2022-T18",
     "title": "Total Synthesis of Lithospermic acid",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16734,7 +16734,7 @@
     "id": "IChO_Prep-2022-T19",
     "title": "Reaction of peptides",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic",
@@ -16763,7 +16763,7 @@
     "id": "IChO_Prep-2022-T20",
     "title": "Total Synthesis of Hapalindole-Type Natural Products",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16792,7 +16792,7 @@
     "id": "IChO_Prep-2022-T21",
     "title": "Total Synthesis of Schindilactone A",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -16821,7 +16821,7 @@
     "id": "IChO_Prep-2022-T22",
     "title": "Recyclable Plastic—Turning Waste into Treasure",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic",
@@ -16849,7 +16849,7 @@
     "id": "IChO_Prep-2022-T23",
     "title": "The combustion of water gas",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16876,7 +16876,7 @@
     "id": "IChO_Prep-2022-T24",
     "title": "The thermodynamics of decomposition reactions",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16904,7 +16904,7 @@
     "id": "IChO_Prep-2022-T25",
     "title": "The condensation of 1-butanol vapor",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16930,7 +16930,7 @@
     "id": "IChO_Prep-2022-T26",
     "title": "Chemical kinetics",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16958,7 +16958,7 @@
     "id": "IChO_Prep-2022-T27",
     "title": "Electrochemistry",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -16987,7 +16987,7 @@
     "id": "IChO_Prep-2022-T28",
     "title": "-conjugated systems",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Physical",
@@ -17015,7 +17015,7 @@
     "id": "IChO_Prep-2022-P1",
     "title": "Extraction of Berberine and Its Structural Characterization",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic",
@@ -17042,7 +17042,7 @@
     "id": "IChO_Prep-2022-P2",
     "title": "Synthesis of (2,4-Dichlorophenoxy)acetic Acid and Evaluation of Product Purity",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic",
@@ -17071,7 +17071,7 @@
     "id": "IChO_Prep-2022-P3",
     "title": "Enzymatic Protein Digestion",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Biochemistry",
@@ -17100,7 +17100,7 @@
     "id": "IChO_Prep-2022-P4",
     "title": "Synthesis of the Thermochromic Spin-crossover Materials",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -17127,7 +17127,7 @@
     "id": "IChO_Prep-2022-P5",
     "title": "The Extraction of Indigo from Radix Isatidis and its Synthesis for Application in Tie-dyeing",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic"
@@ -17157,7 +17157,7 @@
     "id": "IChO_Prep-2022-P6",
     "title": "Synthesis of Carbon Dots Made from Kitchen Waste",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Analytical",
@@ -17185,7 +17185,7 @@
     "id": "IChO_Prep-2022-P7",
     "title": "Synthesis and Purity Analysis of N-acetylphenylalanine in Aqueous Phase",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Organic",
@@ -17215,7 +17215,7 @@
     "id": "IChO_Prep-2022-P8",
     "title": "Reaction Types and Chemical Logic (Virtual Experiment)",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
@@ -17241,7 +17241,7 @@
     "id": "IChO_Prep-2022-P9",
     "title": "Properties and Identification of Heavy Metal Ions (Virtual Experiment)",
     "nation": "China",
-    "olympiad": "IChO Prep",
+    "olympiad": "IChO",
     "year": 2022,
     "subset": [
       "Inorganic",
