@@ -11669,6 +11669,363 @@
   "solution_page": 26
   },
   {
+    "id": "IChO-2025-T1",
+    "title": "Isocaryophyllene, clovene, and humulene",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sesquiterpenes",
+      "Structure elucidation",
+      "Reaction mechanisms",
+      "Stereochemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure drawing",
+      "Stereocenter identification",
+      "Reagent selection",
+      "Mechanistic reasoning",
+      "Carbon tracing"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IChO-2025-T2",
+    "title": "Rapamycin - A molecular glue",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Total synthesis",
+      "Stereochemistry",
+      "Felkin-Anh model",
+      "Zimmerman-Traxler model",
+      "Biosynthesis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Stereochemical prediction",
+      "Newman projections",
+      "Transition state drawing",
+      "Enzyme mechanism",
+      "Isotopic labelling"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IChO-2025-T3",
+    "title": "Lanterns and the Burj Khalifa",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Coordination chemistry",
+      "Molecular architecture",
+      "Isomerism",
+      "Chirality"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Ligand geometry",
+      "Polyhedra calculations",
+      "Isomer counting",
+      "Chirality determination"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 20,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IChO-2025-T4",
+    "title": "The life of tennis balls",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Physical",
+      "Inorganic",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ideal gas law",
+      "Stoichiometry",
+      "Chemical kinetics",
+      "Arrhenius equation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Ideal gas calculations",
+      "Stoichiometric analysis",
+      "Rate constant determination",
+      "Arrhenius equation application"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 28,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IChO-2025-T5",
+    "title": "Solar-powered multi-stage flash desalination",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Colligative properties",
+      "Clausius-Clapeyron equation",
+      "Phase equilibrium",
+      "Energy calculations"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Boiling point elevation",
+      "Vapor pressure calculations",
+      "Energy balance",
+      "Heat transfer"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 31,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IChO-2025-T6",
+    "title": "Solar energy conversion by CO2 reduction",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Thermodynamics",
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "CO2 reduction",
+      "Thermochemical cycles",
+      "Photocatalysis",
+      "Quantum yield"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Equilibrium constant calculation",
+      "Thermochemical calculations",
+      "Band gap analysis",
+      "Quantum yield calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 33,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IChO-2025-T7",
+    "title": "Dubai crude oil",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Organic",
+      "Spectroscopy",
+      "Analytical"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Mass spectrometry",
+      "Petroleum chemistry",
+      "Selenium analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Mass spectrum interpretation",
+      "Fragmentation pattern analysis",
+      "Stoichiometric calculations",
+      "Chromatographic analysis"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 36,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IChO-2025-T8",
+    "title": "Carbon monoxide: deadly poison or promising therapeutic agent?",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy",
+      "Quantum Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Catalysis",
+      "Metal carbonyl complexes",
+      "MO theory",
+      "IR spectroscopy",
+      "CO releasing molecules"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Reaction balancing",
+      "Stoichiometric calculations",
+      "MO diagram completion",
+      "IR spectroscopy interpretation",
+      "Structure drawing"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 42,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 33
+  },
+  {
+    "id": "IChO-2025-T9",
+    "title": "Enzymes and cofactors",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Thiamine pyrophosphate",
+      "Transketolase",
+      "Transaldolase",
+      "Catalytic cycles"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Reaction mechanism drawing",
+      "Isotopic exchange",
+      "Enzyme catalysis",
+      "Sugar metabolism"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical.pdf",
+    "problem_page": 47,
+    "solution_pdf": "pdfs/icho/icho_2025/icho_2025-theoretical-solution.pdf",
+    "solution_page": 39
+  },
+  {
+    "id": "IChO-2025-P1",
+    "title": "A complex problem",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Schiff base complexes",
+      "UV-Vis spectroscopy",
+      "Job's method",
+      "Magnetic properties"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Synthesis",
+      "Vacuum filtration",
+      "UV-Vis spectroscopy",
+      "Job's method",
+      "Magnetic moment calculation"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-practical.pdf",
+    "problem_page": 11,
+    "solution_pdf": null,
+    "solution_page": null
+  },
+  {
+    "id": "IChO-2025-P2",
+    "title": "Exploring the AminOasis",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Biochemistry",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Amino acid analysis",
+      "TLC",
+      "Qualitative tests",
+      "Complexometric titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "TLC technique",
+      "Qualitative analysis",
+      "Complexometric titration",
+      "pH measurement"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-practical.pdf",
+    "problem_page": 18,
+    "solution_pdf": null,
+    "solution_page": null
+  },
+  {
+    "id": "IChO-2025-P3",
+    "title": "Rf you ready to spot the answers?",
+    "nation": "United Arab Emirates",
+    "olympiad": "IChO",
+    "year": 2025,
+    "subset": [
+      "Organic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "TLC visualisation",
+      "Stains",
+      "Solventless reactions",
+      "Unknown identification"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "TLC technique",
+      "Stain application",
+      "Reaction monitoring",
+      "Structure identification"
+    ],
+    "problem_pdf": "pdfs/icho/icho_2025/icho_2025-practical.pdf",
+    "problem_page": 29,
+    "solution_pdf": null,
+    "solution_page": null
+  },
+  {
     "id": "IChO-2026-T1",
     "title": "A journey through time: The secrets of Avicenna",
     "nation": "Uzbekistan",
