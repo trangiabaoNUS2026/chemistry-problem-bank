@@ -382,16 +382,17 @@
   // Filter option population
   // -----------------------------------------------------------------
   function populateStaticFilterOptions() {
-    fillSelect(el.filterOlympiad, taxonomy.olympiads || []);
     fillSelect(el.filterType, taxonomy.types || []);
   }
 
-  function populateDynamicFilterOptions() {
+function populateDynamicFilterOptions() {
     var nations = distinctValues(allProblems, "nation");
+    var olympiads = distinctValues(allProblems, "olympiad"); // Extract dynamic olympiads[cite: 2]
     var years = distinctValues(allProblems, "year").sort(function (a, b) {
       return a - b;
     });
     fillSelect(el.filterNation, nations);
+    fillSelect(el.filterOlympiad, olympiads); // Populate the dropdown dynamically[cite: 2]
     fillSelect(el.filterYear, years);
   }
 
