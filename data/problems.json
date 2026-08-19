@@ -1,5 +1,670 @@
 [
   {
+    "id": "IMChO-2020-T1-P1",
+    "title": "Disproportionation of Sulfur in Sodium Carbonate",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Sulfur chemistry",
+      "Disproportionation",
+      "Sodium tetrasulfide",
+      "Sodium thiosulfate"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Stoichiometry calculation",
+      "Gas law calculations",
+      "Redox reaction balancing"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2020-T1-P2",
+    "title": "Cadmium Selenide Quantum Dots and Cysteine Coordination",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Thermodynamics",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Quantum dots",
+      "CdSe",
+      "Cysteine complexes",
+      "Thermodynamics of complexation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Crystal structure calculations",
+      "Band gap calculation",
+      "Isoelectric point determination",
+      "Thermodynamic parameter extraction"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2020-T1-P3",
+    "title": "Allotropes and Binary Compounds of Phosphorus",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Phosphorus oxides",
+      "Phosphorus sulfides",
+      "Structural inorganic chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Elemental mass fraction analysis",
+      "Inorganic structure elucidation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2020-T1-P4",
+    "title": "Cope and Claisen Rearrangements & Barbaralane Synthesis",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Cope rearrangement",
+      "Oxy-Cope rearrangement",
+      "Claisen rearrangement",
+      "Barbaralane",
+      "Valence tautomerism"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Pericyclic reaction mechanism",
+      "Stereochemical analysis",
+      "NMR signal counting"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2020-T1-P5",
+    "title": "Alkyne Isomerization, Zipper Reaction, and Elenic Acid Synthesis",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Alkyne isomerization",
+      "KAPA base",
+      "Zipper reaction",
+      "Elenic acid",
+      "Sonogashira coupling"
+    ],
+    "target_molecules": [
+      "Elenic acid"
+    ],
+    "skills": [
+      "NMR structure elucidation",
+      "Reaction mechanism analysis",
+      "Total synthesis retrosynthesis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2020-T1-P6",
+    "title": "Lead-Acid Battery Electrochemistry and Thermodynamics",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Physical",
+      "Electrochemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lead-acid battery",
+      "Nernst equation",
+      "Cell potential",
+      "Gibbs energy of battery"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Electrochemical cell diagram",
+      "Nernst equation calculation",
+      "Activity coefficient calculation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2020-T1-P7",
+    "title": "Thyroid Hormone Biosynthesis and Metabolism",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Thyroxine",
+      "Thyroglobulin",
+      "Thyroid hormones",
+      "Electrophilic aromatic substitution"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Biochemical pathway analysis",
+      "Elemental percentage derivation",
+      "NMR structure correlation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2020-T1-P8",
+    "title": "Glycerophospholipids, Liposomes, and Doxorubicin Delivery",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Physical",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Glycerol 3-phosphate",
+      "DPPC",
+      "Liposomes",
+      "Drug delivery",
+      "First-order kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Stereochemistry (Fischer projection)",
+      "Liposome geometry calculation",
+      "Pharmacokinetic half-life calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2020-T2-P1",
+    "title": "Platinum and Silver Recovery, Cluster Compounds, and Reise's Salts",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Platinum regeneration",
+      "Ag3Pt",
+      "Aqua regia",
+      "Peyrone's salt",
+      "Reise's base",
+      "Magnus salt"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Unit cell calculations",
+      "Precipitation equilibrium calculation",
+      "Coordination complex geometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2020-T2-P2",
+    "title": "Hydrated Lithium Polyborate Synthesis and Structure",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lithium polyborates",
+      "BO3 and BO4 units",
+      "Thermal analysis",
+      "Polyborate anion structure"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Gravimetric calculation",
+      "Thermal decomposition analysis",
+      "Inorganic polymer structure drawing"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2020-T2-P3",
+    "title": "Carbon Oxides, Carbonates, and Transition Metal Complexes",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Equilibrium"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Carbon oxides",
+      "C12O9",
+      "Carbonic acid equilibrium",
+      "CO2 metal complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Molar mass deduction",
+      "Equilibrium constant calculation",
+      "Organometallic ligand analysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2020-T2-P4",
+    "title": "Determination of Sulfhydryl Groups Using Organomercury Reagents",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "4-chloromercuribenzoate",
+      "BzHgCl",
+      "Cysteine titration",
+      "Iodometry",
+      "Sulfhydryl oxidation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Titration calculations",
+      "Stoichiometric reasoning",
+      "Redox reaction stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2020-T2-P5",
+    "title": "Tap Water Hardness, Precipitation, and Non-Stoichiometric Apatite",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Water hardness",
+      "EDTA titration",
+      "Limestone precipitation",
+      "Calcium phosphate apatite"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Electroneutrality principle",
+      "Complexometric titration calculation",
+      "Solubility product calculation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2020-T2-P6",
+    "title": "Analysis of APC Drug Mixture: Extraction, Titration, and Spectrophotometry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Aspirin",
+      "Phenacetin",
+      "Caffeine",
+      "Liquid-liquid extraction",
+      "UV-Vis spectrophotometry",
+      "Multi-component analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Distribution constant calculation",
+      "Back-titration calculation",
+      "Beer-Lambert multi-wavelength analysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2020-T2-P7",
+    "title": "Chloropropanediol Contaminants, Glycidol Toxicity, and Nitroglycerin Metabolites",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "3-MCPD",
+      "Glycidol",
+      "Food contaminants",
+      "Nitroglycerin metabolite"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Mass percentage calculation",
+      "Structural isomer deduction",
+      "Biopolymer nucleophilic addition"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2020-T2-P8",
+    "title": "Metabolic Pathway of HMOs and GDP-L-Fucose Synthesis",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Human milk oligosaccharides",
+      "GDP-L-fucose",
+      "Carbohydrate metabolism",
+      "Fischer projections"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Carbohydrate stereochemistry deduction",
+      "Periodate oxidation analysis",
+      "Glycosidic linkage determination"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2020-T2-P9",
+    "title": "Polysulfone Anion-Exchange Membranes and C-H Activation Crosslinking",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Polymer Chemistry",
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Udel polysulfone",
+      "Anion-exchange membranes",
+      "Diazirine crosslinker",
+      "C-H insertion"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Degree of polymerization calculation",
+      "Polymer functionalization mapping",
+      "Crosslinking probability calculation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2020-T2-P10",
+    "title": "Kinetics and Ion Pairing in Nucleophilic Substitution at Platinum(II)",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Electrochemistry"
+    ],
+    "type": "Kinetics",
+    "theme": [
+      "Nucleophilic substitution",
+      "Platinum(II) complexes",
+      "Ion pairing",
+      "Molar conductivity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Steady-state approximation",
+      "Conductometric data analysis",
+      "Parallel reaction rate derivation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IMChO-2020-T2-P11",
+    "title": "Gold Nanoparticles Synthesis, Purple of Cassius, and Reduction Kinetics",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gold nanoparticles",
+      "Purple of Cassius",
+      "Formic acid reduction kinetics",
+      "Nanoparticle surface geometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Nanoparticle surface atom calculation",
+      "Rate law formulation",
+      "Inorganic stoichiometry identification"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IMChO-2020-T2-P12",
+    "title": "Nitroxide Radicals Equilibrium, EPR, and Alcohol Oxidation Kinetics",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Physical",
+      "Kinetics",
+      "Electrochemistry"
+    ],
+    "type": "Kinetics",
+    "theme": [
+      "Nitroxide radicals",
+      "TEMPONE",
+      "EPR spectroscopy",
+      "TEMPO oxidation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Equilibrium constant evaluation",
+      "Redox potential calculation via Nernst equation",
+      "Catalytic oxidation mechanism"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2020-T2-P13",
+    "title": "Total Synthesis of (-)-Dihydroxanthatin",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "target_molecules": [
+      "(-)-Dihydroxanthatin"
+    ],
+    "theme": [
+      "Seyferth-Gilbert homologation",
+      "Oshima-Utimoto reaction",
+      "Corey-Bakshi-Shibata reduction",
+      "Total synthesis"
+    ],
+    "skills": [
+      "Retrosynthetic analysis",
+      "Stereochemical assignment",
+      "Organometallic reaction mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 26
+  },
+  {
+    "id": "IMChO-2020-T2-P14",
+    "title": "Synthesis of Tricyclobutabenzene and [6]-Radialene",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "target_molecules": [
+      "Tricyclobutabenzene"
+    ],
+    "theme": [
+      "Tricyclobutabenzene",
+      "Mills-Nixon effect",
+      "Diels-Alder reaction",
+      "Radialenes"
+    ],
+    "skills": [
+      "NMR symmetry deduction",
+      "Pericyclic reaction prediction",
+      "Bond length-structure correlation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IMChO-2020-T2-P15",
+    "title": "Three-Component Synthesis of Prostaglandins and Isocarbacyclin",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "target_molecules": [
+      "PGE1",
+      "PGE2",
+      "PGI2",
+      "Isocarbacyclin"
+    ],
+    "theme": [
+      "Prostaglandins",
+      "Three-component coupling",
+      "Isocarbacyclin",
+      "Organometallic addition"
+    ],
+    "skills": [
+      "Regioselective and stereoselective synthesis",
+      "Organometallic reaction sequencing",
+      "Prostaglandin retrosynthesis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 17,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 31
+  },
+  {
     "id": "UKChO-2003-T1",
     "title": "Heating a cup of coffee",
     "nation": "United Kingdom",
