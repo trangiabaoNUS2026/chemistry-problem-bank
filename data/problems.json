@@ -1104,6 +1104,6095 @@
     "solution_page": 27
   },
   {
+    "id": "IMChO-2018-Tour1-T1",
+    "title": "Electrochemical Cell and Thermodynamics of Iron Ions",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Electrochemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Galvanic cell",
+      "Electrode potential",
+      "Nernst equation",
+      "Entropy",
+      "Enthalpy",
+      "Gibbs free energy",
+      "Salt bridge"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying anode and cathode",
+      "Writing half-reactions and total reaction",
+      "Applying Nernst equation",
+      "Calculating thermodynamic quantities from equilibrium constant data",
+      "Using Faraday's constant"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2018-Tour1-T2",
+    "title": "Iodine Chemistry and Acid Synthesis",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Iodine oxides",
+      "Acid strength",
+      "Stoichiometry",
+      "Thermal decomposition",
+      "Disproportionation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing molecular formulas from mass percentages",
+      "Writing chemical equations",
+      "Understanding oxidation states",
+      "Applying acid-base principles",
+      "Stoichiometric calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2018-Tour1-T3",
+    "title": "Kevlar and Body Armor Design",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Polymer Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Polycondensation",
+      "Kevlar",
+      "Recycling PET",
+      "Equilibrium constant",
+      "Polymerization degree",
+      "Mechanical properties",
+      "Hydrogen bonding"
+    ],
+    "target_molecules": [
+      "Kevlar"
+    ],
+    "skills": [
+      "Drawing polymer repeating units",
+      "Calculating degree of polymerization from equilibrium",
+      "Stoichiometric mass balance in recycling",
+      "Using a formula for bullet penetration",
+      "Understanding structure-property relationships (H-bonds)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2018-Tour1-T4",
+    "title": "The Chemistry of Matches",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Matches",
+      "Reaction equations",
+      "Crystal structure",
+      "X-ray diffraction",
+      "Stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing substances from clues and stoichiometric data",
+      "Writing chemical reaction equations",
+      "Using basic crystallography (density, unit cell)",
+      "Understanding industrial and historical chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2018-Tour1-T5",
+    "title": "Fat Oxidation and Peroxide Number",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Analytical",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lipid oxidation",
+      "Peroxide number",
+      "Titration",
+      "Epoxidation",
+      "Unsaturated fats",
+      "Iodometry",
+      "Permanganate oxidation"
+    ],
+    "target_molecules": [
+      "Fat molecule"
+    ],
+    "skills": [
+      "Interpreting iodometric titration data",
+      "Calculating number of double bonds",
+      "Drawing structures of hydroperoxides",
+      "Understanding radical oxidation mechanisms",
+      "Stoichiometry of redox reactions with permanganate"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2018-Tour1-T6",
+    "title": "McMurry Reaction and Bridged Polycycles",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "McMurry reaction",
+      "Stereoisomerism",
+      "Grignard reagent",
+      "NMR spectroscopy",
+      "IR spectroscopy",
+      "Three-center two-electron bond",
+      "Non-classical carbocation"
+    ],
+    "target_molecules": [
+      "Vermiculin"
+    ],
+    "skills": [
+      "Deducing structures from spectroscopic data",
+      "Understanding the McMurry reaction mechanism",
+      "Applying concepts of stereochemistry (in/out-isomerism, E/Z)",
+      "Proposing reagents for synthetic transformations",
+      "Describing non-classical bonding"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2018-Tour1-T7",
+    "title": "UV-Vis Kinetics of Consecutive Reactions",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Kinetics",
+      "Spectroscopy",
+      "Analytical"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "UV-Vis spectroscopy",
+      "Beer-Lambert law",
+      "Consecutive reactions",
+      "First-order kinetics",
+      "Molar extinction coefficient",
+      "Isosbestic point"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Analyzing time-dependent absorbance data",
+      "Determining reaction order and rate constants",
+      "Applying the Beer-Lambert law",
+      "Interpreting an isosbestic point"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IMChO-2018-Tour1-T8",
+    "title": "Total Synthesis of Vermiculin",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Synthon",
+      "Umpolung",
+      "Dithiane",
+      "Total synthesis",
+      "NMR spectroscopy",
+      "Vermiculin"
+    ],
+    "target_molecules": [
+      "Vermiculin"
+    ],
+    "skills": [
+      "Deciphering structures from retrosynthetic analysis",
+      "Understanding synthon and umpolung concepts",
+      "Interpreting 1H NMR data (chemical shifts, multiplicity)",
+      "Designing synthetic pathways",
+      "Applying stoichiometric mass relationships"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour1-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2018-Tour2-T1",
+    "title": "Formation of Non-Canonical Amino Acids During Cooking",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Amino acids",
+      "Toxic compounds",
+      "Lysinoalanine",
+      "Dehydroalanine",
+      "Acrylamide",
+      "Glycidamide",
+      "DNA adducts",
+      "Mass percent calculations",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [
+      "Lysinoalanine",
+      "Acrylamide",
+      "Glycidamide"
+    ],
+    "skills": [
+      "Deducing structures from elemental composition",
+      "Writing reaction equations for amino acid modifications",
+      "Understanding mechanisms of protein cross-linking",
+      "Proposing structures of reaction products with DNA bases"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2018-Tour2-T2",
+    "title": "Carbohydrate Chemistry and Boehm Titration",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Analytical",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Carbohydrates",
+      "Fischer projections",
+      "Cyclic forms of glucose",
+      "Molisch's test",
+      "Dehydration",
+      "Caramelization",
+      "Boehm titration",
+      "Acid-base reactions"
+    ],
+    "target_molecules": [
+      "Glucose"
+    ],
+    "skills": [
+      "Drawing cyclic forms of monosaccharides",
+      "Identifying products of dehydration (HMF)",
+      "Understanding caramelization chemistry",
+      "Performing Boehm titration calculations",
+      "Determining functional group content on surfaces"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2018-Tour2-T3",
+    "title": "Energy Drink Ketone Metabolism and Pharmacokinetics",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Biochemistry",
+      "Thermodynamics",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ketone bodies",
+      "Beta-hydroxybutyrate",
+      "Energy metabolism",
+      "Doping",
+      "Meldonium",
+      "Mass spectrometry",
+      "Pharmacokinetics"
+    ],
+    "target_molecules": [
+      "Meldonium",
+      "Acetone",
+      "Beta-hydroxybutyrate",
+      "Acetoacetate"
+    ],
+    "skills": [
+      "Deducing structure from elemental composition",
+      "Writing biochemical transformation equations",
+      "Calculating energy requirements from running data",
+      "Analyzing mass spectrometry data (internal standard)",
+      "Understanding pharmacokinetics and anti-doping rules"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2018-Tour2-T4",
+    "title": "Organometallic Reagents and Catalysis",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Inorganic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Organometallic compounds",
+      "Cyclopentadienyl ligands",
+      "Titanium",
+      "Metallocenes",
+      "Catalysis",
+      "Olefination",
+      "Mass fraction calculations"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining metal from mass percentage data",
+      "Counting valence electrons in complexes",
+      "Drawing structural formulas of organometallics",
+      "Matching catalysts to reactions (hydrogenation, hydroamination, metathesis, etc.)",
+      "Writing reaction equations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2018-Tour2-T5",
+    "title": "Sumanene: Synthesis and Dynamic NMR",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sumanene",
+      "Fullerene fragment",
+      "Diels-Alder reaction",
+      "Metathesis",
+      "Dynamic NMR",
+      "Activation energy calculation",
+      "Stereodynamics"
+    ],
+    "target_molecules": [
+      "Sumanene"
+    ],
+    "skills": [
+      "Deducing structures of complex polycyclic hydrocarbons",
+      "Understanding Diels-Alder and metathesis reactions",
+      "Interpreting NMR spectra and dynamic effects (decoalescence)",
+      "Calculating activation energy from rate constants (Arrhenius equation)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2018-Tour2-T6",
+    "title": "Synthesis of Halomon",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Halomon",
+      "Monoterpene",
+      "Beta-myrcene",
+      "Halogenation",
+      "Enantioselective synthesis",
+      "Combustion analysis",
+      "Isotope pattern in MS"
+    ],
+    "target_molecules": [
+      "Halomon"
+    ],
+    "skills": [
+      "Deducing empirical formula from combustion and precipitation data",
+      "Analyzing mass spectra for halogen-containing compounds",
+      "Designing synthetic routes based on starting materials",
+      "Understanding enantioselective transformations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2018-Tour2-T7",
+    "title": "EDTA Titrations and Water Hardness",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "EDTA",
+      "Complexometry",
+      "Water hardness",
+      "pH calculations",
+      "Carbonate equilibrium",
+      "Solubility product",
+      "Buffer solutions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Stoichiometric calculations for complexation",
+      "Applying Henderson-Hasselbalch equation",
+      "Using acid dissociation constants",
+      "Calculating equilibrium concentrations",
+      "Understanding precipitation equilibria (Ksp)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2018-Tour2-T8",
+    "title": "Glass pH Electrode and Selectivity",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Analytical",
+      "Electrochemistry",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "pH electrode",
+      "Selectivity constant",
+      "Nernst equation",
+      "Distribution diagram",
+      "Acid dissociation constants",
+      "Titration",
+      "Mohr's method"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying Nernst equation for pH measurements",
+      "Calculating selectivity coefficients",
+      "Interpreting distribution diagrams",
+      "Determining acid basicity and pKa values from diagram",
+      "Performing titration calculations (Volhard, Mohr)",
+      "Deducing acid formula from titration data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 15
+  },
+  {
+    "id": "IMChO-2018-Tour2-T9",
+    "title": "Qualitative Analysis of a Mixture of Chlorides",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Qualitative analysis",
+      "Platinum group metals",
+      "Hexachloroplatinate",
+      "Uranyl zinc acetate",
+      "Rubidium",
+      "Cesium",
+      "Cobalt nitrite",
+      "Complex ions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing compounds from elemental composition and behavior",
+      "Interpreting precipitation reactions",
+      "Understanding complex ion formation and structures",
+      "Writing chemical equations for qualitative analysis reactions",
+      "Drawing structural formulas of complex anions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IMChO-2018-Tour2-T10",
+    "title": "Thermodynamics of Metal-Ligand Bonding",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Thermodynamics",
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Bond energy",
+      "Born-Haber cycle",
+      "Hess's law",
+      "Electrostatic model",
+      "Hydration enthalpy",
+      "Crystal field stabilization energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying Hess's law to calculate bond energies",
+      "Calculating proton affinity",
+      "Using electrostatic models for hydration energy",
+      "Understanding Born treatment of solvation",
+      "Accounting for ligand field stabilization energy"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2018-Tour2-T11",
+    "title": "ESR Spectroscopy of Radicals in Radiation Chemistry",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Spectroscopy",
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "ESR spectroscopy",
+      "Radicals",
+      "Radiation chemistry",
+      "Steady-state concentration",
+      "Bimolecular recombination",
+      "Gel dose",
+      "Beer-Lambert law"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying paramagnetic species",
+      "Calculating steady-state radical concentration",
+      "Determining radiation-chemical yield",
+      "Applying Beer-Lambert law",
+      "Estimating gel dose for polymer crosslinking"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IMChO-2018-Tour2-T12",
+    "title": "Quantum Tunneling in Chemical Reactions",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Quantum Chemistry",
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Quantum tunneling",
+      "Gol'danskii criterion",
+      "de Broglie wavelength",
+      "Low-temperature limit",
+      "Activation energy",
+      "Transition state theory",
+      "Carbene isomerization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Understanding de Broglie wavelength and tunneling probability",
+      "Deriving the low-temperature limit condition",
+      "Calculating barrier width and height from geometric data",
+      "Applying transition state theory to calculate reaction rates",
+      "Determining which reactions are tunnel-controlled"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 26
+  },
+  {
+    "id": "IMChO-2018-Tour2-T13",
+    "title": "Rhenium Cluster Chemistry",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Rhenium",
+      "Perrhenic acid",
+      "Cluster compounds",
+      "Metal-metal bonds",
+      "Crystal structure",
+      "Oxidation states",
+      "Octahedral clusters"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing elements from stoichiometric and mass data",
+      "Writing reaction equations for rhenium compounds",
+      "Understanding oxidation states and coordination chemistry",
+      "Describing cluster structures and bonding",
+      "Applying symmetry elements (3-fold axis, mirror plane)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 28
+  },
+  {
+    "id": "IMChO-2018-Tour2-T14",
+    "title": "Boron Hydrides and their Metal Complexes",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Boranes",
+      "Nido-boranes",
+      "Electron counting in clusters",
+      "Vaska's complex",
+      "Iridium",
+      "Complex synthesis",
+      "Bond enthalpy calculations"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining structure of boranes (Wade's rules, polyhedral skeletal electron pair theory)",
+      "Drawing structural formulas with three-center bonds (BHB, BBB)",
+      "Calculating reaction yields",
+      "Writing equations for complex formation",
+      "Using bond energy data to calculate enthalpy"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 19,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 30
+  },
+  {
+    "id": "IMChO-2018-Tour2-T15",
+    "title": "Peroxy Compounds of Vanadium",
+    "nation": "Belarus",
+    "olympiad": "IMChO",
+    "year": 2018,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Vanadium oxides",
+      "Peroxo complexes",
+      "Persulfate",
+      "Caro's acid",
+      "Catalysis by Ag+",
+      "Oxide bronzes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing composition from mass percent",
+      "Writing complex reaction equations",
+      "Proposing mechanisms for redox reactions (Ag+ catalysis)",
+      "Drawing structures of complex anions",
+      "Understanding peroxy acid chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-problems.pdf",
+    "problem_page": 20,
+    "solution_pdf": "pdfs/imcho/imcho-2018/imcho-2018-tour2-solutions.pdf",
+    "solution_page": 31
+  },
+  {
+    "id": "IMChO-2019-Tour1-T1",
+    "title": "Mendeleev's Predictions and Scandium Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Scandium",
+      "Periodic law",
+      "Mendeleev",
+      "Oxalate decomposition",
+      "Fluoride complexes",
+      "Subchlorides",
+      "Cluster chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing element identity using stoichiometry",
+      "Writing reaction equations for thermal decomposition",
+      "Determining compositions of subchloride phases",
+      "Understanding cluster structures"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2019-Tour1-T2",
+    "title": "Binary Compounds of Caesium and their Anions",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Caesium",
+      "Ozonides",
+      "Triiodides",
+      "Azides",
+      "Ionic compounds",
+      "Anion structures",
+      "Disproportionation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying compounds from mass and mole fractions",
+      "Writing synthesis and decomposition equations",
+      "Predicting anion structures (linear, bent)",
+      "Applying concepts of ionic bonding and stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2019-Tour1-T3",
+    "title": "Lithium-Ion Battery Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Electrochemistry",
+      "Inorganic",
+      "Polymer Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lithium-ion batteries",
+      "LiFePO4",
+      "Cathode materials",
+      "Charge capacity",
+      "Energy density",
+      "Graphite anode",
+      "Stoichiometry"
+    ],
+    "target_molecules": [
+      "LiFePO4",
+      "LiNi1/3Co1/3Mn1/3O2"
+    ],
+    "skills": [
+      "Writing equations of synthesis and electrochemical reactions",
+      "Calculating specific charge capacity and energy density",
+      "Determining the degree of conversion during charging",
+      "Performing mass balance calculations for battery design"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2019-Tour1-T4",
+    "title": "Kinetics and Rate-Determining Steps",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Kinetics"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Rate-determining step",
+      "Arrhenius equation",
+      "Activation energy",
+      "Parallel and consecutive reactions",
+      "pH dependence of rate",
+      "Acid-base catalysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying rate-determining steps in reaction networks",
+      "Calculating activation energy from Arrhenius plots",
+      "Deriving rate equations",
+      "Understanding pH effects on reaction rate"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2019-Tour1-T5",
+    "title": "Biogenic Polyamines and Combustion Analysis",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Polyamines",
+      "Combustion analysis",
+      "Spermidine",
+      "Spermine",
+      "Putrescine",
+      "Biogenic amines",
+      "Stoichiometry"
+    ],
+    "target_molecules": [
+      "Spermidine",
+      "Spermine",
+      "Putrescine"
+    ],
+    "skills": [
+      "Deducing molecular formulas from combustion data",
+      "Writing balanced combustion equations",
+      "Proposing structures for linear polyamines",
+      "Using simple logic for structure determination"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2019-Tour1-T6",
+    "title": "Synthon and Homoenolate Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Synthon",
+      "Umpolung",
+      "Homoenolate",
+      "Carbon chain building",
+      "NMR spectroscopy",
+      "Lactone synthesis",
+      "Titanium chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Understanding the concept of synthons and umpolung",
+      "Deducing structures from NMR and IR spectra",
+      "Proposing synthetic routes using carbanion chemistry",
+      "Drawing reaction mechanisms",
+      "Applying concepts of acidity and tautomerism"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2019-Tour1-T7",
+    "title": "Organometallic Catalysis and Valence Electron Counting",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Organic",
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Organometallic catalysts",
+      "18-electron rule",
+      "Transition metals",
+      "Catalytic reactions",
+      "Hydrogenation",
+      "Hydroamination",
+      "Metathesis",
+      "NMR, IR and MS"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining metals in complexes by valence electron counting",
+      "Matching catalysts to specific reactions",
+      "Deducing reaction products from spectroscopic data",
+      "Understanding catalytic cycles"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IMChO-2019-Tour1-T8",
+    "title": "Reverse Titration and CO2 Determination",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Analytical",
+      "Acid-Base Chemistry",
+      "Equilibrium"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Reverse titration",
+      "Carbon dioxide determination",
+      "Ammonia solution",
+      "Formaldehyde reaction (hexamethylene tetramine)",
+      "Barium salt precipitation",
+      "Indicator choice"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing equations for acid-base and precipitation reactions",
+      "Performing reverse titration calculations",
+      "Understanding the role of formaldehyde and barium salt",
+      "Predicting pH changes in unbuffered systems"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour1-solutions.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IMChO-2019-Tour2-T1",
+    "title": "Moseley's Law and X-Ray Spectroscopy",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Spectroscopy",
+      "Nuclear Chemistry",
+      "Quantum Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "X-ray spectroscopy",
+      "Moseley's law",
+      "Rydberg constant",
+      "Screening constant",
+      "Nuclear reactions (beta-plus decay, electron capture)",
+      "Radioisotopes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying Moseley's law to determine atomic number",
+      "Calculating screening constants and Rydberg constant",
+      "Interpreting X-ray spectra (K-alpha, K-beta radiation)",
+      "Writing nuclear reaction equations",
+      "Calculating photon energies"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2019-Tour2-T2",
+    "title": "Racemization Kinetics of Co(EDTA) Complex",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Kinetics",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Racemization",
+      "Coordination chemistry",
+      "Co(EDTA)",
+      "Reaction mechanism",
+      "Arrhenius equation",
+      "Activation parameters",
+      "pH dependence"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving kinetic equations for complex reaction mechanisms",
+      "Calculating activation energy and entropy using Arrhenius theory",
+      "Determining rate constants from half-life data",
+      "Proposing mechanisms for isomerization",
+      "Drawing structural transformations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2019-Tour2-T3",
+    "title": "Propane Combustion and Thermodynamics",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Thermodynamics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Propane combustion",
+      "Calorific value",
+      "Heat capacity",
+      "Ideal gas law",
+      "Vapor pressure",
+      "Molecular effusion"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing thermochemical equations",
+      "Calculating heat capacity and internal energy",
+      "Applying Hess's law for enthalpy of combustion",
+      "Calculating saturated vapor pressure from thermodynamic data",
+      "Using kinetic theory of gases for effusion rate"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2019-Tour2-T4",
+    "title": "Unnatural Amino Acids in Natural Peptides",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Biochemistry",
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Amino acids",
+      "NMR spectroscopy",
+      "Peptide structure",
+      "Biosynthesis",
+      "Dehydroalanine",
+      "Chiral compounds"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing amino acid structures from NMR data",
+      "Understanding peptide bond formation",
+      "Proposing biosynthesis pathways",
+      "Writing reaction schemes (e.g., chlorination of leucine)",
+      "Applying stereochemistry concepts"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2019-Tour2-T5",
+    "title": "Transamination Kinetics and PLP Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Biochemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Transamination",
+      "Pyridoxal phosphate",
+      "Enzyme kinetics",
+      "Ping-pong mechanism",
+      "King-Altman method",
+      "Graph theory in kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying the King-Altman method to derive kinetic equations",
+      "Drawing directed graphs for enzyme mechanisms",
+      "Identifying roles of enzyme forms",
+      "Writing rate equations for ping-pong mechanisms",
+      "Understanding cofactor chemistry (PLP)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2019-Tour2-T6",
+    "title": "Thiolactone Chemistry and Polymerization",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Polymer Chemistry",
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Thiolactones",
+      "Ellman's reagent",
+      "Methionine",
+      "S-Adenosyl methionine",
+      "Polymerization",
+      "Ring-opening",
+      "Michael addition"
+    ],
+    "target_molecules": [
+      "S-Adenosyl methionine",
+      "Methionine"
+    ],
+    "skills": [
+      "Using thiol titration techniques (Ellman's reagent, CH3HgOD)",
+      "Writing peptide modification equations",
+      "Proposing structures of biochemical intermediates (SAM cycle)",
+      "Calculating monomer conversion and polymer molar mass",
+      "Understanding chain growth polymerization mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2019-Tour2-T7",
+    "title": "Synthesis of Sulfonate Derivatives and Cations",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Hydroxylamine",
+      "Sulfonate derivatives",
+      "Cation formation",
+      "Acid-base equilibrium",
+      "Bond lengths",
+      "Stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining formulas from mass fractions",
+      "Writing multi-step synthesis equations",
+      "Drawing structural formulas of anions",
+      "Calculating pH and percent ionization",
+      "Interpreting bond length data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2019-Tour2-T8",
+    "title": "Vanadium Oxides, Nitrates, and Azides",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Vanadium",
+      "Oxides",
+      "Nitrogen oxides",
+      "Vanadyl nitrate",
+      "Cationic forms",
+      "Azides",
+      "Nonlinear optical materials"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing composition from mass fraction data",
+      "Writing reaction equations for interconversions",
+      "Drawing molecular structures of coordination compounds",
+      "Determining coordination number and polyhedron"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 13
+  },
+  {
+    "id": "IMChO-2019-Tour2-T9",
+    "title": "Thermoelectric Materials: Tetrahedrite",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Solid State Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Tetrahedrite",
+      "Thermoelectric materials",
+      "Crystal structure",
+      "Band gap",
+      "Figure of merit ZT",
+      "Doping"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from chemical behavior (Marsh test)",
+      "Calculating number of formula units from crystal structure data",
+      "Determining density from unit cell parameters",
+      "Applying Arrhenius equation to conductivity",
+      "Calculating composition after chemical substitution",
+      "Using thermoelectric figure of merit formula"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 15
+  },
+  {
+    "id": "IMChO-2019-Tour2-T10",
+    "title": "Aromaticity: Sigma and Pi Aromatic Systems",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Organic",
+      "Inorganic",
+      "Quantum Chemistry"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Aromaticity",
+      "Huckel's rule",
+      "Sigma-aromaticity",
+      "Double aromaticity",
+      "Iodine cation",
+      "Selenium compounds"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Applying Huckel's rule to unusual systems",
+      "Deducing structures of aromatic clusters (e.g., Al4 2-)",
+      "Understanding concept of sigma-aromaticity",
+      "Drawing structures of double aromatic compounds",
+      "Interpreting mass spectra and symmetry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IMChO-2019-Tour2-T11",
+    "title": "Total Synthesis of Grandisol",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Grandisol",
+      "Pheromones",
+      "Stereoisomers",
+      "Total synthesis",
+      "Cyclobutane",
+      "NMR",
+      "IR spectroscopy",
+      "Reactions with Na, mCPBA, NBS, CrO3"
+    ],
+    "target_molecules": [
+      "Grandisol"
+    ],
+    "skills": [
+      "Drawing all stereoisomers and assigning R/S",
+      "Writing reaction products for functional group transformations",
+      "Deciphering complex synthetic schemes",
+      "Interpreting NMR and IR data",
+      "Understanding [2+2] cycloadditions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IMChO-2019-Tour2-T12",
+    "title": "Synthesis of Hirsutene Polycycle",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Hirsutene",
+      "Polycyclization",
+      "Ketenes",
+      "[2+2] cycloaddition",
+      "Spiro compounds",
+      "NMR spectroscopy",
+      "Sigmatropic rearrangements"
+    ],
+    "target_molecules": [
+      "Hirsutene"
+    ],
+    "skills": [
+      "Deducing structures from simple formula and NMR data",
+      "Understanding ketene chemistry and cycloadditions",
+      "Proposing mechanisms for skeletal rearrangements",
+      "Applying concepts of stereochemistry to natural products",
+      "Writing reaction schemes for complex syntheses"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2019-Tour2-T13",
+    "title": "Analytical Chemistry of Reinecke's Salt",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Reinecke's salt",
+      "Ammonia determination",
+      "Formaldehyde titration",
+      "Volhard titration",
+      "Thiocyanate",
+      "Gravimetry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing nitrogen determination by two methods (Kjeldahl, formaldehyde)",
+      "Writing acid-base and redox reaction equations",
+      "Calculating ion concentrations from titration data",
+      "Deriving empirical formulas from chemical analysis",
+      "Understanding Volhard method and indicators"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 26
+  },
+  {
+    "id": "IMChO-2019-Tour2-T14",
+    "title": "HPLC for pKa Determination",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Analytical",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "HPLC",
+      "pKa determination",
+      "Ferulic acid",
+      "Retention factor",
+      "Debye-Huckel equation",
+      "Ionic strength",
+      "Activity coefficients"
+    ],
+    "target_molecules": [
+      "Ferulic acid"
+    ],
+    "skills": [
+      "Using retention factor vs pH data to determine pKa",
+      "Calculating ionic strength and activity coefficients",
+      "Applying Debye-Huckel equation",
+      "Performing linear regression",
+      "Understanding acid-base equilibria in mixed solvents"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 19,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 27
+  },
+  {
+    "id": "IMChO-2019-Tour2-T15",
+    "title": "Tartaric Acid Equilibria and Wine Diamonds",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2019,
+    "subset": [
+      "Equilibrium",
+      "Acid-Base Chemistry",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Tartaric acid",
+      "Wine diamonds",
+      "Potassium hydrotartrate",
+      "Distribution diagram",
+      "pH calculation",
+      "Solubility product",
+      "Buffer solutions"
+    ],
+    "target_molecules": [
+      "Tartaric acid"
+    ],
+    "skills": [
+      "Calculating pKa and pHmax for ampholytes",
+      "Sketching distribution diagrams",
+      "Applying solubility product concept",
+      "Quantitative analysis of acid-base equilibria",
+      "Calculating fractions of species in solution"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-problems.pdf",
+    "problem_page": 21,
+    "solution_pdf": "pdfs/imcho/imcho-2019/imcho-2019-tour2-solutions.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IMChO-2020-Tour1-T1",
+    "title": "Synthesis of Sodium Tetrasulfide",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Sodium polysulfides",
+      "Thiosulfate",
+      "Disproportionation",
+      "Gas volume calculations",
+      "Anion structures"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying gas from volume and mass data",
+      "Using mass balance for redox reactions",
+      "Determining composition of salts",
+      "Drawing spatial structures of anions",
+      "Proposing alternative synthesis methods"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2020-Tour1-T2",
+    "title": "CdSe Quantum Dots and Band Gap",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Physical",
+      "Quantum Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Quantum dots",
+      "CdSe",
+      "Band gap",
+      "Quantum confinement",
+      "Semiconductors",
+      "Cysteine complexation",
+      "Isoelectric point"
+    ],
+    "target_molecules": [
+      "Cysteine"
+    ],
+    "skills": [
+      "Determining semiconductor composition from density and gas data",
+      "Applying quantum confinement equation to calculate emission wavelength",
+      "Writing synthesis reactions for nanomaterials",
+      "Calculating isoelectric point of amino acids",
+      "Using thermodynamic data to predict complex stability"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2020-Tour1-T3",
+    "title": "Phosphorus Oxides and Sulfides",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Phosphorus",
+      "Oxides",
+      "Sulfides",
+      "Allotropes",
+      "Ozonides",
+      "Bond types",
+      "Stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining compounds from mass fractions",
+      "Drawing structural formulas of phosphorus oxides and sulfides",
+      "Understanding allotropes and their reactivity",
+      "Writing reaction equations",
+      "Interpreting bond type and count data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2020-Tour1-T4",
+    "title": "Cope Rearrangement and Barbaralane",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Cope rearrangement",
+      "Claisen rearrangement",
+      "Oxy-Cope rearrangement",
+      "Barbaralane",
+      "Degenerate rearrangement",
+      "Valence tautomerism",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [
+      "Barbaralane"
+    ],
+    "skills": [
+      "Understanding and applying [3,3]-sigmatropic rearrangements",
+      "Deducing structures from synthetic schemes",
+      "Predicting products of rearrangements",
+      "Interpreting NMR spectra and dynamic effects",
+      "Applying organic reaction mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2020-Tour1-T5",
+    "title": "Acetylene Rearrangement and Zipper Reaction",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Alkyne isomerization",
+      "Zipper reaction",
+      "Favorskii rearrangement",
+      "Terminal alkynes",
+      "KAPA",
+      "Elenic acid synthesis",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [
+      "Elenic acid"
+    ],
+    "skills": [
+      "Understanding mechanism of alkyne isomerization",
+      "Deducing structures from NMR and oxidation products",
+      "Writing balanced oxidation equations (KMnO4)",
+      "Identifying roles of catalysts vs reagents (KOH vs KAPA)",
+      "Following a complex synthetic route"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2020-Tour1-T6",
+    "title": "Lead-Acid Battery Chemistry and Thermodynamics",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Electrochemistry",
+      "Thermodynamics",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lead-acid battery",
+      "Electrode potentials",
+      "Nernst equation",
+      "Gibbs free energy",
+      "Activity coefficients",
+      "Solubility product"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing half-reactions and total cell reaction",
+      "Calculating standard EMF and Gibbs free energy",
+      "Applying Nernst equation with activities",
+      "Calculating equilibrium constants from thermodynamic data",
+      "Understanding electrode processes in lead-acid battery"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2020-Tour1-T7",
+    "title": "Biosynthesis of Thyroid Hormones",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Thyroid hormones",
+      "T4",
+      "T3",
+      "Iodination",
+      "Biosynthesis",
+      "Metabolism",
+      "NMR spectroscopy",
+      "Mass fraction calculations"
+    ],
+    "target_molecules": [
+      "Thyroxine (T4)",
+      "Triiodothyronine (T3)"
+    ],
+    "skills": [
+      "Deducing structures from elemental composition data",
+      "Understanding biosynthetic pathways of hormones",
+      "Writing reaction schemes for iodine incorporation",
+      "Interpreting NMR spectra for structural elucidation",
+      "Correlating chemical structure with biological function"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2020-Tour1-T8",
+    "title": "Liposome Formation and Drug Delivery",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Polymer Chemistry",
+      "Biochemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Liposomes",
+      "Phospholipids",
+      "Drug delivery",
+      "Doxorubicin",
+      "Pharmacokinetics",
+      "Surface area and volume calculations",
+      "Biosynthesis of glycerol phosphate"
+    ],
+    "target_molecules": [
+      "Glycerol 3-phosphate",
+      "DPPC",
+      "Doxorubicin"
+    ],
+    "skills": [
+      "Drawing structures of biochemical intermediates",
+      "Estimating molecular dimensions using bond lengths",
+      "Calculating liposome concentration and internal volume",
+      "Applying first-order kinetics to drug clearance",
+      "Understanding amphiphile self-assembly"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour1-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2020-Tour2-T1",
+    "title": "Platinum Recovery and Cluster Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Platinum",
+      "Intermetallic compounds",
+      "Aqua regia",
+      "Ammonium hexachloroplatinate",
+      "Cluster compounds",
+      "Magnus salt",
+      "Cis/trans isomerism",
+      "Crystal structure"
+    ],
+    "target_molecules": [
+      "Magnus salt"
+    ],
+    "skills": [
+      "Determining composition of intermetallics from density and unit cell",
+      "Performing dissolution and precipitation calculations (solubility product)",
+      "Writing complex reaction equations (Aqua regia, decomposition)",
+      "Drawing geometric isomers of coordination compounds",
+      "Understanding cluster structures (Pt6Cl12)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2020-Tour2-T2",
+    "title": "Lithium Borate Structure and Thermal Analysis",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Solid State Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Borates",
+      "Lithium borate",
+      "Polyborate anions",
+      "Crystal structure",
+      "Thermal decomposition",
+      "BO3 and BO4 fragments",
+      "Yields and stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing formula from synthesis stoichiometry and mass fractions",
+      "Drawing complex polyborate structures",
+      "Understanding condensation reactions",
+      "Interpreting thermal analysis data (TGA)",
+      "Determining water of crystallization"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2020-Tour2-T3",
+    "title": "Carbon Suboxides and Carbon Dioxide Complexes",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Coordination Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Carbon oxides",
+      "Suboxides",
+      "CO2 complexes",
+      "Bond lengths",
+      "Acid dissociation constants of CO2",
+      "Transition metal complexes",
+      "Bonding modes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing formulas of oxides from mass differences",
+      "Drawing structural formulas based on bond lengths",
+      "Calculating true Ka of carbonic acid from reference constants",
+      "Writing reaction equations involving CO2 and metal complexes",
+      "Interpreting X-ray diffraction data for bonding modes"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2020-Tour2-T4",
+    "title": "Titrations of Sulfhydryl Groups (BzHgCl)",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Biochemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Sulfhydryl groups",
+      "4-chloromercuribenzoate",
+      "Titration",
+      "Iodine titration",
+      "Bromate oxidation",
+      "Disulfides",
+      "Sulfinic acids"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing and interpreting acid-base titrations for SH groups",
+      "Writing reaction equations for mercury compounds with thiols",
+      "Calculating percentage purity",
+      "Stoichiometry of redox reactions (I2, BrO3-)",
+      "Deducing oxidation products of thiols"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2020-Tour2-T5",
+    "title": "Water Hardness and Precipitation Calculations",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Water hardness",
+      "EDTA complexometry",
+      "Calcium concentration",
+      "Ionic strength",
+      "Precipitation",
+      "Solubility product",
+      "Equilibria",
+      "Phosphate precipitation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing complexometric titrations",
+      "Applying electroneutrality principle",
+      "Calculating ionic strength and activities",
+      "Using solubility products for precipitation",
+      "Calculating stoichiometry of non-stoichiometric precipitates"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2020-Tour2-T6",
+    "title": "Analysis of APC Tablet (Aspirin, Phenacetin, Caffeine)",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Analytical",
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Pharmaceutical analysis",
+      "Aspirin",
+      "Phenacetin",
+      "Caffeine",
+      "Extraction",
+      "UV-Vis spectroscopy",
+      "Titration",
+      "Distribution coefficient"
+    ],
+    "target_molecules": [
+      "Aspirin",
+      "Phenacetin",
+      "Caffeine"
+    ],
+    "skills": [
+      "Applying acid-base extraction principles",
+      "Performing back-titration calculations",
+      "Using UV-Vis spectroscopy for multicomponent analysis",
+      "Applying Beer-Lambert law to mixtures",
+      "Calculating mass percentages of components"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2020-Tour2-T7",
+    "title": "Technological Contaminants in Oils",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic",
+      "Biochemistry",
+      "Polymer Chemistry"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Technological contaminants",
+      "Chloropropanediols",
+      "Glycidol",
+      "Glycidamide",
+      "Food chemistry",
+      "Reaction with DNA and proteins",
+      "NMR spectroscopy",
+      "Mass spectrometry"
+    ],
+    "target_molecules": [
+      "Glycidol",
+      "Glycidamide"
+    ],
+    "skills": [
+      "Deducing molecular formulas from mass percentages",
+      "Drawing structures of isomeric contaminants",
+      "Writing mechanisms of reactions with biopolymers",
+      "Proposing chemical identities from metabolic pathways",
+      "Interpreting mass spectra (m/z = 44)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2020-Tour2-T8",
+    "title": "Human Milk Oligosaccharides (HMO)",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Human milk oligosaccharides",
+      "Carbohydrate metabolism",
+      "GDP-fucose",
+      "Periodate oxidation",
+      "Methylation analysis",
+      "NMR spectroscopy",
+      "Biochemical pathways"
+    ],
+    "target_molecules": [
+      "Lactose",
+      "Fucose"
+    ],
+    "skills": [
+      "Deducing structures of monosaccharides from periodate oxidation",
+      "Understanding biosynthesis pathways (GDP-sugars)",
+      "Applying methylation analysis for glycosidic linkages",
+      "Drawing complex carbohydrate structures",
+      "Writing reaction equations (Tollens' test)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2020-Tour2-T9",
+    "title": "Polymer Crosslinking and Diazirine Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Polymer Chemistry",
+      "Organic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Polymer crosslinking",
+      "Diazirines",
+      "Carbenes",
+      "Udel polymer",
+      "Anion exchange membranes",
+      "Reaction probability",
+      "Degree of polymerization"
+    ],
+    "target_molecules": [
+      "Udel"
+    ],
+    "skills": [
+      "Calculating degree of polymerization from stoichiometry",
+      "Drawing polymer and monomer structures",
+      "Understanding polymer functionalization (chloromethylation)",
+      "Applying probability theory to crosslinking reactions",
+      "Proposing structures of reactive intermediates (diazirine, carbene)"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2020-Tour2-T10",
+    "title": "Kinetics of Substitution with Ion Pairs",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Kinetics",
+      "Inorganic"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Ion pairs",
+      "Nucleophilic substitution",
+      "Platinum complexes",
+      "Kinetic equations",
+      "Stationary approximation",
+      "Conductivity",
+      "Reaction mechanism"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving kinetic equations for multi-path mechanisms",
+      "Calculating rate constants from concentration dependence",
+      "Conductometry for equilibrium constant estimation",
+      "Identifying rate-determining routes",
+      "Understanding ion-pair formation and reactivity"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IMChO-2020-Tour2-T11",
+    "title": "Gold Nanoparticles: Synthesis, Kinetics, and Characterization",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Inorganic",
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gold nanoparticles",
+      "Colloidal chemistry",
+      "Faraday method",
+      "Zsigmondy method",
+      "Crystal structure (FCC)",
+      "Reaction kinetics",
+      "Purple of Cassius"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing redox equations for nanoparticle synthesis",
+      "Determining element composition from mass fractions",
+      "Calculating number of surface atoms in nanoparticles",
+      "Analyzing kinetics of Au(III) reduction",
+      "Determining reaction orders",
+      "Understanding classical synthesis of colloids"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IMChO-2020-Tour2-T12",
+    "title": "Nitroxide Radicals: Disproportionation and Oxidation",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Kinetics",
+      "Electrochemistry",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Nitroxide radicals",
+      "TEMPO",
+      "Disproportionation",
+      "EPR spectroscopy",
+      "Equilibrium constants",
+      "Nernst equation",
+      "Alcohol oxidation",
+      "Reaction mechanism"
+    ],
+    "target_molecules": [
+      "TEMPO",
+      "TEMPOL"
+    ],
+    "skills": [
+      "Calculating equilibrium constants from spectroscopy data",
+      "Applying Nernst equation to redox systems",
+      "Determining standard electrode potentials",
+      "Understanding catalytic cycles (oxidation of alcohols)",
+      "Calculating rates of oxidation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2020-Tour2-T13",
+    "title": "Total Synthesis of (-)-Dihydroxanthatin",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Dihydroxanthatin",
+      "Total synthesis",
+      "Seyferth-Gilbert reaction",
+      "Oshima-Utimoto reaction",
+      "HWE reaction",
+      "CBS reduction",
+      "Wittig reaction",
+      "Cross-metathesis"
+    ],
+    "target_molecules": [
+      "Dihydroxanthatin"
+    ],
+    "skills": [
+      "Following and deciphering a complex multi-step synthesis",
+      "Applying organic name reactions (HWE, Wittig, metathesis)",
+      "Determining stereochemistry of synthetic products",
+      "Writing reaction mechanisms (Oshima-Utimoto catalytic cycle)",
+      "Using retrosynthetic analysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 26
+  },
+  {
+    "id": "IMChO-2020-Tour2-T14",
+    "title": "Synthesis and Aromaticity of Cyclobutabenzenes",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Cyclobutabenzene",
+      "Benzocyclobutene",
+      "Diels-Alder reaction",
+      "Grignard reaction",
+      "Radialene",
+      "Wurtz reaction",
+      "Bond localization",
+      "Mills-Nixon effect",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [
+      "Tricyclobutabenzene",
+      "Radialene"
+    ],
+    "skills": [
+      "Designing synthesis of strained polycyclic hydrocarbons",
+      "Understanding the Diels-Alder reaction and its applications",
+      "Deducing structures from NMR spectra and symmetry",
+      "Understanding the concept of bond localization (Mills-Nixon effect)",
+      "Writing reaction schemes for ring formation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 29
+  },
+  {
+    "id": "IMChO-2020-Tour2-T15",
+    "title": "Three-Component Synthesis of Prostaglandins",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2020,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Prostaglandins",
+      "Total synthesis",
+      "Noyori reaction",
+      "Three-component coupling",
+      "Lindlar hydrogenation",
+      "Lombardo reagent",
+      "Radical deoxygenation",
+      "Allylsilane"
+    ],
+    "target_molecules": [
+      "PGE1",
+      "PGE2",
+      "PGI2",
+      "Isocarbacyclin"
+    ],
+    "skills": [
+      "Applying the three-component coupling strategy to prostaglandins",
+      "Deciphering complex synthetic schemes",
+      "Understanding selectivity in hydrogenation (Lindlar catalyst)",
+      "Using advanced reagents (Lombardo, allylsilane)",
+      "Proposing mechanisms for radical reactions",
+      "Writing reaction conditions for key transformations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-problems.pdf",
+    "problem_page": 17,
+    "solution_pdf": "pdfs/imcho/imcho-2020/imcho-2020-tour2-solutions.pdf",
+    "solution_page": 31
+  },
+  {
+    "id": "IMChO-2021-Tour1-T1",
+    "title": "Cleaning Silver Coin with Aluminum Foil",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Electrochemistry",
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Galvanic cell",
+      "Solubility product",
+      "Hydrolysis",
+      "pH calculation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Balancing redox equations",
+      "Calculating pH from hydrolysis",
+      "Using solubility product constants",
+      "Applying Nernst equation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2021-Tour1-T2",
+    "title": "Polymerization Reactions",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic",
+      "Polymer Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Polymerization",
+      "Polymer structures"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying reaction types",
+      "Drawing polymer structures",
+      "Understanding polymerization mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2021-Tour1-T3",
+    "title": "Mineral A and Metal X",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Transition metals",
+      "Coordination complexes",
+      "Stoichiometry",
+      "Magnetic properties"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating empirical formulas",
+      "Identifying metals from properties",
+      "Determining complex structures",
+      "Using magnetic moment data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2021-Tour1-T4",
+    "title": "Mercury Thermometer and Electrochemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Physical",
+      "Thermodynamics",
+      "Electrochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Thermal expansion",
+      "Entropy",
+      "Freezing point",
+      "Electrolysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating temperature changes from heat transfer",
+      "Using phase transition thermodynamics",
+      "Applying Faraday's laws",
+      "Calculating gas density"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2021-Tour1-T5",
+    "title": "Vinegar and Baking Soda in Cooking",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Acid-Base Chemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "pH calculation",
+      "Buffer solutions",
+      "Stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating pH of weak acid solutions",
+      "Using Henderson-Hasselbalch equation",
+      "Stoichiometric calculations",
+      "Understanding hydrolysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2021-Tour1-T6",
+    "title": "Isomers of C3H6O",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Isomerism",
+      "NMR spectroscopy",
+      "Boiling points"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing isomers",
+      "Interpreting NMR spectra",
+      "Predicting boiling points"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2021-Tour1-T7",
+    "title": "Anionic Polymerization and Nanocomposites",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Polymer Chemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Polymerization kinetics",
+      "Nanocomposites",
+      "Degree of polymerization"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving kinetic equations",
+      "Calculating degree of polymerization",
+      "Understanding polymer structure"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2021-Tour1-T8",
+    "title": "Synthesis and Activation of MK-4482",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Drug synthesis",
+      "Tautomerism",
+      "Nucleosides"
+    ],
+    "target_molecules": [
+      "MK-4482",
+      "EIDD-1931"
+    ],
+    "skills": [
+      "Decoding synthesis schemes",
+      "Drawing tautomers",
+      "Understanding base pairing"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour1-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2021-Tour2-T1",
+    "title": "Hair Dye Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Oxidative coupling",
+      "Dyes",
+      "Aromatic chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying reaction intermediates",
+      "Drawing structures from spectral data",
+      "Understanding electrophilic substitution"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2021-Tour2-T2",
+    "title": "Adamantane Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Adamantane derivatives",
+      "Stereochemistry",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining structures from mass spectrometry",
+      "Analyzing NMR spectra",
+      "Understanding symmetry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2021-Tour2-T3",
+    "title": "Mn(OAc)3 Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Manganese acetate",
+      "Radical reactions",
+      "Lactone synthesis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining structures from elemental analysis",
+      "Understanding radical mechanisms",
+      "Drawing stereochemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2021-Tour2-T4",
+    "title": "Copolymerization of M1 and M2",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Polymer Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Copolymerization",
+      "Ring-opening polymerization",
+      "Lactic acid",
+      "NMR spectroscopy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining polymer structures",
+      "Calculating molar fractions",
+      "Understanding polymerization mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2021-Tour2-T5",
+    "title": "Polyene Biosynthesis in E. coli",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Ozonolysis",
+      "Biosynthesis",
+      "Metabolic pathways",
+      "Stereochemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Analyzing ozonolysis products",
+      "Deducing biosynthetic pathways",
+      "Determining stereochemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2021-Tour2-T6",
+    "title": "DNA Methylation and Demethylation",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "DNA bases",
+      "Methylation",
+      "Anti-cancer drugs",
+      "Nucleosides"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying hydrogen bonding sites",
+      "Analyzing mass spectrometry data",
+      "Understanding biological methylation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IMChO-2021-Tour2-T7",
+    "title": "Hydrazine Acid-Base Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Acid-Base Chemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "pH calculation",
+      "Basicity constants",
+      "Solubility product"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating pH of weak bases",
+      "Using acid-base equilibria",
+      "Calculating solubility products"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2021-Tour2-T8",
+    "title": "Metal Hydroxide Solubility and Complexation",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Solubility products",
+      "Complexation constants",
+      "pH-dependent solubility",
+      "Lead chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Interpreting solubility graphs",
+      "Calculating stability constants",
+      "Determining precipitation conditions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2021-Tour2-T9",
+    "title": "Alternative Universe Equilibrium Constants",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Equilibrium",
+      "Acid-Base Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Equilibrium constants",
+      "pH calculation",
+      "Titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving equilibrium expressions",
+      "Calculating pH under non-standard conditions",
+      "Understanding acid dissociation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2021-Tour2-T10",
+    "title": "Kinetics of Nucleophilic Substitution",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Kinetics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Reaction kinetics",
+      "Nucleophilic substitution",
+      "Activation energy",
+      "Catalysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating rate constants",
+      "Deriving kinetic equations",
+      "Using Arrhenius equation",
+      "Understanding catalytic pathways"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IMChO-2021-Tour2-T11",
+    "title": "Nickel Catalysts and Nanostructures",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Catalysis",
+      "Nanoparticles",
+      "Surface area",
+      "Phyllosilicates"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating surface areas",
+      "Understanding catalytic activity",
+      "Determining formulas from stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IMChO-2021-Tour2-T12",
+    "title": "Cesium Clusters and Born-Haber Cycle",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Physical",
+      "Nuclear Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Born-Haber cycle",
+      "Potential energy curves",
+      "Cluster stability",
+      "Ionization energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Analyzing potential energy curves",
+      "Applying Born-Haber cycle",
+      "Calculating ionization energies",
+      "Using thermodynamic cycles"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IMChO-2021-Tour2-T13",
+    "title": "Cobalt Oxide and Coordination Complexes",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Coordination complexes",
+      "Magnetic properties",
+      "Colorimetry",
+      "Stereochemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining structures from spectral data",
+      "Understanding ligand field theory",
+      "Calculating magnetic moments",
+      "Drawing stereoisomers"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IMChO-2021-Tour2-T14",
+    "title": "Xenon Chemistry",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Xenon compounds",
+      "Stoichiometry",
+      "Molecular geometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from stoichiometry",
+      "Writing reaction equations",
+      "Predicting molecular geometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2021-Tour2-T15",
+    "title": "Vaska's Complex and Dioxygen Binding",
+    "nation": "Russia",
+    "olympiad": "IMChO",
+    "year": 2021,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Vaska's complex",
+      "Dioxygen coordination",
+      "Equilibrium constants"
+    ],
+    "target_molecules": [
+      "Vaska's complex"
+    ],
+    "skills": [
+      "Determining structures from elemental analysis",
+      "Understanding dioxygen binding modes",
+      "Calculating equilibrium constants"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2021/imcho-2021-tour2-solutions.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IMChO-2022-Practical",
+    "title": "To Dissolve or Not to Dissolve",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Practical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Solubility product",
+      "Titration",
+      "Complexometric titration",
+      "Iodometry",
+      "Thermodynamics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Performing titrations",
+      "Determining solubility products",
+      "Using indicators",
+      "Calculating thermodynamic parameters"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-practical.pdf",
+    "problem_page": 1,
+    "solution_pdf": null,
+    "solution_page": null
+  },
+  {
+    "id": "IMChO-2022-Tour1-T1",
+    "title": "Jules Verne's Battery",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Electrochemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Galvanic cells",
+      "Nernst equation",
+      "Gibbs energy",
+      "Latimer diagrams"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating standard potentials from Latimer diagrams",
+      "Applying Nernst equation",
+      "Determining galvanic cell reactions",
+      "Calculating EMF and equilibrium constants"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2022-Tour1-T2",
+    "title": "Surface Tension and Adsorption",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Physical",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Surface tension",
+      "Adsorption",
+      "Gibbs equation",
+      "Surface area"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using Szyszkowski equation",
+      "Calculating adsorption from surface tension",
+      "Determining surface area from adsorption data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2022-Tour1-T3",
+    "title": "Synthesis of Coccinelline",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Robinson-Schöpf reaction",
+      "Mannich reaction",
+      "Alkaloid synthesis"
+    ],
+    "target_molecules": [
+      "Coccinelline"
+    ],
+    "skills": [
+      "Drawing synthetic schemes",
+      "Identifying reactions",
+      "Using NMR spectroscopy",
+      "Understanding Robinson-Schöpf reaction"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2022-Tour1-T4",
+    "title": "Stereochemistry of Aldol Condensation",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Mechanism",
+    "theme": [
+      "Aldol condensation",
+      "Stereochemistry",
+      "Enolate chemistry",
+      "Transition states"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Understanding enolate stereochemistry",
+      "Using Zimmerman-Traxler transition states",
+      "Predicting product stereochemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2022-Tour1-T5",
+    "title": "Trimetazidine and Lomerizine",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Biochemistry"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Drug metabolism",
+      "Mass spectrometry",
+      "Structure elucidation"
+    ],
+    "target_molecules": [
+      "Trimetazidine",
+      "Lomerizine"
+    ],
+    "skills": [
+      "Analyzing mass spectrometry data",
+      "Deducing structures from molecular formulas",
+      "Understanding drug metabolism"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2022-Tour1-T6",
+    "title": "Iodine Extraction and Complexation",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Extraction",
+      "Distribution constants",
+      "Complexation constants",
+      "Iodine chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using distribution constants",
+      "Calculating complexation constants",
+      "Applying VSEPR theory"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2022-Tour1-T7",
+    "title": "Pyrophoric Iron",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Iron oxides",
+      "Pyrophoric materials",
+      "Thermal decomposition",
+      "Stoichiometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating formulas from mass fractions",
+      "Writing reaction equations",
+      "Analyzing gas mixtures"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2022-Tour1-T8",
+    "title": "Phosphorus Oxyacids",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Phosphorus acids",
+      "Symmetry",
+      "Isomerism",
+      "Oxidation states"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from stoichiometry",
+      "Drawing structures with symmetry elements",
+      "Understanding oxidation states"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour1-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2022-Tour2-T1",
+    "title": "Thermonuclear Fusion and Reactor Design",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Nuclear Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Nuclear reactions",
+      "Half-life",
+      "Energy calculations",
+      "Radioactivity"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating half-life from activity data",
+      "Writing nuclear reactions",
+      "Calculating energy from nuclear reactions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2022-Tour2-T2",
+    "title": "Kinetics of Anation Reactions",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Kinetics",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Reaction kinetics",
+      "Acid-base equilibria",
+      "Ligand substitution",
+      "Activation energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deriving kinetic equations",
+      "Calculating rate constants",
+      "Understanding reaction mechanisms",
+      "Using acid-base equilibria"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2022-Tour2-T3",
+    "title": "Smart Polymers and Sportswear",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Polymer Chemistry",
+      "Thermodynamics",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Cationic polymerization",
+      "Phase transitions",
+      "Heat storage",
+      "Piezoelectric materials"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating polymerization rates",
+      "Using thermodynamics",
+      "Applying piezoelectric equations",
+      "Understanding polymer properties"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2022-Tour2-T4",
+    "title": "Carbon Oxides",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic",
+      "Inorganic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Carbon oxides",
+      "Fullerenes",
+      "Anhydrides",
+      "Cyclic compounds"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining structures from empirical formulas",
+      "Understanding organic oxidation reactions",
+      "Drawing cyclic anhydrides"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2022-Tour2-T5",
+    "title": "Ideal Organic Synthesis",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Nobel Prize chemistry",
+      "Organocatalysis",
+      "Chemoselectivity",
+      "Dess-Martin reagent"
+    ],
+    "target_molecules": [
+      "Neuroprostan X"
+    ],
+    "skills": [
+      "Designing multi-step syntheses",
+      "Understanding selectivity",
+      "Using modern reagents",
+      "Determining stereochemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2022-Tour2-T6",
+    "title": "Fenestrane Chemistry",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Fenestranes",
+      "Cycloadditions",
+      "Stereochemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing polycyclic structures",
+      "Understanding [2+2] cycloadditions",
+      "Applying Wolff-Kishner reduction"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2022-Tour2-T7",
+    "title": "Anti-COVID-19 Nucleosides",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Antiviral drugs",
+      "Nucleosides",
+      "Base pairing",
+      "mRNA vaccines"
+    ],
+    "target_molecules": [
+      "Remdesivir",
+      "Molupiravir"
+    ],
+    "skills": [
+      "Identifying nucleoside analogs",
+      "Drawing hydrogen bonds",
+      "Understanding base pairing",
+      "Analyzing mass spectra"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2022-Tour2-T8",
+    "title": "Phenylketonuria Metabolism",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Biochemistry",
+      "Analytical"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Phenylketonuria",
+      "Amino acids",
+      "Peptide sequencing",
+      "Mass spectrometry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing amino acid structures",
+      "Understanding peptide degradation",
+      "Analyzing mass spectrometry data",
+      "Determining amino acid sequences"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2022-Tour2-T9",
+    "title": "Polymer Modification and Imide Formation",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Polymer Chemistry",
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Polymer modification",
+      "Imide formation",
+      "Copolymer composition",
+      "Thermal reactions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating polymer compositions",
+      "Understanding functional group transformations",
+      "Determining reaction stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2022-Tour2-T10",
+    "title": "Inorganic Pigments",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Pigments",
+      "Lead chemistry",
+      "Spinel structure",
+      "Chromium chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying pigments from properties",
+      "Understanding crystal structures",
+      "Writing reaction equations",
+      "Applying magnetic data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IMChO-2022-Tour2-T11",
+    "title": "Iron Chemistry and Metal Carbonyls",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Iron compounds",
+      "Metal carbonyls",
+      "Molecular symmetry",
+      "Ionic liquids"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from stoichiometry",
+      "Drawing molecular structures",
+      "Understanding symmetry elements",
+      "Recognizing ionic liquids"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IMChO-2022-Tour2-T12",
+    "title": "Nitrogen Oxides and Coordination Complexes",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Nitrogen oxides",
+      "Coordination complexes",
+      "Molecular orbitals",
+      "IR spectroscopy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying compounds from stoichiometry",
+      "Drawing molecular structures",
+      "Applying MO theory",
+      "Using IR spectroscopy data"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 20
+  },
+  {
+    "id": "IMChO-2022-Tour2-T13",
+    "title": "Analysis of White Paints",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Pigments",
+      "Solubility products",
+      "Qualitative analysis",
+      "Iodine number"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating solubility in acid",
+      "Identifying cations by reactions",
+      "Determining iodine numbers",
+      "Understanding paint chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IMChO-2022-Tour2-T14",
+    "title": "Dye-Surfactant Complexation",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Spectrophotometry",
+      "Complexation",
+      "Benesi-Hildebrand equation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using spectrophotometric data",
+      "Applying Benesi-Hildebrand equation",
+      "Determining complex stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 15,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2022-Tour2-T15",
+    "title": "Iodine Extraction and Halide Complexation",
+    "nation": "Uzbekistan",
+    "olympiad": "IMChO",
+    "year": 2022,
+    "subset": [
+      "Analytical",
+      "Equilibrium"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Extraction",
+      "Distribution constants",
+      "Complexation constants",
+      "Iodine-halide complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using extraction equations",
+      "Calculating distribution constants",
+      "Determining complex stability"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/imcho/imcho-2022/imcho-2022-tour2-solutions.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IMChO-2023-Practical",
+    "title": "Mendeleev's Tea",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Organic",
+      "Analytical",
+      "Practical"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Caffeine extraction",
+      "Murexide test",
+      "Complexometric titration",
+      "Spectroscopy"
+    ],
+    "target_molecules": [
+      "Caffeine"
+    ],
+    "skills": [
+      "Performing liquid-liquid extraction",
+      "Carrying out oxidation reactions",
+      "Performing complexometric titrations",
+      "Using NMR spectroscopy",
+      "Interpreting color changes"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-practical.pdf",
+    "problem_page": 1,
+    "solution_pdf": null,
+    "solution_page": null
+  },
+  {
+    "id": "IMChO-2023-Tour1-T1",
+    "title": "Carbonated Water and Henry's Law",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Physical",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Henry's law",
+      "pH calculation",
+      "Gas solubility",
+      "Bubble expansion"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using Henry's law",
+      "Calculating pH of carbonic acid solutions",
+      "Applying ideal gas law",
+      "Determining pressure in closed systems"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2023-Tour1-T2",
+    "title": "Click Chemistry and Sulfur Reactions",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Click chemistry",
+      "Cycloaddition",
+      "Nucleophilic substitution",
+      "Isothiocyanates"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing reaction schemes",
+      "Understanding electrophilic addition",
+      "Identifying kinetic vs thermodynamic products"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2023-Tour1-T3",
+    "title": "Graphene and Graphite Surface Area",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Physical",
+      "Polymer Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Surface area",
+      "Dispersity",
+      "Adsorption",
+      "Graphite structure"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating specific surface area",
+      "Using adsorption data",
+      "Determining particle dimensions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2023-Tour1-T4",
+    "title": "Copper and Selenium Chemistry",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Copper compounds",
+      "Selenium compounds",
+      "Redox reactions",
+      "Oxyacids"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from properties",
+      "Writing reaction equations",
+      "Determining structures from symmetry",
+      "Understanding dehydration reactions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2023-Tour1-T5",
+    "title": "Decomposition of Slaked Lime",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Thermal decomposition",
+      "Calcium compounds",
+      "Gas stoichiometry",
+      "Mass balance"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating from mass loss data",
+      "Applying ideal gas law",
+      "Writing thermolysis equations",
+      "Determining impurities"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2023-Tour1-T6",
+    "title": "Nafion Membranes and Dialysis",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Polymer Chemistry",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ion-exchange polymers",
+      "Membrane dialysis",
+      "Equivalent weight",
+      "Sulfonation"
+    ],
+    "target_molecules": [
+      "Nafion"
+    ],
+    "skills": [
+      "Calculating equivalent weights",
+      "Determining polymerization degrees",
+      "Using dialysis principles",
+      "Calculating mass fractions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2023-Tour1-T7",
+    "title": "Bromatometric Titration",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Analytical",
+      "Organic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Bromatometry",
+      "Electrophilic substitution",
+      "Stoichiometry",
+      "Drug analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing bromination reactions",
+      "Determining stoichiometry",
+      "Calculating from titration data",
+      "Understanding directing effects"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2023-Tour1-T8",
+    "title": "Lead-Acid Battery Desulfation",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Electrochemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lead-acid batteries",
+      "Desulfation",
+      "EDTA complexation",
+      "Solubility products"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing battery reactions",
+      "Calculating solubilities in complexing media",
+      "Using acid-base equilibria",
+      "Understanding battery chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour1-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2023-Tour2-T1",
+    "title": "Willgerodt-Kindler Reaction",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Willgerodt-Kindler reaction",
+      "Stereochemistry",
+      "Heterocycles",
+      "Natural product synthesis"
+    ],
+    "target_molecules": [
+      "Debromoaplysin X"
+    ],
+    "skills": [
+      "Designing synthetic schemes",
+      "Using NMR spectroscopy",
+      "Understanding stereochemistry",
+      "Applying named reactions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2023-Tour2-T2",
+    "title": "Synthesis of Ambroxide",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Organic"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Terpenoids",
+      "Robinson annulation",
+      "Ozonolysis",
+      "Aldol condensation"
+    ],
+    "target_molecules": [
+      "Ambroxide"
+    ],
+    "skills": [
+      "Designing multi-step syntheses",
+      "Understanding Robinson annulation",
+      "Applying Mukaiyama-Michael reaction",
+      "Using protecting groups"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2023-Tour2-T3",
+    "title": "Fluorescent Dyes and BODIPY",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Organic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Fluorescent dyes",
+      "Cyanine dyes",
+      "BODIPY",
+      "Click chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Drawing dye structures",
+      "Understanding synthesis of fluorescent compounds",
+      "Applying click chemistry principles"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2023-Tour2-T4",
+    "title": "Isomerization of Metal Complexes",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic",
+      "Kinetics",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Isomerization",
+      "Coordination complexes",
+      "Ion pairs",
+      "Reaction kinetics"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating rate constants",
+      "Understanding ion pair formation",
+      "Using thermodynamic cycles",
+      "Applying electrostatic calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2023-Tour2-T5",
+    "title": "Ionic Model of Ammonium Compounds",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Thermodynamics",
+      "Inorganic"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Lattice energy",
+      "Born-Haber cycle",
+      "Phase stability",
+      "Pressure effects"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Using Kapustinsky equation",
+      "Calculating enthalpies of formation",
+      "Predicting phase stability under pressure",
+      "Understanding planetary science"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2023-Tour2-T6",
+    "title": "Carbon Nanoparticle Fluorescence",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Physical",
+      "Analytical",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Fluorescence",
+      "Quenching",
+      "Beer's law",
+      "Masking agents"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating quantum yields",
+      "Using Stern-Volmer equation",
+      "Applying Beer's law",
+      "Understanding masking agents"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2023-Tour2-T7",
+    "title": "Thallium Chemistry",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic",
+      "Analytical"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Thallium compounds",
+      "Oxidation states",
+      "Crystal structure",
+      "Coordination chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Identifying elements from density data",
+      "Determining crystal structures",
+      "Writing reaction equations",
+      "Understanding optical isomerism"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IMChO-2023-Tour2-T8",
+    "title": "Pyrophoric Iron and Non-Stoichiometry",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic",
+      "Physical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Iron oxides",
+      "Non-stoichiometry",
+      "Pyrophoric materials",
+      "Crystal structure"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining formulas from mass loss",
+      "Using density data",
+      "Understanding non-stoichiometric compounds",
+      "Writing decomposition reactions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2023-Tour2-T9",
+    "title": "Manganese Chemistry and Polynuclear Complexes",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Inorganic",
+      "Spectroscopy"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Manganese complexes",
+      "Oxidation states",
+      "Magnetic properties",
+      "Polynuclear complexes"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Calculating magnetic moments",
+      "Determining complex structures",
+      "Drawing coordination geometries",
+      "Using symmetry elements"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2023-Tour2-T10",
+    "title": "Arsenic Metabolism",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Biochemistry",
+      "Inorganic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Arsenic compounds",
+      "Metabolic pathways",
+      "Oxidation states",
+      "Drug design"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Deducing metabolic pathways",
+      "Calculating oxidation states",
+      "Using NMR spectroscopy",
+      "Understanding bioorthogonal chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2023-Tour2-T11",
+    "title": "Biodegradation of Fluorinated Compounds",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Biochemistry",
+      "Environmental Chemistry"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Fluorinated compounds",
+      "Biodegradation",
+      "Mass spectrometry",
+      "Doping"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Analyzing mass spectrometry data",
+      "Deducing metabolic pathways",
+      "Understanding biodegradation",
+      "Calculating molecular formulas"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2023-Tour2-T12",
+    "title": "Amino Acid Biosynthesis in Bacteria",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Biochemistry",
+      "Organic"
+    ],
+    "type": "Structure determination",
+    "theme": [
+      "Amino acid biosynthesis",
+      "Enzyme pathways",
+      "Mass spectrometry",
+      "Non-enzymatic reactions"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Interpreting knockout data",
+      "Deducing metabolic pathways",
+      "Calculating isotope ratios",
+      "Drawing heterocyclic structures"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 18
+  },
+  {
+    "id": "IMChO-2023-Tour2-T13",
+    "title": "Extraction-Photometric Determination of Mercury",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Extraction",
+      "Spectrophotometry",
+      "Interference",
+      "Equilibrium constants"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing extraction reactions",
+      "Calculating errors",
+      "Understanding interference effects",
+      "Using equilibrium constants"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IMChO-2023-Tour2-T14",
+    "title": "Iodometric Determination of Tin",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Analytical"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Iodometry",
+      "Oxidation-reduction",
+      "Complexation",
+      "Interference"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Writing iodometric reactions",
+      "Understanding complexation",
+      "Calculating concentrations",
+      "Handling interferences"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IMChO-2023-Tour2-T15",
+    "title": "Chromate-Dichromate Equilibrium",
+    "nation": "Kazakhstan",
+    "olympiad": "IMChO",
+    "year": 2023,
+    "subset": [
+      "Analytical",
+      "Equilibrium",
+      "Spectroscopy"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Acid-base equilibrium",
+      "Spectrophotometry",
+      "Equilibrium constants"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Determining equilibrium constants from spectral data",
+      "Using mass balance",
+      "Calculating molar extinction coefficients",
+      "Understanding polycondensation equilibria"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2023/imcho-2023-tour2-solutions.pdf",
+    "solution_page": 23
+  },
+  {
+    "id": "IMChO-2024-P1",
+    "title": "Spirulina platensis - superfood",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Biochemistry",
+      "Spectroscopy",
+      "Equilibrium",
+      "Thermodynamics"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Protein folding",
+      "Spectrophotometry",
+      "Equilibrium constant",
+      "Gibbs free energy"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Spectrophotometry",
+      "Data analysis",
+      "Calculations",
+      "Protein chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2024-P2",
+    "title": "Titrimetric determination of fatty acids",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Analytical Chemistry",
+      "Electrochemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Titration",
+      "Iodine value",
+      "Redox titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Titration",
+      "Stoichiometry",
+      "Iodometric titration"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2024-P3",
+    "title": "Identification of vitamins",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry",
+      "Biochemistry",
+      "Analytical Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Qualitative analysis",
+      "Functional group tests",
+      "Vitamin identification"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Qualitative analysis",
+      "Functional group chemistry",
+      "Characteristic reactions"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-practical.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2024-Tour1-T1",
+    "title": "Organic derivatives of inorganic acids",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Molecular formulas",
+      "Structures",
+      "Reaction equations",
+      "Pentazolate",
+      "Ferrocene analogues"
+    ],
+    "target_molecules": [
+      "Ferrocene"
+    ],
+    "skills": [
+      "Stoichiometry",
+      "Structure elucidation",
+      "Reaction writing",
+      "Isoelectronic reasoning"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2024-Tour1-T2",
+    "title": "Cembrene and terpene chemistry",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry",
+      "Spectroscopy"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Terpenes",
+      "NMR spectroscopy",
+      "Ozonolysis",
+      "Structure elucidation"
+    ],
+    "target_molecules": [
+      "Cembrene",
+      "Isoprene"
+    ],
+    "skills": [
+      "NMR interpretation",
+      "Ozonolysis",
+      "Structure determination",
+      "Isoprene rule"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2024-Tour1-T3",
+    "title": "Extremophile osmolytes",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Biochemistry",
+      "Physical Chemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Molecular formulas",
+      "Osmolytes",
+      "Trimethylamine N-oxide",
+      "Dimethylsulfoniopropionate"
+    ],
+    "target_molecules": [
+      "Trimethylamine N-oxide",
+      "Dimethylsulfoniopropionate"
+    ],
+    "skills": [
+      "Stoichiometry",
+      "Structure elucidation",
+      "Molecular formula determination",
+      "Biochemical reasoning"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2024-Tour1-T4",
+    "title": "Glyoxylate cycle and metabolism",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Biochemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Metabolic pathways",
+      "Glyoxylate cycle",
+      "Enzymology",
+      "Structure elucidation"
+    ],
+    "target_molecules": [
+      "Glyoxylate",
+      "Pyruvate",
+      "Acetyl-CoA"
+    ],
+    "skills": [
+      "Biochemical pathway reasoning",
+      "Stoichiometry",
+      "Structure determination"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2024-Tour1-T5",
+    "title": "Size-dependent solubility and Ostwald ripening",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Physical Chemistry",
+      "Equilibrium",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Solubility",
+      "Nanoparticles",
+      "Gibbs-Freundlich-Ostwald equation",
+      "Ostwald ripening"
+    ],
+    "target_molecules": [
+      "Calcium fluoride"
+    ],
+    "skills": [
+      "Calculations",
+      "Solubility product",
+      "Nanoparticle chemistry",
+      "Thermodynamic reasoning"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2024-Tour1-T6",
+    "title": "Laboratory synthesis of gases",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Acid-Base Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Gas preparation",
+      "Acid-base reactions",
+      "Osmotic pressure",
+      "Titration"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Stoichiometry",
+      "Osmotic pressure calculations",
+      "Titration",
+      "Acid-base chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 10
+  },
+  {
+    "id": "IMChO-2024-Tour1-T7",
+    "title": "Intermolecular interactions",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Physical Chemistry",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Intermolecular forces",
+      "Lennard-Jones potential",
+      "Ionic bonding",
+      "Born-Haber cycle"
+    ],
+    "target_molecules": [
+      "LiF"
+    ],
+    "skills": [
+      "Calculations",
+      "Potential energy",
+      "Ionic bonding",
+      "Thermodynamic cycles"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 12
+  },
+  {
+    "id": "IMChO-2024-Tour1-T8",
+    "title": "Mass spectrometry of air",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Analytical Chemistry",
+      "Spectroscopy",
+      "Environmental Chemistry"
+    ],
+    "type": "Data analysis",
+    "theme": [
+      "Mass spectrometry",
+      "Air composition",
+      "Reaction analysis"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Mass spectrum interpretation",
+      "Stoichiometry",
+      "Data analysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour1-solutions.pdf",
+    "solution_page": 13
+  },
+  {
+    "id": "IMChO-2024-Tour2-T1",
+    "title": "Rotational-vibrational spectroscopy of diatomic molecules",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Physical Chemistry",
+      "Spectroscopy",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Rotational-vibrational spectra",
+      "Harmonic oscillator",
+      "Anharmonicity",
+      "Dissociation energy"
+    ],
+    "target_molecules": [
+      "HF",
+      "CH"
+    ],
+    "skills": [
+      "Spectroscopy",
+      "Quantum mechanics",
+      "Calculations",
+      "Molecular properties"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2024-Tour2-T2",
+    "title": "Ligand field theory of transition metal complexes",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ligand field theory",
+      "Crystal field theory",
+      "Magnetic properties",
+      "Electronic spectra"
+    ],
+    "target_molecules": [
+      "[Ti(H2O)6]3+",
+      "[Fe(H2O)6]2+",
+      "[Fe(CN)6]4-",
+      "[Ni(NH3)6]2+",
+      "Mohr's salt"
+    ],
+    "skills": [
+      "Ligand field theory",
+      "Magnetic susceptibility",
+      "Spectroscopy",
+      "Calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2024-Tour2-T3",
+    "title": "Hydrogen activation by metal cations",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Kinetics",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Hydrogen activation",
+      "Reaction kinetics",
+      "Catalysis",
+      "Mechanism elucidation"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Kinetics",
+      "Mechanism derivation",
+      "Data analysis",
+      "Thermodynamic calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2024-Tour2-T4",
+    "title": "Optical dosimetry of nitrogen dioxide",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Analytical Chemistry",
+      "Environmental Chemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Diazotization",
+      "Colorimetry",
+      "Kinetics",
+      "Air pollution monitoring"
+    ],
+    "target_molecules": [
+      "4-nitroaniline",
+      "chromotropic acid",
+      "Acid Red 176"
+    ],
+    "skills": [
+      "Kinetics",
+      "Stoichiometry",
+      "Colorimetry",
+      "Probability calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 7,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 6
+  },
+  {
+    "id": "IMChO-2024-Tour2-T5",
+    "title": "Extraction and tautomerism in heterocyclic synthesis",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry",
+      "Physical Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Tautomerism",
+      "Extraction",
+      "Equilibrium constants",
+      "Yield calculations"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Equilibrium calculations",
+      "Tautomerism",
+      "Extraction",
+      "Yield determination"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2024-Tour2-T6",
+    "title": "Blood alcohol determination",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Analytical Chemistry",
+      "Biochemistry",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Blood alcohol content",
+      "Widmark formula",
+      "Spectrophotometry",
+      "Enzymatic assay",
+      "Beer-Lambert law"
+    ],
+    "target_molecules": [
+      "Ethanol",
+      "NAD+",
+      "NADH"
+    ],
+    "skills": [
+      "Calculations",
+      "Spectrophotometry",
+      "Stoichiometry",
+      "Enzymology"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2024-Tour2-T7",
+    "title": "Pharmaceutical radiochemistry and bone targeting",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Organic Chemistry",
+      "Nuclear Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "EDTMP",
+      "Samarium-153",
+      "Nuclear medicine",
+      "Chelating agents"
+    ],
+    "target_molecules": [
+      "EDTMP",
+      "Samarium-153",
+      "Quadramet"
+    ],
+    "skills": [
+      "Structure determination",
+      "Nuclear chemistry",
+      "Coordination chemistry",
+      "Medicinal chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2024-Tour2-T8",
+    "title": "Polymer gel formation by oligonucleotide crosslinking",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Polymer Chemistry",
+      "Biochemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Polymer synthesis",
+      "Oligonucleotides",
+      "DNA crosslinking",
+      "Hydrogel formation"
+    ],
+    "target_molecules": [
+      "ODN"
+    ],
+    "skills": [
+      "Polymer chemistry",
+      "DNA chemistry",
+      "Structure determination",
+      "Calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 12,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2024-Tour2-T9",
+    "title": "Pheochromocytoma and receptor inhibition",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry",
+      "Biochemistry",
+      "Analytical Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Receptor binding",
+      "Hill equation",
+      "Drug design",
+      "Metabolite analysis",
+      "Mass spectrometry"
+    ],
+    "target_molecules": [
+      "Phenoxybenzamine",
+      "Vanillylmandelic acid"
+    ],
+    "skills": [
+      "Medicinal chemistry",
+      "Enzyme kinetics",
+      "Receptor theory",
+      "Mass spectrometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 17
+  },
+  {
+    "id": "IMChO-2024-Tour2-T10",
+    "title": "Superconducting materials",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Superconductivity",
+      "Critical temperature",
+      "Isotope effect",
+      "Hydride superconductors"
+    ],
+    "target_molecules": [
+      "H3S"
+    ],
+    "skills": [
+      "Superconductivity physics",
+      "Stoichiometry",
+      "Thermodynamics",
+      "Structure elucidation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 17,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 21
+  },
+  {
+    "id": "IMChO-2024-Tour2-T11",
+    "title": "Intermetallic compounds and coordination chemistry",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Physical Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Intermetallic compounds",
+      "Crystal structure",
+      "Coordination chemistry",
+      "Magnetic properties"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Crystal chemistry",
+      "Stoichiometry",
+      "Structure elucidation",
+      "Coordination chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 22
+  },
+  {
+    "id": "IMChO-2024-Tour2-T12",
+    "title": "Hydrogen cations and hydride complexes",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "Quantum Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Polyhydrogen cations",
+      "Hydride complexes",
+      "Oxidative addition",
+      "Molecular orbitals"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure drawing",
+      "Coordination chemistry",
+      "Molecular orbital theory",
+      "Thermodynamics"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 20,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 24
+  },
+  {
+    "id": "IMChO-2024-Tour2-T13",
+    "title": "Sharpless epoxidation in natural product synthesis",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Sharpless epoxidation",
+      "Natural product synthesis",
+      "Stereochemistry",
+      "Ring-closing metathesis",
+      "Mitsunobu reaction"
+    ],
+    "target_molecules": [
+      "Unetene A",
+      "Plakevulin A"
+    ],
+    "skills": [
+      "Organic synthesis",
+      "Stereochemistry",
+      "Reaction mechanisms",
+      "Structure elucidation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 22,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 27
+  },
+  {
+    "id": "IMChO-2024-Tour2-T14",
+    "title": "Chemistry of nitrile oxides",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Nitrile oxides",
+      "1,3-dipolar cycloaddition",
+      "Natural product synthesis",
+      "Furoxans",
+      "Isoxazolines"
+    ],
+    "target_molecules": [
+      "(+)-Monocillin II",
+      "(+)-Ptilocauin"
+    ],
+    "skills": [
+      "Organic synthesis",
+      "Mechanisms",
+      "Cycloaddition",
+      "Structure determination"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 23,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 28
+  },
+  {
+    "id": "IMChO-2024-Tour2-T15",
+    "title": "Nucleophilic substitution and solvent effects",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2024,
+    "subset": [
+      "Organic Chemistry",
+      "Physical Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "SN1/SN2 mechanisms",
+      "Solvent effects",
+      "Mitsunobu reaction",
+      "Organocatalysis"
+    ],
+    "target_molecules": [
+      "(-)-Spongidepsin"
+    ],
+    "skills": [
+      "Mechanisms",
+      "Stereochemistry",
+      "Synthesis design",
+      "Spectroscopy"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-problems.pdf",
+    "problem_page": 25,
+    "solution_pdf": "pdfs/imcho/imcho-2024/imcho-2024-tour2-solutions.pdf",
+    "solution_page": 31
+  },
+  {
+    "id": "IMChO-2025-P1",
+    "title": "Enzymatic hydrolysis of starch",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Biochemistry",
+      "Analytical Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Enzymatic hydrolysis",
+      "Starch",
+      "Glucose determination",
+      "Colorimetry"
+    ],
+    "target_molecules": [
+      "Glucose"
+    ],
+    "skills": [
+      "Enzymology",
+      "Colorimetry",
+      "Stoichiometry",
+      "Experimental design"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2025-P2",
+    "title": "Cerimetric titration of glucose",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Analytical Chemistry",
+      "Electrochemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Titration",
+      "Cerimetry",
+      "Redox chemistry",
+      "Glucose determination"
+    ],
+    "target_molecules": [
+      "Glucose"
+    ],
+    "skills": [
+      "Titration",
+      "Redox reactions",
+      "Stoichiometry",
+      "Indicator chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical-solutions.pdf",
+    "solution_page": 2
+  },
+  {
+    "id": "IMChO-2025-P3",
+    "title": "Hydrolysis of paracetamol",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry",
+      "Analytical Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Hydrolysis",
+      "Paracetamol",
+      "Diazotization titration",
+      "Pharmaceutical analysis"
+    ],
+    "target_molecules": [
+      "Paracetamol",
+      "4-aminophenol"
+    ],
+    "skills": [
+      "Titration",
+      "Hydrolysis",
+      "Diazotization",
+      "Pharmaceutical chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2025-P4",
+    "title": "Qualitative analysis of pharmaceuticals",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry",
+      "Analytical Chemistry"
+    ],
+    "type": "Practical",
+    "theme": [
+      "Pharmaceutical analysis",
+      "Qualitative tests",
+      "Functional group detection",
+      "Drug identification"
+    ],
+    "target_molecules": [
+      "Sodium salicylate",
+      "Acetylsalicylic acid",
+      "Paracetamol",
+      "Chloramphenicol",
+      "Phthalazol",
+      "p-Aminobenzoic acid"
+    ],
+    "skills": [
+      "Qualitative analysis",
+      "Functional group tests",
+      "Drug identification",
+      "Analytical reasoning"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-practical-solutions.pdf",
+    "solution_page": 4
+  },
+  {
+    "id": "IMChO-2025-Tour1-T1",
+    "title": "Geometric isomerism and alkene interconversion",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Geometric isomerism",
+      "Alkene isomerization",
+      "Betweenanenes",
+      "C=C bond rotation"
+    ],
+    "target_molecules": [
+      "Stilbene"
+    ],
+    "skills": [
+      "Stereochemistry",
+      "NMR interpretation",
+      "Structure drawing",
+      "Reaction mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2025-Tour1-T2",
+    "title": "Urea chemistry and thermal decomposition",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Urea",
+      "Isocyanic acid",
+      "Thermal decomposition",
+      "Mass spectroscopy"
+    ],
+    "target_molecules": [
+      "Urea",
+      "Isocyanic acid",
+      "Cyanuric acid"
+    ],
+    "skills": [
+      "Stoichiometry",
+      "Isomerism",
+      "Thermal decomposition",
+      "Structure elucidation"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2025-Tour1-T3",
+    "title": "Prebiotic molecules and homologous series",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Homologous series",
+      "Hydrocarbon combustion",
+      "Sulfur-containing compounds",
+      "Prebiotic chemistry"
+    ],
+    "target_molecules": [
+      "Allium polysulfides"
+    ],
+    "skills": [
+      "Stoichiometry",
+      "Combustion analysis",
+      "Structure determination",
+      "Homologous series"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 3,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 5
+  },
+  {
+    "id": "IMChO-2025-Tour1-T4",
+    "title": "Explosive chemistry: pentazenium salts",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Thermodynamics"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Explosives",
+      "Oxygen balance",
+      "Heat of explosion",
+      "Pentazenium"
+    ],
+    "target_molecules": [
+      "Trinitroglycerin",
+      "Tetryl"
+    ],
+    "skills": [
+      "Stoichiometry",
+      "Thermochemistry",
+      "Explosives chemistry",
+      "Calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 7
+  },
+  {
+    "id": "IMChO-2025-Tour1-T5",
+    "title": "Acid-base chemistry of inorganic salts",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Acid-Base Chemistry",
+      "Equilibrium"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "pH calculations",
+      "Acid dissociation constants",
+      "Salt hydrolysis",
+      "Amphoteric salts"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Acid-base equilibrium",
+      "pH calculations",
+      "Polyprotic acids",
+      "Hydrolysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 9
+  },
+  {
+    "id": "IMChO-2025-Tour1-T6",
+    "title": "Chemistry of selenium: looking-glass olympiad",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Organic Chemistry",
+      "Physical Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Selenium",
+      "Heterocycles",
+      "Particle in ellipse model",
+      "Selenocysteine",
+      "Selenomethionine"
+    ],
+    "target_molecules": [
+      "Selenocysteine",
+      "Selenomethionine",
+      "Selenophene"
+    ],
+    "skills": [
+      "Interdisciplinary chemistry",
+      "Structure determination",
+      "Quantum mechanics",
+      "Biochemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 11
+  },
+  {
+    "id": "IMChO-2025-Tour1-T7",
+    "title": "Teflon: discovery and applications",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry",
+      "Polymer Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Teflon",
+      "Tetrafluoroethylene",
+      "Carbenes",
+      "Ruppert-Prakash reagent"
+    ],
+    "target_molecules": [
+      "Teflon",
+      "Tetrafluoroethylene",
+      "Difluorocarbene",
+      "Ruppert-Prakash reagent"
+    ],
+    "skills": [
+      "Polymer chemistry",
+      "Carbene chemistry",
+      "Structure elucidation",
+      "Reaction mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 9,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 14
+  },
+  {
+    "id": "IMChO-2025-Tour1-T8",
+    "title": "Tritium water: biochemistry and corrosion",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Nuclear Chemistry",
+      "Biochemistry",
+      "Environmental Chemistry",
+      "Physical Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Tritium",
+      "Isotopes",
+      "Enzymatic reactions",
+      "Corrosion",
+      "Urea hydrolysis"
+    ],
+    "target_molecules": [
+      "Urea",
+      "Tritiated water"
+    ],
+    "skills": [
+      "Isotope chemistry",
+      "Enzymology",
+      "Nuclear chemistry",
+      "Corrosion chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-problems.pdf",
+    "problem_page": 10,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour1-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2025-Tour2-T1",
+    "title": "Prebiotic synthesis of cytidine",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Biochemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Prebiotic chemistry",
+      "RNA world",
+      "Nucleoside synthesis",
+      "Cytosine",
+      "Ribose"
+    ],
+    "target_molecules": [
+      "Cytosine",
+      "Uracil",
+      "Ribose",
+      "Cytidine"
+    ],
+    "skills": [
+      "Prebiotic chemistry",
+      "Structure elucidation",
+      "Stereochemistry",
+      "Biochemical pathways"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 1,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 1
+  },
+  {
+    "id": "IMChO-2025-Tour2-T2",
+    "title": "Sucralfate: drug analysis and structure",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Analytical Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Drug analysis",
+      "Sucralfate",
+      "Periodate cleavage",
+      "Aluminum complexes",
+      "Stoichiometry"
+    ],
+    "target_molecules": [
+      "Sucrose",
+      "Sucralfate"
+    ],
+    "skills": [
+      "Analytical chemistry",
+      "Structure elucidation",
+      "Coordination chemistry",
+      "Titrimetry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 2,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 3
+  },
+  {
+    "id": "IMChO-2025-Tour2-T3",
+    "title": "Steroidogenesis: biosynthesis of adrenal hormones",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Biochemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Steroidogenesis",
+      "Cholesterol metabolism",
+      "Redox reactions",
+      "Hormone biosynthesis"
+    ],
+    "target_molecules": [
+      "Cholesterol",
+      "Aldosterone",
+      "Cortisol"
+    ],
+    "skills": [
+      "Biochemical pathways",
+      "Steroid chemistry",
+      "Enzyme reactions",
+      "Metabolic mapping"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 4,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 8
+  },
+  {
+    "id": "IMChO-2025-Tour2-T4",
+    "title": "Total synthesis of dendrochrysanene",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Natural product synthesis",
+      "Spirolactone",
+      "Oxidative dimerization",
+      "Suzuki coupling"
+    ],
+    "target_molecules": [
+      "Dendrochrysanene"
+    ],
+    "skills": [
+      "Organic synthesis",
+      "Spectroscopy",
+      "Stereochemistry",
+      "Reaction mechanisms"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 5,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 13
+  },
+  {
+    "id": "IMChO-2025-Tour2-T5",
+    "title": "Stabilization of unusual oxidation states",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Organic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Oxidation states",
+      "Organophosphorus compounds",
+      "NMR spectroscopy",
+      "Ligand chemistry"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Structure determination",
+      "Organometallic chemistry",
+      "NMR interpretation",
+      "Synthesis design"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 6,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 16
+  },
+  {
+    "id": "IMChO-2025-Tour2-T6",
+    "title": "Palladium catalysis in cross-coupling reactions",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Organic Chemistry",
+      "Inorganic Chemistry",
+      "Kinetics"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Stille reaction",
+      "Oxidative addition",
+      "Reductive elimination",
+      "Ligand effects",
+      "Catalytic cycles"
+    ],
+    "target_molecules": [],
+    "skills": [
+      "Organometallic chemistry",
+      "Catalysis mechanisms",
+      "Reaction kinetics",
+      "Ligand effects"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 8,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 19
+  },
+  {
+    "id": "IMChO-2025-Tour2-T7",
+    "title": "Vibrational spectroscopy of water isotopes",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Physical Chemistry",
+      "Spectroscopy",
+      "Thermodynamics",
+      "Quantum Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Partition function",
+      "Vibrational spectroscopy",
+      "Isotope effects",
+      "Dissociation energy",
+      "Boltzmann distribution"
+    ],
+    "target_molecules": [
+      "H2O",
+      "D2O"
+    ],
+    "skills": [
+      "Statistical thermodynamics",
+      "Spectroscopy",
+      "Isotope chemistry",
+      "Thermodynamic calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 11,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 23
+  },
+  {
+    "id": "IMChO-2025-Tour2-T8",
+    "title": "Ligand field theory and dissociation kinetics",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "Kinetics"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Ligand field theory",
+      "Crystal field theory",
+      "Dissociation kinetics",
+      "LFSE",
+      "Substitution reactions"
+    ],
+    "target_molecules": [
+      "EDTA complexes"
+    ],
+    "skills": [
+      "Ligand field theory",
+      "Reaction kinetics",
+      "Stoichiometry",
+      "Thermodynamic calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 13,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 25
+  },
+  {
+    "id": "IMChO-2025-Tour2-T9",
+    "title": "Size effects in gold nanomaterials",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Physical Chemistry",
+      "Thermodynamics",
+      "Electrochemistry",
+      "Inorganic Chemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Nanoparticles",
+      "Gibbs-Thomson equation",
+      "Surface tension",
+      "Electrical conductivity",
+      "Melting point depression"
+    ],
+    "target_molecules": [
+      "Gold"
+    ],
+    "skills": [
+      "Nanochemistry",
+      "Thermodynamics",
+      "Electrochemistry",
+      "Solid state physics"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 14,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 27
+  },
+  {
+    "id": "IMChO-2025-Tour2-T10",
+    "title": "Inorganic chemistry of rare elements",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Solid State Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Molybdenum",
+      "Beryllium",
+      "Sphalerite",
+      "Superconductors",
+      "Nanosheets"
+    ],
+    "target_molecules": [
+      "Molybdenum disulfide",
+      "Beryllium orthosilicate",
+      "Cadmium telluride"
+    ],
+    "skills": [
+      "Inorganic synthesis",
+      "Crystal structure",
+      "Stoichiometry",
+      "Materials chemistry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 16,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 31
+  },
+  {
+    "id": "IMChO-2025-Tour2-T11",
+    "title": "Phosphorus-based anions: CP- chemistry",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Phosphorus chemistry",
+      "Anion analogues",
+      "Cyanide analogues",
+      "Structure elucidation"
+    ],
+    "target_molecules": [
+      "NaCP"
+    ],
+    "skills": [
+      "Inorganic synthesis",
+      "Stoichiometry",
+      "Structure determination",
+      "Reaction writing"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 18,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 33
+  },
+  {
+    "id": "IMChO-2025-Tour2-T12",
+    "title": "Boron sulfide chemistry and lithium electrolytes",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Solid State Chemistry",
+      "Electrochemistry"
+    ],
+    "type": "Multi-step synthesis",
+    "theme": [
+      "Boron sulfides",
+      "Lithium-ion conductors",
+      "Electrode materials",
+      "Crystal structure"
+    ],
+    "target_molecules": [
+      "Li3BN2"
+    ],
+    "skills": [
+      "Inorganic synthesis",
+      "Crystal structure",
+      "Electrochemistry",
+      "Stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 19,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 35
+  },
+  {
+    "id": "IMChO-2025-Tour2-T13",
+    "title": "Melamine analysis in food samples",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Analytical Chemistry",
+      "Biochemistry",
+      "Spectroscopy"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Kjeldahl method",
+      "Formol titration",
+      "Fluorescence",
+      "Food analysis",
+      "Melamine"
+    ],
+    "target_molecules": [
+      "Melamine"
+    ],
+    "skills": [
+      "Analytical chemistry",
+      "Titration",
+      "Spectrophotometry",
+      "Food chemistry",
+      "Calculations"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 21,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 37
+  },
+  {
+    "id": "IMChO-2025-Tour2-T14",
+    "title": "Solubility of phosphate minerals",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Analytical Chemistry",
+      "Environmental Chemistry",
+      "Equilibrium",
+      "Geochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Solubility products",
+      "Phosphate minerals",
+      "Francolite",
+      "Monazite",
+      "Acid mine drainage"
+    ],
+    "target_molecules": [
+      "Monazite",
+      "Francolite",
+      "Fluorapatite"
+    ],
+    "skills": [
+      "Solubility calculations",
+      "Geochemistry",
+      "Acid-base equilibrium",
+      "Data analysis"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 23,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 39
+  },
+  {
+    "id": "IMChO-2025-Tour2-T15",
+    "title": "Cyanide chemistry and detection",
+    "nation": "China",
+    "olympiad": "IMChO",
+    "year": 2025,
+    "subset": [
+      "Inorganic Chemistry",
+      "Analytical Chemistry",
+      "Biochemistry"
+    ],
+    "type": "Calculation",
+    "theme": [
+      "Cyanide",
+      "Toxicity",
+      "Colorimetric detection",
+      "Ninhydrin reaction",
+      "Spectrophotometry"
+    ],
+    "target_molecules": [
+      "Amygdalin",
+      "HCN"
+    ],
+    "skills": [
+      "Toxicology",
+      "Qualitative analysis",
+      "Spectrophotometry",
+      "Stoichiometry"
+    ],
+    "problem_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-problems.pdf",
+    "problem_page": 24,
+    "solution_pdf": "pdfs/imcho/imcho-2025/imcho-2025-tour2-solutions.pdf",
+    "solution_page": 41
+  },
+  {
     "id": "UKChO-2003-T1",
     "title": "Heating a cup of coffee",
     "nation": "United Kingdom",
